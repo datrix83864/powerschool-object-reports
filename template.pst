@@ -274,18 +274,32 @@
 <Size>8</Size>
 <Leading></Leading>
 </Font>
-<Text>&lt;tabto 6.75&gt;&lt;b&gt;Gender&lt;/b&gt;&lt;tabto 7.5&gt;^(Gender)
-&lt;tabto 6.75&gt;&lt;b&gt;DOB&lt;/b&gt;&lt;tabto 7.5&gt;^(DOB)
-&lt;tabto 6.75&gt;&lt;b&gt;Local ID&lt;/b&gt;&lt;tabto 7.5&gt;^(Student_Number)
-&lt;tabto 6.75&gt;&lt;b&gt;State ID&lt;/b&gt;&lt;tabto 7.5&gt;^(State_StudentNumber)
-&lt;tabto 6.75&gt;&lt;b&gt;Class of&lt;/b&gt;&lt;tabto 7.5&gt;^(Sched_YearOfGraduation)
-&lt;tabto 6.75&gt;&lt;b&gt;Grad Date&lt;/b&gt;&lt;tabto 7.5&gt;^(S_ID_STU_X.GraduationDate)
-&lt;tabto 6.75&gt;&lt;b&gt;Exit Date&lt;/b&gt;&lt;tabto 7.5&gt;^(ExitDate)</Text>
+<Text>&lt;tabto 6.75&gt;&lt;b&gt;Gender&lt;/b&gt;&lt;tabto 7.5&gt;^(Gender)&lt;tabto 6.75&gt;&lt;b&gt;DOB&lt;/b&gt;&lt;tabto 7.5&gt;^(DOB)&lt;tabto 6.75&gt;&lt;b&gt;Local ID&lt;/b&gt;&lt;tabto 7.5&gt;^(Student_Number)&lt;tabto 6.75&gt;&lt;b&gt;State ID&lt;/b&gt;&lt;tabto 7.5&gt;^(State_StudentNumber)&lt;tabto 6.75&gt;&lt;b&gt;Class of&lt;/b&gt;&lt;tabto 7.5&gt;^(Sched_YearOfGraduation)&lt;tabto 6.75&gt;&lt;b&gt;Grad Date&lt;/b&gt;&lt;tabto 7.5&gt;^(S_ID_STU_X.GraduationDate)^(decode;^(ExitDate);06/08/2024; ;^(decode;^(S_ID_STU_X.GraduationDate);;&lt;tabto 6.75&gt;&lt;b&gt;Exit Date&lt;/b&gt;&lt;tabto 7.5&gt;^(ExitDate); ))</Text>
 </Body>
 </Object>
 <Object no="12">
 <Type>Text</Type>
-<Label>.B.Header</Label>
+<Label>.B.Student Info</Label>
+<Page></Page>
+<Layer>0</Layer>
+<Coordinates>
+<Left>3.7</Left>
+<Top>0.416</Top>
+</Coordinates>
+<MaxWidth>0</MaxWidth>
+<MaxHeight>0</MaxHeight>
+<Body>
+<Font>
+<Face>Default</Face>
+<Size></Size>
+<Leading></Leading>
+</Font>
+<Text>&lt;tabto 3.75&gt;&lt;b&gt;^(Last_Name), ^(First_Name) ^(Middle_Name)&lt;/b&gt;&lt;tabto 3.75&gt;^(Mailing_Street)&lt;tabto 3.75&gt;^(Mailing_City), ^(Mailing_State) ^(Mailing_Zip)</Text>
+</Body>
+</Object>
+<Object no="13">
+<Type>Text</Type>
+<Label>.C.Header</Label>
 <Page></Page>
 <Layer>1</Layer>
 <Coordinates>
@@ -300,17 +314,12 @@
 <Size>10</Size>
 <Leading></Leading>
 </Font>
-<Text>&lt;b&gt;Lake Pend Oreille School District&lt;/b&gt;&lt;tabto 3.75&gt;&lt;b&gt;^(Last_Name), ^(First_Name) ^(Middle_Name)&lt;/b&gt;
-&lt;b&gt;^([39]name)&lt;/b&gt;&lt;tabto 3.75&gt;^(Mailing_Street)
-^([39]schooladdress)&lt;tabto 3.75&gt;^(Mailing_City), ^(Mailing_State) ^(Mailing_Zip)
-^([39]schoolcity), ^([39]schoolstate) ^([39]schoolzip)
-Phone: ^([39]schoolphone)
-Fax: ^([39]schoolfax)</Text>
+<Text>&lt;b&gt;Lake Pend Oreille School District&lt;/b&gt;^(decode;^([39]name);Graduated Students;365 North Triangle Drive;&lt;b&gt;^([39]name)&lt;/b&gt;)^(decode;^([39]name);Graduated Students;Ponderay, Idaho 83852;^([39]schooladdress))^(decode;^([39]name);Graduated Students;Phone: (208) 263-2184;^([39]schoolcity), ^([39]schoolstate) ^([39]schoolzip))^(decode;^([39]name);Graduated Students;Fax: (208) 263-5053;Phone: ^([39]schoolphone))^(decode;^([39]name);Graduated Students; ;Fax: ^([39]schoolfax))</Text>
 </Body>
 </Object>
-<Object no="13">
+<Object no="14">
 <Type>Text</Type>
-<Label>.C.Academic Standing He</Label>
+<Label>.D.Academic Standing He</Label>
 <Page></Page>
 <Layer>1</Layer>
 <Coordinates>
@@ -328,9 +337,9 @@ Fax: ^([39]schoolfax)</Text>
 <Text>&lt;tabc 2.1&gt;&lt;b&gt;ACADEMIC STANDING&lt;/b&gt;&lt;tabc 6.4&gt;&lt;b&gt;AUTHORIZATION&lt;/b&gt;</Text>
 </Body>
 </Object>
-<Object no="14">
+<Object no="15">
 <Type>Text</Type>
-<Label>.D.Official Transcript</Label>
+<Label>.E.Official Transcript</Label>
 <Page></Page>
 <Layer>1</Layer>
 <Coordinates>
@@ -348,9 +357,9 @@ Fax: ^([39]schoolfax)</Text>
 <Text>&lt;tabc 4.25&gt;&lt;b&gt;OFFICIAL TRANSCRIPT&lt;/b&gt;</Text>
 </Body>
 </Object>
-<Object no="15">
+<Object no="16">
 <Type>Transcript List2</Type>
-<Label>.E.Past Transcript</Label>
+<Label>.F.Past Transcript</Label>
 <Page></Page>
 <Layer>1</Layer>
 <Coordinates>
@@ -458,9 +467,9 @@ Fax: ^([39]schoolfax)</Text>
 <SortMethod>gradeascending</SortMethod>
 </Options>
 </Object>
-<Object no="16">
+<Object no="17">
 <Type>Text</Type>
-<Label>.F.Tests Text</Label>
+<Label>.G.Tests Text</Label>
 <Page></Page>
 <Layer>1</Layer>
 <Coordinates>
@@ -479,9 +488,9 @@ Fax: ^([39]schoolfax)</Text>
 ^(decode;^(tests;name=SAT;score=Reading & Writing;which=best;type=num;format=##0);0; ;&lt;b&gt;SAT&lt;/b&gt; &lt;tabto 1&gt;Read/Write: ^(tests;name=SAT;score=Reading & Writing;which=best;type=num;format=##0)&lt;tabto 3&gt;Math: ^(tests;name=SAT;score=Math;which=best;type=num;format=##0))</Text>
 </Body>
 </Object>
-<Object no="17">
+<Object no="18">
 <Type>Text</Type>
-<Label>.G.GPA Text</Label>
+<Label>.H.GPA Text</Label>
 <Page></Page>
 <Layer>1</Layer>
 <Coordinates>
@@ -501,9 +510,9 @@ Fax: ^([39]schoolfax)</Text>
 &lt;b&gt;Weighted&lt;/b&gt;&lt;tabto 1&gt;^(*credit_hours)&lt;tabto 2&gt;&lt;tabto 3&gt;^(*gpa method="Weighted")&lt;tabto 3.5&gt;~(*classrank method="Weighted" result="rankoutof")</Text>
 </Body>
 </Object>
-<Object no="18">
+<Object no="19">
 <Type>Text</Type>
-<Label>.H.Left Col desc</Label>
+<Label>.I.Left Col desc</Label>
 <Page></Page>
 <Layer>1</Layer>
 <Coordinates>
@@ -521,9 +530,9 @@ Fax: ^([39]schoolfax)</Text>
 <Text>&lt;tabto .25&gt;Course&lt;tabc 1.9&gt;Grade&lt;tabc 2.2&gt;Q1&lt;tabc 2.5&gt;Q2&lt;tabc 2.8&gt;S1&lt;tabc 3.1&gt;Q3&lt;tabc 3.4&gt;Q4&lt;tabc 3.7&gt;S2&lt;tabc 4.024&gt;Credits</Text>
 </Body>
 </Object>
-<Object no="19">
+<Object no="20">
 <Type>Text</Type>
-<Label>.I.Right col desc</Label>
+<Label>.J.Right col desc</Label>
 <Page></Page>
 <Layer>1</Layer>
 <Coordinates>
