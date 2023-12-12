@@ -229,7 +229,7 @@
 <Left>5.84</Left>
 <Top>1.7</Top>
 <Right>5.84</Right>
-<Bottom>9.786</Bottom>
+<Bottom>8.062</Bottom>
 </Coordinates>
 <Line>
 <Width>1</Width>
@@ -238,8 +238,32 @@
 </Line>
 </Object>
 <Object no="10">
+<Type>Line</Type>
+<Label>.9.Line</Label>
+<Page></Page>
+<Layer>0</Layer>
+<Repeat>
+<Multiple>1</Multiple>
+<Offset>
+<Horizontal>0</Horizontal>
+<Vertical>-0.238</Vertical>
+</Offset>
+</Repeat>
+<Coordinates>
+<Left>4.298</Left>
+<Top>8.3</Top>
+<Right>8.288</Right>
+<Bottom>8.3</Bottom>
+</Coordinates>
+<Line>
+<Width>1</Width>
+<Style>1</Style>
+<Color>Black</Color>
+</Line>
+</Object>
+<Object no="11">
 <Type>Text</Type>
-<Label>.9.Authorizing Sig</Label>
+<Label>.A.Authorizing Sig</Label>
 <Page></Page>
 <Layer>0</Layer>
 <Coordinates>
@@ -257,9 +281,9 @@
 <Text>Title: &lt;tabto 6.4&gt;Date: ^[Letter.Date]</Text>
 </Body>
 </Object>
-<Object no="11">
+<Object no="12">
 <Type>Text</Type>
-<Label>.A.Right Header</Label>
+<Label>.B.Right Header</Label>
 <Page></Page>
 <Layer>0</Layer>
 <Coordinates>
@@ -274,12 +298,18 @@
 <Size>8</Size>
 <Leading></Leading>
 </Font>
-<Text>&lt;tabto 6.75&gt;&lt;b&gt;Gender&lt;/b&gt;&lt;tabto 7.5&gt;^(Gender)&lt;tabto 6.75&gt;&lt;b&gt;DOB&lt;/b&gt;&lt;tabto 7.5&gt;^(DOB)&lt;tabto 6.75&gt;&lt;b&gt;Local ID&lt;/b&gt;&lt;tabto 7.5&gt;^(Student_Number)&lt;tabto 6.75&gt;&lt;b&gt;State ID&lt;/b&gt;&lt;tabto 7.5&gt;^(State_StudentNumber)&lt;tabto 6.75&gt;&lt;b&gt;Class of&lt;/b&gt;&lt;tabto 7.5&gt;^(Sched_YearOfGraduation)&lt;tabto 6.75&gt;&lt;b&gt;Grad Date&lt;/b&gt;&lt;tabto 7.5&gt;^(S_ID_STU_X.GraduationDate)^(decode;^(ExitDate);06/08/2024; ;^(decode;^(S_ID_STU_X.GraduationDate);;&lt;tabto 6.75&gt;&lt;b&gt;Exit Date&lt;/b&gt;&lt;tabto 7.5&gt;^(ExitDate); ))</Text>
+<Text>&lt;tabto 6.75&gt;&lt;b&gt;Gender&lt;/b&gt;&lt;tabto 7.5&gt;^(Gender)
+&lt;tabto 6.75&gt;&lt;b&gt;DOB&lt;/b&gt;&lt;tabto 7.5&gt;^(DOB)
+&lt;tabto 6.75&gt;&lt;b&gt;Local ID&lt;/b&gt;&lt;tabto 7.5&gt;^(Student_Number)
+&lt;tabto 6.75&gt;&lt;b&gt;State ID&lt;/b&gt;&lt;tabto 7.5&gt;^(State_StudentNumber)
+&lt;tabto 6.75&gt;&lt;b&gt;Class of&lt;/b&gt;&lt;tabto 7.5&gt;^(Sched_YearOfGraduation)
+&lt;tabto 6.75&gt;&lt;b&gt;Grad Date&lt;/b&gt;&lt;tabto 7.5&gt;^(S_ID_STU_X.GraduationDate)
+^(decode;^(ExitDate);06/08/2024; ;^(decode;^(S_ID_STU_X.GraduationDate);;&lt;tabto 6.75&gt;&lt;b&gt;Exit Date&lt;/b&gt;&lt;tabto 7.5&gt;^(ExitDate); ))</Text>
 </Body>
 </Object>
-<Object no="12">
+<Object no="13">
 <Type>Text</Type>
-<Label>.B.Student Info</Label>
+<Label>.C.Student Info</Label>
 <Page></Page>
 <Layer>0</Layer>
 <Coordinates>
@@ -294,12 +324,35 @@
 <Size></Size>
 <Leading></Leading>
 </Font>
-<Text>&lt;tabto 3.75&gt;&lt;b&gt;^(Last_Name), ^(First_Name) ^(Middle_Name)&lt;/b&gt;&lt;tabto 3.75&gt;^(Mailing_Street)&lt;tabto 3.75&gt;^(Mailing_City), ^(Mailing_State) ^(Mailing_Zip)</Text>
+<Text>&lt;tabto 3.75&gt;&lt;b&gt;^(Last_Name), ^(First_Name) ^(Middle_Name)&lt;/b&gt;
+&lt;tabto 3.75&gt;^(Mailing_Street)
+&lt;tabto 3.75&gt;^(Mailing_City), ^(Mailing_State) ^(Mailing_Zip)</Text>
 </Body>
 </Object>
-<Object no="13">
+<Object no="14">
 <Type>Text</Type>
-<Label>.C.Header</Label>
+<Label>.D.Text</Label>
+<Page></Page>
+<Layer>0</Layer>
+<Coordinates>
+<Left>5.726</Left>
+<Top>8.25</Top>
+</Coordinates>
+<MaxWidth>0</MaxWidth>
+<MaxHeight>0</MaxHeight>
+<Body>
+<Font>
+<Face>Default</Face>
+<Size></Size>
+<Leading></Leading>
+<Bold>True</Bold>
+</Font>
+<Text>&lt;tabc 6.4&gt;CURRENT SCHEDULE</Text>
+</Body>
+</Object>
+<Object no="15">
+<Type>Text</Type>
+<Label>.E.Header</Label>
 <Page></Page>
 <Layer>1</Layer>
 <Coordinates>
@@ -314,12 +367,17 @@
 <Size>10</Size>
 <Leading></Leading>
 </Font>
-<Text>&lt;b&gt;Lake Pend Oreille School District&lt;/b&gt;^(decode;^([39]name);Graduated Students;365 North Triangle Drive;&lt;b&gt;^([39]name)&lt;/b&gt;)^(decode;^([39]name);Graduated Students;Ponderay, Idaho 83852;^([39]schooladdress))^(decode;^([39]name);Graduated Students;Phone: (208) 263-2184;^([39]schoolcity), ^([39]schoolstate) ^([39]schoolzip))^(decode;^([39]name);Graduated Students;Fax: (208) 263-5053;Phone: ^([39]schoolphone))^(decode;^([39]name);Graduated Students; ;Fax: ^([39]schoolfax))</Text>
+<Text>&lt;b&gt;Lake Pend Oreille School District&lt;/b&gt;
+^(decode;^([39]name);Graduated Students;365 North Triangle Drive;&lt;b&gt;^([39]name)&lt;/b&gt;)
+^(decode;^([39]name);Graduated Students;Ponderay, Idaho 83852;^([39]schooladdress))
+^(decode;^([39]name);Graduated Students;Phone: (208) 263-2184;^([39]schoolcity), ^([39]schoolstate) ^([39]schoolzip))
+^(decode;^([39]name);Graduated Students;Fax: (208) 263-5053;Phone: ^([39]schoolphone))
+^(decode;^([39]name);Graduated Students; ;Fax: ^([39]schoolfax))</Text>
 </Body>
 </Object>
-<Object no="14">
+<Object no="16">
 <Type>Text</Type>
-<Label>.D.Academic Standing He</Label>
+<Label>.F.Academic Standing He</Label>
 <Page></Page>
 <Layer>1</Layer>
 <Coordinates>
@@ -337,9 +395,9 @@
 <Text>&lt;tabc 2.1&gt;&lt;b&gt;ACADEMIC STANDING&lt;/b&gt;&lt;tabc 6.4&gt;&lt;b&gt;AUTHORIZATION&lt;/b&gt;</Text>
 </Body>
 </Object>
-<Object no="15">
+<Object no="17">
 <Type>Text</Type>
-<Label>.E.Official Transcript</Label>
+<Label>.G.Official Transcript</Label>
 <Page></Page>
 <Layer>1</Layer>
 <Coordinates>
@@ -357,9 +415,9 @@
 <Text>&lt;tabc 4.25&gt;&lt;b&gt;OFFICIAL TRANSCRIPT&lt;/b&gt;</Text>
 </Body>
 </Object>
-<Object no="16">
+<Object no="18">
 <Type>Transcript List2</Type>
-<Label>.F.Past Transcript</Label>
+<Label>.H.Past Transcript</Label>
 <Page></Page>
 <Layer>1</Layer>
 <Coordinates>
@@ -372,7 +430,7 @@
 <Left>4.34</Left>
 <Top>1.9</Top>
 <Right>8.5</Right>
-<Bottom>9.72</Bottom>
+<Bottom>8.062</Bottom>
 </Overflow>
 <Header>
 <Font>
@@ -467,9 +525,9 @@
 <SortMethod>gradeascending</SortMethod>
 </Options>
 </Object>
-<Object no="17">
+<Object no="19">
 <Type>Text</Type>
-<Label>.G.Tests Text</Label>
+<Label>.I.Tests Text</Label>
 <Page></Page>
 <Layer>1</Layer>
 <Coordinates>
@@ -488,9 +546,9 @@
 ^(decode;^(tests;name=SAT;score=Reading & Writing;which=best;type=num;format=##0);0; ;&lt;b&gt;SAT&lt;/b&gt; &lt;tabto 1&gt;Read/Write: ^(tests;name=SAT;score=Reading & Writing;which=best;type=num;format=##0)&lt;tabto 3&gt;Math: ^(tests;name=SAT;score=Math;which=best;type=num;format=##0))</Text>
 </Body>
 </Object>
-<Object no="18">
+<Object no="20">
 <Type>Text</Type>
-<Label>.H.GPA Text</Label>
+<Label>.J.GPA Text</Label>
 <Page></Page>
 <Layer>1</Layer>
 <Coordinates>
@@ -510,9 +568,9 @@
 &lt;b&gt;Weighted&lt;/b&gt;&lt;tabto 1&gt;^(*credit_hours)&lt;tabto 2&gt;&lt;tabto 3&gt;^(*gpa method="Weighted")&lt;tabto 3.5&gt;~(*classrank method="Weighted" result="rankoutof")</Text>
 </Body>
 </Object>
-<Object no="19">
+<Object no="21">
 <Type>Text</Type>
-<Label>.I.Left Col desc</Label>
+<Label>.K.Left Col desc</Label>
 <Page></Page>
 <Layer>1</Layer>
 <Coordinates>
@@ -530,9 +588,9 @@
 <Text>&lt;tabto .25&gt;Course&lt;tabc 1.9&gt;Grade&lt;tabc 2.2&gt;Q1&lt;tabc 2.5&gt;Q2&lt;tabc 2.8&gt;S1&lt;tabc 3.1&gt;Q3&lt;tabc 3.4&gt;Q4&lt;tabc 3.7&gt;S2&lt;tabc 4.024&gt;Credits</Text>
 </Body>
 </Object>
-<Object no="20">
+<Object no="22">
 <Type>Text</Type>
-<Label>.J.Right col desc</Label>
+<Label>.L.Right col desc</Label>
 <Page></Page>
 <Layer>1</Layer>
 <Coordinates>
@@ -548,6 +606,26 @@
 <Leading></Leading>
 </Font>
 <Text>&lt;tabto 4.34&gt;Course&lt;tabc 5.99&gt;Grade&lt;tabc 6.29&gt;Q1&lt;tabc 6.59&gt;Q2&lt;tabc 6.89&gt;S1&lt;tabc 7.19&gt;Q3&lt;tabc 7.49&gt;Q4&lt;tabc 7.79&gt;S2&lt;tabc 8.114&gt;Credits</Text>
+</Body>
+</Object>
+<Object no="23">
+<Type>Text</Type>
+<Label>.M.Current Course</Label>
+<Page></Page>
+<Layer>1</Layer>
+<Coordinates>
+<Left>4.34</Left>
+<Top>8.442</Top>
+</Coordinates>
+<MaxWidth>0</MaxWidth>
+<MaxHeight>0</MaxHeight>
+<Body>
+<Font>
+<Face>Default</Face>
+<Size>7</Size>
+<Leading>9</Leading>
+</Font>
+<Text>^(*period_info;1(A);course_name)^(*period_info;P1(R);course_name)&lt;tabc 7.79&gt;^(*period_info;1(A);current_grade)^(*period_info;P1(R);current_grade)^(*period_info;2(A);course_name)^(*period_info;P2(R);course_name)^(*period_info;1-2(A);course_name)&lt;tabc 7.79&gt;^(*period_info;2(A);current_grade)^(*period_info;P2(R);current_grade)^(*period_info;1-2(A);current_grade)^(*period_info;3(A);course_name)^(*period_info;P3(R);course_name)&lt;tabc 7.79&gt;^(*period_info;3(A);current_grade)^(*period_info;P3(R);current_grade)^(*period_info;4(A);course_name)^(*period_info;P4(R);course_name)&lt;tabc 7.79&gt;^(*period_info;4(A);current_grade)^(*period_info;P4(R);current_grade)^(*period_info;5(A);course_name)^(*period_info;1(B);course_name)^(*period_info;P9(R);course_name)&lt;tabc 7.79&gt;^(*period_info;5(A);current_grade)^(*period_info;1(B);current_grade)^(*period_info;P9(R);course_name)^(*period_info;6(A);course_name)^(*period_info;2(B);course_name)^(*period_info;2-3(B);course_name)&lt;tabc 7.79&gt;^(*period_info;6(A);current_grade)^(*period_info;2(B);current_grade)^(*period_info;2-3(B);current_grade)^(*period_info;3(B);course_name)&lt;tabc 7.79&gt;^(*period_info;3(B);current_grade)^(*period_info;4(B);course_name)&lt;tabc 7.79&gt;^(*period_info;4(B);current_grade)^(*period_info;P9(A);course_name)&lt;tabc 7.79&gt;^(*period_info;P9(A);current_grade)^(*period_info;0(A);course_name)^(*period_info;0(A-B);course_name)&lt;tabc 7.79&gt;^(*period_info;0(A);current_grade)^(*period_info;0(A-B);current_grade)^(*period_info;0(B);course_name)&lt;tabc 7.79&gt;^(*period_info;0(B);current_grade)</Text>
 </Body>
 </Object>
 </ObjectData>
