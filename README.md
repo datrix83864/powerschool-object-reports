@@ -6,9 +6,11 @@ Unless otherwise noted, these are compatible with at least PowerSchool version 2
 
 ## Contents
 
-Each folder contains its own README that describes how the template functions
+Each folder contains a README that describes how the template functions and changes
 
 ### Transcript
 
-Contains a high school transcript object report
-
+Contains high school transcript object reports:
+1. Template - What all high school transcripts are based on 
+2. Graduate Student - Removes the Current Schedule Section
+3. Semesters Only - A semester-only version of the template
