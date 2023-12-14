@@ -197,14 +197,14 @@
 <Repeat>
 <Multiple>7</Multiple>
 <Offset>
-<Horizontal>0.3</Horizontal>
+<Horizontal>-0.3</Horizontal>
 <Vertical>0</Vertical>
 </Offset>
 </Repeat>
 <Coordinates>
-<Left>1.75</Left>
+<Left>3.85</Left>
 <Top>1.7</Top>
-<Right>1.75</Right>
+<Right>3.85</Right>
 <Bottom>9.786</Bottom>
 </Coordinates>
 <Line>
@@ -221,14 +221,14 @@
 <Repeat>
 <Multiple>7</Multiple>
 <Offset>
-<Horizontal>0.3</Horizontal>
+<Horizontal>-0.3</Horizontal>
 <Vertical>0</Vertical>
 </Offset>
 </Repeat>
 <Coordinates>
-<Left>5.84</Left>
+<Left>7.94</Left>
 <Top>1.7</Top>
-<Right>5.84</Right>
+<Right>7.94</Right>
 <Bottom>8.062</Bottom>
 </Coordinates>
 <Line>
@@ -625,7 +625,17 @@
 <Size>7</Size>
 <Leading>9</Leading>
 </Font>
-<Text>^(*period_info;1(A);course_name)^(*period_info;P1(R);course_name)&lt;tabc 7.79&gt;^(*period_info;1(A);current_grade)^(*period_info;P1(R);current_grade)^(*period_info;2(A);course_name)^(*period_info;P2(R);course_name)^(*period_info;1-2(A);course_name)&lt;tabc 7.79&gt;^(*period_info;2(A);current_grade)^(*period_info;P2(R);current_grade)^(*period_info;1-2(A);current_grade)^(*period_info;3(A);course_name)^(*period_info;P3(R);course_name)&lt;tabc 7.79&gt;^(*period_info;3(A);current_grade)^(*period_info;P3(R);current_grade)^(*period_info;4(A);course_name)^(*period_info;P4(R);course_name)&lt;tabc 7.79&gt;^(*period_info;4(A);current_grade)^(*period_info;P4(R);current_grade)^(*period_info;5(A);course_name)^(*period_info;1(B);course_name)^(*period_info;P9(R);course_name)&lt;tabc 7.79&gt;^(*period_info;5(A);current_grade)^(*period_info;1(B);current_grade)^(*period_info;P9(R);course_name)^(*period_info;6(A);course_name)^(*period_info;2(B);course_name)^(*period_info;2-3(B);course_name)&lt;tabc 7.79&gt;^(*period_info;6(A);current_grade)^(*period_info;2(B);current_grade)^(*period_info;2-3(B);current_grade)^(*period_info;3(B);course_name)&lt;tabc 7.79&gt;^(*period_info;3(B);current_grade)^(*period_info;4(B);course_name)&lt;tabc 7.79&gt;^(*period_info;4(B);current_grade)^(*period_info;P9(A);course_name)&lt;tabc 7.79&gt;^(*period_info;P9(A);current_grade)^(*period_info;0(A);course_name)^(*period_info;0(A-B);course_name)&lt;tabc 7.79&gt;^(*period_info;0(A);current_grade)^(*period_info;0(A-B);current_grade)^(*period_info;0(B);course_name)&lt;tabc 7.79&gt;^(*period_info;0(B);current_grade)</Text>
+<Text>^(*period_info;1(A);course_name)^(*period_info;P1(R);course_name)&lt;tabc 7.79&gt;^(*period_info;1(A);current_grade)^(*period_info;P1(R);current_grade)
+^(*period_info;2(A);course_name)^(*period_info;P2(R);course_name)^(*period_info;1-2(A);course_name)&lt;tabc 7.79&gt;^(*period_info;2(A);current_grade)^(*period_info;P2(R);current_grade)^(*period_info;1-2(A);current_grade)
+^(*period_info;3(A);course_name)^(*period_info;P3(R);course_name)&lt;tabc 7.79&gt;^(*period_info;3(A);current_grade)^(*period_info;P3(R);current_grade)
+^(*period_info;4(A);course_name)^(*period_info;P4(R);course_name)&lt;tabc 7.79&gt;^(*period_info;4(A);current_grade)^(*period_info;P4(R);current_grade)
+^(*period_info;5(A);course_name)^(*period_info;1(B);course_name)^(*period_info;P9(R);course_name)&lt;tabc 7.79&gt;^(*period_info;5(A);current_grade)^(*period_info;1(B);current_grade)^(*period_info;P9(R);course_name)
+^(*period_info;6(A);course_name)^(*period_info;2(B);course_name)^(*period_info;2-3(B);course_name)&lt;tabc 7.79&gt;^(*period_info;6(A);current_grade)^(*period_info;2(B);current_grade)^(*period_info;2-3(B);current_grade)
+^(*period_info;3(B);course_name)&lt;tabc 7.79&gt;^(*period_info;3(B);current_grade)
+^(*period_info;4(B);course_name)&lt;tabc 7.79&gt;^(*period_info;4(B);current_grade)
+^(*period_info;P9(A);course_name)&lt;tabc 7.79&gt;^(*period_info;P9(A);current_grade)
+^(*period_info;0(A);course_name)^(*period_info;0(A-B);course_name)&lt;tabc 7.79&gt;^(*period_info;0(A);current_grade)^(*period_info;0(A-B);current_grade)
+^(*period_info;0(B);course_name)&lt;tabc 7.79&gt;^(*period_info;0(B);current_grade)</Text>
 </Body>
 </Object>
 </ObjectData>

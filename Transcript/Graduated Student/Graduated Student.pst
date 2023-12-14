@@ -197,14 +197,14 @@
 <Repeat>
 <Multiple>7</Multiple>
 <Offset>
-<Horizontal>0.3</Horizontal>
+<Horizontal>-0.3</Horizontal>
 <Vertical>0</Vertical>
 </Offset>
 </Repeat>
 <Coordinates>
-<Left>1.75</Left>
+<Left>3.85</Left>
 <Top>1.7</Top>
-<Right>1.75</Right>
+<Right>3.85</Right>
 <Bottom>9.786</Bottom>
 </Coordinates>
 <Line>
@@ -221,14 +221,14 @@
 <Repeat>
 <Multiple>7</Multiple>
 <Offset>
-<Horizontal>0.3</Horizontal>
+<Horizontal>-0.3</Horizontal>
 <Vertical>0</Vertical>
 </Offset>
 </Repeat>
 <Coordinates>
-<Left>5.84</Left>
+<Left>7.94</Left>
 <Top>1.7</Top>
-<Right>5.84</Right>
+<Right>7.94</Right>
 <Bottom>9.786</Bottom>
 </Coordinates>
 <Line>
@@ -322,7 +322,12 @@
 <Size>10</Size>
 <Leading></Leading>
 </Font>
-<Text>&lt;b&gt;Lake Pend Oreille School District&lt;/b&gt;^(decode;^([39]name);Graduated Students;365 North Triangle Drive;&lt;b&gt;^([39]name)&lt;/b&gt;)^(decode;^([39]name);Graduated Students;Ponderay, Idaho 83852;^([39]schooladdress))^(decode;^([39]name);Graduated Students;Phone: (208) 263-2184;^([39]schoolcity), ^([39]schoolstate) ^([39]schoolzip))^(decode;^([39]name);Graduated Students;Fax: (208) 263-5053;Phone: ^([39]schoolphone))^(decode;^([39]name);Graduated Students; ;Fax: ^([39]schoolfax))</Text>
+<Text>&lt;b&gt;Lake Pend Oreille School District&lt;/b&gt;
+^(decode;^([39]name);Graduated Students;365 North Triangle Drive;&lt;b&gt;^([39]name)&lt;/b&gt;)
+^(decode;^([39]name);Graduated Students;Ponderay, Idaho 83852;^([39]schooladdress))
+^(decode;^([39]name);Graduated Students;Phone: (208) 263-2184;^([39]schoolcity), ^([39]schoolstate) ^([39]schoolzip))
+^(decode;^([39]name);Graduated Students;Fax: (208) 263-5053;Phone: ^([39]schoolphone))
+^(decode;^([39]name);Graduated Students; ;Fax: ^([39]schoolfax))</Text>
 </Body>
 </Object>
 <Object no="14">
