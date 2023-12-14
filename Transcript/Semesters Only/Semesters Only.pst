@@ -1,0 +1,618 @@
+<PSReportTemplate>
+<FileHeader>
+<Created>Tue, 28 Nov 2023 21:08:28 GMT</Created>
+<PSVersion>(VisualPST 3.2.1,)</PSVersion>
+<TemplateVersion>1.0</TemplateVersion>
+<Author>Hawkins, Dalton Jacob</Author>
+</FileHeader>
+<ReportHeader>
+<Type>Object Report</Type>
+<Name>Semster Only Transcript</Name>
+<Table>Students</Table>
+</ReportHeader>
+<ReportData>
+<Units>Inches</Units>
+<Paper>
+<Size>Letter</Size>
+<Width>8.5</Width>
+<Height>11</Height>
+<Orientation>Portrait</Orientation>
+<Margins>
+<Left>0.5</Left>
+<Top>0.5</Top>
+<Right>0.5</Right>
+<Bottom>0.5</Bottom>
+</Margins>
+<Scale>100</Scale>
+</Paper>
+<Body>
+<Font>
+<Face>Palatino</Face>
+<Size>12</Size>
+<Leading>13</Leading>
+</Font>
+</Body>
+</ReportData>
+<ObjectData>
+<Type>Objects</Type>
+<Object no="1">
+<Type>Box</Type>
+<Label>.0.Outside Box</Label>
+<Page></Page>
+<Layer>0</Layer>
+<Coordinates>
+<Left>0.21</Left>
+<Top>0.21</Top>
+<Right>8.29</Right>
+<Bottom>10.79</Bottom>
+</Coordinates>
+<Line>
+<Width>1</Width>
+<Style>1</Style>
+<Color>Black</Color>
+</Line>
+</Object>
+<Object no="2">
+<Type>Line</Type>
+<Label>.1.Line below header</Label>
+<Page></Page>
+<Layer>0</Layer>
+<Repeat>
+<Multiple>1</Multiple>
+<Offset>
+<Horizontal>0</Horizontal>
+<Vertical>0.3</Vertical>
+</Offset>
+</Repeat>
+<Coordinates>
+<Left>0.21</Left>
+<Top>1.4</Top>
+<Right>8.29</Right>
+<Bottom>1.4</Bottom>
+</Coordinates>
+<Line>
+<Width>1</Width>
+<Style>1</Style>
+<Color>Black</Color>
+</Line>
+</Object>
+<Object no="3">
+<Type>Line</Type>
+<Label>.2.AS Line</Label>
+<Page></Page>
+<Layer>0</Layer>
+<Repeat>
+<Multiple>1</Multiple>
+<Offset>
+<Horizontal>4.09</Horizontal>
+<Vertical>0</Vertical>
+</Offset>
+</Repeat>
+<Coordinates>
+<Left>0.21</Left>
+<Top>9.786</Top>
+<Right>4.2</Right>
+<Bottom>9.786</Bottom>
+</Coordinates>
+<Line>
+<Width>1</Width>
+<Style>1</Style>
+<Color>Black</Color>
+</Line>
+</Object>
+<Object no="4">
+<Type>Line</Type>
+<Label>.3.Vert Trans Line</Label>
+<Page></Page>
+<Layer>0</Layer>
+<Repeat>
+<Multiple>1</Multiple>
+<Offset>
+<Horizontal>0.1</Horizontal>
+<Vertical>0</Vertical>
+</Offset>
+</Repeat>
+<Coordinates>
+<Left>4.2</Left>
+<Top>1.694</Top>
+<Right>4.2</Right>
+<Bottom>10.79</Bottom>
+</Coordinates>
+<Line>
+<Width>1</Width>
+<Style>1</Style>
+<Color>Black</Color>
+</Line>
+</Object>
+<Object no="5">
+<Type>Line</Type>
+<Label>.4.Under AS Line</Label>
+<Page></Page>
+<Layer>0</Layer>
+<Repeat>
+<Multiple>1</Multiple>
+<Offset>
+<Horizontal>4.1</Horizontal>
+<Vertical>0</Vertical>
+</Offset>
+</Repeat>
+<Coordinates>
+<Left>0.21</Left>
+<Top>10.024</Top>
+<Right>4.2</Right>
+<Bottom>10.024</Bottom>
+</Coordinates>
+<Line>
+<Width>1</Width>
+<Style>1</Style>
+<Color>Black</Color>
+</Line>
+</Object>
+<Object no="6">
+<Type>Line</Type>
+<Label>.5.Sign line</Label>
+<Page></Page>
+<Layer>0</Layer>
+<Coordinates>
+<Left>4.298</Left>
+<Top>10.5</Top>
+<Right>8.29</Right>
+<Bottom>10.5</Bottom>
+</Coordinates>
+<Line>
+<Width>1</Width>
+<Style>1</Style>
+<Color>Black</Color>
+</Line>
+</Object>
+<Object no="7">
+<Type>Line</Type>
+<Label>.6.Column description</Label>
+<Page></Page>
+<Layer>0</Layer>
+<Repeat>
+<Multiple>1</Multiple>
+<Offset>
+<Horizontal>4.09</Horizontal>
+<Vertical>0</Vertical>
+</Offset>
+</Repeat>
+<Coordinates>
+<Left>4.2</Left>
+<Top>1.918</Top>
+<Right>0.224</Right>
+<Bottom>1.918</Bottom>
+</Coordinates>
+<Line>
+<Width>1</Width>
+<Style>1</Style>
+<Color>Black</Color>
+</Line>
+</Object>
+<Object no="8">
+<Type>Line</Type>
+<Label>.7.Left col Lines</Label>
+<Page></Page>
+<Layer>0</Layer>
+<Repeat>
+<Multiple>3</Multiple>
+<Offset>
+<Horizontal>-0.3</Horizontal>
+<Vertical>0</Vertical>
+</Offset>
+</Repeat>
+<Coordinates>
+<Left>3.85</Left>
+<Top>1.7</Top>
+<Right>3.85</Right>
+<Bottom>9.786</Bottom>
+</Coordinates>
+<Line>
+<Width>1</Width>
+<Style>1</Style>
+<Color>Black</Color>
+</Line>
+</Object>
+<Object no="9">
+<Type>Line</Type>
+<Label>.8.Right col Lines</Label>
+<Page></Page>
+<Layer>0</Layer>
+<Repeat>
+<Multiple>3</Multiple>
+<Offset>
+<Horizontal>-0.3</Horizontal>
+<Vertical>0</Vertical>
+</Offset>
+</Repeat>
+<Coordinates>
+<Left>7.94</Left>
+<Top>1.7</Top>
+<Right>7.94</Right>
+<Bottom>8.062</Bottom>
+</Coordinates>
+<Line>
+<Width>1</Width>
+<Style>1</Style>
+<Color>Black</Color>
+</Line>
+</Object>
+<Object no="10">
+<Type>Line</Type>
+<Label>.9.Line</Label>
+<Page></Page>
+<Layer>0</Layer>
+<Repeat>
+<Multiple>1</Multiple>
+<Offset>
+<Horizontal>0</Horizontal>
+<Vertical>-0.238</Vertical>
+</Offset>
+</Repeat>
+<Coordinates>
+<Left>4.298</Left>
+<Top>8.3</Top>
+<Right>8.288</Right>
+<Bottom>8.3</Bottom>
+</Coordinates>
+<Line>
+<Width>1</Width>
+<Style>1</Style>
+<Color>Black</Color>
+</Line>
+</Object>
+<Object no="11">
+<Type>Text</Type>
+<Label>.A.Authorizing Sig</Label>
+<Page></Page>
+<Layer>0</Layer>
+<Coordinates>
+<Left>4.354</Left>
+<Top>10.738</Top>
+</Coordinates>
+<MaxWidth>0</MaxWidth>
+<MaxHeight>0</MaxHeight>
+<Body>
+<Font>
+<Face>Default</Face>
+<Size></Size>
+<Leading></Leading>
+</Font>
+<Text>Title: &lt;tabto 6.4&gt;Date: ^[Letter.Date]</Text>
+</Body>
+</Object>
+<Object no="12">
+<Type>Text</Type>
+<Label>.B.Right Header</Label>
+<Page></Page>
+<Layer>0</Layer>
+<Coordinates>
+<Left>6.5</Left>
+<Top>0.416</Top>
+</Coordinates>
+<MaxWidth>1.78</MaxWidth>
+<MaxHeight>0</MaxHeight>
+<Body>
+<Font>
+<Face>Default</Face>
+<Size>8</Size>
+<Leading></Leading>
+</Font>
+<Text>&lt;tabto 6.75&gt;&lt;b&gt;Gender&lt;/b&gt;&lt;tabto 7.5&gt;^(Gender)
+&lt;tabto 6.75&gt;&lt;b&gt;DOB&lt;/b&gt;&lt;tabto 7.5&gt;^(DOB)
+&lt;tabto 6.75&gt;&lt;b&gt;Local ID&lt;/b&gt;&lt;tabto 7.5&gt;^(Student_Number)
+&lt;tabto 6.75&gt;&lt;b&gt;State ID&lt;/b&gt;&lt;tabto 7.5&gt;^(State_StudentNumber)
+&lt;tabto 6.75&gt;&lt;b&gt;Class of&lt;/b&gt;&lt;tabto 7.5&gt;^(Sched_YearOfGraduation)
+&lt;tabto 6.75&gt;&lt;b&gt;Grad Date&lt;/b&gt;&lt;tabto 7.5&gt;^(S_ID_STU_X.GraduationDate)
+^(decode;^(ExitDate);06/08/2024; ;^(decode;^(S_ID_STU_X.GraduationDate);;&lt;tabto 6.75&gt;&lt;b&gt;Exit Date&lt;/b&gt;&lt;tabto 7.5&gt;^(ExitDate); ))</Text>
+</Body>
+</Object>
+<Object no="13">
+<Type>Text</Type>
+<Label>.C.Student Info</Label>
+<Page></Page>
+<Layer>0</Layer>
+<Coordinates>
+<Left>3.7</Left>
+<Top>0.416</Top>
+</Coordinates>
+<MaxWidth>0</MaxWidth>
+<MaxHeight>0</MaxHeight>
+<Body>
+<Font>
+<Face>Default</Face>
+<Size></Size>
+<Leading></Leading>
+</Font>
+<Text>&lt;tabto 3.75&gt;&lt;b&gt;^(Last_Name), ^(First_Name) ^(Middle_Name)&lt;/b&gt;
+&lt;tabto 3.75&gt;^(Mailing_Street)
+&lt;tabto 3.75&gt;^(Mailing_City), ^(Mailing_State) ^(Mailing_Zip)</Text>
+</Body>
+</Object>
+<Object no="14">
+<Type>Text</Type>
+<Label>.D.Text</Label>
+<Page></Page>
+<Layer>0</Layer>
+<Coordinates>
+<Left>5.726</Left>
+<Top>8.25</Top>
+</Coordinates>
+<MaxWidth>0</MaxWidth>
+<MaxHeight>0</MaxHeight>
+<Body>
+<Font>
+<Face>Default</Face>
+<Size></Size>
+<Leading></Leading>
+<Bold>True</Bold>
+</Font>
+<Text>&lt;tabc 6.4&gt;CURRENT SCHEDULE</Text>
+</Body>
+</Object>
+<Object no="15">
+<Type>Text</Type>
+<Label>.E.Header</Label>
+<Page></Page>
+<Layer>1</Layer>
+<Coordinates>
+<Left>0.25</Left>
+<Top>0.416</Top>
+</Coordinates>
+<MaxWidth>0</MaxWidth>
+<MaxHeight>0</MaxHeight>
+<Body>
+<Font>
+<Face>Default</Face>
+<Size>10</Size>
+<Leading></Leading>
+</Font>
+<Text>&lt;b&gt;Lake Pend Oreille School District&lt;/b&gt;
+^(decode;^([39]name);Graduated Students;365 North Triangle Drive;&lt;b&gt;^([39]name)&lt;/b&gt;)
+^(decode;^([39]name);Graduated Students;Ponderay, Idaho 83852;^([39]schooladdress))
+^(decode;^([39]name);Graduated Students;Phone: (208) 263-2184;^([39]schoolcity), ^([39]schoolstate) ^([39]schoolzip))
+^(decode;^([39]name);Graduated Students;Fax: (208) 263-5053;Phone: ^([39]schoolphone))
+^(decode;^([39]name);Graduated Students; ;Fax: ^([39]schoolfax))</Text>
+</Body>
+</Object>
+<Object no="16">
+<Type>Text</Type>
+<Label>.F.Academic Standing He</Label>
+<Page></Page>
+<Layer>1</Layer>
+<Coordinates>
+<Left>1.708</Left>
+<Top>9.968</Top>
+</Coordinates>
+<MaxWidth>0</MaxWidth>
+<MaxHeight>0</MaxHeight>
+<Body>
+<Font>
+<Face>Default</Face>
+<Size></Size>
+<Leading></Leading>
+</Font>
+<Text>&lt;tabc 2.1&gt;&lt;b&gt;ACADEMIC STANDING&lt;/b&gt;&lt;tabc 6.4&gt;&lt;b&gt;AUTHORIZATION&lt;/b&gt;</Text>
+</Body>
+</Object>
+<Object no="17">
+<Type>Text</Type>
+<Label>.G.Official Transcript</Label>
+<Page></Page>
+<Layer>1</Layer>
+<Coordinates>
+<Left>4.25</Left>
+<Top>1.602</Top>
+</Coordinates>
+<MaxWidth>0</MaxWidth>
+<MaxHeight>0</MaxHeight>
+<Body>
+<Font>
+<Face>Default</Face>
+<Size>10</Size>
+<Leading></Leading>
+</Font>
+<Text>&lt;tabc 4.25&gt;&lt;b&gt;OFFICIAL TRANSCRIPT&lt;/b&gt;</Text>
+</Body>
+</Object>
+<Object no="18">
+<Type>Transcript List2</Type>
+<Label>.H.Past Transcript</Label>
+<Page></Page>
+<Layer>1</Layer>
+<Coordinates>
+<Left>0.25</Left>
+<Top>1.9</Top>
+<Right>5.512</Right>
+<Bottom>9.72</Bottom>
+</Coordinates>
+<Overflow>
+<Left>4.34</Left>
+<Top>1.9</Top>
+<Right>8.5</Right>
+<Bottom>8.062</Bottom>
+</Overflow>
+<Header>
+<Font>
+<Face>Times</Face>
+<Size>9</Size>
+<Leading>11</Leading>
+<Bold>True</Bold>
+<Italic>False</Italic>
+<Underline>True</Underline>
+</Font>
+<schooldisplay>^(reltermname;1;0) ^(schoolname)</schooldisplay>
+</Header>
+<Body>
+<Font>
+<Face>Times</Face>
+<Size>7</Size>
+<Leading>9</Leading>
+<Bold>False</Bold>
+<Italic>False</Italic>
+<Underline>False</Underline>
+</Font>
+<Padding>
+<Horizontal>4</Horizontal>
+<Vertical>2</Vertical>
+</Padding>
+<CourseLine>
+<column1storecode></column1storecode>
+<column1field>course_name</column1field>
+<column1other></column1other>
+<column1width>2.7</column1width>
+<column1alignment>l</column1alignment>
+<column1align>l</column1align>
+<column2storecode></column2storecode>
+<column2field>other:</column2field>
+<column2other>~(grade_level)</column2other>
+<column2width>0.3</column2width>
+<column2alignment>l</column2alignment>
+<column2align>l</column2align>
+<column5storecode>S1</column5storecode>
+<column5field>grade</column5field>
+<column5other></column5other>
+<column5width>0.3</column5width>
+<column5alignment>c</column5alignment>
+<column5align>c</column5align>
+<column8storecode>S2</column8storecode>
+<column8field>grade</column8field>
+<column8other></column8other>
+<column8width>0.3</column8width>
+<column8alignment>c</column8alignment>
+<column8align>c</column8align>
+<column9storecode></column9storecode>
+<column9field>translinecredithours</column9field>
+<column9other></column9other>
+<column9width>0.35</column9width>
+<column9alignment>c</column9alignment>
+<column9align>c</column9align>
+</CourseLine>
+</Body>
+<Options>
+<RestrictToGradeLevels>
+<Low></Low>
+<High></High>
+</RestrictToGradeLevels>
+<CurrentSchoolOnly>False</CurrentSchoolOnly>
+<ExcludeBlankGrades>True</ExcludeBlankGrades>
+<RestrictToCreditType></RestrictToCreditType>
+<IncludeCurrentGrades>False</IncludeCurrentGrades>
+<SortMethod>gradeascending</SortMethod>
+</Options>
+</Object>
+<Object no="19">
+<Type>Text</Type>
+<Label>.I.Tests Text</Label>
+<Page></Page>
+<Layer>1</Layer>
+<Coordinates>
+<Left>0.25</Left>
+<Top>10.556</Top>
+</Coordinates>
+<MaxWidth>0</MaxWidth>
+<MaxHeight>0</MaxHeight>
+<Body>
+<Font>
+<Face>Default</Face>
+<Size>7</Size>
+<Leading></Leading>
+</Font>
+<Text>&lt;b&gt;Civics Test:&lt;/b&gt;&lt;tabto 1&gt;^(decode;^(tests;name=Civics;score=Pass;type=alpha);P;Passed;F;Failed;Not Taken)
+^(decode;^(tests;name=SAT;score=Reading & Writing;which=best;type=num;format=##0);0; ;&lt;b&gt;SAT&lt;/b&gt; &lt;tabto 1&gt;Read/Write: ^(tests;name=SAT;score=Reading & Writing;which=best;type=num;format=##0)&lt;tabto 3&gt;Math: ^(tests;name=SAT;score=Math;which=best;type=num;format=##0))</Text>
+</Body>
+</Object>
+<Object no="20">
+<Type>Text</Type>
+<Label>.J.GPA Text</Label>
+<Page></Page>
+<Layer>1</Layer>
+<Coordinates>
+<Left>0.25</Left>
+<Top>10.164</Top>
+</Coordinates>
+<MaxWidth>0</MaxWidth>
+<MaxHeight>0</MaxHeight>
+<Body>
+<Font>
+<Face>Default</Face>
+<Size>7</Size>
+<Leading></Leading>
+</Font>
+<Text>&lt;b&gt;GPA Type&lt;tabto 1&gt;Total Credits&lt;tabto 2&gt;GPA Credits&lt;tabto 3&gt;GPA&lt;tabto 3.5&gt;Rank&lt;/b&gt;
+&lt;b&gt;Unweighted&lt;/b&gt;&lt;tabto 1&gt;^(*credit_hours)&lt;tabto 2&gt;&lt;tabto 3&gt;^(*gpa method="Simple")&lt;tabto 3.5&gt;~(*classrank method="Simple" result="rankoutof")
+&lt;b&gt;Weighted&lt;/b&gt;&lt;tabto 1&gt;^(*credit_hours)&lt;tabto 2&gt;&lt;tabto 3&gt;^(*gpa method="Weighted")&lt;tabto 3.5&gt;~(*classrank method="Weighted" result="rankoutof")</Text>
+</Body>
+</Object>
+<Object no="21">
+<Type>Text</Type>
+<Label>.K.Left Col desc</Label>
+<Page></Page>
+<Layer>1</Layer>
+<Coordinates>
+<Left>0.25</Left>
+<Top>1.834</Top>
+</Coordinates>
+<MaxWidth>0</MaxWidth>
+<MaxHeight>0</MaxHeight>
+<Body>
+<Font>
+<Face>Default</Face>
+<Size>7</Size>
+<Leading></Leading>
+</Font>
+<Text>&lt;tabto .25&gt;Course&lt;tabc 3.1&gt;Grade&lt;tabc 3.4&gt;S1&lt;tabc 3.7&gt;S2&lt;tabc 4.024&gt;Credits</Text>
+</Body>
+</Object>
+<Object no="22">
+<Type>Text</Type>
+<Label>.L.Right col desc</Label>
+<Page></Page>
+<Layer>1</Layer>
+<Coordinates>
+<Left>4.3</Left>
+<Top>1.834</Top>
+</Coordinates>
+<MaxWidth>0</MaxWidth>
+<MaxHeight>0</MaxHeight>
+<Body>
+<Font>
+<Face>Default</Face>
+<Size>7</Size>
+<Leading></Leading>
+</Font>
+<Text>&lt;tabto 4.34&gt;Course&lt;tabc 7.19&gt;Grade&lt;tabc 7.49&gt;S1&lt;tabc 7.79&gt;S2&lt;tabc 8.114&gt;Credits</Text>
+</Body>
+</Object>
+<Object no="23">
+<Type>Text</Type>
+<Label>.M.Current Course</Label>
+<Page></Page>
+<Layer>1</Layer>
+<Coordinates>
+<Left>4.34</Left>
+<Top>8.442</Top>
+</Coordinates>
+<MaxWidth>0</MaxWidth>
+<MaxHeight>0</MaxHeight>
+<Body>
+<Font>
+<Face>Default</Face>
+<Size>7</Size>
+<Leading>9</Leading>
+</Font>
+<Text>^(*period_info;1(A);course_name)^(*period_info;P1(R);course_name)&lt;tabc 7.79&gt;^(*period_info;1(A);current_grade)^(*period_info;P1(R);current_grade)
+^(*period_info;2(A);course_name)^(*period_info;P2(R);course_name)^(*period_info;1-2(A);course_name)&lt;tabc 7.79&gt;^(*period_info;2(A);current_grade)^(*period_info;P2(R);current_grade)^(*period_info;1-2(A);current_grade)
+^(*period_info;3(A);course_name)^(*period_info;P3(R);course_name)&lt;tabc 7.79&gt;^(*period_info;3(A);current_grade)^(*period_info;P3(R);current_grade)
+^(*period_info;4(A);course_name)^(*period_info;P4(R);course_name)&lt;tabc 7.79&gt;^(*period_info;4(A);current_grade)^(*period_info;P4(R);current_grade)
+^(*period_info;5(A);course_name)^(*period_info;1(B);course_name)^(*period_info;P9(R);course_name)&lt;tabc 7.79&gt;^(*period_info;5(A);current_grade)^(*period_info;1(B);current_grade)^(*period_info;P9(R);course_name)
+^(*period_info;6(A);course_name)^(*period_info;2(B);course_name)^(*period_info;2-3(B);course_name)&lt;tabc 7.79&gt;^(*period_info;6(A);current_grade)^(*period_info;2(B);current_grade)^(*period_info;2-3(B);current_grade)
+^(*period_info;3(B);course_name)&lt;tabc 7.79&gt;^(*period_info;3(B);current_grade)
+^(*period_info;4(B);course_name)&lt;tabc 7.79&gt;^(*period_info;4(B);current_grade)
+^(*period_info;P9(A);course_name)&lt;tabc 7.79&gt;^(*period_info;P9(A);current_grade)
+^(*period_info;0(A);course_name)^(*period_info;0(A-B);course_name)&lt;tabc 7.79&gt;^(*period_info;0(A);current_grade)^(*period_info;0(A-B);current_grade)
+^(*period_info;0(B);course_name)&lt;tabc 7.79&gt;^(*period_info;0(B);current_grade)</Text>
+</Body>
+</Object>
+</ObjectData>
+</PSReportTemplate>

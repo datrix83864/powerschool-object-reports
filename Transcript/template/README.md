@@ -36,3 +36,11 @@ Graduation Date - In the report as S_ID_STU_X.GraduationDate this uses the S_ID_
 ## Current Schedule Chaos
 
 Looking at the current schedule section will show a lot of things happening. In short this is taking into account all the variations that are possible between the three schools.
+
+## Header setup
+
+This looks if a student is currently in a school that isn't the Graduated Students school, those in graduated students school get the district office information instead of school specific.
+
+## Current limitation
+
+Students moved to graduated students school do not have their rank saved. This is a PowerSchool limitation and is being investigated for a solution by our staff.
