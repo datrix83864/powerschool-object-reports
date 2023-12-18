@@ -497,8 +497,7 @@
 <Size>7</Size>
 <Leading></Leading>
 </Font>
-<Text>&lt;b&gt;Civics Test:&lt;/b&gt;&lt;tabto 1&gt;^(decode;^(tests;name=Civics;score=Pass;type=alpha);P;Passed;F;Failed;Not Taken)
-^(decode;^(tests;name=SAT;score=Reading & Writing;which=best;type=num;format=##0);0; ;&lt;b&gt;SAT&lt;/b&gt; &lt;tabto 1&gt;Read/Write: ^(tests;name=SAT;score=Reading & Writing;which=best;type=num;format=##0)&lt;tabto 3&gt;Math: ^(tests;name=SAT;score=Math;which=best;type=num;format=##0))</Text>
+<Text>&lt;b&gt;Civics Test:&lt;/b&gt;&lt;tabto 1&gt;^(decode;^(tests;name=Civics;score=Pass;which=best;type=alpha;result=value);P;Passed;F;Failed;Not Taken)^(decode;^(tests;name=SAT;score=Reading & Writing;which=best;type=num;format=##0);0; ;&lt;b&gt;SAT&lt;/b&gt; &lt;tabto 1&gt;Read/Write: ^(tests;name=SAT;score=Reading & Writing;which=best;type=num;format=##0)&lt;tabto 3&gt;Math: ^(tests;name=SAT;score=Math;which=best;type=num;format=##0))</Text>
 </Body>
 </Object>
 <Object no="18">
