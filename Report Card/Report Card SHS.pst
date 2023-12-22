@@ -1,0 +1,305 @@
+<PSReportTemplate>
+<FileHeader>
+<Created>Thu, 14 Dec 2023 18:50:43 GMT</Created>
+<PSVersion>(VisualPST 3.2.1,)</PSVersion>
+<TemplateVersion>1.0</TemplateVersion>
+<Author>Hawkins, Dalton Jacob</Author>
+</FileHeader>
+<ReportHeader>
+<Type>Object Report</Type>
+<Name>Report Card - SHS</Name>
+<Table>Students</Table>
+</ReportHeader>
+<ReportData>
+<Units>Inches</Units>
+<Paper>
+<Size>Letter</Size>
+<Width>8.5</Width>
+<Height>11</Height>
+<Orientation>Portrait</Orientation>
+<Margins>
+<Left>0.75</Left>
+<Top>0.5</Top>
+<Right>0.5</Right>
+<Bottom>0.5</Bottom>
+</Margins>
+<Scale>100</Scale>
+</Paper>
+<Body>
+<Font>
+<Face>Palatino</Face>
+<Size>10</Size>
+<Leading>13</Leading>
+</Font>
+</Body>
+</ReportData>
+<ObjectData>
+<Type>Objects</Type>
+<Object no="1">
+<Type>Picture</Type>
+<Label>.0.LPOSD Logo</Label>
+<Page></Page>
+<Layer>0</Layer>
+<ScalingOption>fill</ScalingOption>
+<Coordinates>
+<Left>7</Left>
+<Top>0.5</Top>
+<Right>8</Right>
+<Bottom>1.5</Bottom>
+</Coordinates>
+<Picture>District.jpg</Picture>
+</Object>
+<Object no="2">
+<Type>Picture</Type>
+<Label>.1.School Logo</Label>
+<Page></Page>
+<Layer>0</Layer>
+<ScalingOption>fill</ScalingOption>
+<Coordinates>
+<Left>0.5</Left>
+<Top>0.5</Top>
+<Right>1.5</Right>
+<Bottom>1.5</Bottom>
+</Coordinates>
+<Picture>SHS.jpg</Picture>
+</Object>
+<Object no="3">
+<Type>Line</Type>
+<Label>.2.Header Separator</Label>
+<Page></Page>
+<Layer>0</Layer>
+<Coordinates>
+<Left>0.5</Left>
+<Top>1.75</Top>
+<Right>8</Right>
+<Bottom>1.75</Bottom>
+</Coordinates>
+<Line>
+<Width>1</Width>
+<Style>1</Style>
+<Color>Black</Color>
+</Line>
+</Object>
+<Object no="4">
+<Type>Text</Type>
+<Label>.3.000.SPLITTER.KEY</Label>
+<Page></Page>
+<Layer>0</Layer>
+<Coordinates>
+<Left>0.1</Left>
+<Top>0.1</Top>
+</Coordinates>
+<MaxWidth>0</MaxWidth>
+<MaxHeight>0</MaxHeight>
+<Fill>
+<Color>White</Color>
+<Tint>100</Tint>
+</Fill>
+<Body>
+<Font>
+<Face>Default</Face>
+<Size></Size>
+<Leading></Leading>
+</Font>
+<Text>***studentid=~([students]id)***</Text>
+</Body>
+</Object>
+<Object no="5">
+<Type>Text</Type>
+<Label>.4.Address</Label>
+<Page></Page>
+<Layer>0</Layer>
+<Coordinates>
+<Left>1.5</Left>
+<Top>1</Top>
+</Coordinates>
+<MaxWidth>5.5</MaxWidth>
+<MaxHeight>0</MaxHeight>
+<Fill>
+<Color>Red</Color>
+<Tint>100</Tint>
+</Fill>
+<Body>
+<Font>
+<Face>Default</Face>
+<Size></Size>
+<Leading></Leading>
+</Font>
+<Text>&lt;center&gt;^([39]schooladdress)
+^([39]schoolcity), ^([39]schoolstate) ^([39]schoolzip)
+^([39]schoolphone)
+Principal: ^([39]Principal)&lt;/center&gt;</Text>
+</Body>
+</Object>
+<Object no="6">
+<Type>Text</Type>
+<Label>.5.School Header</Label>
+<Page></Page>
+<Layer>0</Layer>
+<Coordinates>
+<Left>1.5</Left>
+<Top>0.75</Top>
+</Coordinates>
+<MaxWidth>5.5</MaxWidth>
+<MaxHeight>0</MaxHeight>
+<Fill>
+<Color>Red</Color>
+<Tint>100</Tint>
+</Fill>
+<Body>
+<Font>
+<Face>Helvetica</Face>
+<Size>18</Size>
+<Leading></Leading>
+<Bold>True</Bold>
+<Underline>True</Underline>
+</Font>
+<Text>&lt;center&gt;^(schoolname)&lt;/center&gt;</Text>
+</Body>
+</Object>
+<Object no="7">
+<Type>Box</Type>
+<Label>.6.Report Area</Label>
+<Page></Page>
+<Layer>1</Layer>
+<Coordinates>
+<Left>0.5</Left>
+<Top>2.332</Top>
+<Right>8</Right>
+<Bottom>10.514</Bottom>
+</Coordinates>
+<Line>
+<Width>1</Width>
+<Style>1</Style>
+<Color>Black</Color>
+</Line>
+</Object>
+<Object no="8">
+<Type>Text</Type>
+<Label>.7.Report For</Label>
+<Page></Page>
+<Layer>1</Layer>
+<Coordinates>
+<Left>0.5</Left>
+<Top>2</Top>
+</Coordinates>
+<MaxWidth>8</MaxWidth>
+<MaxHeight>0.5</MaxHeight>
+<Body>
+<Font>
+<Face>Courier</Face>
+<Size>16</Size>
+<Leading></Leading>
+<Bold>True</Bold>
+<Underline>True</Underline>
+</Font>
+<Text>&lt;center&gt;^(decode;^(termabbr);S1;Semester 1;S2;Semester 2;Q1;Quarter 1;Q2;Quarter 2;Q3;Quarter 3;Q4;Quarter 4) Report Card:&lt;/center&gt;
+&lt;center&gt;^(LastFirst)&lt;/center&gt;</Text>
+</Body>
+</Object>
+<Object no="9">
+<Type>Text</Type>
+<Label>.8.Grades</Label>
+<Page></Page>
+<Layer>2</Layer>
+<Coordinates>
+<Left>0.6</Left>
+<Top>2.678</Top>
+</Coordinates>
+<MaxWidth>7.5</MaxWidth>
+<MaxHeight>0</MaxHeight>
+<Body>
+<Font>
+<Face>Default</Face>
+<Size></Size>
+<Leading></Leading>
+</Font>
+<Text>
+^(decode;^(stored.by.course.period.cached;1-2(A);Course_Name);;1(A);1-2(A))&lt;tabto 1.1&gt;^(decode;^(stored.by.course.period.cached;1-2(A);Course_Name);;^(stored.by.course.period.cached;1(A);Course_Name);^(stored.by.course.period.cached;1-2(A);Course_Name))&lt;tabto 4&gt;^(decode;^(stored.by.course.period.cached;1-2(A);Course_Name);;^(stored.by.course.period.cached;1(A);Teacher_Name);^(stored.by.course.period.cached;1-2(A);Teacher_Name))&lt;tabto 6&gt;^(decode;^(stored.by.course.period.cached;1-2(A);Course_Name);;^(stored.by.course.period.cached;1(A);grade);^(stored.by.course.period.cached;1-2(A);grade))&lt;tabto 7&gt;^(decode;^(stored.by.course.period.cached;1-2(A);Course_Name);;^(stored.bycouse.period.cached;1(A);^(termabbr);Absences);^(stored.bycouse.period.cached;1-2(A);^(termabbr);Absences))&lt;tabto 7.5&gt;^(decode;^(stored.by.course.period.cached;1-2(A);Course_Name);;^(stored.bycouse.period.cached;1(A);^(termabbr);Tardies);^(stored.bycouse.period.cached;1-2(A);^(termabbr);Tardies))
+^(decode;^(stored.by.course.period.cached;2-3(A);Course_Name);;^(decode;^(stored.by.course.period.cached;1-2(A);Course_Name);;2(A); );2-3(A))&lt;tabto 1.1&gt;^(decode;^(stored.by.course.period.cached;2-3(A);Course_Name);;^(stored.by.course.period.cached;2(A);Course_Name);^(stored.by.course.period.cached;2-3(A);Course_Name))&lt;tabto 4&gt;^(decode;^(stored.by.course.period.cached;2-3(A);Course_Name);;^(stored.by.course.period.cached;2(A);Teacher_Name);^(stored.by.course.period.cached;2-3(A);Teacher_Name))&lt;tabto 6&gt;^(decode;^(stored.by.course.period.cached;2-3(A);Course_Name);;^(stored.by.course.period.cached;2(A);grade);^(stored.by.course.period.cached;2-3(A);grade))&lt;tabto 7&gt;^(decode;^(stored.by.course.period.cached;2-3(A);Course_Name);;^(stored.bycouse.period.cached;2(A);^(termabbr);Absences);^(stored.bycouse.period.cached;2-3(A);^(termabbr);Absences))&lt;tabto 7.5&gt;^(decode;^(stored.by.course.period.cached;2-3(A);Course_Name);;^(stored.bycouse.period.cached;2(A);^(termabbr);Tardies);^(stored.bycouse.period.cached;2-3(A);^(termabbr);Tardies))
+^(decode;^(stored.by.course.period.cached;3-4(A);Course_Name);;^(decode;^(stored.by.course.period.cached;2-3(A);Course_Name);;3(A); );3-4(A))&lt;tabto 1.1&gt;^(decode;^(stored.by.course.period.cached;3-4(A);Course_Name);;^(stored.by.course.period.cached;3(A);Course_Name);^(stored.by.course.period.cached;3-4(A);Course_Name))&lt;tabto 4&gt;^(decode;^(stored.by.course.period.cached;3-4(A);Course_Name);;^(stored.by.course.period.cached;3(A);Teacher_Name);^(stored.by.course.period.cached;3-4(A);Teacher_Name))&lt;tabto 6&gt;^(decode;^(stored.by.course.period.cached;3-4(A);Course_Name);;^(stored.by.course.period.cached;3(A);grade);^(stored.by.course.period.cached;3-4(A);grade))&lt;tabto 7&gt;^(decode;^(stored.by.course.period.cached;3-4(A);Course_Name);;^(stored.bycouse.period.cached;3(A);^(termabbr);Absences);^(stored.bycouse.period.cached;3-4(A);^(termabbr);Absences))&lt;tabto 7.5&gt;^(decode;^(stored.by.course.period.cached;3-4(A);Course_Name);;^(stored.bycouse.period.cached;3(A);^(termabbr);Tardies);^(stored.bycouse.period.cached;3-4(A);^(termabbr);Tardies))
+^(decode;^(stored.by.course.period.cached;3-4(A);Course_Name);;4(A); )&lt;tabto 1.1&gt;^(decode;^(stored.by.course.period.cached;3-4(A);Course_Name);;^(stored.by.course.period.cached;4(A);Course_Name); )&lt;tabto 4&gt;^(decode;^(stored.by.course.period.cached;3-4(A);Course_Name);;^(stored.by.course.period.cached;4(A);Teacher_Name); )&lt;tabto 6&gt;^(decode;^(stored.by.course.period.cached;3-4(A);Course_Name);;^(stored.by.course.period.cached;4(A);grade); )&lt;tabto 7&gt;^(decode;^(stored.by.course.period.cached;3-4(A);Course_Name);;^(stored.bycouse.period.cached;4(A);^(termabbr);Absences); )&lt;tabto 7.5&gt;^(decode;^(stored.by.course.period.cached;3-4(A);Course_Name);;^(stored.bycouse.period.cached;4(A);^(termabbr);Tardies); )
+^(decode;^(stored.by.course.period.cached;1-2(B);Course_Name);;1(B);1-2(B))&lt;tabto 1.1&gt;^(decode;^(stored.by.course.period.cached;1-2(B);Course_Name);;^(stored.by.course.period.cached;1(B);Course_Name);^(stored.by.course.period.cached;1-2(B);Course_Name))&lt;tabto 4&gt;^(decode;^(stored.by.course.period.cached;1-2(B);Course_Name);;^(stored.by.course.period.cached;1(B);Teacher_Name);^(stored.by.course.period.cached;1-2(B);Teacher_Name))&lt;tabto 6&gt;^(decode;^(stored.by.course.period.cached;1-2(B);Course_Name);;^(stored.by.course.period.cached;1(B);grade);^(stored.by.course.period.cached;1-2(B);grade))&lt;tabto 7&gt;^(decode;^(stored.by.course.period.cached;1-2(B);Course_Name);;^(stored.bycouse.period.cached;1(B);^(termabbr);Absences);^(stored.bycouse.period.cached;1-2(B);^(termabbr);Absences))&lt;tabto 7.5&gt;^(decode;^(stored.by.course.period.cached;1-2(B);Course_Name);;^(stored.bycouse.period.cached;1(B);^(termabbr);Tardies);^(stored.bycouse.period.cached;1-2(B);^(termabbr);Tardies))
+^(decode;^(stored.by.course.period.cached;2-3(B);Course_Name);;^(decode;^(stored.by.course.period.cached;1-2(B);Course_Name);;2(B); );2-3(B))&lt;tabto 1.1&gt;^(decode;^(stored.by.course.period.cached;2-3(B);Course_Name);;^(stored.by.course.period.cached;2(B);Course_Name);^(stored.by.course.period.cached;2-3(B);Course_Name))&lt;tabto 4&gt;^(decode;^(stored.by.course.period.cached;2-3(B);Course_Name);;^(stored.by.course.period.cached;2(B);Teacher_Name);^(stored.by.course.period.cached;2-3(B);Teacher_Name))&lt;tabto 6&gt;^(decode;^(stored.by.course.period.cached;2-3(B);Course_Name);;^(stored.by.course.period.cached;2(B);grade);^(stored.by.course.period.cached;2-3(B);grade))&lt;tabto 7&gt;^(decode;^(stored.by.course.period.cached;2-3(B);Course_Name);;^(stored.bycouse.period.cached;2(B);^(termabbr);Absences);^(stored.bycouse.period.cached;2-3(B);^(termabbr);Absences))&lt;tabto 7.5&gt;^(decode;^(stored.by.course.period.cached;2-3(B);Course_Name);;^(stored.bycouse.period.cached;2(B);^(termabbr);Tardies);^(stored.bycouse.period.cached;2-3(B);^(termabbr);Tardies))
+^(decode;^(stored.by.course.period.cached;3-4(B);Course_Name);;^(decode;^(stored.by.course.period.cached;2-3(B);Course_Name);;3(B); );3-4(B))&lt;tabto 1.1&gt;^(decode;^(stored.by.course.period.cached;3-4(B);Course_Name);;^(stored.by.course.period.cached;3(B);Course_Name);^(stored.by.course.period.cached;3-4(B);Course_Name))&lt;tabto 4&gt;^(decode;^(stored.by.course.period.cached;3-4(B);Course_Name);;^(stored.by.course.period.cached;3(B);Teacher_Name);^(stored.by.course.period.cached;3-4(B);Teacher_Name))&lt;tabto 6&gt;^(decode;^(stored.by.course.period.cached;3-4(B);Course_Name);;^(stored.by.course.period.cached;3(B);grade);^(stored.by.course.period.cached;3-4(B);grade))&lt;tabto 7&gt;^(decode;^(stored.by.course.period.cached;3-4(B);Course_Name);;^(stored.bycouse.period.cached;3(B);^(termabbr);Absences);^(stored.bycouse.period.cached;3-4(B);^(termabbr);Absences))&lt;tabto 7.5&gt;^(decode;^(stored.by.course.period.cached;3-4(B);Course_Name);;^(stored.bycouse.period.cached;3(B);^(termabbr);Tardies);^(stored.bycouse.period.cached;3-4(B);^(termabbr);Tardies))
+^(decode;^(stored.by.course.period.cached;3-4(B);Course_Name);;4(B); )&lt;tabto 1.1&gt;^(decode;^(stored.by.course.period.cached;3-4(B);Course_Name);;^(stored.by.course.period.cached;4(B);Course_Name); )&lt;tabto 4&gt;^(decode;^(stored.by.course.period.cached;3-4(B);Course_Name);;^(stored.by.course.period.cached;4(B);Teacher_Name); )&lt;tabto 6&gt;^(decode;^(stored.by.course.period.cached;3-4(B);Course_Name);;^(stored.by.course.period.cached;4(B);grade); )&lt;tabto 7&gt;^(decode;^(stored.by.course.period.cached;3-4(B);Course_Name);;^(stored.bycouse.period.cached;4(B);^(termabbr);Absences); )&lt;tabto 7.5&gt;^(decode;^(stored.by.course.period.cached;3-4(B);Course_Name);;^(stored.bycouse.period.cached;4(B);^(termabbr);Tardies); )
+^(decode;^(stored.by.course.period.cached;0(A-B);Course_Name);; ;EB)&lt;tabto 1.1&gt;^(decode;^(stored.by.course.period.cached;0(A-B);Course_Name);; ;^(stored.by.course.period.cached;0(A-B);Course_Name))&lt;tabto 4&gt;^(decode;^(stored.by.course.period.cached;0(A-B);Course_Name);; ;^(stored.by.course.period.cached;0(A-B);Teacher_Name))&lt;tabto 6&gt;^(decode;^(stored.by.course.period.cached;0(A-B);Course_Name);; ;^(stored.by.course.period.cached;0(A-B);grade))&lt;tabto 7&gt;^(decode;^(stored.by.course.period.cached;0(A-B);Course_Name);; ;^(stored.bycouse.period.cached;0(A-B);^(termabbr);Absences))&lt;tabto 7.5&gt;^(decode;^(stored.by.course.period.cached;0(A-B);Course_Name);; ;^(stored.bycouse.period.cached;0(A-B);^(termabbr);Tardies))
+^(decode;^(stored.by.course.period.cached;P9(A);Course_Name);; ;EB)&lt;tabto 1.1&gt;^(decode;^(stored.by.course.period.cached;P9(A);Course_Name);; ;^(stored.by.course.period.cached;P9(A);Course_Name))&lt;tabto 4&gt;^(decode;^(stored.by.course.period.cached;P9(A);Course_Name);; ;^(stored.by.course.period.cached;P9(A);Teacher_Name))&lt;tabto 6&gt;^(decode;^(stored.by.course.period.cached;P9(A);Course_Name);; ;^(stored.by.course.period.cached;P9(A);grade))&lt;tabto 7&gt;^(decode;^(stored.by.course.period.cached;P9(A);Course_Name);; ;^(stored.bycouse.period.cached;P9(A);^(termabbr);Absences))&lt;tabto 7.5&gt;^(decode;^(stored.by.course.period.cached;P9(A);Course_Name);; ;^(stored.bycouse.period.cached;P9(A);^(termabbr);Tardies))
+^(decode;^(stored.by.course.period.cached;0(A);Course_Name);; ;EB)&lt;tabto 1.1&gt;^(decode;^(stored.by.course.period.cached;0(A);Course_Name);; ;^(stored.by.course.period.cached;0(A);Course_Name))&lt;tabto 4&gt;^(decode;^(stored.by.course.period.cached;0(A);Course_Name);; ;^(stored.by.course.period.cached;0(A);Teacher_Name))&lt;tabto 6&gt;^(decode;^(stored.by.course.period.cached;0(A);Course_Name);; ;^(stored.by.course.period.cached;0(A);grade))&lt;tabto 7&gt;^(decode;^(stored.by.course.period.cached;0(A);Course_Name);; ;^(stored.bycouse.period.cached;0(A);^(termabbr);Absences))&lt;tabto 7.5&gt;^(decode;^(stored.by.course.period.cached;0(A);Course_Name);; ;^(stored.bycouse.period.cached;0(A);^(termabbr);Tardies))
+^(decode;^(stored.by.course.period.cached;0(B);Course_Name);; ;EB)&lt;tabto 1.1&gt;^(decode;^(stored.by.course.period.cached;0(B);Course_Name);; ;^(stored.by.course.period.cached;0(B);Course_Name))&lt;tabto 4&gt;^(decode;^(stored.by.course.period.cached;0(B);Course_Name);; ;^(stored.by.course.period.cached;0(B);Teacher_Name))&lt;tabto 6&gt;^(decode;^(stored.by.course.period.cached;0(B);Course_Name);; ;^(stored.by.course.period.cached;0(B);grade))&lt;tabto 7&gt;^(decode;^(stored.by.course.period.cached;0(B);Course_Name);; ;^(stored.bycouse.period.cached;0(B);^(termabbr);Absences))&lt;tabto 7.5&gt;^(decode;^(stored.by.course.period.cached;0(B);Course_Name);; ;^(stored.bycouse.period.cached;0(B);^(termabbr);Tardies))
+</Text>
+</Body>
+</Object>
+<Object no="10">
+<Type>Text</Type>
+<Label>.9.GPA</Label>
+<Page></Page>
+<Layer>2</Layer>
+<Coordinates>
+<Left>0.574</Left>
+<Top>4.746</Top>
+</Coordinates>
+<MaxWidth>0</MaxWidth>
+<MaxHeight>0</MaxHeight>
+<Body>
+<Font>
+<Face>Default</Face>
+<Size></Size>
+<Leading></Leading>
+</Font>
+<Text>Semester GPA: &lt;tabto 1.5&gt;Unweighted: ^(*gpa method="Unweighted" term=^(termabbr)) &lt;tabto 4&gt;Cummulative GPA:&lt;tabto 5.2&gt;Unweighted: ^(*gpa method="Unweighted" grade=�9,10,11,12�)
+&lt;tabto 1.5&gt;Weighted:^(*gpa method="Weighted" term=^(termabbr))&lt;tabto 5.2&gt;Weighted: ^(*gpa method="Weighted" grade=�9,10,11,12�)
+</Text>
+</Body>
+</Object>
+<Object no="11">
+<Type>Text</Type>
+<Label>.A.Title</Label>
+<Page></Page>
+<Layer>2</Layer>
+<Coordinates>
+<Left>0.6</Left>
+<Top>2.478</Top>
+</Coordinates>
+<MaxWidth>0</MaxWidth>
+<MaxHeight>0</MaxHeight>
+<Body>
+<Font>
+<Face>Default</Face>
+<Size></Size>
+<Leading></Leading>
+</Font>
+<Text>&lt;b&gt;&lt;u&gt;Period &lt;tabto 1.5&gt;Course&lt;tabto 4&gt;Teacher&lt;tabc 6.2&gt;Grade&lt;tabc 7.1&gt;Absent&lt;tabc 7.6&gt;Tardy&lt;/u&gt;&lt;/b&gt;</Text>
+</Body>
+</Object>
+<Object no="12">
+<Type>Text</Type>
+<Label>.B.Comments</Label>
+<Page></Page>
+<Layer>2</Layer>
+<Coordinates>
+<Left>0.6</Left>
+<Top>5.212</Top>
+</Coordinates>
+<MaxWidth>7.25</MaxWidth>
+<MaxHeight>4</MaxHeight>
+<Body>
+<Font>
+<Face>Default</Face>
+<Size></Size>
+<Leading></Leading>
+</Font>
+<Text>Get the most up to date information on attendance, contact information, and more using PowerSchool and Schoology, all with your own username and password. Contact the office for help getting set up.
+&lt;b&gt;&lt;u&gt;Comments:&lt;/b&gt;&lt;/u&gt;
+^(decode;^(stored.by.course.period.cached;1-2(A);Course_Name);;^(stored.by.course.period.cached;1(A);Teacher_Name): ^(stored.by.course.period.cached;1(A);Comment);^(stored.by.course.period.cached;1-2(A);Teacher_Name): ^(stored.by.course.period.cached;1-2(A);Comment))
+^(decode;^(stored.by.course.period.cached;2-3(A);Course_Name);;^(stored.by.course.period.cached;2(A);Teacher_Name): ^(stored.by.course.period.cached;2(A);Comment);^(stored.by.course.period.cached;2-3(A);Teacher_Name): ^(stored.by.course.period.cached;2-3(A);Comment))
+^(decode;^(stored.by.course.period.cached;3-4(A);Course_Name);;^(stored.by.course.period.cached;3(A);Teacher_Name): ^(stored.by.course.period.cached;3(A);Comment);^(stored.by.course.period.cached;3-4(A);Teacher_Name): ^(stored.by.course.period.cached;3-4(A);Comment))
+^(decode;^(stored.by.course.period.cached;3-4(A);Course_Name);;^(stored.by.course.period.cached;4(A);Teacher_Name): ^(stored.by.course.period.cached;4(A);Comment); )
+^(decode;^(stored.by.course.period.cached;1-2(B);Course_Name);;^(stored.by.course.period.cached;1(B);Teacher_Name): ^(stored.by.course.period.cached;1(B);Comment);^(stored.by.course.period.cached;1-2(B);Teacher_Name): ^(stored.by.course.period.cached;1-2(B);Comment))
+^(decode;^(stored.by.course.period.cached;2-3(B);Course_Name);;^(stored.by.course.period.cached;2(B);Teacher_Name): ^(stored.by.course.period.cached;2(B);Comment);^(stored.by.course.period.cached;2-3(B);Teacher_Name): ^(stored.by.course.period.cached;2-3(B);Comment))
+^(decode;^(stored.by.course.period.cached;3-4(B);Course_Name);;^(stored.by.course.period.cached;3(B);Teacher_Name): ^(stored.by.course.period.cached;3(B);Comment);^(stored.by.course.period.cached;3-4(B);Teacher_Name): ^(stored.by.course.period.cached;3-4(B);Comment))
+^(decode;^(stored.by.course.period.cached;3-4(B);Course_Name);;^(stored.by.course.period.cached;4(B);Teacher_Name): ^(stored.by.course.period.cached;4(B);Comment); )</Text>
+</Body>
+</Object>
+</ObjectData>
+</PSReportTemplate>
