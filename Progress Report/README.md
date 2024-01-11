@@ -19,4 +19,4 @@ The `^(decode;^(*period_info;1-2(A);course_name);` starts the logic. We check fo
 - If there is no name, indicated by the `;;` where there is nothing between the two semi-colons then the course must be a 1(A) course, we then return the teacher first, last and comment from the 1(A) course that we assume to exist.
 - Otherwise, it must be a 1-2(A) course, so we return the teacher first, last, and comment from the 1(A) course that we assume to exist
 
-Further logic idea. It could be that the 1(A) and 1-2(A) courses don't exist, in which case we should return nothing at all. This would preferably happen in the first result option with another decode
+Further logic idea. It could be that the 1(A) and 1-2(A) courses don't exist, in which case we should return nothing at all. This would preferably happen in the first result option with another decode function.
