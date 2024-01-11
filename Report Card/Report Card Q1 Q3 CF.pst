@@ -240,7 +240,8 @@ Principal: ^([39]Principal)&lt;/center&gt;</Text>
 <Size></Size>
 <Leading></Leading>
 </Font>
-<Text>1&lt;tabto 1.5&gt;^(*period_info;1(A);course_name)&lt;tabto 4&gt;^(*period_info;1(A);teacher_I_last_name), ^(*period_info;1(A);teacher_I_first_name)&lt;tabto 6&gt;^(*period_info;1(A);current_grade)&lt;tabto 7&gt;^(per.att;1(A);U,A;^(termabbr))&lt;tabto 7.5&gt;^(per.att;1(A);2,3;^(termabbr))
+<Text>1&lt;tabto 1.5&gt;Course&lt;tabto 4&gt;Teacher&lt;tabto 6&gt;Grade&lt;tabto 7&gt;Absent&lt;tabto 7.5&gt;Tardy
+1&lt;tabto 1.5&gt;^(*period_info;1(A);course_name)&lt;tabto 4&gt;^(*period_info;1(A);teacher_I_last_name), ^(*period_info;1(A);teacher_I_first_name)&lt;tabto 6&gt;^(*period_info;1(A);current_grade)&lt;tabto 7&gt;^(per.att;1(A);U,A;^(termabbr))&lt;tabto 7.5&gt;^(per.att;1(A);2,3;^(termabbr))
 2&lt;tabto 1.5&gt;^(*period_info;2(A);course_name)&lt;tabto 4&gt;^(*period_info;2(A);teacher_I_last_name), ^(*period_info;2(A);teacher_I_first_name)&lt;tabto 6&gt;^(*period_info;2(A);current_grade)&lt;tabto 7&gt;^(per.att;2(A);U,A;^(termabbr))&lt;tabto 7.5&gt;^(per.att;2(A);2,3;^(termabbr))
 3&lt;tabto 1.5&gt;^(*period_info;3(A);course_name)&lt;tabto 4&gt;^(*period_info;3(A);teacher_I_last_name), ^(*period_info;3(A);teacher_I_first_name)&lt;tabto 6&gt;^(*period_info;3(A);current_grade)&lt;tabto 7&gt;^(per.att;3(A);U,A;^(termabbr))&lt;tabto 7.5&gt;^(per.att;3(A);2,3;^(termabbr))
 4&lt;tabto 1.5&gt;^(*period_info;4(A);course_name)&lt;tabto 4&gt;^(*period_info;4(A);teacher_I_last_name), ^(*period_info;4(A);teacher_I_first_name)&lt;tabto 6&gt;^(*period_info;4(A);current_grade)&lt;tabto 7&gt;^(per.att;4(A);U,A;^(termabbr))&lt;tabto 7.5&gt;^(per.att;4(A);2,3;^(termabbr))
