@@ -7,7 +7,7 @@
 </FileHeader>
 <ReportHeader>
 <Type>Object Report</Type>
-<Name>Report Card - LPO</Name>
+<Name>Report Card - SMS</Name>
 <Table>Students</Table>
 </ReportHeader>
 <ReportData>
@@ -61,7 +61,7 @@
 <Right>1.5</Right>
 <Bottom>1.5</Bottom>
 </Coordinates>
-<Picture>LPO.jpg</Picture>
+<Picture>SMS.jpg</Picture>
 </Object>
 <Object no="3">
 <Type>Line</Type>
@@ -116,7 +116,7 @@
 <MaxWidth>5.5</MaxWidth>
 <MaxHeight>0</MaxHeight>
 <Fill>
-<Color>Purple</Color>
+<Color>Red</Color>
 <Tint>100</Tint>
 </Fill>
 <Body>
@@ -143,7 +143,7 @@ Principal: ^([39]Principal)&lt;/center&gt;</Text>
 <MaxWidth>5.5</MaxWidth>
 <MaxHeight>0</MaxHeight>
 <Fill>
-<Color>Purple</Color>
+<Color>Red</Color>
 <Tint>100</Tint>
 </Fill>
 <Body>
@@ -214,14 +214,18 @@ Principal: ^([39]Principal)&lt;/center&gt;</Text>
 <Size></Size>
 <Leading></Leading>
 </Font>
-<Text>1&lt;tabto 1.1&gt;^(stored.by.course.period.cached;P1(R);Course_Name)&lt;tabto 4&gt;^(stored.by.course.period.cached;P1(R);Teacher_Name)&lt;tabto 6&gt;^(stored.by.course.period.cached;P1(R);grade)&lt;tabto 7&gt;^(stored.by.course.period.cached;P1(R);^(termabbr);Absences)&lt;tabto 7.5&gt;^(stored.by.course.period.cached;P1(R);^(termabbr);Tardies)
-2&lt;tabto 1.1&gt;^(stored.by.course.period.cached;P2(R);Course_Name)&lt;tabto 4&gt;^(stored.by.course.period.cached;P2(R);Teacher_Name)&lt;tabto 6&gt;^(stored.by.course.period.cached;P2(R);grade)&lt;tabto 7&gt;^(stored.by.course.period.cached;P2(R);^(termabbr);Absences)&lt;tabto 7.5&gt;^(stored.by.course.period.cached;P2(R);^(termabbr);Tardies)
-3&lt;tabto 1.1&gt;^(stored.by.course.period.cached;P3(R);Course_Name)&lt;tabto 4&gt;^(stored.by.course.period.cached;P3(R);Teacher_Name)&lt;tabto 6&gt;^(stored.by.course.period.cached;P3(R);grade)&lt;tabto 7&gt;^(stored.by.course.period.cached;P3(R);^(termabbr);Absences)&lt;tabto 7.5&gt;^(stored.by.course.period.cached;P3(R);^(termabbr);Tardies)
-4&lt;tabto 1.1&gt;^(stored.by.course.period.cached;P4(R);Course_Name)&lt;tabto 4&gt;^(stored.by.course.period.cached;P4(R);Teacher_Name)&lt;tabto 6&gt;^(stored.by.course.period.cached;P4(R);grade)&lt;tabto 7&gt;^(stored.by.course.period.cached;P4(R);^(termabbr);Absences)&lt;tabto 7.5&gt;^(stored.by.course.period.cached;P4(R);^(termabbr);Tardies)
-5&lt;tabto 1.1&gt;^(stored.by.course.period.cached;P0(R);Course_Name)&lt;tabto 4&gt;^(stored.by.course.period.cached;P0(R);Teacher_Name)&lt;tabto 6&gt;^(stored.by.course.period.cached;P0(R);grade)&lt;tabto 7&gt;^(stored.by.course.period.cached;P0(R);^(termabbr);Absences)&lt;tabto 7.5&gt;^(stored.by.course.period.cached;P0(R);^(termabbr);Tardies)
-^(decode;^(stored.by.course.period.cached;P9(R));; ;6&lt;tabto 1.1&gt;^(stored.by.course.period.cached;6(A);Course_Name)&lt;tabto 4&gt;^(stored.by.course.period.cached;6(A);Teacher_Name)&lt;tabto 6&gt;^(stored.by.course.period.cached;6(A);grade)&lt;tabto 7&gt;^(stored.by.course.period.cached;6(A);^(termabbr);Absences)&lt;tabto 7.5&gt;^(stored.by.course.period.cached;6(A);^(termabbr);Tardies))</Text>
+<Text>Period&lt;tabto 1.1&gt;Course&lt;tabto 4&gt;Teacher&lt;tabto 6&gt;Grade&lt;tabto 7&gt;Absent&lt;tabto 7.5&gt;Tardy
+1&lt;tabto 1.1&gt;^(stored.by.course.period.cached;1(R);Course_Name)&lt;tabto 4&gt;^(stored.by.course.period.cached;1(R);Teacher_Name)&lt;tabto 6&gt;^(stored.by.course.period.cached;1(R);grade)&lt;tabto 7&gt;^(stored.by.course.period.cached;1(R);^(termabbr);Absences)&lt;tabto 7.5&gt;^(stored.by.course.period.cached;1(R);^(termabbr);Tardies)
+2&lt;tabto 1.1&gt;^(stored.by.course.period.cached;2(R);Course_Name)&lt;tabto 4&gt;^(stored.by.course.period.cached;2(R);Teacher_Name)&lt;tabto 6&gt;^(stored.by.course.period.cached;2(R);grade)&lt;tabto 7&gt;^(stored.by.course.period.cached;2(R);^(termabbr);Absences)&lt;tabto 7.5&gt;^(stored.by.course.period.cached;2(R);^(termabbr);Tardies)
+3&lt;tabto 1.1&gt;^(stored.by.course.period.cached;3(R);Course_Name)&lt;tabto 4&gt;^(stored.by.course.period.cached;3(R);Teacher_Name)&lt;tabto 6&gt;^(stored.by.course.period.cached;3(R);grade)&lt;tabto 7&gt;^(stored.by.course.period.cached;3(R);^(termabbr);Absences)&lt;tabto 7.5&gt;^(stored.by.course.period.cached;3(R);^(termabbr);Tardies)
+4&lt;tabto 1.1&gt;^(stored.by.course.period.cached;4(R);Course_Name)&lt;tabto 4&gt;^(stored.by.course.period.cached;4(R);Teacher_Name)&lt;tabto 6&gt;^(stored.by.course.period.cached;4(R);grade)&lt;tabto 7&gt;^(stored.by.course.period.cached;4(R);^(termabbr);Absences)&lt;tabto 7.5&gt;^(stored.by.course.period.cached;4(R);^(termabbr);Tardies)
+5&lt;tabto 1.1&gt;^(stored.by.course.period.cached;5(R);Course_Name)&lt;tabto 4&gt;^(stored.by.course.period.cached;5(R);Teacher_Name)&lt;tabto 6&gt;^(stored.by.course.period.cached;5(R);grade)&lt;tabto 7&gt;^(stored.by.course.period.cached;5(R);^(termabbr);Absences)&lt;tabto 7.5&gt;^(stored.by.course.period.cached;5(R);^(termabbr);Tardies)
+6&lt;tabto 1.1&gt;^(stored.by.course.period.cached;6(R);Course_Name)&lt;tabto 4&gt;^(stored.by.course.period.cached;6(R);Teacher_Name)&lt;tabto 6&gt;^(stored.by.course.period.cached;6(R);grade)&lt;tabto 7&gt;^(stored.by.course.period.cached;6(R);^(termabbr);Absences)&lt;tabto 7.5&gt;^(stored.by.course.period.cached;6(R);^(termabbr);Tardies)
+FX&lt;tabto 1.1&gt;^(stored.by.course.period.cached;FX(R);Course_Name)&lt;tabto 4&gt;^(stored.by.course.period.cached;FX(R);Teacher_Name)&lt;tabto 6&gt;^(stored.by.course.period.cached;FX(R);grade)&lt;tabto 7&gt;^(stored.by.course.period.cached;FX(R);^(termabbr);Absences)&lt;tabto 7.5&gt;^(stored.by.course.period.cached;FX(R);^(termabbr);Tardies)
+</Text>
 </Body>
 </Object>
+
 <Object no="11">
 <Type>Text</Type>
 <Label>.A.Title</Label>
@@ -261,12 +265,13 @@ Principal: ^([39]Principal)&lt;/center&gt;</Text>
 </Font>
 <Text>Get the most up to date information on attendance, contact information, and more using PowerSchool and Schoology, all with your own username and password. Contact the office for help getting set up.
 &lt;b&gt;&lt;u&gt;Comments:&lt;/b&gt;&lt;/u&gt;
-^(stored.by.course.period.cached;P1(R);Teacher_Name): ^(stored.by.course.period.cached;P1(R);Comment)
-^(stored.by.course.period.cached;P2(R);Teacher_Name): ^(stored.by.course.period.cached;P2(R);Comment)
-^(stored.by.course.period.cached;P3(R);Teacher_Name): ^(stored.by.course.period.cached;P3(R);Comment)
-^(stored.by.course.period.cached;P4(R);Teacher_Name): ^(stored.by.course.period.cached;P4(R);Comment)
-^(stored.by.course.period.cached;P0(R);Teacher_Name): ^(stored.by.course.period.cached;P0(R);Comment)
-^(decode;^(stored.by.course.period.cached;P9(R));; ;^(stored.by.course.period.cached;P9(R);Teacher_Name): ^(stored.by.course.period.cached;P9(R);Comment))</Text>
+^(stored.by.course.period.cached;1(R);Teacher_Name): ^(stored.by.course.period.cached;1(R);Comment)
+^(stored.by.course.period.cached;2(R);Teacher_Name): ^(stored.by.course.period.cached;2(R);Comment)
+^(stored.by.course.period.cached;3(R);Teacher_Name): ^(stored.by.course.period.cached;3(R);Comment)
+^(stored.by.course.period.cached;4(R);Teacher_Name): ^(stored.by.course.period.cached;4(R);Comment)
+^(stored.by.course.period.cached;5(R);Teacher_Name): ^(stored.by.course.period.cached;5(R);Comment)
+^(stored.by.course.period.cached;6(R);Teacher_Name): ^(stored.by.course.period.cached;6(R);Comment)
+^(stored.by.course.period.cached;FX(R);Teacher_Name): ^(stored.by.course.period.cached;FX(R);Comment)</Text>
 </Body>
 </Object>
 </ObjectData>
