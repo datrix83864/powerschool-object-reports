@@ -4,6 +4,12 @@
 
 Those labeled `Report Card School Abbreviation` are the standard report cards and contain logic to display the proper report card term based off the term abbreviations `S1`, `S2`, `Q1`, `Q2`, `Q3`, and `Q4`. `S1` and `S2` are used by SHS and CF. While the Qs are used by LPO.
 
+### Elementary Levels
+
+Folders for grades 0 (Kindergarten) through 6 include report cards from each school, named with their school. This doesn't follow traditional naming, however when uploaded should have a report name of `school abbreviation - grade level`, this allows for report cards to be uploaded at the district level.
+
+Some of the elementary schools have band, tech, outdoor ed, or other specials that aren't at the other schools, thus the variety beyond just the different school logos.
+
 ## Glorified Progress Reports
 
 The "Report Cards" labeled `Report Card Q1 Q3 School Abbrviation` are simply progress reports with title changed to read `Quarter 1` or `Quarter 3` repot card. SHS and CF both don't store grades for their Quarter Report cards as they are similar to that of a snapshot of where a student is in their grade for the semester. Ideal use would be the schools moving away from sending anything out phrased `report card` for any non-stored grade however this is a bigger ask. They are stored in this secition to reduce possible confusion, any logic changes in the grade section should also be made in the corresponding `Progress Report` located in the `Progress Report` Folder.
