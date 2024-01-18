@@ -2280,9 +2280,9 @@
 					<Leading></Leading>
 				</Font>
 				<Text>&lt;b&gt;Q1&lt;/b&gt;
-				^(*std.stored.comment;SPEC-WH;Q1)
-				Physical Education: ^(*std.stored.comment;SPEC-PE;Q1)
-				Music: ^(*std.stored.comment;SPEC-MUS;Q1)
+				^(*std.stored.comment;SPEC-WH;^(termabbr))
+				Physical Education: ^(*std.stored.comment;SPEC-PE;^(termabbr))
+				Music: ^(*std.stored.comment;SPEC-MUS;^(termabbr))
 				
 				&lt;b&gt;Q2&lt;/b&gt;
 				^(*std.stored.comment;SPEC-WH;Q2)

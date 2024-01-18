@@ -7,7 +7,7 @@
 </FileHeader>
 <ReportHeader>
 <Type>Object Report</Type>
-<Name>Progress Report - SHS</Name>
+<Name>Schedule - SHS</Name>
 <Table>Students</Table>
 </ReportHeader>
 <ReportData>
@@ -157,16 +157,16 @@ Principal: ^([39]Principal)&lt;/center&gt;</Text>
 <Text>&lt;center&gt;^(schoolname)&lt;/center&gt;</Text>
 </Body>
 </Object>
-<Object no="8">
+<Object no="7">
 <Type>Box</Type>
-<Label>.7.Report Area</Label>
+<Label>.6.Report Area</Label>
 <Page></Page>
 <Layer>1</Layer>
 <Coordinates>
 <Left>0.5</Left>
-<Top>2.5</Top>
+<Top>2.066</Top>
 <Right>8</Right>
-<Bottom>10</Bottom>
+<Bottom>10.472</Bottom>
 </Coordinates>
 <Line>
 <Width>1</Width>
@@ -174,9 +174,9 @@ Principal: ^([39]Principal)&lt;/center&gt;</Text>
 <Color>Black</Color>
 </Line>
 </Object>
-<Object no="9">
+<Object no="8">
 <Type>Text</Type>
-<Label>.8.Report For</Label>
+<Label>.7.Report For</Label>
 <Page></Page>
 <Layer>1</Layer>
 <Coordinates>
@@ -196,76 +196,34 @@ Principal: ^([39]Principal)&lt;/center&gt;</Text>
 <Text>&lt;center&gt;Schedule: ^(LastFirst)&lt;/center&gt;</Text>
 </Body>
 </Object>
+<Object no="9">
+<Type>Text</Type>
+<Label>.8.Schedule</Label>
+<Page></Page>
+<Layer>2</Layer>
+<Coordinates>
+<Left>0.6</Left>
+<Top>2.286</Top>
+</Coordinates>
+<MaxWidth>7.5</MaxWidth>
+<MaxHeight>0</MaxHeight>
+<Body>
+<Font>
+<Face>Default</Face>
+<Size></Size>
+<Leading></Leading>
+</Font>
+<Text>&lt;b&gt;&lt;u&gt;Semester 1&lt;/b&gt;&lt;/u&gt;&lt;b&gt;&lt;u&gt;Period &lt;tabto 1.1&gt;Course&lt;tabto 4&gt;Teacher&lt;tabto 6&gt;Room&lt;/b&gt;&lt;/u&gt;^(decode;^(*period_info;1-2(A);course_name;S1);;1(A);1-2(A))&lt;tabto 1.1&gt;^(decode;^(*period_info;1-2(A);course_name;S1);;^(*period_info;1(A);course_name;S1);^(*period_info;1-2(A);course_name;S1))&lt;tabto 4&gt;^(decode;^(*period_info;1-2(A);course_name;S1);;^(*period_info;1(A);teacher_I_first_name;S1) ^(*period_info;1(A);teacher_I_last_name;S1);^(*period_info;1-2(A);teacher_I_first_name;S1) ^(*period_info;1-2(A);teacher_I_last_name;S1))&lt;tabto 6&gt;^(decode;^(*period_info;1-2(A);course_name;S1);;^(*period_info;1(A);room;S1);^(*period_info;1-2(A);room;S1))^(decode;^(*period_info;2-3(A);course_name;S1);;^(decode;^(*period_info;1-2(A);course_name;S1);;2(A); );2-3(A))&lt;tabto 1.1&gt;^(decode;^(*period_info;2-3(A);course_name;S1);;^(*period_info;2(A);course_name;S1);^(*period_info;2-3(A);course_name;S1))&lt;tabto 4&gt;^(decode;^(*period_info;2-3(A);course_name;S1);;^(*period_info;2(A);teacher_I_first_name;S1) ^(*period_info;2(A);teacher_I_last_name;S1);^(*period_info;2-3(A);teacher_I_first_name;S1) ^(*period_info;2-3(A);teacher_I_last_name;S1))&lt;tabto 6&gt;^(decode;^(*period_info;2-3(A);course_name;S1);;^(*period_info;2(A);room;S1);^(*period_info;2-3(A);room;S1))^(decode;^(*period_info;3-4(A);course_name;S1);;^(decode;^(*period_info;2-3(A);course_name;S1);;3(A); );3-4(A))&lt;tabto 1.1&gt;^(decode;^(*period_info;3-4(A);course_name;S1);;^(*period_info;3(A);course_name;S1);^(*period_info;3-4(A);course_name;S1))&lt;tabto 4&gt;^(decode;^(*period_info;3-4(A);course_name;S1);;^(*period_info;3(A);teacher_I_first_name;S1) ^(*period_info;3(A);teacher_I_last_name;S1);^(*period_info;3-4(A);teacher_I_first_name;S1) ^(*period_info;3-4(A);teacher_I_last_name;S1))&lt;tabto 6&gt;^(decode;^(*period_info;3-4(A);course_name;S1);;^(*period_info;3(A);room;S1);^(*period_info;3-4(A);room;S1))^(decode;^(*period_info;3-4(A);course_name;S1);;4(A); )&lt;tabto 1.1&gt;^(decode;^(*period_info;3-4(A);course_name;S1);;^(*period_info;4(A);course_name;S1); )&lt;tabto 4&gt;^(decode;^(*period_info;3-4(A);course_name;S1);;^(*period_info;4(A);teacher_I_first_name;S1) ^(*period_info;4(A);teacher_I_last_name;S1); )&lt;tabto 6&gt;^(decode;^(*period_info;3-4(A);course_name;S1);;^(*period_info;4(A);room;S1); )^(decode;^(*period_info;1-2(B);course_name;S1);;1(B);1-2(B))&lt;tabto 1.1&gt;^(decode;^(*period_info;1-2(B);course_name;S1);;^(*period_info;1(B);course_name;S1);^(*period_info;1-2(B);course_name;S1))&lt;tabto 4&gt;^(decode;^(*period_info;1-2(B);course_name;S1);;^(*period_info;1(B);teacher_I_first_name;S1) ^(*period_info;1(B);teacher_I_last_name;S1);^(*period_info;1-2(B);teacher_I_first_name;S1) ^(*period_info;1-2(B);teacher_I_last_name;S1))&lt;tabto 6&gt;^(decode;^(*period_info;1-2(B);course_name;S1);;^(*period_info;1(B);room;S1);^(*period_info;1-2(B);room;S1))^(decode;^(*period_info;2-3(B);course_name;S1);;^(decode;^(*period_info;1-2(B);course_name;S1);;2(B); );2-3(B))&lt;tabto 1.1&gt;^(decode;^(*period_info;2-3(B);course_name;S1);;^(*period_info;2(B);course_name;S1);^(*period_info;2-3(B);course_name;S1))&lt;tabto 4&gt;^(decode;^(*period_info;2-3(B);course_name;S1);;^(*period_info;2(B);teacher_I_first_name;S1) ^(*period_info;2(B);teacher_I_last_name;S1);^(*period_info;2-3(B);teacher_I_first_name;S1) ^(*period_info;2-3(B);teacher_I_last_name;S1))&lt;tabto 6&gt;^(decode;^(*period_info;2-3(B);course_name;S1);;^(*period_info;2(B);room;S1);^(*period_info;2-3(B);room;S1))^(decode;^(*period_info;3-4(B);course_name;S1);;^(decode;^(*period_info;2-3(B);course_name;S1);;3(B); );3-4(B))&lt;tabto 1.1&gt;^(decode;^(*period_info;3-4(B);course_name;S1);;^(*period_info;3(B);course_name;S1);^(*period_info;3-4(B);course_name;S1))&lt;tabto 4&gt;^(decode;^(*period_info;3-4(B);course_name;S1);;^(*period_info;3(B);teacher_I_first_name;S1) ^(*period_info;3(B);teacher_I_last_name;S1);^(*period_info;3-4(B);teacher_I_first_name;S1) ^(*period_info;3-4(B);teacher_I_last_name;S1))&lt;tabto 6&gt;^(decode;^(*period_info;3-4(B);course_name;S1);;^(*period_info;3(B);room;S1);^(*period_info;3-4(B);room;S1))^(decode;^(*period_info;3-4(B);course_name;S1);;4(B); )&lt;tabto 1.1&gt;^(decode;^(*period_info;3-4(B);course_name;S1);;^(*period_info;4(B);course_name;S1); )&lt;tabto 4&gt;^(decode;^(*period_info;3-4(B);course_name;S1);;^(*period_info;4(B);teacher_I_first_name;S1) ^(*period_info;4(B);teacher_I_last_name;S1); )&lt;tabto 6&gt;^(decode;^(*period_info;3-4(B);course_name;S1);;^(*period_info;4(B);room;S1); )^(decode;^(*period_info;0(A-B);course_name;S1);; ;EB)&lt;tabto 1.1&gt;^(decode;^(*period_info;0(A-B);course_name;S1);; ;^(*period_info;0(A-B);course_name;S1))&lt;tabto 4&gt;^(decode;^(*period_info;0(A-B);course_name;S1);; ;^(*period_info;0(A-B);teacher_I_first_name;S1) ^(*period_info;0(A-B);teacher_I_last_name;S1))&lt;tabto 6&gt;^(*period_info;0(A-B);room;S1)^(decode;^(*period_info;P9(A);course_name;S1);; ;EB)&lt;tabto 1.1&gt;^(decode;^(*period_info;P9(A);course_name;S1);; ;^(*period_info;P9(A);course_name;S1))&lt;tabto 4&gt;^(decode;^(*period_info;P9(A);course_name;S1);; ;^(*period_info;P9(A);teacher_I_first_name;S1) ^(*period_info;P9(A);teacher_I_last_name;S1))&lt;tabto 6&gt;^(*period_info;P9(A);room;S1)^(decode;^(*period_info;0(A);course_name;S1);; ;EB)&lt;tabto 1.1&gt;^(decode;^(*period_info;0(A);course_name;S1);; ;^(*period_info;0(A);course_name;S1))&lt;tabto 4&gt;^(decode;^(*period_info;0(A);course_name;S1);; ;^(*period_info;0(A);teacher_I_first_name;S1) ^(*period_info;0(A);teacher_I_last_name;S1))&lt;tabto 6&gt;^(*period_info;0(A);room;S1)^(decode;^(*period_info;0(B);course_name;S1);; ;EB)&lt;tabto 1.1&gt;^(decode;^(*period_info;0(B);course_name;S1);; ;^(*period_info;0(B);course_name;S1))&lt;tabto 4&gt;^(decode;^(*period_info;0(B);course_name;S1);; ;^(*period_info;0(B);teacher_I_first_name;S1) ^(*period_info;0(B);teacher_I_last_name;S1))&lt;tabto 6&gt;^(*period_info;0(B);room;S1)&lt;b&gt;&lt;u&gt;Semester 2&lt;/b&gt;&lt;/u&gt;&lt;b&gt;&lt;u&gt;Period &lt;tabto 1.1&gt;Course&lt;tabto 4&gt;Teacher&lt;tabto 6&gt;Room&lt;/b&gt;&lt;/u&gt;^(decode;^(*period_info;1-2(A);course_name;S2);;1(A);1-2(A))&lt;tabto 1.1&gt;^(decode;^(*period_info;1-2(A);course_name;S2);;^(*period_info;1(A);course_name;S2);^(*period_info;1-2(A);course_name;S2))&lt;tabto 4&gt;^(decode;^(*period_info;1-2(A);course_name;S2);;^(*period_info;1(A);teacher_I_first_name;S2) ^(*period_info;1(A);teacher_I_last_name;S2);^(*period_info;1-2(A);teacher_I_first_name;S2) ^(*period_info;1-2(A);teacher_I_last_name;S2))&lt;tabto 6&gt;^(decode;^(*period_info;1-2(A);course_name;S2);;^(*period_info;1(A);room;S2);^(*period_info;1-2(A);room;S2))^(decode;^(*period_info;2-3(A);course_name;S2);;^(decode;^(*period_info;1-2(A);course_name;S2);;2(A); );2-3(A))&lt;tabto 1.1&gt;^(decode;^(*period_info;2-3(A);course_name;S2);;^(*period_info;2(A);course_name;S2);^(*period_info;2-3(A);course_name;S2))&lt;tabto 4&gt;^(decode;^(*period_info;2-3(A);course_name;S2);;^(*period_info;2(A);teacher_I_first_name;S2) ^(*period_info;2(A);teacher_I_last_name;S2);^(*period_info;2-3(A);teacher_I_first_name;S2) ^(*period_info;2-3(A);teacher_I_last_name;S2))&lt;tabto 6&gt;^(decode;^(*period_info;2-3(A);course_name;S2);;^(*period_info;2(A);room;S2);^(*period_info;2-3(A);room;S2))^(decode;^(*period_info;3-4(A);course_name;S2);;^(decode;^(*period_info;2-3(A);course_name;S2);;3(A); );3-4(A))&lt;tabto 1.1&gt;^(decode;^(*period_info;3-4(A);course_name;S2);;^(*period_info;3(A);course_name;S2);^(*period_info;3-4(A);course_name;S2))&lt;tabto 4&gt;^(decode;^(*period_info;3-4(A);course_name;S2);;^(*period_info;3(A);teacher_I_first_name;S2) ^(*period_info;3(A);teacher_I_last_name;S2);^(*period_info;3-4(A);teacher_I_first_name;S2) ^(*period_info;3-4(A);teacher_I_last_name;S2))&lt;tabto 6&gt;^(decode;^(*period_info;3-4(A);course_name;S2);;^(*period_info;3(A);room;S2);^(*period_info;3-4(A);room;S2))^(decode;^(*period_info;3-4(A);course_name;S2);;4(A); )&lt;tabto 1.1&gt;^(decode;^(*period_info;3-4(A);course_name;S2);;^(*period_info;4(A);course_name;S2); )&lt;tabto 4&gt;^(decode;^(*period_info;3-4(A);course_name;S2);;^(*period_info;4(A);teacher_I_first_name;S2) ^(*period_info;4(A);teacher_I_last_name;S2); )&lt;tabto 6&gt;^(decode;^(*period_info;3-4(A);course_name;S2);;^(*period_info;4(A);room;S2); )^(decode;^(*period_info;1-2(B);course_name;S2);;1(B);1-2(B))&lt;tabto 1.1&gt;^(decode;^(*period_info;1-2(B);course_name;S2);;^(*period_info;1(B);course_name;S2);^(*period_info;1-2(B);course_name;S2))&lt;tabto 4&gt;^(decode;^(*period_info;1-2(B);course_name;S2);;^(*period_info;1(B);teacher_I_first_name;S2) ^(*period_info;1(B);teacher_I_last_name;S2);^(*period_info;1-2(B);teacher_I_first_name;S2) ^(*period_info;1-2(B);teacher_I_last_name;S2))&lt;tabto 6&gt;^(decode;^(*period_info;1-2(B);course_name;S2);;^(*period_info;1(B);room;S2);^(*period_info;1-2(B);room;S2))^(decode;^(*period_info;2-3(B);course_name;S2);;^(decode;^(*period_info;1-2(B);course_name;S2);;2(B); );2-3(B))&lt;tabto 1.1&gt;^(decode;^(*period_info;2-3(B);course_name;S2);;^(*period_info;2(B);course_name;S2);^(*period_info;2-3(B);course_name;S2))&lt;tabto 4&gt;^(decode;^(*period_info;2-3(B);course_name;S2);;^(*period_info;2(B);teacher_I_first_name;S2) ^(*period_info;2(B);teacher_I_last_name;S2);^(*period_info;2-3(B);teacher_I_first_name;S2) ^(*period_info;2-3(B);teacher_I_last_name;S2))&lt;tabto 6&gt;^(decode;^(*period_info;2-3(B);course_name;S2);;^(*period_info;2(B);room;S2);^(*period_info;2-3(B);room;S2))^(decode;^(*period_info;3-4(B);course_name;S2);;^(decode;^(*period_info;2-3(B);course_name;S2);;3(B); );3-4(B))&lt;tabto 1.1&gt;^(decode;^(*period_info;3-4(B);course_name;S2);;^(*period_info;3(B);course_name;S2);^(*period_info;3-4(B);course_name;S2))&lt;tabto 4&gt;^(decode;^(*period_info;3-4(B);course_name;S2);;^(*period_info;3(B);teacher_I_first_name;S2) ^(*period_info;3(B);teacher_I_last_name;S2);^(*period_info;3-4(B);teacher_I_first_name;S2) ^(*period_info;3-4(B);teacher_I_last_name;S2))&lt;tabto 6&gt;^(decode;^(*period_info;3-4(B);course_name;S2);;^(*period_info;3(B);room;S2);^(*period_info;3-4(B);room;S2))^(decode;^(*period_info;3-4(B);course_name;S2);;4(B); )&lt;tabto 1.1&gt;^(decode;^(*period_info;3-4(B);course_name;S2);;^(*period_info;4(B);course_name;S2); )&lt;tabto 4&gt;^(decode;^(*period_info;3-4(B);course_name;S2);;^(*period_info;4(B);teacher_I_first_name;S2) ^(*period_info;4(B);teacher_I_last_name;S2); )&lt;tabto 6&gt;^(decode;^(*period_info;3-4(B);course_name;S2);;^(*period_info;4(B);room;S2); )^(decode;^(*period_info;0(A-B);course_name;S2);; ;EB)&lt;tabto 1.1&gt;^(decode;^(*period_info;0(A-B);course_name;S2);; ;^(*period_info;0(A-B);course_name;S2))&lt;tabto 4&gt;^(decode;^(*period_info;0(A-B);course_name;S2);; ;^(*period_info;0(A-B);teacher_I_first_name;S2) ^(*period_info;0(A-B);teacher_I_last_name;S2))&lt;tabto 6&gt;^(*period_info;0(A-B);room;S2)^(decode;^(*period_info;P9(A);course_name;S2);; ;EB)&lt;tabto 1.1&gt;^(decode;^(*period_info;P9(A);course_name;S2);; ;^(*period_info;P9(A);course_name;S2))&lt;tabto 4&gt;^(decode;^(*period_info;P9(A);course_name;S2);; ;^(*period_info;P9(A);teacher_I_first_name;S2) ^(*period_info;P9(A);teacher_I_last_name;S2))&lt;tabto 6&gt;^(*period_info;P9(A);room;S2)^(decode;^(*period_info;0(A);course_name;S2);; ;EB)&lt;tabto 1.1&gt;^(decode;^(*period_info;0(A);course_name;S2);; ;^(*period_info;0(A);course_name;S2))&lt;tabto 4&gt;^(decode;^(*period_info;0(A);course_name;S2);; ;^(*period_info;0(A);teacher_I_first_name;S2) ^(*period_info;0(A);teacher_I_last_name;S2))&lt;tabto 6&gt;^(*period_info;0(A);room;S2)^(decode;^(*period_info;0(B);course_name;S2);; ;EB)&lt;tabto 1.1&gt;^(decode;^(*period_info;0(B);course_name;S2);; ;^(*period_info;0(B);course_name;S2))&lt;tabto 4&gt;^(decode;^(*period_info;0(B);course_name;S2);; ;^(*period_info;0(B);teacher_I_first_name;S2) ^(*period_info;0(B);teacher_I_last_name;S2))&lt;tabto 6&gt;^(*period_info;0(B);room;S2)</Text>
+</Body>
+</Object>
 <Object no="10">
 <Type>Text</Type>
-<Label>.9.Semester1Schedule</Label>
+<Label>.9.Locker</Label>
 <Page></Page>
 <Layer>2</Layer>
 <Coordinates>
-<Left>0.6</Left>
-<Top>3</Top>
-</Coordinates>
-<MaxWidth>7.5</MaxWidth>
-<MaxHeight>0</MaxHeight>
-<Body>
-<Font>
-<Face>Default</Face>
-<Size></Size>
-<Leading></Leading>
-</Font>
-<Text>^(decode;^(*period_info;1-2(A);course_name;S1);;1(A);1-2(A))&lt;tabto 1.1&gt;^(decode;^(*period_info;1-2(A);course_name;S1);;^(*period_info;1(A);course_name;S1);^(*period_info;1-2(A);course_name;S1))&lt;tabto 4&gt;^(decode;^(*period_info;1-2(A);course_name;S1);;^(*period_info;1(A);teacher_I_first_name;S1) ^(*period_info;1(A);teacher_I_last_name;S1);^(*period_info;1-2(A);teacher_I_first_name;S1) ^(*period_info;1-2(A);teacher_I_last_name;S1))&lt;tabto 6&gt;^(*period_info;1(A);room;S1)
-^(decode;^(*period_info;2-3(A);course_name;S1);;^(decode;^(*period_info;1-2(A);course_name;S1);;2(A); );2-3(A))&lt;tabto 1.1&gt;^(decode;^(*period_info;2-3(A);course_name;S1);;^(*period_info;2(A);course_name;S1);^(*period_info;2-3(A);course_name;S1))&lt;tabto 4&gt;^(decode;^(*period_info;2-3(A);course_name;S1);;^(*period_info;2(A);teacher_I_first_name;S1) ^(*period_info;2(A);teacher_I_last_name;S1);^(*period_info;2-3(A);teacher_I_first_name;S1) ^(*period_info;2-3(A);teacher_I_last_name;S1))&lt;tabto 6&gt;^(*period_info;2(A);room;S1)
-^(decode;^(*period_info;3-4(A);course_name;S1);;^(decode;^(*period_info;2-3(A);course_name;S1);;3(A); );3-4(A))&lt;tabto 1.1&gt;^(decode;^(*period_info;3-4(A);course_name;S1);;^(*period_info;3(A);course_name;S1);^(*period_info;3-4(A);course_name;S1))&lt;tabto 4&gt;^(decode;^(*period_info;3-4(A);course_name;S1);;^(*period_info;3(A);teacher_I_first_name;S1) ^(*period_info;3(A);teacher_I_last_name;S1);^(*period_info;3-4(A);teacher_I_first_name;S1) ^(*period_info;3-4(A);teacher_I_last_name;S1))&lt;tabto 6&gt;^(*period_info;3(A);room;S1)
-^(decode;^(*period_info;3-4(A);course_name;S1);;4(A); )&lt;tabto 1.1&gt;^(decode;^(*period_info;3-4(A);course_name;S1);;^(*period_info;4(A);course_name;S1); )&lt;tabto 4&gt;^(decode;^(*period_info;3-4(A);course_name;S1);;^(*period_info;4(A);teacher_I_first_name;S1) ^(*period_info;4(A);teacher_I_last_name;S1); )&lt;tabto 6&gt;^(*period_info;4(A);room;S1)
-^(decode;^(*period_info;1-2(B);course_name;S1);;1(B);1-2(B))&lt;tabto 1.1&gt;^(decode;^(*period_info;1-2(B);course_name;S1);;^(*period_info;1(B);course_name;S1);^(*period_info;1-2(B);course_name;S1))&lt;tabto 4&gt;^(decode;^(*period_info;1-2(B);course_name;S1);;^(*period_info;1(B);teacher_I_first_name;S1) ^(*period_info;1(B);teacher_I_last_name;S1);^(*period_info;1-2(B);teacher_I_first_name;S1) ^(*period_info;1-2(B);teacher_I_last_name;S1))&lt;tabto 6&gt;^(*period_info;1(B);room;S1)
-^(decode;^(*period_info;2-3(B);course_name;S1);;^(decode;^(*period_info;1-2(B);course_name;S1);;2(B); );2-3(B))&lt;tabto 1.1&gt;^(decode;^(*period_info;2-3(B);course_name;S1);;^(*period_info;2(B);course_name;S1);^(*period_info;2-3(B);course_name;S1))&lt;tabto 4&gt;^(decode;^(*period_info;2-3(B);course_name;S1);;^(*period_info;2(B);teacher_I_first_name;S1) ^(*period_info;2(B);teacher_I_last_name;S1);^(*period_info;2-3(B);teacher_I_first_name;S1) ^(*period_info;2-3(B);teacher_I_last_name;S1))&lt;tabto 6&gt;^(*period_info;2(B);room;S1)
-^(decode;^(*period_info;3-4(B);course_name;S1);;^(decode;^(*period_info;2-3(B);course_name;S1);;3(B); );3-4(B))&lt;tabto 1.1&gt;^(decode;^(*period_info;3-4(B);course_name;S1);;^(*period_info;3(B);course_name;S1);^(*period_info;3-4(B);course_name;S1))&lt;tabto 4&gt;^(decode;^(*period_info;3-4(B);course_name;S1);;^(*period_info;3(B);teacher_I_first_name;S1) ^(*period_info;3(B);teacher_I_last_name;S1);^(*period_info;3-4(B);teacher_I_first_name;S1) ^(*period_info;3-4(B);teacher_I_last_name;S1))&lt;tabto 6&gt;^(*period_info;3(B);room;S1)
-^(decode;^(*period_info;3-4(B);course_name;S1);;4(B); )&lt;tabto 1.1&gt;^(decode;^(*period_info;3-4(B);course_name;S1);;^(*period_info;4(B);course_name;S1); )&lt;tabto 4&gt;^(decode;^(*period_info;3-4(B);course_name;S1);;^(*period_info;4(B);teacher_I_first_name;S1) ^(*period_info;4(B);teacher_I_last_name;S1); )&lt;tabto 6&gt;^(*period_info;4(B);room;S1)
-^(decode;^(*period_info;0(A-B);course_name;S1);; ;EB)&lt;tabto 1.1&gt;^(decode;^(*period_info;0(A-B);course_name;S1);; ;^(*period_info;0(A-B);course_name;S1))&lt;tabto 4&gt;^(decode;^(*period_info;0(A-B);course_name;S1);; ;^(*period_info;0(A-B);teacher_I_first_name;S1) ^(*period_info;0(A-B);teacher_I_last_name;S1))&lt;tabto 6&gt;^(*period_info;0(A-B);room;S1)
-^(decode;^(*period_info;P9(A);course_name;S1);; ;EB)&lt;tabto 1.1&gt;^(decode;^(*period_info;P9(A);course_name;S1);; ;^(*period_info;P9(A);course_name;S1))&lt;tabto 4&gt;^(decode;^(*period_info;P9(A);course_name;S1);; ;^(*period_info;P9(A);teacher_I_first_name;S1) ^(*period_info;P9(A);teacher_I_last_name;S1))&lt;tabto 6&gt;^(*period_info;P9(A);room;S1)
-^(decode;^(*period_info;0(A);course_name;S1);; ;EB)&lt;tabto 1.1&gt;^(decode;^(*period_info;0(A);course_name;S1);; ;^(*period_info;0(A);course_name;S1))&lt;tabto 4&gt;^(decode;^(*period_info;0(A);course_name;S1);; ;^(*period_info;0(A);teacher_I_first_name;S1) ^(*period_info;0(A);teacher_I_last_name;S1))&lt;tabto 6&gt;^(*period_info;0(A);room;S1)
-^(decode;^(*period_info;0(B);course_name;S1);; ;EB)&lt;tabto 1.1&gt;^(decode;^(*period_info;0(B);course_name;S1);; ;^(*period_info;0(B);course_name;S1))&lt;tabto 4&gt;^(decode;^(*period_info;0(B);course_name;S1);; ;^(*period_info;0(B);teacher_I_first_name;S1) ^(*period_info;0(B);teacher_I_last_name;S1))&lt;tabto 6&gt;^(*period_info;0(B);room;S1)</Text>
-</Body>
-</Object>
-<Object no="12">
-<Type>Text</Type>
-<Label>.11.Semester2Schedule</Label>
-<Page></Page>
-<Layer>2</Layer>
-<Coordinates>
-<Left>0.6</Left>
-<Top>3</Top>
-</Coordinates>
-<MaxWidth>7.5</MaxWidth>
-<MaxHeight>0</MaxHeight>
-<Body>
-<Font>
-<Face>Default</Face>
-<Size></Size>
-<Leading></Leading>
-</Font>
-<Text>^(decode;^(*period_info;1-2(A);course_name;S2);;1(A);1-2(A))&lt;tabto 1.1&gt;^(decode;^(*period_info;1-2(A);course_name;S2);;^(*period_info;1(A);course_name;S2);^(*period_info;1-2(A);course_name;S2))&lt;tabto 4&gt;^(decode;^(*period_info;1-2(A);course_name;S2);;^(*period_info;1(A);teacher_I_first_name;S2) ^(*period_info;1(A);teacher_I_last_name;S2);^(*period_info;1-2(A);teacher_I_first_name;S2) ^(*period_info;1-2(A);teacher_I_last_name;S2))&lt;tabto 6&gt;^(*period_info;1(A);room;S2)
-^(decode;^(*period_info;2-3(A);course_name;S2);;^(decode;^(*period_info;1-2(A);course_name;S2);;2(A); );2-3(A))&lt;tabto 1.1&gt;^(decode;^(*period_info;2-3(A);course_name;S2);;^(*period_info;2(A);course_name;S2);^(*period_info;2-3(A);course_name;S2))&lt;tabto 4&gt;^(decode;^(*period_info;2-3(A);course_name;S2);;^(*period_info;2(A);teacher_I_first_name;S2) ^(*period_info;2(A);teacher_I_last_name;S2);^(*period_info;2-3(A);teacher_I_first_name;S2) ^(*period_info;2-3(A);teacher_I_last_name;S2))&lt;tabto 6&gt;^(*period_info;2(A);room;S2)
-^(decode;^(*period_info;3-4(A);course_name;S2);;^(decode;^(*period_info;2-3(A);course_name;S2);;3(A); );3-4(A))&lt;tabto 1.1&gt;^(decode;^(*period_info;3-4(A);course_name;S2);;^(*period_info;3(A);course_name;S2);^(*period_info;3-4(A);course_name;S2))&lt;tabto 4&gt;^(decode;^(*period_info;3-4(A);course_name;S2);;^(*period_info;3(A);teacher_I_first_name;S2) ^(*period_info;3(A);teacher_I_last_name;S2);^(*period_info;3-4(A);teacher_I_first_name;S2) ^(*period_info;3-4(A);teacher_I_last_name;S2))&lt;tabto 6&gt;^(*period_info;3(A);room;S2)
-^(decode;^(*period_info;3-4(A);course_name;S2);;4(A); )&lt;tabto 1.1&gt;^(decode;^(*period_info;3-4(A);course_name;S2);;^(*period_info;4(A);course_name;S2); )&lt;tabto 4&gt;^(decode;^(*period_info;3-4(A);course_name;S2);;^(*period_info;4(A);teacher_I_first_name;S2) ^(*period_info;4(A);teacher_I_last_name;S2); )&lt;tabto 6&gt;^(*period_info;4(A);room;S2)
-^(decode;^(*period_info;1-2(B);course_name;S2);;1(B);1-2(B))&lt;tabto 1.1&gt;^(decode;^(*period_info;1-2(B);course_name;S2);;^(*period_info;1(B);course_name;S2);^(*period_info;1-2(B);course_name;S2))&lt;tabto 4&gt;^(decode;^(*period_info;1-2(B);course_name;S2);;^(*period_info;1(B);teacher_I_first_name;S2) ^(*period_info;1(B);teacher_I_last_name;S2);^(*period_info;1-2(B);teacher_I_first_name;S2) ^(*period_info;1-2(B);teacher_I_last_name;S2))&lt;tabto 6&gt;^(*period_info;1(B);room;S2)
-^(decode;^(*period_info;2-3(B);course_name;S2);;^(decode;^(*period_info;1-2(B);course_name;S2);;2(B); );2-3(B))&lt;tabto 1.1&gt;^(decode;^(*period_info;2-3(B);course_name;S2);;^(*period_info;2(B);course_name;S2);^(*period_info;2-3(B);course_name;S2))&lt;tabto 4&gt;^(decode;^(*period_info;2-3(B);course_name;S2);;^(*period_info;2(B);teacher_I_first_name;S2) ^(*period_info;2(B);teacher_I_last_name;S2);^(*period_info;2-3(B);teacher_I_first_name;S2) ^(*period_info;2-3(B);teacher_I_last_name;S2))&lt;tabto 6&gt;^(*period_info;2(B);room;S2)
-^(decode;^(*period_info;3-4(B);course_name;S2);;^(decode;^(*period_info;2-3(B);course_name;S2);;3(B); );3-4(B))&lt;tabto 1.1&gt;^(decode;^(*period_info;3-4(B);course_name;S2);;^(*period_info;3(B);course_name;S2);^(*period_info;3-4(B);course_name;S2))&lt;tabto 4&gt;^(decode;^(*period_info;3-4(B);course_name;S2);;^(*period_info;3(B);teacher_I_first_name;S2) ^(*period_info;3(B);teacher_I_last_name;S2);^(*period_info;3-4(B);teacher_I_first_name;S2) ^(*period_info;3-4(B);teacher_I_last_name;S2))&lt;tabto 6&gt;^(*period_info;3(B);room;S2)
-^(decode;^(*period_info;3-4(B);course_name;S2);;4(B); )&lt;tabto 1.1&gt;^(decode;^(*period_info;3-4(B);course_name;S2);;^(*period_info;4(B);course_name;S2); )&lt;tabto 4&gt;^(decode;^(*period_info;3-4(B);course_name;S2);;^(*period_info;4(B);teacher_I_first_name;S2) ^(*period_info;4(B);teacher_I_last_name;S2); )&lt;tabto 6&gt;^(*period_info;4(B);room;S2)
-^(decode;^(*period_info;0(A-B);course_name;S2);; ;EB)&lt;tabto 1.1&gt;^(decode;^(*period_info;0(A-B);course_name;S2);; ;^(*period_info;0(A-B);course_name;S2))&lt;tabto 4&gt;^(decode;^(*period_info;0(A-B);course_name;S2);; ;^(*period_info;0(A-B);teacher_I_first_name;S2) ^(*period_info;0(A-B);teacher_I_last_name;S2))&lt;tabto 6&gt;^(*period_info;0(A-B);room;S2)
-^(decode;^(*period_info;P9(A);course_name;S2);; ;EB)&lt;tabto 1.1&gt;^(decode;^(*period_info;P9(A);course_name;S2);; ;^(*period_info;P9(A);course_name;S2))&lt;tabto 4&gt;^(decode;^(*period_info;P9(A);course_name;S2);; ;^(*period_info;P9(A);teacher_I_first_name;S2) ^(*period_info;P9(A);teacher_I_last_name;S2))&lt;tabto 6&gt;^(*period_info;P9(A);room;S2)
-^(decode;^(*period_info;0(A);course_name;S2);; ;EB)&lt;tabto 1.1&gt;^(decode;^(*period_info;0(A);course_name;S2);; ;^(*period_info;0(A);course_name;S2))&lt;tabto 4&gt;^(decode;^(*period_info;0(A);course_name;S2);; ;^(*period_info;0(A);teacher_I_first_name;S2) ^(*period_info;0(A);teacher_I_last_name;S2))&lt;tabto 6&gt;^(*period_info;0(A);room;S2)
-^(decode;^(*period_info;0(B);course_name;S2);; ;EB)&lt;tabto 1.1&gt;^(decode;^(*period_info;0(B);course_name;S2);; ;^(*period_info;0(B);course_name;S2))&lt;tabto 4&gt;^(decode;^(*period_info;0(B);course_name;S2);; ;^(*period_info;0(B);teacher_I_first_name;S2) ^(*period_info;0(B);teacher_I_last_name;S2))&lt;tabto 6&gt;^(*period_info;0(B);room;S2)</Text>
-</Body>
-</Object>
-<Object no="11">
-<Type>Text</Type>
-<Label>.A.Title</Label>
-<Page></Page>
-<Layer>2</Layer>
-<Coordinates>
-<Left>0.6</Left>
-<Top>2.8</Top>
+<Left>0.588</Left>
+<Top>7.756</Top>
 </Coordinates>
 <MaxWidth>0</MaxWidth>
 <MaxHeight>0</MaxHeight>
@@ -275,7 +233,7 @@ Principal: ^([39]Principal)&lt;/center&gt;</Text>
 <Size></Size>
 <Leading></Leading>
 </Font>
-<Text>Period &lt;tabto 1.1&gt;Course&lt;tabto 4&gt;Teacher&lt;tabto 6&gt;Grade&lt;tabto 6.75&gt;Absent&lt;tabto 7.25&gt;Tardy</Text>
+<Text>Locker: ^(Locker_Number;if.blank.then=^(U_LOCKER.LOCAKER_NUMBER;if.blank.then=No Locker Assigned))</Text>
 </Body>
 </Object>
 </ObjectData>

@@ -1,1 +1,2386 @@
-<PSReportTemplate>	<FileHeader>		<Created>Tue, 16 Jan 2024 22:14:22 GMT</Created>		<PSVersion>23.12.0.1.233451220</PSVersion>		<TemplateVersion>1.0</TemplateVersion>		<Author>Hawkins, Dalton Jacob</Author>	</FileHeader>	<ReportHeader>		<Type>Object Report</Type>		<Name>WA 3rd Grade Report Card</Name>		<Table>Students</Table>	</ReportHeader>	<ReportData>		<Units>Inches</Units>		<Paper>			<Size>Letter</Size>			<Width>8.5</Width>			<Height>11</Height>			<Orientation>Portrait</Orientation>			<Margins>				<Left>0.5</Left>				<Top>0.5</Top>				<Right>0.5</Right>				<Bottom>0.5</Bottom>			</Margins>			<Scale>100</Scale>		</Paper>		<Body>			<Font>				<Face>Helvetica</Face>				<Size>9</Size>				<Leading>12</Leading>			</Font>		</Body>	</ReportData>	<ObjectData>		<Type>Objects</Type>		<Object no="1">			<Type>Text</Type>			<Label>.02.A1.Main Title</Label>			<Page>1</Page>			<Layer>1</Layer>			<Coordinates>				<Left>1</Left>				<Top>1.056</Top>			</Coordinates>			<MaxWidth>0</MaxWidth>			<MaxHeight>0</MaxHeight>			<Body>				<Font>					<Face>Helvetica</Face>					<Size>18</Size>					<Leading></Leading>					<Bold>True</Bold>				</Font>				<Text>&lt;center&gt;3rd Grade Report Card&lt;/center&gt;</Text>			</Body>		</Object>		<Object no="2">			<Type>Text</Type>			<Label>.03.A2.District Name</Label>			<Page>1</Page>			<Layer>1</Layer>			<Coordinates>				<Left>1</Left>				<Top>1.306</Top>			</Coordinates>			<MaxWidth>0</MaxWidth>			<MaxHeight>0</MaxHeight>			<Body>				<Font>					<Face>Helvetica</Face>					<Size>10</Size>					<Leading></Leading>				</Font>				<Text>&lt;center&gt;~(schoolordistrictname)&lt;/center&gt;</Text>			</Body>		</Object>		<Object no="3">			<Type>Text</Type>			<Label>.04.A3.Student Name/School Nam</Label>			<Page>1</Page>			<Layer>1</Layer>			<Coordinates>				<Left>2.75</Left>				<Top>1.556</Top>			</Coordinates>			<MaxWidth>5.25</MaxWidth>			<MaxHeight>0</MaxHeight>			<Body>				<Font>					<Face>Helvetica</Face>					<Size>14</Size>					<Leading></Leading>				</Font>				<Text>&lt;b&gt;~(last_name), ~(first_name)&lt;/b&gt;&lt;tabr 8.0&gt;~(schoolname)</Text>			</Body>		</Object>		<Object no="4">			<Type>Text</Type>			<Label>.05.A4.Student Data</Label>			<Page>1</Page>			<Layer>1</Layer>			<Coordinates>				<Left>2.75</Left>				<Top>1.706</Top>			</Coordinates>			<MaxWidth>5.25</MaxWidth>			<MaxHeight>0</MaxHeight>			<Body>				<Font>					<Face>Helvetica</Face>					<Size>9</Size>					<Leading>12</Leading>					<Italic>True</Italic>				</Font>				<Text>Grade ~(grade_level)&lt;tabr 8.0&gt;~(yearname)</Text>			</Body>		</Object>		<Object no="5">			<Type>Text</Type>			<Label>.06.A5.Home Room Teacher</Label>			<Page>1</Page>			<Layer>1</Layer>			<Coordinates>				<Left>1</Left>				<Top>1.906</Top>			</Coordinates>			<MaxWidth>5.25</MaxWidth>			<MaxHeight>0</MaxHeight>			<Body>				<Font>					<Face>Helvetica</Face>					<Size>9</Size>					<Leading></Leading>					<Italic>True</Italic>				</Font>				<Text>&lt;tabto 2.75&gt;Homeroom Teacher: &lt;tabto 2.75&gt;Homeroom Teacher: ^(*period_info;P2(R);teacher_i_first_name) ^(*period_info;P2(R);teacher_i_last_name) ^(*period_info;P2(A);teacher_i_first_name) ^(*period_info;P2(A);teacher_i_last_name)</Text>			</Body>		</Object>		<Object no="6">			<Type>Box</Type>			<Label>.07.Found Read Box</Label>			<Page>1</Page>			<Layer>2</Layer>			<Coordinates>				<Left>1</Left>				<Top>5.23</Top>				<Right>8</Right>				<Bottom>5.51</Bottom>			</Coordinates>			<Line>				<Width>0.25</Width>				<Style>1</Style>				<Color>Black</Color>			</Line>		</Object>		<Object no="7">			<Type>Line</Type>			<Label>.08.Found Read Vert Line</Label>			<Page>1</Page>			<Layer>2</Layer>			<Repeat>				<Multiple>3</Multiple>				<Offset>					<Horizontal>0.5</Horizontal>					<Vertical>0</Vertical>				</Offset>			</Repeat>			<Coordinates>				<Left>6</Left>				<Top>5.37</Top>				<Right>6</Right>				<Bottom>5.51</Bottom>			</Coordinates>			<Line>				<Width>0.25</Width>				<Style>1</Style>				<Color>Black</Color>			</Line>		</Object>		<Object no="8">			<Type>Text</Type>			<Label>.09.Foun Read Title</Label>			<Page>1</Page>			<Layer>2</Layer>			<Coordinates>				<Left>1</Left>				<Top>5.162</Top>			</Coordinates>			<MaxWidth>0</MaxWidth>			<MaxHeight>0</MaxHeight>			<Body>				<Font>					<Face>Helvetica</Face>					<Size>9</Size>					<Leading></Leading>					<Bold>True</Bold>				</Font>				<Text>FOUNDATIONAL READING SKILLS&lt;tabc 6.25&gt;Q1&lt;tabc 6.75&gt;Q2&lt;tabc 7.25&gt;Q3&lt;tabc 7.75&gt;Q4				</Text>			</Body>		</Object>		<Object no="9">			<Type>Text</Type>			<Label>.0A.Found Read Standards</Label>			<Page>1</Page>			<Layer>2</Layer>			<Coordinates>				<Left>1.05</Left>				<Top>5.33</Top>			</Coordinates>			<MaxWidth>5</MaxWidth>			<MaxHeight>0</MaxHeight>			<Body>				<Font>					<Face>Helvetica</Face>					<Size>8</Size>					<Leading></Leading>				</Font>				<Text>&lt;b&gt;Phonics and Decoding				&lt;/b&gt;3.FR-PH.3: Use knowledge of grade-level phonics and word analysis skills to decode words.&lt;tabc 6.25&gt;~(*std.stored.transavg;3.FR-PH.3;Q1)&lt;tabc 6.75&gt;~(*std.stored.transavg;3.FR-PH.3;Q2)&lt;tabc 7.25&gt;~(*std.stored.transavg;3.FR-PH.3;Q3)&lt;tabc 7.75&gt;~(*std.stored.transavg;3.FR-PH.3;Q4)</Text>			</Body>		</Object>		<Object no="10">			<Type>Box</Type>			<Label>.0B.Academic Perf Box</Label>			<Page>1</Page>			<Layer>3</Layer>			<Coordinates>				<Left>1</Left>				<Top>2.04</Top>				<Right>3.668</Right>				<Bottom>3.256</Bottom>			</Coordinates>			<Line>				<Width>0.25</Width>				<Style>1</Style>				<Color>Black</Color>			</Line>		</Object>		<Object no="11">			<Type>Box</Type>			<Label>.0C.Behav Perf Box</Label>			<Page>1</Page>			<Layer>3</Layer>			<Coordinates>				<Left>5.038</Left>				<Top>2.026</Top>				<Right>7.138</Right>				<Bottom>2.976</Bottom>			</Coordinates>			<Line>				<Width>0.25</Width>				<Style>1</Style>				<Color>Black</Color>			</Line>		</Object>		<Object no="12">			<Type>Box</Type>			<Label>.0D.Grammar Conv Box</Label>			<Page>1</Page>			<Layer>3</Layer>			<Coordinates>				<Left>1</Left>				<Top>8.876</Top>				<Right>8</Right>				<Bottom>9.576</Bottom>			</Coordinates>			<Line>				<Width>0.25</Width>				<Style>1</Style>				<Color>Black</Color>			</Line>		</Object>		<Object no="13">			<Type>Line</Type>			<Label>.0E.Gram Conv Vert Lines</Label>			<Page>1</Page>			<Layer>3</Layer>			<Repeat>				<Multiple>3</Multiple>				<Offset>					<Horizontal>0.5</Horizontal>					<Vertical>0</Vertical>				</Offset>			</Repeat>			<Coordinates>				<Left>6</Left>				<Top>9.016</Top>				<Right>6</Right>				<Bottom>9.576</Bottom>			</Coordinates>			<Line>				<Width>0.25</Width>				<Style>1</Style>				<Color>Black</Color>			</Line>		</Object>		<Object no="14">			<Type>Line</Type>			<Label>.0F.Gram Conv Horiz Line</Label>			<Page>1</Page>			<Layer>3</Layer>			<Repeat>				<Multiple>1</Multiple>				<Offset>					<Horizontal>0</Horizontal>					<Vertical>0.28</Vertical>				</Offset>			</Repeat>			<Coordinates>				<Left>1</Left>				<Top>9.011</Top>				<Right>8</Right>				<Bottom>9.011</Bottom>			</Coordinates>			<Line>				<Width>0.25</Width>				<Style>1</Style>				<Color>Black</Color>			</Line>		</Object>		<Object no="15">			<Type>Text</Type>			<Label>.0G.C1. Cit & Wk Codes T</Label>			<Page>1</Page>			<Layer>3</Layer>			<Coordinates>				<Left>1.322</Left>				<Top>2.24</Top>			</Coordinates>			<MaxWidth>2.15</MaxWidth>			<MaxHeight>0</MaxHeight>			<Body>				<Font>					<Face>Helvetica</Face>					<Size>9</Size>					<Leading>9</Leading>					<Bold>True</Bold>				</Font>				<Text>&lt;tabc 2.07&gt;Academic Performance Key				</Text>			</Body>		</Object>		<Object no="16">			<Type>Text</Type>			<Label>.0H.Behav Perf Key</Label>			<Page>1</Page>			<Layer>3</Layer>			<Coordinates>				<Left>5.1</Left>				<Top>2.362</Top>			</Coordinates>			<MaxWidth>0</MaxWidth>			<MaxHeight>0</MaxHeight>			<Body>				<Font>					<Face>Helvetica</Face>					<Size>8</Size>					<Leading></Leading>				</Font>				<Text>&lt;tabto 5.15&gt;+ : Consistently Demonstrates				&lt;tabto 5.15&gt;/ : Sometimes Demonstrates				&lt;tabto 5.15&gt;- : Rarely Demonstrates</Text>			</Body>		</Object>		<Object no="17">			<Type>Text</Type>			<Label>.0I.Behavior Perf Title</Label>			<Page>1</Page>			<Layer>3</Layer>			<Coordinates>				<Left>5.27</Left>				<Top>2.212</Top>			</Coordinates>			<MaxWidth>2.15</MaxWidth>			<MaxHeight>0</MaxHeight>			<Body>				<Font>					<Face>Helvetica</Face>					<Size>9</Size>					<Leading>9</Leading>					<Bold>True</Bold>				</Font>				<Text>Behavior Performance Key</Text>			</Body>		</Object>		<Object no="18">			<Type>Text</Type>			<Label>.0J.Acad Perf Key</Label>			<Page>1</Page>			<Layer>3</Layer>			<Coordinates>				<Left>1.644</Left>				<Top>2.406</Top>			</Coordinates>			<MaxWidth>2.7</MaxWidth>			<MaxHeight>0</MaxHeight>			<Body>				<Font>					<Face>Helvetica</Face>					<Size>8</Size>					<Leading></Leading>				</Font>				<Text>&lt;tabto 1.1&gt;4 - Exceeds Grade Level Standard				&lt;tabto 1.1&gt;3 - Meets Grade Level Standard				&lt;tabto 1.1&gt;2 - Progressing Toward Grade Level Standard				&lt;tabto 1.1&gt;1 - Limited Progress Toward Grade Level Standard								&lt;tabto 1.1&gt;* : Concept Was Not Assessed This Term												</Text>			</Body>		</Object>		<Object no="19">			<Type>Text</Type>			<Label>.0K.Grammar Standards</Label>			<Page>1</Page>			<Layer>3</Layer>			<Coordinates>				<Left>1.05</Left>				<Top>8.972</Top>			</Coordinates>			<MaxWidth>4.95</MaxWidth>			<MaxHeight>0</MaxHeight>			<Body>				<Font>					<Face>Helvetica</Face>					<Size>8</Size>					<Leading>10</Leading>				</Font>				<Text>&lt;b&gt;Grammar, Usage and Mechanics				&lt;/b&gt;3.GC-GU.1: Demonstrate command of the conventions of English grammar and usage when writing or speaking&lt;tabc 6.25&gt;~(*std.stored.transavg;3.GC-GU.1;Q1)&lt;tabc 6.75&gt;~(*std.stored.transavg;3.GC-GU.1;Q2)&lt;tabc 7.25&gt;~(*std.stored.transavg;3.GC-GU.1;Q3)&lt;tabc 7.75&gt;~(*std.stored.transavg;3.GC-GU.1;Q4)				3.GC-M.2-3: Demonstrate command of the conventions of English punctuation, capitalization, and spelling&lt;tabc 6.25&gt;~(*std.stored.transavg;3.GC-M.2-3;Q1)&lt;tabc 6.75&gt;~(*std.stored.transavg;3.GC-M.2-3;Q2)&lt;tabc 7.25&gt;~(*std.stored.transavg;3.GC-M.2-3;Q3)&lt;tabc 7.75&gt;~(*std.stored.transavg;3.GC-M.2-3;Q4)</Text>			</Body>		</Object>		<Object no="20">			<Type>Text</Type>			<Label>.0L.Grammar Title</Label>			<Page>1</Page>			<Layer>3</Layer>			<Coordinates>				<Left>1</Left>				<Top>8.812</Top>			</Coordinates>			<MaxWidth>0</MaxWidth>			<MaxHeight>0</MaxHeight>			<Body>				<Font>					<Face>Helvetica</Face>					<Size>9</Size>					<Leading></Leading>					<Bold>True</Bold>				</Font>				<Text>GRAMMAR AND CONVENTIONS&lt;tabc 6.25&gt;Q1&lt;tabc 6.75&gt;Q2&lt;tabc 7.25&gt;Q3&lt;tabc 7.75&gt;Q4</Text>			</Body>		</Object>		<Object no="21">			<Type>Box</Type>			<Label>.0M.D1.Cit Box</Label>			<Page>1</Page>			<Layer>4</Layer>			<Coordinates>				<Left>1</Left>				<Top>3.548</Top>				<Right>8</Right>				<Bottom>3.828</Bottom>			</Coordinates>			<Line>				<Width>0.25</Width>				<Style>1</Style>				<Color>Black</Color>			</Line>		</Object>		<Object no="22">			<Type>Line</Type>			<Label>.0N.D1.Cit Horz Lines</Label>			<Page>1</Page>			<Layer>4</Layer>			<Coordinates>				<Left>1</Left>				<Top>3.683</Top>				<Right>8</Right>				<Bottom>3.683</Bottom>			</Coordinates>			<Line>				<Width>0.25</Width>				<Style>1</Style>				<Color>Black</Color>			</Line>		</Object>		<Object no="23">			<Type>Line</Type>			<Label>.0O.D2.Cit Vert Lines</Label>			<Page>1</Page>			<Layer>4</Layer>			<Repeat>				<Multiple>3</Multiple>				<Offset>					<Horizontal>0.5</Horizontal>					<Vertical>0</Vertical>				</Offset>			</Repeat>			<Coordinates>				<Left>6</Left>				<Top>3.548</Top>				<Right>6</Right>				<Bottom>3.828</Bottom>			</Coordinates>			<Line>				<Width>0.25</Width>				<Style>1</Style>				<Color>Black</Color>			</Line>		</Object>		<Object no="24">			<Type>Line</Type>			<Label>.0P.D1.Cit Horz Lines</Label>			<Page>1</Page>			<Layer>4</Layer>			<Coordinates>				<Left>1</Left>				<Top>8.373</Top>				<Right>8</Right>				<Bottom>8.373</Bottom>			</Coordinates>			<Line>				<Width>0.25</Width>				<Style>1</Style>				<Color>Black</Color>			</Line>		</Object>		<Object no="25">			<Type>Line</Type>			<Label>.0Q.D1.Cit Horz Lines</Label>			<Page>1</Page>			<Layer>4</Layer>			<Coordinates>				<Left>1</Left>				<Top>5.363</Top>				<Right>8</Right>				<Bottom>5.363</Bottom>			</Coordinates>			<Line>				<Width>0.25</Width>				<Style>1</Style>				<Color>Black</Color>			</Line>		</Object>		<Object no="26">			<Type>Text</Type>			<Label>.0R.D1. Citizenship Head</Label>			<Page>1</Page>			<Layer>4</Layer>			<Coordinates>				<Left>1</Left>				<Top>3.498</Top>			</Coordinates>			<MaxWidth>0</MaxWidth>			<MaxHeight>0</MaxHeight>			<Body>				<Font>					<Face>Helvetica</Face>					<Size>9</Size>					<Leading>9</Leading>				</Font>				<Text>&lt;b&gt;CITIZENSHIP&lt;tabc 6.25&gt;Q1&lt;tabc 6.75&gt;Q2&lt;tabc 7.25&gt;Q3&lt;tabc 7.75&gt;Q4&lt;/b&gt;</Text>			</Body>		</Object>		<Object no="27">			<Type>Text</Type>			<Label>.0S.D2. Citizenship Stan</Label>			<Page>1</Page>			<Layer>4</Layer>			<Coordinates>				<Left>1.05</Left>				<Top>3.663</Top>			</Coordinates>			<MaxWidth>4.97</MaxWidth>			<MaxHeight>0</MaxHeight>			<Body>				<Font>					<Face>Helvetica</Face>					<Size>8</Size>					<Leading></Leading>				</Font>				<Text>Demonstrates respect for self, others, and property&lt;tabc 6.25&gt;~(*std.stored.transavg;SPEC-CIT-1;Q1)&lt;tabc 6.75&gt;~(*std.stored.transavg;SPEC-CIT-1;Q2)&lt;tabc 7.25&gt;~(*std.stored.transavg;SPEC-CIT-1;Q3)&lt;tabc 7.75&gt;~(*std.stored.transavg;SPEC-CIT-1;Q4)				Seeks positive solutions to problems&lt;tabc 6.25&gt;~(*std.stored.transavg;SPEC-CIT-2;Q1)&lt;tabc 6.75&gt;~(*std.stored.transavg;SPEC-CIT-2;Q2)&lt;tabc 7.25&gt;~(*std.stored.transavg;SPEC-CIT-2;Q3)&lt;tabc 7.75&gt;~(*std.stored.transavg;SPEC-CIT-2;Q4)</Text>			</Body>		</Object>		<Object no="28">			<Type>Line</Type>			<Label>.0T.E1. Work Habits Horiz Line</Label>			<Page>1</Page>			<Layer>5</Layer>			<Repeat>				<Multiple>3</Multiple>				<Offset>					<Horizontal>0</Horizontal>					<Vertical>0.14</Vertical>				</Offset>			</Repeat>			<Coordinates>				<Left>1</Left>				<Top>4.296</Top>				<Right>8</Right>				<Bottom>4.296</Bottom>			</Coordinates>			<Line>				<Width>0.25</Width>				<Style>1</Style>				<Color>Black</Color>			</Line>		</Object>		<Object no="29">			<Type>Text</Type>			<Label>.0U.E1. Work Habits Head</Label>			<Page>1</Page>			<Layer>5</Layer>			<Coordinates>				<Left>1</Left>				<Top>4.106</Top>			</Coordinates>			<MaxWidth>0</MaxWidth>			<MaxHeight>0</MaxHeight>			<Body>				<Font>					<Face>Default</Face>					<Size>9</Size>					<Leading>9</Leading>				</Font>				<Text>&lt;b&gt;WORK HABITS&lt;tabc 6.25&gt;Q1&lt;tabc 6.75&gt;Q2&lt;tabc 7.25&gt;Q3&lt;tabc 7.75&gt;Q4&lt;/b&gt;</Text>			</Body>		</Object>		<Object no="30">			<Type>Box</Type>			<Label>.0V.F1. Read Box</Label>			<Page>1</Page>			<Layer>6</Layer>			<Coordinates>				<Left>1</Left>				<Top>5.883</Top>				<Right>8</Right>				<Bottom>7.983</Bottom>			</Coordinates>			<Line>				<Width>0.25</Width>				<Style>1</Style>				<Color>Black</Color>			</Line>		</Object>		<Object no="31">			<Type>Line</Type>			<Label>.0W.Read Comp Horiz Line</Label>			<Page>1</Page>			<Layer>6</Layer>			<Coordinates>				<Left>1</Left>				<Top>6.023</Top>				<Right>8</Right>				<Bottom>6.023</Bottom>			</Coordinates>			<Line>				<Width>0.25</Width>				<Style>1</Style>				<Color>Black</Color>			</Line>		</Object>		<Object no="32">			<Type>Line</Type>			<Label>.0X.Read C Vert Line1</Label>			<Page>1</Page>			<Layer>6</Layer>			<Repeat>				<Multiple>3</Multiple>				<Offset>					<Horizontal>0.5</Horizontal>					<Vertical>0</Vertical>				</Offset>			</Repeat>			<Coordinates>				<Left>6</Left>				<Top>6.023</Top>				<Right>6</Right>				<Bottom>6.303</Bottom>			</Coordinates>			<Line>				<Width>0.25</Width>				<Style>1</Style>				<Color>Black</Color>			</Line>		</Object>		<Object no="33">			<Type>Line</Type>			<Label>.0Y.Read Comp Horiz Lin2</Label>			<Page>1</Page>			<Layer>6</Layer>			<Repeat>				<Multiple>1</Multiple>				<Offset>					<Horizontal>0</Horizontal>					<Vertical>0.14</Vertical>				</Offset>			</Repeat>			<Coordinates>				<Left>1</Left>				<Top>6.303</Top>				<Right>8</Right>				<Bottom>6.303</Bottom>			</Coordinates>			<Line>				<Width>0.25</Width>				<Style>1</Style>				<Color>Black</Color>			</Line>		</Object>		<Object no="34">			<Type>Line</Type>			<Label>.0Z.Read Comp Horiz Lin3</Label>			<Page>1</Page>			<Layer>6</Layer>			<Repeat>				<Multiple>1</Multiple>				<Offset>					<Horizontal>0</Horizontal>					<Vertical>0.14</Vertical>				</Offset>			</Repeat>			<Coordinates>				<Left>1</Left>				<Top>6.723</Top>				<Right>8</Right>				<Bottom>6.723</Bottom>			</Coordinates>			<Line>				<Width>0.25</Width>				<Style>1</Style>				<Color>Black</Color>			</Line>		</Object>		<Object no="35">			<Type>Line</Type>			<Label>.10.Read Comp Horiz Lin4</Label>			<Page>1</Page>			<Layer>6</Layer>			<Repeat>				<Multiple>1</Multiple>				<Offset>					<Horizontal>0</Horizontal>					<Vertical>0.14</Vertical>				</Offset>			</Repeat>			<Coordinates>				<Left>1</Left>				<Top>7.143</Top>				<Right>8</Right>				<Bottom>7.143</Bottom>			</Coordinates>			<Line>				<Width>0.25</Width>				<Style>1</Style>				<Color>Black</Color>			</Line>		</Object>		<Object no="36">			<Type>Line</Type>			<Label>.11.Read C Vert Line2</Label>			<Page>1</Page>			<Layer>6</Layer>			<Repeat>				<Multiple>3</Multiple>				<Offset>					<Horizontal>0.5</Horizontal>					<Vertical>0</Vertical>				</Offset>			</Repeat>			<Coordinates>				<Left>6</Left>				<Top>6.443</Top>				<Right>6</Right>				<Bottom>6.723</Bottom>			</Coordinates>			<Line>				<Width>0.25</Width>				<Style>1</Style>				<Color>Black</Color>			</Line>		</Object>		<Object no="37">			<Type>Line</Type>			<Label>.12.Read C Vert Line3</Label>			<Page>1</Page>			<Layer>6</Layer>			<Repeat>				<Multiple>3</Multiple>				<Offset>					<Horizontal>0.5</Horizontal>					<Vertical>0</Vertical>				</Offset>			</Repeat>			<Coordinates>				<Left>6</Left>				<Top>6.863</Top>				<Right>6</Right>				<Bottom>7.143</Bottom>			</Coordinates>			<Line>				<Width>0.25</Width>				<Style>1</Style>				<Color>Black</Color>			</Line>		</Object>		<Object no="38">			<Type>Line</Type>			<Label>.13.Read C Vert Line4</Label>			<Page>1</Page>			<Layer>6</Layer>			<Repeat>				<Multiple>3</Multiple>				<Offset>					<Horizontal>0.5</Horizontal>					<Vertical>0</Vertical>				</Offset>			</Repeat>			<Coordinates>				<Left>6</Left>				<Top>7.283</Top>				<Right>6</Right>				<Bottom>7.563</Bottom>			</Coordinates>			<Line>				<Width>0.25</Width>				<Style>1</Style>				<Color>Black</Color>			</Line>		</Object>		<Object no="39">			<Type>Line</Type>			<Label>.14.Read Comp Horiz Lin5</Label>			<Page>1</Page>			<Layer>6</Layer>			<Repeat>				<Multiple>1</Multiple>				<Offset>					<Horizontal>0</Horizontal>					<Vertical>0.14</Vertical>				</Offset>			</Repeat>			<Coordinates>				<Left>1</Left>				<Top>7.563</Top>				<Right>8</Right>				<Bottom>7.563</Bottom>			</Coordinates>			<Line>				<Width>0.25</Width>				<Style>1</Style>				<Color>Black</Color>			</Line>		</Object>		<Object no="40">			<Type>Line</Type>			<Label>.15.Read C Vert Line5</Label>			<Page>1</Page>			<Layer>6</Layer>			<Repeat>				<Multiple>3</Multiple>				<Offset>					<Horizontal>0.5</Horizontal>					<Vertical>0</Vertical>				</Offset>			</Repeat>			<Coordinates>				<Left>6</Left>				<Top>7.703</Top>				<Right>6</Right>				<Bottom>7.983</Bottom>			</Coordinates>			<Line>				<Width>0.25</Width>				<Style>1</Style>				<Color>Black</Color>			</Line>		</Object>		<Object no="41">			<Type>Text</Type>			<Label>.16.Reading Compre Stand</Label>			<Page>1</Page>			<Layer>6</Layer>			<Coordinates>				<Left>1.036</Left>				<Top>5.988</Top>			</Coordinates>			<MaxWidth>4.97</MaxWidth>			<MaxHeight>0</MaxHeight>			<Body>				<Font>					<Face>Helvetica</Face>					<Size>8</Size>					<Leading>10</Leading>				</Font>				<Text>&lt;b&gt;Text Complexity&lt;/b&gt;				3.RC-TC.1: Independently and proficiently read and comprehend texts representing a balance of genres&lt;tabc 6.25&gt;~(*std.stored.transavg;3.RC-TC.1;Q1)&lt;tabc 6.75&gt;~(*std.stored.transavg;3.RC-TC.1;Q2)&lt;tabc 7.25&gt;~(*std.stored.transavg;3.RC-TC.1;Q3)&lt;tabc 7.75&gt;~(*std.stored.transavg;3.RC-TC.1;Q4)				&lt;b&gt;Textual Evidence&lt;/b&gt;				3.RC-TE.3: Ask and answer questions to demonstrate understanding of grade-level texts, referring explicitly to textual evidence as the basis for the answers&lt;tabc 6.25&gt;~(*std.stored.transavg;3.RC-TE.3;Q1)&lt;tabc 6.75&gt;~(*std.stored.transavg;3.RC-TE.3;Q2)&lt;tabc 7.25&gt;~(*std.stored.transavg;3.RC-TE.3;Q3)&lt;tabc 7.75&gt;~(*std.stored.transavg;3.RC-TE.3;Q4)				&lt;b&gt;Reading Fluency&lt;/b&gt;				3.RC-RF.4: Read grade-level text with accuracy, appropriate rate, and expression to support comprehension&lt;tabc 6.25&gt;~(*std.stored.transavg;3.RC-RF.4;Q1)&lt;tabc 6.75&gt;~(*std.stored.transavg;3.RC-RF.4;Q2)&lt;tabc 7.25&gt;~(*std.stored.transavg;3.RC-RF.4;Q3)&lt;tabc 7.75&gt;~(*std.stored.transavg;3.RC-RF.4;Q4)				&lt;b&gt;Literature&lt;/b&gt;				3.RC-L.5:Use evidence from literature to demonstrate understanding (theme, character, setting, events, point of view of narrator, and comparisons)&lt;tabc 6.25&gt;~(*std.stored.transavg;3.RC-L.5;Q1)&lt;tabc 6.75&gt;~(*std.stored.transavg;3.RC-L.5;Q2)&lt;tabc 7.25&gt;~(*std.stored.transavg;3.RC-L.5;Q3)&lt;tabc 7.75&gt;~(*std.stored.transavg;3.RC-L.5;Q4)				&lt;b&gt;Nonfiction Text&lt;/b&gt;				3.RC-NF.6: Use evidence from nonfiction works to demonstrate understanding (central idea, cause/effect, connections, key details)&lt;tabc 6.25&gt;~(*std.stored.transavg;3.RC-NF.6;Q1)&lt;tabc 6.75&gt;~(*std.stored.transavg;3.RC-NF.6;Q2)&lt;tabc 7.25&gt;~(*std.stored.transavg;3.RC-NF.6;Q3)&lt;tabc 7.75&gt;~(*std.stored.transavg;3.RC-NF.6;Q4)</Text>			</Body>		</Object>		<Object no="42">			<Type>Text</Type>			<Label>.17.F2. Reading Comp Hd</Label>			<Page>1</Page>			<Layer>6</Layer>			<Coordinates>				<Left>1</Left>				<Top>5.819</Top>			</Coordinates>			<MaxWidth>0</MaxWidth>			<MaxHeight>0</MaxHeight>			<Body>				<Font>					<Face>Helvetica</Face>					<Size>9</Size>					<Leading>9</Leading>					<Bold>True</Bold>				</Font>				<Text>READING COMPREHENSION&lt;tabc 6.25&gt;Q1&lt;tabc 6.75&gt;Q2&lt;tabc 7.25&gt;Q3&lt;tabc 7.75&gt;Q4</Text>			</Body>		</Object>		<Object no="43">			<Type>Box</Type>			<Label>.18.Vocab Box</Label>			<Page>1</Page>			<Layer>7</Layer>			<Coordinates>				<Left>1</Left>				<Top>8.24</Top>				<Right>8</Right>				<Bottom>8.515</Bottom>			</Coordinates>			<Line>				<Width>0.25</Width>				<Style>1</Style>				<Color>Black</Color>			</Line>		</Object>		<Object no="44">			<Type>Line</Type>			<Label>.19.Vocab Vert Lines</Label>			<Page>1</Page>			<Layer>7</Layer>			<Repeat>				<Multiple>3</Multiple>				<Offset>					<Horizontal>0.5</Horizontal>					<Vertical>0</Vertical>				</Offset>			</Repeat>			<Coordinates>				<Left>6</Left>				<Top>8.38</Top>				<Right>6</Right>				<Bottom>8.515</Bottom>			</Coordinates>			<Line>				<Width>0.25</Width>				<Style>1</Style>				<Color>Black</Color>			</Line>		</Object>		<Object no="45">			<Type>Text</Type>			<Label>.1A.VOCAB Title</Label>			<Page>1</Page>			<Layer>7</Layer>			<Coordinates>				<Left>1</Left>				<Top>8.172</Top>			</Coordinates>			<MaxWidth>0</MaxWidth>			<MaxHeight>0</MaxHeight>			<Body>				<Font>					<Face>Helvetica</Face>					<Size>9</Size>					<Leading></Leading>					<Bold>True</Bold>				</Font>				<Text>VOCABULARY DEVELOPMENT&lt;tabc 6.25&gt;Q1&lt;tabc 6.75&gt;Q2&lt;tabc 7.25&gt;Q3&lt;tabc 7.75&gt;Q4				</Text>			</Body>		</Object>		<Object no="46">			<Type>Text</Type>			<Label>.1B.Vocab Standards</Label>			<Page>1</Page>			<Layer>7</Layer>			<Coordinates>				<Left>1.05</Left>				<Top>8.34</Top>			</Coordinates>			<MaxWidth>5</MaxWidth>			<MaxHeight>0</MaxHeight>			<Body>				<Font>					<Face>Helvetica</Face>					<Size>8</Size>					<Leading>10</Leading>				</Font>				<Text>&lt;b&gt;Word Building				&lt;/b&gt;3.VD-WB.1: Determine or clarify the meaning of unknown and multiple meaning words and phrases&lt;tabc 6.25&gt;~(*std.stored.transavg;3.VD-WB.1;Q1)&lt;tabc 6.75&gt;~(*std.stored.transavg;3.VD-WB.1;Q2)&lt;tabc 7.25&gt;~(*std.stored.transavg;3.VD-WB.1;Q3)&lt;tabc 7.75&gt;~(*std.stored.transavg;3.VD-WB.1;Q4)</Text>			</Body>		</Object>		<Object no="47">			<Type>Box</Type>			<Label>.1C.E1. Work Habits Box</Label>			<Page>1</Page>			<Layer>8</Layer>			<Coordinates>				<Left>1</Left>				<Top>4.161</Top>				<Right>8.014</Right>				<Bottom>4.855</Bottom>			</Coordinates>			<Line>				<Width>0.25</Width>				<Style>1</Style>				<Color>Black</Color>			</Line>		</Object>		<Object no="48">			<Type>Text</Type>			<Label>.1D.E2. Work Habits Stan</Label>			<Page>1</Page>			<Layer>8</Layer>			<Coordinates>				<Left>1.05</Left>				<Top>4.266</Top>			</Coordinates>			<MaxWidth>4.97</MaxWidth>			<MaxHeight>0</MaxHeight>			<Body>				<Font>					<Face>Helvetica</Face>					<Size>8</Size>					<Leading>10</Leading>				</Font>				<Text>Completes work and tasks on time and with care&lt;tabc 6.25&gt;~(*std.stored.transavg;SPEC-WH.1;Q1)&lt;tabc 6.75&gt;~(*std.stored.transavg;SPEC-WH.1;Q2)&lt;tabc 7.25&gt;~(*std.stored.transavg;SPEC-WH.1;Q3)&lt;tabc 7.75&gt;~(*std.stored.transavg;SPEC-WH.1;Q4)				Follows routines and instructions&lt;tabc 6.25&gt;~(*std.stored.transavg;SPEC-WH.2;Q1)&lt;tabc 6.75&gt;~(*std.stored.transavg;SPEC-WH.2;Q2)&lt;tabc 7.25&gt;~(*std.stored.transavg;SPEC-WH.2;Q3)&lt;tabc 7.75&gt;~(*std.stored.transavg;SPEC-WH.2;Q4)				Perseveres with tasks and goals&lt;tabc 6.25&gt;~(*std.stored.transavg;SPEC-WH.3;Q1)&lt;tabc 6.75&gt;~(*std.stored.transavg;SPEC-WH.3;Q2)&lt;tabc 7.25&gt;~(*std.stored.transavg;SPEC-WH.3;Q3)&lt;tabc 7.75&gt;~(*std.stored.transavg;SPEC-WH.3;Q4)				Effectively manages time and materials&lt;tabc 6.25&gt;~(*std.stored.transavg;SPEC-WH.4;Q1)&lt;tabc 6.75&gt;~(*std.stored.transavg;SPEC-WH.4;Q2)&lt;tabc 7.25&gt;~(*std.stored.transavg;SPEC-WH.4;Q3)&lt;tabc 7.75&gt;~(*std.stored.transavg;SPEC-WH.4;Q4)				Participates and contributes to discussions/activities&lt;tabc 6.25&gt;~(*std.stored.transavg;SPEC-WH.5;Q1)&lt;tabc 6.75&gt;~(*std.stored.transavg;SPEC-WH.5;Q2)&lt;tabc 7.25&gt;~(*std.stored.transavg;SPEC-WH.5;Q3)&lt;tabc 7.75&gt;~(*std.stored.transavg;SPEC-WH.5;Q4)</Text>			</Body>		</Object>		<Object no="49">			<Type>Box</Type>			<Label>.1E.J1. Attendance Box</Label>			<Page>1</Page>			<Layer>10</Layer>			<Coordinates>				<Left>1</Left>				<Top>9.923</Top>				<Right>5</Right>				<Bottom>10.298</Bottom>			</Coordinates>			<Line>				<Width>0.25</Width>				<Style>1</Style>				<Color>Black</Color>			</Line>		</Object>		<Object no="50">			<Type>Line</Type>			<Label>.1F.J3. Attendance Vert Line</Label>			<Page>1</Page>			<Layer>10</Layer>			<Repeat>				<Multiple>4</Multiple>				<Offset>					<Horizontal>0.5</Horizontal>					<Vertical>0</Vertical>				</Offset>			</Repeat>			<Coordinates>				<Left>2.5</Left>				<Top>9.923</Top>				<Right>2.5</Right>				<Bottom>10.298</Bottom>			</Coordinates>			<Line>				<Width>0.25</Width>				<Style>1</Style>				<Color>Black</Color>			</Line>		</Object>		<Object no="51">			<Type>Line</Type>			<Label>.1G.J2. Attendance Horiz Lines</Label>			<Page>1</Page>			<Layer>10</Layer>			<Repeat>				<Multiple>1</Multiple>				<Offset>					<Horizontal>0</Horizontal>					<Vertical>0.125</Vertical>				</Offset>			</Repeat>			<Coordinates>				<Left>1</Left>				<Top>10.048</Top>				<Right>5</Right>				<Bottom>10.048</Bottom>			</Coordinates>			<Line>				<Width>0.25</Width>				<Style>1</Style>				<Color>Black</Color>			</Line>		</Object>		<Object no="52">			<Type>Text</Type>			<Label>.1H.J1. Attendance Report Head</Label>			<Page>1</Page>			<Layer>10</Layer>			<Coordinates>				<Left>1</Left>				<Top>9.845</Top>			</Coordinates>			<MaxWidth>0</MaxWidth>			<MaxHeight>0</MaxHeight>			<Body>				<Font>					<Face>Helvetica</Face>					<Size>9</Size>					<Leading></Leading>				</Font>				<Text>&lt;b&gt;ATTENDANCE REPORT&lt;tabc 2.75&gt;Q1&lt;tabc 3.25&gt;Q2&lt;tabc 3.75&gt;Q3&lt;tabc 4.25&gt;Q4&lt;tabc 4.75&gt;Total&lt;/b&gt;</Text>			</Body>		</Object>		<Object no="53">			<Type>Text</Type>			<Label>.1I.J3.Mumbo Jumbo</Label>			<Page>1</Page>			<Layer>10</Layer>			<Coordinates>				<Left>1</Left>				<Top>10.64</Top>			</Coordinates>			<MaxWidth>0</MaxWidth>			<MaxHeight>0</MaxHeight>			<Body>				<Font>					<Face>Helvetica</Face>					<Size>6</Size>					<Leading></Leading>				</Font>				<Text>~[pagenumber]. - ~[reportname]. - ~[date;dateformat=mm-dd-yyyy] - ps~[version]</Text>			</Body>		</Object>		<Object no="54">			<Type>Text</Type>			<Label>.1J.J2. Attendance Data</Label>			<Page>1</Page>			<Layer>10</Layer>			<Coordinates>				<Left>1.05</Left>				<Top>10.005</Top>			</Coordinates>			<MaxWidth>0</MaxWidth>			<MaxHeight>0</MaxHeight>			<Body>				<Font>					<Face>Helvetica</Face>					<Size>6</Size>					<Leading>9</Leading>				</Font>				<Text>Membership&lt;tabd 2.75&gt;^(*DM;Q1;format=###,##0.0)&lt;tabd 3.25&gt;^(*DM;Q2;format=###,##0.0)&lt;tabd 3.75&gt;^(*DM;Q3;format=###,##0.0)&lt;tabd 4.25&gt;^(*DM;Q4;format=###,##0.0)&lt;tabd 4.75&gt;~(*DM;format=###,##0.0)				Days of Attendance&lt;tabd 2.75&gt;^(*DA;Q1;format=###,##0.0)&lt;tabd 3.25&gt;^(*DA;Q2;format=###,##0.0)&lt;tabd 3.75&gt;^(*DA;Q3;format=###,##0.0)&lt;tabd 4.25&gt;^(*DA;Q4;format=###,##0.0)&lt;tabd 4.75&gt;~(*DA;format=###,##0.0)				Days Absent&lt;tabd 2.75&gt;^(daily.att.count;current;A,C,D,E,G,J,K,P,U,X,Y;Q1)&lt;tabd 3.25&gt;^(daily.att.count;current;A,C,D,E,G,J,K,P,U,X,Y;Q2)&lt;tabd 3.75&gt;^(daily.att.count;current;A,C,D,E,G,J,K,P,U,X,Y;Q3)&lt;tabd 4.25&gt;^(daily.att.count;current;A,C,D,E,G,J,K,P,U,X,Y;Q4)&lt;tabd 4.75 &gt;^(daily.att.count;current;A,C,D,E,G,J,K,P,U,X,Y;Y1)</Text>			</Body>		</Object>		<Object no="55">			<Type>Line</Type>			<Label>.1K.E2. Work Habits Vert</Label>			<Page>1</Page>			<Layer>20</Layer>			<Repeat>				<Multiple>3</Multiple>				<Offset>					<Horizontal>0.5</Horizontal>					<Vertical>0</Vertical>				</Offset>			</Repeat>			<Coordinates>				<Left>6</Left>				<Top>4.161</Top>				<Right>6</Right>				<Bottom>4.855</Bottom>			</Coordinates>			<Line>				<Width>0.25</Width>				<Style>1</Style>				<Color>Black</Color>			</Line>		</Object>		<Object no="56">			<Type>Text</Type>			<Label>.1L.A1.Main Title Pg 2</Label>			<Page>2</Page>			<Layer>1</Layer>			<Coordinates>				<Left>1</Left>				<Top>1</Top>			</Coordinates>			<MaxWidth>0</MaxWidth>			<MaxHeight>0</MaxHeight>			<Body>				<Font>					<Face>Helvetica</Face>					<Size>18</Size>					<Leading></Leading>					<Bold>True</Bold>				</Font>				<Text>&lt;center&gt;3rd Grade Report Card&lt;/center&gt;</Text>			</Body>		</Object>		<Object no="57">			<Type>Text</Type>			<Label>.1M.A2.District Name Pg 2</Label>			<Page>2</Page>			<Layer>1</Layer>			<Coordinates>				<Left>1</Left>				<Top>1.25</Top>			</Coordinates>			<MaxWidth>0</MaxWidth>			<MaxHeight>0</MaxHeight>			<Body>				<Font>					<Face>Helvetica</Face>					<Size>10</Size>					<Leading></Leading>				</Font>				<Text>&lt;center&gt;~(schoolordistrictname)&lt;/center&gt;</Text>			</Body>		</Object>		<Object no="58">			<Type>Text</Type>			<Label>.1N.A3.StudentName/School Name</Label>			<Page>2</Page>			<Layer>1</Layer>			<Coordinates>				<Left>2.75</Left>				<Top>1.5</Top>			</Coordinates>			<MaxWidth>5.25</MaxWidth>			<MaxHeight>0</MaxHeight>			<Body>				<Font>					<Face>Helvetica</Face>					<Size>14</Size>					<Leading></Leading>				</Font>				<Text>&lt;b&gt;~(last_name), ~(first_name)&lt;/b&gt;&lt;tabr 8.0&gt;~(schoolname)</Text>			</Body>		</Object>		<Object no="59">			<Type>Text</Type>			<Label>.1O.A4. Student Data</Label>			<Page>2</Page>			<Layer>1</Layer>			<Coordinates>				<Left>2.75</Left>				<Top>1.65</Top>			</Coordinates>			<MaxWidth>5.25</MaxWidth>			<MaxHeight>0</MaxHeight>			<Body>				<Font>					<Face>Helvetica</Face>					<Size>9</Size>					<Leading>12</Leading>				</Font>				<Text>Grade ^(grade_level)&lt;tabr 8.0&gt;~(yearname)</Text>			</Body>		</Object>		<Object no="60">			<Type>Text</Type>			<Label>.1P.A5.Home Room Teacher</Label>			<Page>2</Page>			<Layer>1</Layer>			<Coordinates>				<Left>1</Left>				<Top>1.85</Top>			</Coordinates>			<MaxWidth>5.25</MaxWidth>			<MaxHeight>0</MaxHeight>			<Body>				<Font>					<Face>Helvetica</Face>					<Size>9</Size>					<Leading></Leading>					<Italic>True</Italic>				</Font>				<Text>&lt;tabto 2.75&gt;Homeroom Teacher: &lt;tabto 2.75&gt;Homeroom Teacher: ^(*period_info;P2(R);teacher_i_first_name) ^(*period_info;P2(R);teacher_i_last_name) ^(*period_info;P2(A);teacher_i_first_name) ^(*period_info;P2(A);teacher_i_last_name)</Text>			</Body>		</Object>		<Object no="61">			<Type>Box</Type>			<Label>.1Q.Writing Box</Label>			<Page>2</Page>			<Layer>2</Layer>			<Coordinates>				<Left>1</Left>				<Top>2.459</Top>				<Right>8</Right>				<Bottom>3.444</Bottom>			</Coordinates>			<Line>				<Width>0.25</Width>				<Style>1</Style>				<Color>Black</Color>			</Line>		</Object>		<Object no="62">			<Type>Line</Type>			<Label>.1R.Writing Horiz Lines</Label>			<Page>2</Page>			<Layer>2</Layer>			<Repeat>				<Multiple>2</Multiple>				<Offset>					<Horizontal>0</Horizontal>					<Vertical>0.28</Vertical>				</Offset>			</Repeat>			<Coordinates>				<Left>1</Left>				<Top>2.599</Top>				<Right>8</Right>				<Bottom>2.599</Bottom>			</Coordinates>			<Line>				<Width>0.25</Width>				<Style>1</Style>				<Color>Black</Color>			</Line>		</Object>		<Object no="63">			<Type>Line</Type>			<Label>.1S.Writing Vert Lines</Label>			<Page>2</Page>			<Layer>2</Layer>			<Repeat>				<Multiple>3</Multiple>				<Offset>					<Horizontal>0.5</Horizontal>					<Vertical>0</Vertical>				</Offset>			</Repeat>			<Coordinates>				<Left>6</Left>				<Top>2.604</Top>				<Right>6</Right>				<Bottom>3.444</Bottom>			</Coordinates>			<Line>				<Width>0.25</Width>				<Style>1</Style>				<Color>Black</Color>			</Line>		</Object>		<Object no="64">			<Type>Text</Type>			<Label>.1T.Writing Title</Label>			<Page>2</Page>			<Layer>2</Layer>			<Coordinates>				<Left>1</Left>				<Top>2.414</Top>			</Coordinates>			<MaxWidth>0</MaxWidth>			<MaxHeight>0</MaxHeight>			<Body>				<Font>					<Face>Helvetica</Face>					<Size>9</Size>					<Leading></Leading>					<Bold>True</Bold>				</Font>				<Text>WRITING&lt;tabc 6.25&gt;Q1&lt;tabc 6.75&gt;Q2&lt;tabc 7.25&gt;Q3&lt;tabc 7.75&gt;Q4</Text>			</Body>		</Object>		<Object no="65">			<Type>Text</Type>			<Label>.1U.Writing Standards</Label>			<Page>2</Page>			<Layer>2</Layer>			<Coordinates>				<Left>1.05</Left>				<Top>2.574</Top>			</Coordinates>			<MaxWidth>4.95</MaxWidth>			<MaxHeight>0</MaxHeight>			<Body>				<Font>					<Face>Helvetica</Face>					<Size>8</Size>					<Leading>10</Leading>				</Font>				<Text>&lt;b&gt;Range of Writing				&lt;/b&gt;3.W-RW.2: Write arguments that introduce the topic, express an opinion supported with facts, details, and reasons, and provide a concluding statement&lt;tabc 6.25&gt;~(*std.stored.transavg;3.W-RW.2;Q1)&lt;tabc 6.75&gt;~(*std.stored.transavg;3.W-RW.2;Q2)&lt;tabc 7.25&gt;~(*std.stored.transavg;3.W-RW.2;Q3)&lt;tabc 7.75&gt;~(*std.stored.transavg;3.W-RW.2;Q4)				3.W-RW.3: Write informational texts that introduce the topic, develop the focus with facts and details, and provide a concluding statement&lt;tabc 6.25&gt;~(*std.stored.transavg;3.W-RW.3;Q1)&lt;tabc 6.75&gt;~(*std.stored.transavg;3.W-RW.3;Q2)&lt;tabc 7.25&gt;~(*std.stored.transavg;3.W-RW.3;Q3)&lt;tabc 7.75&gt;~(*std.stored.transavg;3.W-RW.3;Q4)				3.W-RW.4: Write personal or fictional stories that recount an event or experience, include details to develop the characters or event(s), and provide a sense of closure&lt;tabc 6.25&gt;~(*std.stored.transavg;3.W-RW.4;Q1)&lt;tabc 6.75&gt;~(*std.stored.transavg;3.W-RW.4;Q2)&lt;tabc 7.25&gt;~(*std.stored.transavg;3.W-RW.4;Q3)&lt;tabc 7.75&gt;~(*std.stored.transavg;3.W-RW.4;Q4)</Text>			</Body>		</Object>		<Object no="66">			<Type>Box</Type>			<Label>.1V.Math Box</Label>			<Page>2</Page>			<Layer>4</Layer>			<Coordinates>				<Left>1</Left>				<Top>3.935</Top>				<Right>8</Right>				<Bottom>6.315</Bottom>			</Coordinates>			<Line>				<Width>0.25</Width>				<Style>1</Style>				<Color>Black</Color>			</Line>		</Object>		<Object no="67">			<Type>Line</Type>			<Label>.1W.Math Horiz Lines</Label>			<Page>2</Page>			<Layer>4</Layer>			<Repeat>				<Multiple>2</Multiple>				<Offset>					<Horizontal>0</Horizontal>					<Vertical>0.14</Vertical>				</Offset>			</Repeat>			<Coordinates>				<Left>1</Left>				<Top>4.07</Top>				<Right>8</Right>				<Bottom>4.07</Bottom>			</Coordinates>			<Line>				<Width>0.25</Width>				<Style>1</Style>				<Color>Black</Color>			</Line>		</Object>		<Object no="68">			<Type>Line</Type>			<Label>.1X.Math Vert Line1</Label>			<Page>2</Page>			<Layer>4</Layer>			<Repeat>				<Multiple>3</Multiple>				<Offset>					<Horizontal>0.5</Horizontal>					<Vertical>0</Vertical>				</Offset>			</Repeat>			<Coordinates>				<Left>6</Left>				<Top>4.075</Top>				<Right>6</Right>				<Bottom>4.635</Bottom>			</Coordinates>			<Line>				<Width>0.25</Width>				<Style>1</Style>				<Color>Black</Color>			</Line>		</Object>		<Object no="69">			<Type>Line</Type>			<Label>.1Y.Math Horiz Line2</Label>			<Page>2</Page>			<Layer>4</Layer>			<Repeat>				<Multiple>1</Multiple>				<Offset>					<Horizontal>0</Horizontal>					<Vertical>0.14</Vertical>				</Offset>			</Repeat>			<Coordinates>				<Left>1</Left>				<Top>4.63</Top>				<Right>8</Right>				<Bottom>4.63</Bottom>			</Coordinates>			<Line>				<Width>0.25</Width>				<Style>1</Style>				<Color>Black</Color>			</Line>		</Object>		<Object no="70">			<Type>Line</Type>			<Label>.1Z.Math Horiz Line3</Label>			<Page>2</Page>			<Layer>4</Layer>			<Repeat>				<Multiple>3</Multiple>				<Offset>					<Horizontal>0</Horizontal>					<Vertical>0.14</Vertical>				</Offset>			</Repeat>			<Coordinates>				<Left>1</Left>				<Top>5.05</Top>				<Right>8</Right>				<Bottom>5.05</Bottom>			</Coordinates>			<Line>				<Width>0.25</Width>				<Style>1</Style>				<Color>Black</Color>			</Line>		</Object>		<Object no="71">			<Type>Line</Type>			<Label>.20.Math Horiz Line5</Label>			<Page>2</Page>			<Layer>4</Layer>			<Repeat>				<Multiple>3</Multiple>				<Offset>					<Horizontal>0</Horizontal>					<Vertical>0.14</Vertical>				</Offset>			</Repeat>			<Coordinates>				<Left>1</Left>				<Top>5.748</Top>				<Right>8</Right>				<Bottom>5.748</Bottom>			</Coordinates>			<Line>				<Width>0.25</Width>				<Style>1</Style>				<Color>Black</Color>			</Line>		</Object>		<Object no="72">			<Type>Line</Type>			<Label>.21.Math Vert Line2</Label>			<Page>2</Page>			<Layer>4</Layer>			<Repeat>				<Multiple>3</Multiple>				<Offset>					<Horizontal>0.5</Horizontal>					<Vertical>0</Vertical>				</Offset>			</Repeat>			<Coordinates>				<Left>6</Left>				<Top>4.775</Top>				<Right>6</Right>				<Bottom>5.055</Bottom>			</Coordinates>			<Line>				<Width>0.25</Width>				<Style>1</Style>				<Color>Black</Color>			</Line>		</Object>		<Object no="73">			<Type>Line</Type>			<Label>.22.Math Vert Line3</Label>			<Page>2</Page>			<Layer>4</Layer>			<Repeat>				<Multiple>3</Multiple>				<Offset>					<Horizontal>0.5</Horizontal>					<Vertical>0</Vertical>				</Offset>			</Repeat>			<Coordinates>				<Left>6</Left>				<Top>5.195</Top>				<Right>6</Right>				<Bottom>5.335</Bottom>			</Coordinates>			<Line>				<Width>0.25</Width>				<Style>1</Style>				<Color>Black</Color>			</Line>		</Object>		<Object no="74">			<Type>Line</Type>			<Label>.23.Math Vert Line4</Label>			<Page>2</Page>			<Layer>4</Layer>			<Repeat>				<Multiple>3</Multiple>				<Offset>					<Horizontal>0.5</Horizontal>					<Vertical>0</Vertical>				</Offset>			</Repeat>			<Coordinates>				<Left>6</Left>				<Top>5.475</Top>				<Right>6</Right>				<Bottom>6.035</Bottom>			</Coordinates>			<Line>				<Width>0.25</Width>				<Style>1</Style>				<Color>Black</Color>			</Line>		</Object>		<Object no="75">			<Type>Line</Type>			<Label>.24.Math Vert Line3</Label>			<Page>2</Page>			<Layer>4</Layer>			<Repeat>				<Multiple>3</Multiple>				<Offset>					<Horizontal>0.5</Horizontal>					<Vertical>0</Vertical>				</Offset>			</Repeat>			<Coordinates>				<Left>6</Left>				<Top>6.175</Top>				<Right>6</Right>				<Bottom>6.315</Bottom>			</Coordinates>			<Line>				<Width>0.25</Width>				<Style>1</Style>				<Color>Black</Color>			</Line>		</Object>		<Object no="76">			<Type>Text</Type>			<Label>.25.Math Standards</Label>			<Page>2</Page>			<Layer>4</Layer>			<Coordinates>				<Left>1.05</Left>				<Top>4.05</Top>			</Coordinates>			<MaxWidth>4.97</MaxWidth>			<MaxHeight>0</MaxHeight>			<Body>				<Font>					<Face>Helvetica</Face>					<Size>8</Size>					<Leading>10</Leading>				</Font>				<Text>&lt;b&gt;Operations and Algebraic Thinking&lt;/b&gt;				3.OA.A.a: Represent and solve problems involving multiplication&lt;tabc 6.25&gt;~(*std.stored.transavg;3.OA.A.A;Q1)&lt;tabc 6.75&gt;~(*std.stored.transavg;3.OA.A.A;Q2)&lt;tabc 7.25&gt;~(*std.stored.transavg;3.OA.A.A;Q3)&lt;tabc 7.75&gt;~(*std.stored.transavg;3.OA.A.A;Q4)				3.OA.A.b: Represent and solve problems involving division&lt;tabc 6.25&gt;~(*std.stored.transavg;3.OA.A.B;Q1)&lt;tabc 6.75&gt;~(*std.stored.transavg;3.OA.A.B;Q2)&lt;tabc 7.25&gt;~(*std.stored.transavg;3.OA.A.B;Q3)&lt;tabc 7.75&gt;~(*std.stored.transavg;3.OA.A.B;Q4)				3.OA.C.7b: Demonstrate fluency for multiplication within 100. Know from memory all products of two single-digit numbers and related division facts&lt;tabc 6.25&gt;~(*std.stored.transavg;3.OA.C.7b;Q1)&lt;tabc 6.75&gt;~(*std.stored.transavg;3.OA.C.7b;Q2)&lt;tabc 7.25&gt;~(*std.stored.transavg;3.OA.C.7b;Q3)&lt;tabc 7.75&gt;~(*std.stored.transavg;3.OA.C.7b;Q4)				&lt;b&gt;Number and Operations in Base Ten				&lt;/b&gt;3.NBT.A.2: Fluently add and subtract whole numbers within 1,000 using place value and properties of operations&lt;tabc 6.25&gt;~(*std.stored.transavg;3.NBT.A.2;Q1)&lt;tabc 6.75&gt;~(*std.stored.transavg;3.NBT.A.2;Q2)&lt;tabc 7.25&gt;~(*std.stored.transavg;3.NBT.A.2;Q3)&lt;tabc 7.75&gt;~(*std.stored.transavg;3.NBT.A.2;Q4)				&lt;b&gt;Number and Operations - Fractions&lt;/b&gt;				3.NF.A.1-3: Develop understanding of fractions as numbers&lt;tabc 6.25&gt;~(*std.stored.transavg;3.NF.A.1-3;Q1)&lt;tabc 6.75&gt;~(*std.stored.transavg;3.NF.A.1-3;Q2)&lt;tabc 7.25&gt;~(*std.stored.transavg;3.NF.A.1-3;Q3)&lt;tabc 7.75&gt;~(*std.stored.transavg;3.NF.A.1-3;Q4)				&lt;b&gt;Measurement and Data&lt;/b&gt;				3.MD.A.1-2: Solve problems involving measurement and estimation of intervals of time, liquid volumes, and masses of objects&lt;tabc 6.25&gt;~(*std.stored.transavg;3.MD.A.1-2;Q1)&lt;tabc 6.75&gt;~(*std.stored.transavg;3.MD.A.1-2;Q2)&lt;tabc 7.25&gt;~(*std.stored.transavg;3.MD.A.1-2;Q3)&lt;tabc 7.75&gt;~(*std.stored.transavg;3.MD.A.1-2;Q4)				3.MD.B.3-4: Represent and interpret data&lt;tabc 6.25&gt;~(*std.stored.transavg;3.MD.B.3-4;Q1)&lt;tabc 6.75&gt;~(*std.stored.transavg;3.MD.B.3-4;Q2)&lt;tabc 7.25&gt;~(*std.stored.transavg;3.MD.B.3-4;Q3)&lt;tabc 7.75&gt;~(*std.stored.transavg;3.MD.B.3-4;Q4)				3.MD.C-D: Understand concepts of area and perimeter&lt;tabc 6.25&gt;~(*std.stored.transavg;3.MD.C-D;Q1)&lt;tabc 6.75&gt;~(*std.stored.transavg;3.MD.C-D;Q2)&lt;tabc 7.25&gt;~(*std.stored.transavg;3.MD.C-D;Q3)&lt;tabc 7.75&gt;~(*std.stored.transavg;3.MD.C-D;Q4)				&lt;b&gt;Geometry&lt;/b&gt;				3.G.A.1-2: Reason with shapes and their attributes&lt;tabc 6.25&gt;~(*std.stored.transavg;3.G.A.1-2;Q1)&lt;tabc 6.75&gt;~(*std.stored.transavg;3.G.A.1-2;Q2)&lt;tabc 7.25&gt;~(*std.stored.transavg;3.G.A.1-2;Q3)&lt;tabc 7.75&gt;~(*std.stored.transavg;3.G.A.1-2;Q4)</Text>			</Body>		</Object>		<Object no="77">			<Type>Text</Type>			<Label>.26.Math Title</Label>			<Page>2</Page>			<Layer>4</Layer>			<Coordinates>				<Left>1</Left>				<Top>3.843</Top>			</Coordinates>			<MaxWidth>0</MaxWidth>			<MaxHeight>0</MaxHeight>			<Body>				<Font>					<Face>Helvetica</Face>					<Size>9</Size>					<Leading></Leading>					<Bold>True</Bold>				</Font>				<Text>MATHEMATICS&lt;tabc 6.25&gt;Q1&lt;tabc 6.75&gt;Q2&lt;tabc 7.25&gt;Q3&lt;tabc 7.75&gt;Q4				</Text>			</Body>		</Object>		<Object no="78">			<Type>Box</Type>			<Label>.27.F1.Music Box</Label>			<Page>2</Page>			<Layer>6</Layer>			<Coordinates>				<Left>1</Left>				<Top>6.854</Top>				<Right>8</Right>				<Bottom>6.994</Bottom>			</Coordinates>			<Line>				<Width>0.25</Width>				<Style>1</Style>				<Color>Black</Color>			</Line>		</Object>		<Object no="79">			<Type>Box</Type>			<Label>.28.F1.Music Box</Label>			<Page>2</Page>			<Layer>6</Layer>			<Coordinates>				<Left>1</Left>				<Top>7.484</Top>				<Right>8</Right>				<Bottom>7.624</Bottom>			</Coordinates>			<Line>				<Width>0.25</Width>				<Style>1</Style>				<Color>Black</Color>			</Line>		</Object>		<Object no="80">			<Type>Box</Type>			<Label>.29.F1.Music Box</Label>			<Page>2</Page>			<Layer>6</Layer>			<Coordinates>				<Left>1</Left>				<Top>8.114</Top>				<Right>8</Right>				<Bottom>8.47</Bottom>			</Coordinates>			<Line>				<Width>0.25</Width>				<Style>1</Style>				<Color>Black</Color>			</Line>		</Object>		<Object no="81">			<Type>Box</Type>			<Label>.2A.F1.Music Box</Label>			<Page>2</Page>			<Layer>6</Layer>			<Coordinates>				<Left>1</Left>				<Top>8.94</Top>				<Right>8</Right>				<Bottom>9.075</Bottom>			</Coordinates>			<Line>				<Width>0.25</Width>				<Style>1</Style>				<Color>Black</Color>			</Line>		</Object>		<Object no="82">			<Type>Line</Type>			<Label>.2B.F1.Music Vert Lines</Label>			<Page>2</Page>			<Layer>6</Layer>			<Repeat>				<Multiple>3</Multiple>				<Offset>					<Horizontal>0.5</Horizontal>					<Vertical>0</Vertical>				</Offset>			</Repeat>			<Coordinates>				<Left>6</Left>				<Top>7.484</Top>				<Right>6</Right>				<Bottom>7.624</Bottom>			</Coordinates>			<Line>				<Width>0.25</Width>				<Style>1</Style>				<Color>Black</Color>			</Line>		</Object>		<Object no="83">			<Type>Line</Type>			<Label>.2C.F1.Music Vert Lines</Label>			<Page>2</Page>			<Layer>6</Layer>			<Repeat>				<Multiple>3</Multiple>				<Offset>					<Horizontal>0.5</Horizontal>					<Vertical>0</Vertical>				</Offset>			</Repeat>			<Coordinates>				<Left>6</Left>				<Top>8.114</Top>				<Right>6</Right>				<Bottom>8.47</Bottom>			</Coordinates>			<Line>				<Width>0.25</Width>				<Style>1</Style>				<Color>Black</Color>			</Line>		</Object>		<Object no="84">			<Type>Line</Type>			<Label>.2D.F1.Music Vert Lines</Label>			<Page>2</Page>			<Layer>6</Layer>			<Repeat>				<Multiple>3</Multiple>				<Offset>					<Horizontal>0.5</Horizontal>					<Vertical>0</Vertical>				</Offset>			</Repeat>			<Coordinates>				<Left>6</Left>				<Top>8.94</Top>				<Right>6</Right>				<Bottom>9.075</Bottom>			</Coordinates>			<Line>				<Width>0.25</Width>				<Style>1</Style>				<Color>Black</Color>			</Line>		</Object>		<Object no="85">			<Type>Line</Type>			<Label>.2E.Sci Vert Lines</Label>			<Page>2</Page>			<Layer>6</Layer>			<Repeat>				<Multiple>3</Multiple>				<Offset>					<Horizontal>0.5</Horizontal>					<Vertical>0</Vertical>				</Offset>			</Repeat>			<Coordinates>				<Left>6</Left>				<Top>6.854</Top>				<Right>6</Right>				<Bottom>6.994</Bottom>			</Coordinates>			<Line>				<Width>0.25</Width>				<Style>1</Style>				<Color>Black</Color>			</Line>		</Object>		<Object no="86">			<Type>Text</Type>			<Label>.2F.Soc Stud Title</Label>			<Page>2</Page>			<Layer>6</Layer>			<Coordinates>				<Left>1</Left>				<Top>7.448</Top>			</Coordinates>			<MaxWidth>0</MaxWidth>			<MaxHeight>0</MaxHeight>			<Body>				<Font>					<Face>Helvetica</Face>					<Size>9</Size>					<Leading></Leading>					<Bold>True</Bold>				</Font>				<Text>SOCIAL STUDIES&lt;tabc 6.25&gt;Q1&lt;tabc 6.75&gt;Q2&lt;tabc 7.25&gt;Q3&lt;tabc 7.75&gt;Q4</Text>			</Body>		</Object>		<Object no="87">			<Type>Text</Type>			<Label>.2G.F2. MUSIC STANDARDS</Label>			<Page>2</Page>			<Layer>6</Layer>			<Coordinates>				<Left>1.05</Left>				<Top>7.584</Top>			</Coordinates>			<MaxWidth>4.97</MaxWidth>			<MaxHeight>0</MaxHeight>			<Body>				<Font>					<Face>Helvetica</Face>					<Size>8</Size>					<Leading></Leading>				</Font>				<Text>Demonstrate understanding of grade-level content and concepts&lt;tabc 6.25&gt;~(*std.stored.transavg;SPEC-SS;Q1)&lt;tabc 6.75&gt;~(*std.stored.transavg;SPEC-SS;Q2)&lt;tabc 7.25&gt;~(*std.stored.transavg;SPEC-SS;Q3)&lt;tabc 7.75&gt;~(*std.stored.transavg;SPEC-SS;Q4)</Text>			</Body>		</Object>		<Object no="88">			<Type>Text</Type>			<Label>.2H.Science Standards</Label>			<Page>2</Page>			<Layer>6</Layer>			<Coordinates>				<Left>1.05</Left>				<Top>6.954</Top>			</Coordinates>			<MaxWidth>0</MaxWidth>			<MaxHeight>0</MaxHeight>			<Body>				<Font>					<Face>Helvetica</Face>					<Size>8</Size>					<Leading></Leading>				</Font>				<Text>Demonstrate understanding of grade-level content and concepts&lt;tabc 6.25&gt;~(*std.stored.transavg;3-SCI;Q1)&lt;tabc 6.75&gt;~(*std.stored.transavg;3-SCI;Q2)&lt;tabc 7.25&gt;~(*std.stored.transavg;3-SCI;Q3)&lt;tabc 7.75&gt;~(*std.stored.transavg;3-SCI;Q4)</Text>			</Body>		</Object>		<Object no="89">			<Type>Text</Type>			<Label>.2I.Phys Ed Standards</Label>			<Page>2</Page>			<Layer>6</Layer>			<Coordinates>				<Left>1.05</Left>				<Top>8.228</Top>			</Coordinates>			<MaxWidth>5</MaxWidth>			<MaxHeight>0</MaxHeight>			<Body>				<Font>					<Face>Helvetica</Face>					<Size>8</Size>					<Leading>10</Leading>				</Font>				<Text>Recognize the value of physical activity for health, enjoyment, challenge and self-expression. Exhibit responsible personal and social behavior that respects self and others in physical activity settings&lt;tabc 6.25&gt;~(*std.stored.transavg;SPEC-PE;Q1)&lt;tabc 6.75&gt;~(*std.stored.transavg;SPEC-PE;Q2)&lt;tabc 7.25&gt;~(*std.stored.transavg;SPEC-PE;Q3)&lt;tabc 7.75&gt;~(*std.stored.transavg;SPEC-PE;Q4)</Text>			</Body>		</Object>		<Object no="90">			<Type>Text</Type>			<Label>.2J.F2. MUSIC STANDARDS</Label>			<Page>2</Page>			<Layer>6</Layer>			<Coordinates>				<Left>1.05</Left>				<Top>9.04</Top>			</Coordinates>			<MaxWidth>4.97</MaxWidth>			<MaxHeight>0</MaxHeight>			<Body>				<Font>					<Face>Helvetica</Face>					<Size>8</Size>					<Leading></Leading>				</Font>				<Text>Demonstrate grade-appropriate ability in understanding musical skills and concepts&lt;tabc 6.25&gt;~(*std.stored.transavg;SPEC-MUS;Q1)&lt;tabc 6.75&gt;~(*std.stored.transavg;SPEC-MUS;Q2)&lt;tabc 7.25&gt;~(*std.stored.transavg;SPEC-MUS;Q3)&lt;tabc 7.75&gt;~(*std.stored.transavg;SPEC-MUS;Q4)</Text>			</Body>		</Object>		<Object no="91">			<Type>Text</Type>			<Label>.2K.Science Title</Label>			<Page>2</Page>			<Layer>7</Layer>			<Coordinates>				<Left>1</Left>				<Top>6.8</Top>			</Coordinates>			<MaxWidth>0</MaxWidth>			<MaxHeight>0</MaxHeight>			<Body>				<Font>					<Face>Helvetica</Face>					<Size>9</Size>					<Leading></Leading>					<Bold>True</Bold>				</Font>				<Text>SCIENCE&lt;tabc 6.25&gt;Q1&lt;tabc 6.75&gt;Q2&lt;tabc 7.25&gt;Q3&lt;tabc 7.75&gt;Q4</Text>			</Body>		</Object>		<Object no="92">			<Type>Text</Type>			<Label>.2L.Phys Ed</Label>			<Page>2</Page>			<Layer>7</Layer>			<Coordinates>				<Left>1.014</Left>				<Top>8.06</Top>			</Coordinates>			<MaxWidth>0</MaxWidth>			<MaxHeight>0</MaxHeight>			<Body>				<Font>					<Face>Helvetica</Face>					<Size>9</Size>					<Leading></Leading>					<Bold>True</Bold>				</Font>				<Text>PHYSICAL EDUCATION&lt;tabc 6.25&gt;Q1&lt;tabc 6.75&gt;Q2&lt;tabc 7.25&gt;Q3&lt;tabc 7.75&gt;Q4</Text>			</Body>		</Object>		<Object no="93">			<Type>Text</Type>			<Label>.2M.Music</Label>			<Page>2</Page>			<Layer>7</Layer>			<Coordinates>				<Left>1</Left>				<Top>8.872</Top>			</Coordinates>			<MaxWidth>0</MaxWidth>			<MaxHeight>0</MaxHeight>			<Body>				<Font>					<Face>Helvetica</Face>					<Size>9</Size>					<Leading></Leading>					<Bold>True</Bold>				</Font>				<Text>MUSIC&lt;tabc 6.25&gt;Q1&lt;tabc 6.75&gt;Q2&lt;tabc 7.25&gt;Q3&lt;tabc 7.75&gt;Q4				</Text>			</Body>		</Object>		<Object no="94">			<Type>Box</Type>			<Label>.2N.I1. Instr Music/Band Box</Label>			<Page>2</Page>			<Layer>9</Layer>			<Coordinates>				<Left>1</Left>				<Top>9.658</Top>				<Right>8</Right>				<Bottom>9.938</Bottom>			</Coordinates>			<Line>				<Width>0.25</Width>				<Style>1</Style>				<Color>Black</Color>			</Line>		</Object>		<Object no="95">			<Type>Line</Type>			<Label>.2O.I2. Instr Music/Band HLine</Label>			<Page>2</Page>			<Layer>9</Layer>			<Coordinates>				<Left>1</Left>				<Top>9.797</Top>				<Right>8</Right>				<Bottom>9.797</Bottom>			</Coordinates>			<Line>				<Width>0.258</Width>				<Style>1</Style>				<Color>Black</Color>			</Line>		</Object>		<Object no="96">			<Type>Line</Type>			<Label>.2P.I3. Instr Music/Band</Label>			<Page>2</Page>			<Layer>9</Layer>			<Repeat>				<Multiple>3</Multiple>				<Offset>					<Horizontal>0.5</Horizontal>					<Vertical>0</Vertical>				</Offset>			</Repeat>			<Coordinates>				<Left>6</Left>				<Top>9.658</Top>				<Right>6</Right>				<Bottom>9.938</Bottom>			</Coordinates>			<Line>				<Width>0.25</Width>				<Style>1</Style>				<Color>Black</Color>			</Line>		</Object>		<Object no="97">			<Type>Text</Type>			<Label>.2Q.Specials</Label>			<Page>2</Page>			<Layer>9</Layer>			<Coordinates>				<Left>1.05</Left>				<Top>9.786</Top>			</Coordinates>			<MaxWidth>4.97</MaxWidth>			<MaxHeight>0</MaxHeight>			<Body>				<Font>					<Face>Helvetica</Face>					<Size>8</Size>					<Leading>9</Leading>				</Font>				<Text>Library&lt;tabc 6.25&gt;~(*std.stored.transavg;SPEC-LIB;Q1)&lt;tabc 6.75&gt;~(*std.stored.transavg;SPEC-LIB;Q2)&lt;tabc 7.25&gt;~(*std.stored.transavg;SPEC-LIB;Q3)&lt;tabc 7.75&gt;~(*std.stored.transavg;SPEC-LIB;Q4)				Outdoor Ed&lt;tabc 6.25&gt;~(*std.stored.transavg;SPEC-OE;Q1)&lt;tabc 6.75&gt;~(*std.stored.transavg;SPEC-OE;Q2)&lt;tabc 7.25&gt;~(*std.stored.transavg;SPEC-OE;Q3)&lt;tabc 7.75&gt;~(*std.stored.transavg;SPEC-OE;Q4)</Text>			</Body>		</Object>		<Object no="98">			<Type>Text</Type>			<Label>.2R.I4. Instr Music/Band</Label>			<Page>2</Page>			<Layer>9</Layer>			<Coordinates>				<Left>1</Left>				<Top>9.594</Top>			</Coordinates>			<MaxWidth>0</MaxWidth>			<MaxHeight>0</MaxHeight>			<Body>				<Font>					<Face>Helvetica</Face>					<Size>9</Size>					<Leading>9</Leading>				</Font>				<Text>&lt;b&gt;Specials&lt;tabc 6.25&gt;Q1&lt;tabc 6.75&gt;Q2&lt;tabc 7.25&gt;Q3&lt;tabc 7.75&gt;Q4&lt;/b&gt;</Text>			</Body>		</Object>		<Object no="99">			<Type>Text</Type>			<Label>.2S.K1.Mumbo Jumbo Pg 2</Label>			<Page>2</Page>			<Layer>11</Layer>			<Coordinates>				<Left>1</Left>				<Top>10.788</Top>			</Coordinates>			<MaxWidth>0</MaxWidth>			<MaxHeight>0</MaxHeight>			<Body>				<Font>					<Face>Helvetica</Face>					<Size>6</Size>					<Leading></Leading>					<Italic>True</Italic>				</Font>				<Text>~[pagenumber]. - ~[reportname]. - ~[date;dateformat=mm-dd-yyyy] - ps~[version]</Text>			</Body>		</Object>		<Object no="100">			<Type>Box</Type>			<Label>.2T.Box</Label>			<Page>3</Page>			<Layer>0</Layer>			<Coordinates>				<Left>0.602</Left>				<Top>2.66</Top>				<Right>7.602</Right>				<Bottom>10.388</Bottom>			</Coordinates>			<Line>				<Width>1</Width>				<Style>1</Style>				<Color>Black</Color>			</Line>		</Object>		<Object no="101">			<Type>Text</Type>			<Label>.2U.Comments</Label>			<Page>3</Page>			<Layer>0</Layer>			<Coordinates>				<Left>0.63</Left>				<Top>2.618</Top>			</Coordinates>			<MaxWidth>0</MaxWidth>			<MaxHeight>0</MaxHeight>			<Body>				<Font>					<Face>Default</Face>					<Size></Size>					<Leading></Leading>				</Font>				<Text>&lt;b&gt;Comments&lt;/b&gt;</Text>			</Body>		</Object>		<Object no="102">			<Type>Text</Type>			<Label>.2V.Text</Label>			<Page>3</Page>			<Layer>0</Layer>			<Coordinates>				<Left>0.686</Left>				<Top>2.842</Top>			</Coordinates>			<MaxWidth>6.7</MaxWidth>			<MaxHeight>7.5</MaxHeight>			<Body>				<Font>					<Face>Default</Face>					<Size>8</Size>					<Leading></Leading>				</Font>				<Text>^(*std.stored.comment;SPEC-WH;Q1)				Physical Education: ^(*std.stored.comment;SPEC-PE;Q1)				Music: ^(*std.stored.comment;SPEC-MUS;Q1)</Text>			</Body>		</Object>		<Object no="103">			<Type>Text</Type>			<Label>.2W.A2.District Name Pg 2</Label>			<Page>3</Page>			<Layer>1</Layer>			<Coordinates>				<Left>1</Left>				<Top>1.25</Top>			</Coordinates>			<MaxWidth>0</MaxWidth>			<MaxHeight>0</MaxHeight>			<Body>				<Font>					<Face>Helvetica</Face>					<Size>10</Size>					<Leading></Leading>				</Font>				<Text>&lt;center&gt;~(schoolordistrictname)&lt;/center&gt;</Text>			</Body>		</Object>		<Object no="104">			<Type>Text</Type>			<Label>.2X.A1.Main Title Pg 2</Label>			<Page>3</Page>			<Layer>1</Layer>			<Coordinates>				<Left>1</Left>				<Top>1</Top>			</Coordinates>			<MaxWidth>0</MaxWidth>			<MaxHeight>0</MaxHeight>			<Body>				<Font>					<Face>Helvetica</Face>					<Size>18</Size>					<Leading></Leading>					<Bold>True</Bold>				</Font>				<Text>&lt;center&gt;3rd Grade Report Card&lt;/center&gt;</Text>			</Body>		</Object>		<Object no="105">			<Type>Text</Type>			<Label>.2Y.A5.Home Room Teacher</Label>			<Page>3</Page>			<Layer>1</Layer>			<Coordinates>				<Left>1</Left>				<Top>1.85</Top>			</Coordinates>			<MaxWidth>5.25</MaxWidth>			<MaxHeight>0</MaxHeight>			<Body>				<Font>					<Face>Helvetica</Face>					<Size>9</Size>					<Leading></Leading>					<Italic>True</Italic>				</Font>				<Text>&lt;tabto 2.75&gt;Homeroom Teacher: &lt;tabto 2.75&gt;Homeroom Teacher: ^(*period_info;P2(R);teacher_i_first_name) ^(*period_info;P2(R);teacher_i_last_name) ^(*period_info;P2(A);teacher_i_first_name) ^(*period_info;P2(A);teacher_i_last_name)</Text>			</Body>		</Object>		<Object no="106">			<Type>Text</Type>			<Label>.2Z.A4. Student Data</Label>			<Page>3</Page>			<Layer>1</Layer>			<Coordinates>				<Left>2.75</Left>				<Top>1.65</Top>			</Coordinates>			<MaxWidth>5.25</MaxWidth>			<MaxHeight>0</MaxHeight>			<Body>				<Font>					<Face>Helvetica</Face>					<Size>9</Size>					<Leading>12</Leading>				</Font>				<Text>Grade ^(grade_level)&lt;tabr 8.0&gt;~(yearname)</Text>			</Body>		</Object>		<Object no="107">			<Type>Text</Type>			<Label>.30.A3.StudentName/School Name</Label>			<Page>3</Page>			<Layer>1</Layer>			<Coordinates>				<Left>2.75</Left>				<Top>1.5</Top>			</Coordinates>			<MaxWidth>5.25</MaxWidth>			<MaxHeight>0</MaxHeight>			<Body>				<Font>					<Face>Helvetica</Face>					<Size>14</Size>					<Leading></Leading>				</Font>				<Text>&lt;b&gt;~(last_name), ~(first_name)&lt;/b&gt;&lt;tabr 8.0&gt;~(schoolname)</Text>			</Body>		</Object>		<Object no="108">			<Type>Text</Type>			<Label>.31.K1.Mumbo Jumbo Pg 2</Label>			<Page>3</Page>			<Layer>11</Layer>			<Coordinates>				<Left>1</Left>				<Top>10.886</Top>			</Coordinates>			<MaxWidth>0</MaxWidth>			<MaxHeight>0</MaxHeight>			<Body>				<Font>					<Face>Helvetica</Face>					<Size>6</Size>					<Leading></Leading>					<Italic>True</Italic>				</Font>				<Text>~[pagenumber]. - ~[reportname]. - ~[date;dateformat=mm-dd-yyyy] - ps~[version]</Text>			</Body>		</Object>		<Object no="109">			<Type>Text</Type>			<Label>.00.000.SPLITTER.KEY</Label>			<Page>All</Page>			<Layer>0</Layer>			<Coordinates>				<Left>0.1</Left>				<Top>0.1</Top>			</Coordinates>			<MaxWidth>0</MaxWidth>			<MaxHeight>0</MaxHeight>			<Fill>				<Color>White</Color>			</Fill>			<Body>				<Font>					<Face>Default</Face>					<Size></Size>					<Leading></Leading>				</Font>				<Text>***studentid=~([students]id)***</Text>			</Body>		</Object>		<Object no="110">			<Type>Picture</Type>			<Label>.01.A0.Photo</Label>			<Page>All</Page>			<Layer>1</Layer>			<ScalingOption>fillcenter</ScalingOption>			<Coordinates>				<Left>1</Left>				<Top>0.456</Top>				<Right>2.25</Right>				<Bottom>1.856</Bottom>			</Coordinates>			<Picture>WA_New.jpg</Picture>		</Object>	</ObjectData></PSReportTemplate>
+<PSReportTemplate>
+
+	<FileHeader>
+		<Created>Tue, 16 Jan 2024 22:14:22 GMT</Created>
+		<PSVersion>23.12.0.1.233451220</PSVersion>
+		<TemplateVersion>1.0</TemplateVersion>
+		<Author>Hawkins, Dalton Jacob</Author>
+	</FileHeader>
+
+	<ReportHeader>
+		<Type>Object Report</Type>
+		<Name>WA 3rd Grade Report Card</Name>
+		<Table>Students</Table>
+	</ReportHeader>
+
+	<ReportData>
+		<Units>Inches</Units>
+		<Paper>
+			<Size>Letter</Size>
+			<Width>8.5</Width>
+			<Height>11</Height>
+			<Orientation>Portrait</Orientation>
+			<Margins>
+				<Left>0.5</Left>
+				<Top>0.5</Top>
+				<Right>0.5</Right>
+				<Bottom>0.5</Bottom>
+			</Margins>
+			<Scale>100</Scale>
+		</Paper>
+		<Body>
+			<Font>
+				<Face>Helvetica</Face>
+				<Size>9</Size>
+				<Leading>12</Leading>
+			</Font>
+		</Body>
+	</ReportData>
+
+	<ObjectData>
+		<Type>Objects</Type>
+		<Object no="1">
+			<Type>Text</Type>
+			<Label>.02.A1.Main Title</Label>
+			<Page>1</Page>
+			<Layer>1</Layer>
+			<Coordinates>
+				<Left>1</Left>
+				<Top>1.056</Top>
+			</Coordinates>
+			<MaxWidth>0</MaxWidth>
+			<MaxHeight>0</MaxHeight>
+			<Body>
+				<Font>
+					<Face>Helvetica</Face>
+					<Size>18</Size>
+					<Leading></Leading>
+					<Bold>True</Bold>
+				</Font>
+				<Text>&lt;center&gt;3rd Grade Report Card&lt;/center&gt;</Text>
+			</Body>
+		</Object>
+		<Object no="2">
+			<Type>Text</Type>
+			<Label>.03.A2.District Name</Label>
+			<Page>1</Page>
+			<Layer>1</Layer>
+			<Coordinates>
+				<Left>1</Left>
+				<Top>1.306</Top>
+			</Coordinates>
+			<MaxWidth>0</MaxWidth>
+			<MaxHeight>0</MaxHeight>
+			<Body>
+				<Font>
+					<Face>Helvetica</Face>
+					<Size>10</Size>
+					<Leading></Leading>
+				</Font>
+				<Text>&lt;center&gt;~(schoolordistrictname)&lt;/center&gt;</Text>
+			</Body>
+		</Object>
+		<Object no="3">
+			<Type>Text</Type>
+			<Label>.04.A3.Student Name/School Nam</Label>
+			<Page>1</Page>
+			<Layer>1</Layer>
+			<Coordinates>
+				<Left>2.75</Left>
+				<Top>1.556</Top>
+			</Coordinates>
+			<MaxWidth>5.25</MaxWidth>
+			<MaxHeight>0</MaxHeight>
+			<Body>
+				<Font>
+					<Face>Helvetica</Face>
+					<Size>14</Size>
+					<Leading></Leading>
+				</Font>
+				<Text>&lt;b&gt;~(last_name), ~(first_name)&lt;/b&gt;&lt;tabr 8.0&gt;~(schoolname)</Text>
+			</Body>
+		</Object>
+		<Object no="4">
+			<Type>Text</Type>
+			<Label>.05.A4.Student Data</Label>
+			<Page>1</Page>
+			<Layer>1</Layer>
+			<Coordinates>
+				<Left>2.75</Left>
+				<Top>1.706</Top>
+			</Coordinates>
+			<MaxWidth>5.25</MaxWidth>
+			<MaxHeight>0</MaxHeight>
+			<Body>
+				<Font>
+					<Face>Helvetica</Face>
+					<Size>9</Size>
+					<Leading>12</Leading>
+					<Italic>True</Italic>
+				</Font>
+				<Text>Grade ~(grade_level)&lt;tabr 8.0&gt;~(yearname)</Text>
+			</Body>
+		</Object>
+		<Object no="5">
+			<Type>Text</Type>
+			<Label>.06.A5.Home Room Teacher</Label>
+			<Page>1</Page>
+			<Layer>1</Layer>
+			<Coordinates>
+				<Left>1</Left>
+				<Top>1.906</Top>
+			</Coordinates>
+			<MaxWidth>5.25</MaxWidth>
+			<MaxHeight>0</MaxHeight>
+			<Body>
+				<Font>
+					<Face>Helvetica</Face>
+					<Size>9</Size>
+					<Leading></Leading>
+					<Italic>True</Italic>
+				</Font>
+				<Text>&lt;tabto 2.75&gt;Homeroom Teacher: &lt;tabto 2.75&gt;Homeroom Teacher: ^(*period_info;P2(R);teacher_i_first_name) ^(*period_info;P2(R);teacher_i_last_name) ^(*period_info;P2(A);teacher_i_first_name) ^(*period_info;P2(A);teacher_i_last_name)</Text>
+			</Body>
+		</Object>
+		<Object no="6">
+			<Type>Box</Type>
+			<Label>.07.Found Read Box</Label>
+			<Page>1</Page>
+			<Layer>2</Layer>
+			<Coordinates>
+				<Left>1</Left>
+				<Top>5.23</Top>
+				<Right>8</Right>
+				<Bottom>5.51</Bottom>
+			</Coordinates>
+			<Line>
+				<Width>0.25</Width>
+				<Style>1</Style>
+				<Color>Black</Color>
+			</Line>
+		</Object>
+		<Object no="7">
+			<Type>Line</Type>
+			<Label>.08.Found Read Vert Line</Label>
+			<Page>1</Page>
+			<Layer>2</Layer>
+			<Repeat>
+				<Multiple>3</Multiple>
+				<Offset>
+					<Horizontal>0.5</Horizontal>
+					<Vertical>0</Vertical>
+				</Offset>
+			</Repeat>
+			<Coordinates>
+				<Left>6</Left>
+				<Top>5.37</Top>
+				<Right>6</Right>
+				<Bottom>5.51</Bottom>
+			</Coordinates>
+			<Line>
+				<Width>0.25</Width>
+				<Style>1</Style>
+				<Color>Black</Color>
+			</Line>
+		</Object>
+		<Object no="8">
+			<Type>Text</Type>
+			<Label>.09.Foun Read Title</Label>
+			<Page>1</Page>
+			<Layer>2</Layer>
+			<Coordinates>
+				<Left>1</Left>
+				<Top>5.162</Top>
+			</Coordinates>
+			<MaxWidth>0</MaxWidth>
+			<MaxHeight>0</MaxHeight>
+			<Body>
+				<Font>
+					<Face>Helvetica</Face>
+					<Size>9</Size>
+					<Leading></Leading>
+					<Bold>True</Bold>
+				</Font>
+				<Text>FOUNDATIONAL READING SKILLS&lt;tabc 6.25&gt;Q1&lt;tabc 6.75&gt;Q2&lt;tabc 7.25&gt;Q3&lt;tabc 7.75&gt;Q4
+				</Text>
+			</Body>
+		</Object>
+		<Object no="9">
+			<Type>Text</Type>
+			<Label>.0A.Found Read Standards</Label>
+			<Page>1</Page>
+			<Layer>2</Layer>
+			<Coordinates>
+				<Left>1.05</Left>
+				<Top>5.33</Top>
+			</Coordinates>
+			<MaxWidth>5</MaxWidth>
+			<MaxHeight>0</MaxHeight>
+			<Body>
+				<Font>
+					<Face>Helvetica</Face>
+					<Size>8</Size>
+					<Leading></Leading>
+				</Font>
+				<Text>&lt;b&gt;Phonics and Decoding
+				&lt;/b&gt;3.FR-PH.3: Use knowledge of grade-level phonics and word analysis skills to decode words.&lt;tabc 6.25&gt;~(*std.stored.transavg;3.FR-PH.3;Q1)&lt;tabc 6.75&gt;~(*std.stored.transavg;3.FR-PH.3;Q2)&lt;tabc 7.25&gt;~(*std.stored.transavg;3.FR-PH.3;Q3)&lt;tabc 7.75&gt;~(*std.stored.transavg;3.FR-PH.3;Q4)</Text>
+			</Body>
+		</Object>
+		<Object no="10">
+			<Type>Box</Type>
+			<Label>.0B.Academic Perf Box</Label>
+			<Page>1</Page>
+			<Layer>3</Layer>
+			<Coordinates>
+				<Left>1</Left>
+				<Top>2.04</Top>
+				<Right>3.668</Right>
+				<Bottom>3.256</Bottom>
+			</Coordinates>
+			<Line>
+				<Width>0.25</Width>
+				<Style>1</Style>
+				<Color>Black</Color>
+			</Line>
+		</Object>
+		<Object no="11">
+			<Type>Box</Type>
+			<Label>.0C.Behav Perf Box</Label>
+			<Page>1</Page>
+			<Layer>3</Layer>
+			<Coordinates>
+				<Left>5.038</Left>
+				<Top>2.026</Top>
+				<Right>7.138</Right>
+				<Bottom>2.976</Bottom>
+			</Coordinates>
+			<Line>
+				<Width>0.25</Width>
+				<Style>1</Style>
+				<Color>Black</Color>
+			</Line>
+		</Object>
+		<Object no="12">
+			<Type>Box</Type>
+			<Label>.0D.Grammar Conv Box</Label>
+			<Page>1</Page>
+			<Layer>3</Layer>
+			<Coordinates>
+				<Left>1</Left>
+				<Top>8.876</Top>
+				<Right>8</Right>
+				<Bottom>9.576</Bottom>
+			</Coordinates>
+			<Line>
+				<Width>0.25</Width>
+				<Style>1</Style>
+				<Color>Black</Color>
+			</Line>
+		</Object>
+		<Object no="13">
+			<Type>Line</Type>
+			<Label>.0E.Gram Conv Vert Lines</Label>
+			<Page>1</Page>
+			<Layer>3</Layer>
+			<Repeat>
+				<Multiple>3</Multiple>
+				<Offset>
+					<Horizontal>0.5</Horizontal>
+					<Vertical>0</Vertical>
+				</Offset>
+			</Repeat>
+			<Coordinates>
+				<Left>6</Left>
+				<Top>9.016</Top>
+				<Right>6</Right>
+				<Bottom>9.576</Bottom>
+			</Coordinates>
+			<Line>
+				<Width>0.25</Width>
+				<Style>1</Style>
+				<Color>Black</Color>
+			</Line>
+		</Object>
+		<Object no="14">
+			<Type>Line</Type>
+			<Label>.0F.Gram Conv Horiz Line</Label>
+			<Page>1</Page>
+			<Layer>3</Layer>
+			<Repeat>
+				<Multiple>1</Multiple>
+				<Offset>
+					<Horizontal>0</Horizontal>
+					<Vertical>0.28</Vertical>
+				</Offset>
+			</Repeat>
+			<Coordinates>
+				<Left>1</Left>
+				<Top>9.011</Top>
+				<Right>8</Right>
+				<Bottom>9.011</Bottom>
+			</Coordinates>
+			<Line>
+				<Width>0.25</Width>
+				<Style>1</Style>
+				<Color>Black</Color>
+			</Line>
+		</Object>
+		<Object no="15">
+			<Type>Text</Type>
+			<Label>.0G.C1. Cit & Wk Codes T</Label>
+			<Page>1</Page>
+			<Layer>3</Layer>
+			<Coordinates>
+				<Left>1.322</Left>
+				<Top>2.24</Top>
+			</Coordinates>
+			<MaxWidth>2.15</MaxWidth>
+			<MaxHeight>0</MaxHeight>
+			<Body>
+				<Font>
+					<Face>Helvetica</Face>
+					<Size>9</Size>
+					<Leading>9</Leading>
+					<Bold>True</Bold>
+				</Font>
+				<Text>&lt;tabc 2.07&gt;Academic Performance Key
+				</Text>
+			</Body>
+		</Object>
+		<Object no="16">
+			<Type>Text</Type>
+			<Label>.0H.Behav Perf Key</Label>
+			<Page>1</Page>
+			<Layer>3</Layer>
+			<Coordinates>
+				<Left>5.1</Left>
+				<Top>2.362</Top>
+			</Coordinates>
+			<MaxWidth>0</MaxWidth>
+			<MaxHeight>0</MaxHeight>
+			<Body>
+				<Font>
+					<Face>Helvetica</Face>
+					<Size>8</Size>
+					<Leading></Leading>
+				</Font>
+				<Text>&lt;tabto 5.15&gt;+ : Consistently Demonstrates
+				&lt;tabto 5.15&gt;/ : Sometimes Demonstrates
+				&lt;tabto 5.15&gt;- : Rarely Demonstrates</Text>
+			</Body>
+		</Object>
+		<Object no="17">
+			<Type>Text</Type>
+			<Label>.0I.Behavior Perf Title</Label>
+			<Page>1</Page>
+			<Layer>3</Layer>
+			<Coordinates>
+				<Left>5.27</Left>
+				<Top>2.212</Top>
+			</Coordinates>
+			<MaxWidth>2.15</MaxWidth>
+			<MaxHeight>0</MaxHeight>
+			<Body>
+				<Font>
+					<Face>Helvetica</Face>
+					<Size>9</Size>
+					<Leading>9</Leading>
+					<Bold>True</Bold>
+				</Font>
+				<Text>Behavior Performance Key</Text>
+			</Body>
+		</Object>
+		<Object no="18">
+			<Type>Text</Type>
+			<Label>.0J.Acad Perf Key</Label>
+			<Page>1</Page>
+			<Layer>3</Layer>
+			<Coordinates>
+				<Left>1.644</Left>
+				<Top>2.406</Top>
+			</Coordinates>
+			<MaxWidth>2.7</MaxWidth>
+			<MaxHeight>0</MaxHeight>
+			<Body>
+				<Font>
+					<Face>Helvetica</Face>
+					<Size>8</Size>
+					<Leading></Leading>
+				</Font>
+				<Text>&lt;tabto 1.1&gt;4 - Exceeds Grade Level Standard
+				&lt;tabto 1.1&gt;3 - Meets Grade Level Standard
+				&lt;tabto 1.1&gt;2 - Progressing Toward Grade Level Standard
+				&lt;tabto 1.1&gt;1 - Limited Progress Toward Grade Level Standard
+				
+				&lt;tabto 1.1&gt;* : Concept Was Not Assessed This Term
+				
+				
+				</Text>
+			</Body>
+		</Object>
+		<Object no="19">
+			<Type>Text</Type>
+			<Label>.0K.Grammar Standards</Label>
+			<Page>1</Page>
+			<Layer>3</Layer>
+			<Coordinates>
+				<Left>1.05</Left>
+				<Top>8.972</Top>
+			</Coordinates>
+			<MaxWidth>4.95</MaxWidth>
+			<MaxHeight>0</MaxHeight>
+			<Body>
+				<Font>
+					<Face>Helvetica</Face>
+					<Size>8</Size>
+					<Leading>10</Leading>
+				</Font>
+				<Text>&lt;b&gt;Grammar, Usage and Mechanics
+				&lt;/b&gt;3.GC-GU.1: Demonstrate command of the conventions of English grammar and usage when writing or speaking&lt;tabc 6.25&gt;~(*std.stored.transavg;3.GC-GU.1;Q1)&lt;tabc 6.75&gt;~(*std.stored.transavg;3.GC-GU.1;Q2)&lt;tabc 7.25&gt;~(*std.stored.transavg;3.GC-GU.1;Q3)&lt;tabc 7.75&gt;~(*std.stored.transavg;3.GC-GU.1;Q4)
+				3.GC-M.2-3: Demonstrate command of the conventions of English punctuation, capitalization, and spelling&lt;tabc 6.25&gt;~(*std.stored.transavg;3.GC-M.2-3;Q1)&lt;tabc 6.75&gt;~(*std.stored.transavg;3.GC-M.2-3;Q2)&lt;tabc 7.25&gt;~(*std.stored.transavg;3.GC-M.2-3;Q3)&lt;tabc 7.75&gt;~(*std.stored.transavg;3.GC-M.2-3;Q4)</Text>
+			</Body>
+		</Object>
+		<Object no="20">
+			<Type>Text</Type>
+			<Label>.0L.Grammar Title</Label>
+			<Page>1</Page>
+			<Layer>3</Layer>
+			<Coordinates>
+				<Left>1</Left>
+				<Top>8.812</Top>
+			</Coordinates>
+			<MaxWidth>0</MaxWidth>
+			<MaxHeight>0</MaxHeight>
+			<Body>
+				<Font>
+					<Face>Helvetica</Face>
+					<Size>9</Size>
+					<Leading></Leading>
+					<Bold>True</Bold>
+				</Font>
+				<Text>GRAMMAR AND CONVENTIONS&lt;tabc 6.25&gt;Q1&lt;tabc 6.75&gt;Q2&lt;tabc 7.25&gt;Q3&lt;tabc 7.75&gt;Q4</Text>
+			</Body>
+		</Object>
+		<Object no="21">
+			<Type>Box</Type>
+			<Label>.0M.D1.Cit Box</Label>
+			<Page>1</Page>
+			<Layer>4</Layer>
+			<Coordinates>
+				<Left>1</Left>
+				<Top>3.548</Top>
+				<Right>8</Right>
+				<Bottom>3.828</Bottom>
+			</Coordinates>
+			<Line>
+				<Width>0.25</Width>
+				<Style>1</Style>
+				<Color>Black</Color>
+			</Line>
+		</Object>
+		<Object no="22">
+			<Type>Line</Type>
+			<Label>.0N.D1.Cit Horz Lines</Label>
+			<Page>1</Page>
+			<Layer>4</Layer>
+			<Coordinates>
+				<Left>1</Left>
+				<Top>3.683</Top>
+				<Right>8</Right>
+				<Bottom>3.683</Bottom>
+			</Coordinates>
+			<Line>
+				<Width>0.25</Width>
+				<Style>1</Style>
+				<Color>Black</Color>
+			</Line>
+		</Object>
+		<Object no="23">
+			<Type>Line</Type>
+			<Label>.0O.D2.Cit Vert Lines</Label>
+			<Page>1</Page>
+			<Layer>4</Layer>
+			<Repeat>
+				<Multiple>3</Multiple>
+				<Offset>
+					<Horizontal>0.5</Horizontal>
+					<Vertical>0</Vertical>
+				</Offset>
+			</Repeat>
+			<Coordinates>
+				<Left>6</Left>
+				<Top>3.548</Top>
+				<Right>6</Right>
+				<Bottom>3.828</Bottom>
+			</Coordinates>
+			<Line>
+				<Width>0.25</Width>
+				<Style>1</Style>
+				<Color>Black</Color>
+			</Line>
+		</Object>
+		<Object no="24">
+			<Type>Line</Type>
+			<Label>.0P.D1.Cit Horz Lines</Label>
+			<Page>1</Page>
+			<Layer>4</Layer>
+			<Coordinates>
+				<Left>1</Left>
+				<Top>8.373</Top>
+				<Right>8</Right>
+				<Bottom>8.373</Bottom>
+			</Coordinates>
+			<Line>
+				<Width>0.25</Width>
+				<Style>1</Style>
+				<Color>Black</Color>
+			</Line>
+		</Object>
+		<Object no="25">
+			<Type>Line</Type>
+			<Label>.0Q.D1.Cit Horz Lines</Label>
+			<Page>1</Page>
+			<Layer>4</Layer>
+			<Coordinates>
+				<Left>1</Left>
+				<Top>5.363</Top>
+				<Right>8</Right>
+				<Bottom>5.363</Bottom>
+			</Coordinates>
+			<Line>
+				<Width>0.25</Width>
+				<Style>1</Style>
+				<Color>Black</Color>
+			</Line>
+		</Object>
+		<Object no="26">
+			<Type>Text</Type>
+			<Label>.0R.D1. Citizenship Head</Label>
+			<Page>1</Page>
+			<Layer>4</Layer>
+			<Coordinates>
+				<Left>1</Left>
+				<Top>3.498</Top>
+			</Coordinates>
+			<MaxWidth>0</MaxWidth>
+			<MaxHeight>0</MaxHeight>
+			<Body>
+				<Font>
+					<Face>Helvetica</Face>
+					<Size>9</Size>
+					<Leading>9</Leading>
+				</Font>
+				<Text>&lt;b&gt;CITIZENSHIP&lt;tabc 6.25&gt;Q1&lt;tabc 6.75&gt;Q2&lt;tabc 7.25&gt;Q3&lt;tabc 7.75&gt;Q4&lt;/b&gt;</Text>
+			</Body>
+		</Object>
+		<Object no="27">
+			<Type>Text</Type>
+			<Label>.0S.D2. Citizenship Stan</Label>
+			<Page>1</Page>
+			<Layer>4</Layer>
+			<Coordinates>
+				<Left>1.05</Left>
+				<Top>3.663</Top>
+			</Coordinates>
+			<MaxWidth>4.97</MaxWidth>
+			<MaxHeight>0</MaxHeight>
+			<Body>
+				<Font>
+					<Face>Helvetica</Face>
+					<Size>8</Size>
+					<Leading></Leading>
+				</Font>
+				<Text>Demonstrates respect for self, others, and property&lt;tabc 6.25&gt;~(*std.stored.transavg;SPEC-CIT-1;Q1)&lt;tabc 6.75&gt;~(*std.stored.transavg;SPEC-CIT-1;Q2)&lt;tabc 7.25&gt;~(*std.stored.transavg;SPEC-CIT-1;Q3)&lt;tabc 7.75&gt;~(*std.stored.transavg;SPEC-CIT-1;Q4)
+				Seeks positive solutions to problems&lt;tabc 6.25&gt;~(*std.stored.transavg;SPEC-CIT-2;Q1)&lt;tabc 6.75&gt;~(*std.stored.transavg;SPEC-CIT-2;Q2)&lt;tabc 7.25&gt;~(*std.stored.transavg;SPEC-CIT-2;Q3)&lt;tabc 7.75&gt;~(*std.stored.transavg;SPEC-CIT-2;Q4)</Text>
+			</Body>
+		</Object>
+		<Object no="28">
+			<Type>Line</Type>
+			<Label>.0T.E1. Work Habits Horiz Line</Label>
+			<Page>1</Page>
+			<Layer>5</Layer>
+			<Repeat>
+				<Multiple>3</Multiple>
+				<Offset>
+					<Horizontal>0</Horizontal>
+					<Vertical>0.14</Vertical>
+				</Offset>
+			</Repeat>
+			<Coordinates>
+				<Left>1</Left>
+				<Top>4.296</Top>
+				<Right>8</Right>
+				<Bottom>4.296</Bottom>
+			</Coordinates>
+			<Line>
+				<Width>0.25</Width>
+				<Style>1</Style>
+				<Color>Black</Color>
+			</Line>
+		</Object>
+		<Object no="29">
+			<Type>Text</Type>
+			<Label>.0U.E1. Work Habits Head</Label>
+			<Page>1</Page>
+			<Layer>5</Layer>
+			<Coordinates>
+				<Left>1</Left>
+				<Top>4.106</Top>
+			</Coordinates>
+			<MaxWidth>0</MaxWidth>
+			<MaxHeight>0</MaxHeight>
+			<Body>
+				<Font>
+					<Face>Default</Face>
+					<Size>9</Size>
+					<Leading>9</Leading>
+				</Font>
+				<Text>&lt;b&gt;WORK HABITS&lt;tabc 6.25&gt;Q1&lt;tabc 6.75&gt;Q2&lt;tabc 7.25&gt;Q3&lt;tabc 7.75&gt;Q4&lt;/b&gt;</Text>
+			</Body>
+		</Object>
+		<Object no="30">
+			<Type>Box</Type>
+			<Label>.0V.F1. Read Box</Label>
+			<Page>1</Page>
+			<Layer>6</Layer>
+			<Coordinates>
+				<Left>1</Left>
+				<Top>5.883</Top>
+				<Right>8</Right>
+				<Bottom>7.983</Bottom>
+			</Coordinates>
+			<Line>
+				<Width>0.25</Width>
+				<Style>1</Style>
+				<Color>Black</Color>
+			</Line>
+		</Object>
+		<Object no="31">
+			<Type>Line</Type>
+			<Label>.0W.Read Comp Horiz Line</Label>
+			<Page>1</Page>
+			<Layer>6</Layer>
+			<Coordinates>
+				<Left>1</Left>
+				<Top>6.023</Top>
+				<Right>8</Right>
+				<Bottom>6.023</Bottom>
+			</Coordinates>
+			<Line>
+				<Width>0.25</Width>
+				<Style>1</Style>
+				<Color>Black</Color>
+			</Line>
+		</Object>
+		<Object no="32">
+			<Type>Line</Type>
+			<Label>.0X.Read C Vert Line1</Label>
+			<Page>1</Page>
+			<Layer>6</Layer>
+			<Repeat>
+				<Multiple>3</Multiple>
+				<Offset>
+					<Horizontal>0.5</Horizontal>
+					<Vertical>0</Vertical>
+				</Offset>
+			</Repeat>
+			<Coordinates>
+				<Left>6</Left>
+				<Top>6.023</Top>
+				<Right>6</Right>
+				<Bottom>6.303</Bottom>
+			</Coordinates>
+			<Line>
+				<Width>0.25</Width>
+				<Style>1</Style>
+				<Color>Black</Color>
+			</Line>
+		</Object>
+		<Object no="33">
+			<Type>Line</Type>
+			<Label>.0Y.Read Comp Horiz Lin2</Label>
+			<Page>1</Page>
+			<Layer>6</Layer>
+			<Repeat>
+				<Multiple>1</Multiple>
+				<Offset>
+					<Horizontal>0</Horizontal>
+					<Vertical>0.14</Vertical>
+				</Offset>
+			</Repeat>
+			<Coordinates>
+				<Left>1</Left>
+				<Top>6.303</Top>
+				<Right>8</Right>
+				<Bottom>6.303</Bottom>
+			</Coordinates>
+			<Line>
+				<Width>0.25</Width>
+				<Style>1</Style>
+				<Color>Black</Color>
+			</Line>
+		</Object>
+		<Object no="34">
+			<Type>Line</Type>
+			<Label>.0Z.Read Comp Horiz Lin3</Label>
+			<Page>1</Page>
+			<Layer>6</Layer>
+			<Repeat>
+				<Multiple>1</Multiple>
+				<Offset>
+					<Horizontal>0</Horizontal>
+					<Vertical>0.14</Vertical>
+				</Offset>
+			</Repeat>
+			<Coordinates>
+				<Left>1</Left>
+				<Top>6.723</Top>
+				<Right>8</Right>
+				<Bottom>6.723</Bottom>
+			</Coordinates>
+			<Line>
+				<Width>0.25</Width>
+				<Style>1</Style>
+				<Color>Black</Color>
+			</Line>
+		</Object>
+		<Object no="35">
+			<Type>Line</Type>
+			<Label>.10.Read Comp Horiz Lin4</Label>
+			<Page>1</Page>
+			<Layer>6</Layer>
+			<Repeat>
+				<Multiple>1</Multiple>
+				<Offset>
+					<Horizontal>0</Horizontal>
+					<Vertical>0.14</Vertical>
+				</Offset>
+			</Repeat>
+			<Coordinates>
+				<Left>1</Left>
+				<Top>7.143</Top>
+				<Right>8</Right>
+				<Bottom>7.143</Bottom>
+			</Coordinates>
+			<Line>
+				<Width>0.25</Width>
+				<Style>1</Style>
+				<Color>Black</Color>
+			</Line>
+		</Object>
+		<Object no="36">
+			<Type>Line</Type>
+			<Label>.11.Read C Vert Line2</Label>
+			<Page>1</Page>
+			<Layer>6</Layer>
+			<Repeat>
+				<Multiple>3</Multiple>
+				<Offset>
+					<Horizontal>0.5</Horizontal>
+					<Vertical>0</Vertical>
+				</Offset>
+			</Repeat>
+			<Coordinates>
+				<Left>6</Left>
+				<Top>6.443</Top>
+				<Right>6</Right>
+				<Bottom>6.723</Bottom>
+			</Coordinates>
+			<Line>
+				<Width>0.25</Width>
+				<Style>1</Style>
+				<Color>Black</Color>
+			</Line>
+		</Object>
+		<Object no="37">
+			<Type>Line</Type>
+			<Label>.12.Read C Vert Line3</Label>
+			<Page>1</Page>
+			<Layer>6</Layer>
+			<Repeat>
+				<Multiple>3</Multiple>
+				<Offset>
+					<Horizontal>0.5</Horizontal>
+					<Vertical>0</Vertical>
+				</Offset>
+			</Repeat>
+			<Coordinates>
+				<Left>6</Left>
+				<Top>6.863</Top>
+				<Right>6</Right>
+				<Bottom>7.143</Bottom>
+			</Coordinates>
+			<Line>
+				<Width>0.25</Width>
+				<Style>1</Style>
+				<Color>Black</Color>
+			</Line>
+		</Object>
+		<Object no="38">
+			<Type>Line</Type>
+			<Label>.13.Read C Vert Line4</Label>
+			<Page>1</Page>
+			<Layer>6</Layer>
+			<Repeat>
+				<Multiple>3</Multiple>
+				<Offset>
+					<Horizontal>0.5</Horizontal>
+					<Vertical>0</Vertical>
+				</Offset>
+			</Repeat>
+			<Coordinates>
+				<Left>6</Left>
+				<Top>7.283</Top>
+				<Right>6</Right>
+				<Bottom>7.563</Bottom>
+			</Coordinates>
+			<Line>
+				<Width>0.25</Width>
+				<Style>1</Style>
+				<Color>Black</Color>
+			</Line>
+		</Object>
+		<Object no="39">
+			<Type>Line</Type>
+			<Label>.14.Read Comp Horiz Lin5</Label>
+			<Page>1</Page>
+			<Layer>6</Layer>
+			<Repeat>
+				<Multiple>1</Multiple>
+				<Offset>
+					<Horizontal>0</Horizontal>
+					<Vertical>0.14</Vertical>
+				</Offset>
+			</Repeat>
+			<Coordinates>
+				<Left>1</Left>
+				<Top>7.563</Top>
+				<Right>8</Right>
+				<Bottom>7.563</Bottom>
+			</Coordinates>
+			<Line>
+				<Width>0.25</Width>
+				<Style>1</Style>
+				<Color>Black</Color>
+			</Line>
+		</Object>
+		<Object no="40">
+			<Type>Line</Type>
+			<Label>.15.Read C Vert Line5</Label>
+			<Page>1</Page>
+			<Layer>6</Layer>
+			<Repeat>
+				<Multiple>3</Multiple>
+				<Offset>
+					<Horizontal>0.5</Horizontal>
+					<Vertical>0</Vertical>
+				</Offset>
+			</Repeat>
+			<Coordinates>
+				<Left>6</Left>
+				<Top>7.703</Top>
+				<Right>6</Right>
+				<Bottom>7.983</Bottom>
+			</Coordinates>
+			<Line>
+				<Width>0.25</Width>
+				<Style>1</Style>
+				<Color>Black</Color>
+			</Line>
+		</Object>
+		<Object no="41">
+			<Type>Text</Type>
+			<Label>.16.Reading Compre Stand</Label>
+			<Page>1</Page>
+			<Layer>6</Layer>
+			<Coordinates>
+				<Left>1.036</Left>
+				<Top>5.988</Top>
+			</Coordinates>
+			<MaxWidth>4.97</MaxWidth>
+			<MaxHeight>0</MaxHeight>
+			<Body>
+				<Font>
+					<Face>Helvetica</Face>
+					<Size>8</Size>
+					<Leading>10</Leading>
+				</Font>
+				<Text>&lt;b&gt;Text Complexity&lt;/b&gt;
+				3.RC-TC.1: Independently and proficiently read and comprehend texts representing a balance of genres&lt;tabc 6.25&gt;~(*std.stored.transavg;3.RC-TC.1;Q1)&lt;tabc 6.75&gt;~(*std.stored.transavg;3.RC-TC.1;Q2)&lt;tabc 7.25&gt;~(*std.stored.transavg;3.RC-TC.1;Q3)&lt;tabc 7.75&gt;~(*std.stored.transavg;3.RC-TC.1;Q4)
+				&lt;b&gt;Textual Evidence&lt;/b&gt;
+				3.RC-TE.3: Ask and answer questions to demonstrate understanding of grade-level texts, referring explicitly to textual evidence as the basis for the answers&lt;tabc 6.25&gt;~(*std.stored.transavg;3.RC-TE.3;Q1)&lt;tabc 6.75&gt;~(*std.stored.transavg;3.RC-TE.3;Q2)&lt;tabc 7.25&gt;~(*std.stored.transavg;3.RC-TE.3;Q3)&lt;tabc 7.75&gt;~(*std.stored.transavg;3.RC-TE.3;Q4)
+				&lt;b&gt;Reading Fluency&lt;/b&gt;
+				3.RC-RF.4: Read grade-level text with accuracy, appropriate rate, and expression to support comprehension&lt;tabc 6.25&gt;~(*std.stored.transavg;3.RC-RF.4;Q1)&lt;tabc 6.75&gt;~(*std.stored.transavg;3.RC-RF.4;Q2)&lt;tabc 7.25&gt;~(*std.stored.transavg;3.RC-RF.4;Q3)&lt;tabc 7.75&gt;~(*std.stored.transavg;3.RC-RF.4;Q4)
+				&lt;b&gt;Literature&lt;/b&gt;
+				3.RC-L.5:Use evidence from literature to demonstrate understanding (theme, character, setting, events, point of view of narrator, and comparisons)&lt;tabc 6.25&gt;~(*std.stored.transavg;3.RC-L.5;Q1)&lt;tabc 6.75&gt;~(*std.stored.transavg;3.RC-L.5;Q2)&lt;tabc 7.25&gt;~(*std.stored.transavg;3.RC-L.5;Q3)&lt;tabc 7.75&gt;~(*std.stored.transavg;3.RC-L.5;Q4)
+				&lt;b&gt;Nonfiction Text&lt;/b&gt;
+				3.RC-NF.6: Use evidence from nonfiction works to demonstrate understanding (central idea, cause/effect, connections, key details)&lt;tabc 6.25&gt;~(*std.stored.transavg;3.RC-NF.6;Q1)&lt;tabc 6.75&gt;~(*std.stored.transavg;3.RC-NF.6;Q2)&lt;tabc 7.25&gt;~(*std.stored.transavg;3.RC-NF.6;Q3)&lt;tabc 7.75&gt;~(*std.stored.transavg;3.RC-NF.6;Q4)</Text>
+			</Body>
+		</Object>
+		<Object no="42">
+			<Type>Text</Type>
+			<Label>.17.F2. Reading Comp Hd</Label>
+			<Page>1</Page>
+			<Layer>6</Layer>
+			<Coordinates>
+				<Left>1</Left>
+				<Top>5.819</Top>
+			</Coordinates>
+			<MaxWidth>0</MaxWidth>
+			<MaxHeight>0</MaxHeight>
+			<Body>
+				<Font>
+					<Face>Helvetica</Face>
+					<Size>9</Size>
+					<Leading>9</Leading>
+					<Bold>True</Bold>
+				</Font>
+				<Text>READING COMPREHENSION&lt;tabc 6.25&gt;Q1&lt;tabc 6.75&gt;Q2&lt;tabc 7.25&gt;Q3&lt;tabc 7.75&gt;Q4</Text>
+			</Body>
+		</Object>
+		<Object no="43">
+			<Type>Box</Type>
+			<Label>.18.Vocab Box</Label>
+			<Page>1</Page>
+			<Layer>7</Layer>
+			<Coordinates>
+				<Left>1</Left>
+				<Top>8.24</Top>
+				<Right>8</Right>
+				<Bottom>8.515</Bottom>
+			</Coordinates>
+			<Line>
+				<Width>0.25</Width>
+				<Style>1</Style>
+				<Color>Black</Color>
+			</Line>
+		</Object>
+		<Object no="44">
+			<Type>Line</Type>
+			<Label>.19.Vocab Vert Lines</Label>
+			<Page>1</Page>
+			<Layer>7</Layer>
+			<Repeat>
+				<Multiple>3</Multiple>
+				<Offset>
+					<Horizontal>0.5</Horizontal>
+					<Vertical>0</Vertical>
+				</Offset>
+			</Repeat>
+			<Coordinates>
+				<Left>6</Left>
+				<Top>8.38</Top>
+				<Right>6</Right>
+				<Bottom>8.515</Bottom>
+			</Coordinates>
+			<Line>
+				<Width>0.25</Width>
+				<Style>1</Style>
+				<Color>Black</Color>
+			</Line>
+		</Object>
+		<Object no="45">
+			<Type>Text</Type>
+			<Label>.1A.VOCAB Title</Label>
+			<Page>1</Page>
+			<Layer>7</Layer>
+			<Coordinates>
+				<Left>1</Left>
+				<Top>8.172</Top>
+			</Coordinates>
+			<MaxWidth>0</MaxWidth>
+			<MaxHeight>0</MaxHeight>
+			<Body>
+				<Font>
+					<Face>Helvetica</Face>
+					<Size>9</Size>
+					<Leading></Leading>
+					<Bold>True</Bold>
+				</Font>
+				<Text>VOCABULARY DEVELOPMENT&lt;tabc 6.25&gt;Q1&lt;tabc 6.75&gt;Q2&lt;tabc 7.25&gt;Q3&lt;tabc 7.75&gt;Q4
+				</Text>
+			</Body>
+		</Object>
+		<Object no="46">
+			<Type>Text</Type>
+			<Label>.1B.Vocab Standards</Label>
+			<Page>1</Page>
+			<Layer>7</Layer>
+			<Coordinates>
+				<Left>1.05</Left>
+				<Top>8.34</Top>
+			</Coordinates>
+			<MaxWidth>5</MaxWidth>
+			<MaxHeight>0</MaxHeight>
+			<Body>
+				<Font>
+					<Face>Helvetica</Face>
+					<Size>8</Size>
+					<Leading>10</Leading>
+				</Font>
+				<Text>&lt;b&gt;Word Building
+				&lt;/b&gt;3.VD-WB.1: Determine or clarify the meaning of unknown and multiple meaning words and phrases&lt;tabc 6.25&gt;~(*std.stored.transavg;3.VD-WB.1;Q1)&lt;tabc 6.75&gt;~(*std.stored.transavg;3.VD-WB.1;Q2)&lt;tabc 7.25&gt;~(*std.stored.transavg;3.VD-WB.1;Q3)&lt;tabc 7.75&gt;~(*std.stored.transavg;3.VD-WB.1;Q4)</Text>
+			</Body>
+		</Object>
+		<Object no="47">
+			<Type>Box</Type>
+			<Label>.1C.E1. Work Habits Box</Label>
+			<Page>1</Page>
+			<Layer>8</Layer>
+			<Coordinates>
+				<Left>1</Left>
+				<Top>4.161</Top>
+				<Right>8.014</Right>
+				<Bottom>4.855</Bottom>
+			</Coordinates>
+			<Line>
+				<Width>0.25</Width>
+				<Style>1</Style>
+				<Color>Black</Color>
+			</Line>
+		</Object>
+		<Object no="48">
+			<Type>Text</Type>
+			<Label>.1D.E2. Work Habits Stan</Label>
+			<Page>1</Page>
+			<Layer>8</Layer>
+			<Coordinates>
+				<Left>1.05</Left>
+				<Top>4.266</Top>
+			</Coordinates>
+			<MaxWidth>4.97</MaxWidth>
+			<MaxHeight>0</MaxHeight>
+			<Body>
+				<Font>
+					<Face>Helvetica</Face>
+					<Size>8</Size>
+					<Leading>10</Leading>
+				</Font>
+				<Text>Completes work and tasks on time and with care&lt;tabc 6.25&gt;~(*std.stored.transavg;SPEC-WH.1;Q1)&lt;tabc 6.75&gt;~(*std.stored.transavg;SPEC-WH.1;Q2)&lt;tabc 7.25&gt;~(*std.stored.transavg;SPEC-WH.1;Q3)&lt;tabc 7.75&gt;~(*std.stored.transavg;SPEC-WH.1;Q4)
+				Follows routines and instructions&lt;tabc 6.25&gt;~(*std.stored.transavg;SPEC-WH.2;Q1)&lt;tabc 6.75&gt;~(*std.stored.transavg;SPEC-WH.2;Q2)&lt;tabc 7.25&gt;~(*std.stored.transavg;SPEC-WH.2;Q3)&lt;tabc 7.75&gt;~(*std.stored.transavg;SPEC-WH.2;Q4)
+				Perseveres with tasks and goals&lt;tabc 6.25&gt;~(*std.stored.transavg;SPEC-WH.3;Q1)&lt;tabc 6.75&gt;~(*std.stored.transavg;SPEC-WH.3;Q2)&lt;tabc 7.25&gt;~(*std.stored.transavg;SPEC-WH.3;Q3)&lt;tabc 7.75&gt;~(*std.stored.transavg;SPEC-WH.3;Q4)
+				Effectively manages time and materials&lt;tabc 6.25&gt;~(*std.stored.transavg;SPEC-WH.4;Q1)&lt;tabc 6.75&gt;~(*std.stored.transavg;SPEC-WH.4;Q2)&lt;tabc 7.25&gt;~(*std.stored.transavg;SPEC-WH.4;Q3)&lt;tabc 7.75&gt;~(*std.stored.transavg;SPEC-WH.4;Q4)
+				Participates and contributes to discussions/activities&lt;tabc 6.25&gt;~(*std.stored.transavg;SPEC-WH.5;Q1)&lt;tabc 6.75&gt;~(*std.stored.transavg;SPEC-WH.5;Q2)&lt;tabc 7.25&gt;~(*std.stored.transavg;SPEC-WH.5;Q3)&lt;tabc 7.75&gt;~(*std.stored.transavg;SPEC-WH.5;Q4)</Text>
+			</Body>
+		</Object>
+		<Object no="49">
+			<Type>Box</Type>
+			<Label>.1E.J1. Attendance Box</Label>
+			<Page>1</Page>
+			<Layer>10</Layer>
+			<Coordinates>
+				<Left>1</Left>
+				<Top>9.923</Top>
+				<Right>5</Right>
+				<Bottom>10.298</Bottom>
+			</Coordinates>
+			<Line>
+				<Width>0.25</Width>
+				<Style>1</Style>
+				<Color>Black</Color>
+			</Line>
+		</Object>
+		<Object no="50">
+			<Type>Line</Type>
+			<Label>.1F.J3. Attendance Vert Line</Label>
+			<Page>1</Page>
+			<Layer>10</Layer>
+			<Repeat>
+				<Multiple>4</Multiple>
+				<Offset>
+					<Horizontal>0.5</Horizontal>
+					<Vertical>0</Vertical>
+				</Offset>
+			</Repeat>
+			<Coordinates>
+				<Left>2.5</Left>
+				<Top>9.923</Top>
+				<Right>2.5</Right>
+				<Bottom>10.298</Bottom>
+			</Coordinates>
+			<Line>
+				<Width>0.25</Width>
+				<Style>1</Style>
+				<Color>Black</Color>
+			</Line>
+		</Object>
+		<Object no="51">
+			<Type>Line</Type>
+			<Label>.1G.J2. Attendance Horiz Lines</Label>
+			<Page>1</Page>
+			<Layer>10</Layer>
+			<Repeat>
+				<Multiple>1</Multiple>
+				<Offset>
+					<Horizontal>0</Horizontal>
+					<Vertical>0.125</Vertical>
+				</Offset>
+			</Repeat>
+			<Coordinates>
+				<Left>1</Left>
+				<Top>10.048</Top>
+				<Right>5</Right>
+				<Bottom>10.048</Bottom>
+			</Coordinates>
+			<Line>
+				<Width>0.25</Width>
+				<Style>1</Style>
+				<Color>Black</Color>
+			</Line>
+		</Object>
+		<Object no="52">
+			<Type>Text</Type>
+			<Label>.1H.J1. Attendance Report Head</Label>
+			<Page>1</Page>
+			<Layer>10</Layer>
+			<Coordinates>
+				<Left>1</Left>
+				<Top>9.845</Top>
+			</Coordinates>
+			<MaxWidth>0</MaxWidth>
+			<MaxHeight>0</MaxHeight>
+			<Body>
+				<Font>
+					<Face>Helvetica</Face>
+					<Size>9</Size>
+					<Leading></Leading>
+				</Font>
+				<Text>&lt;b&gt;ATTENDANCE REPORT&lt;tabc 2.75&gt;Q1&lt;tabc 3.25&gt;Q2&lt;tabc 3.75&gt;Q3&lt;tabc 4.25&gt;Q4&lt;tabc 4.75&gt;Total&lt;/b&gt;</Text>
+			</Body>
+		</Object>
+		<Object no="53">
+			<Type>Text</Type>
+			<Label>.1I.J3.Mumbo Jumbo</Label>
+			<Page>1</Page>
+			<Layer>10</Layer>
+			<Coordinates>
+				<Left>1</Left>
+				<Top>10.64</Top>
+			</Coordinates>
+			<MaxWidth>0</MaxWidth>
+			<MaxHeight>0</MaxHeight>
+			<Body>
+				<Font>
+					<Face>Helvetica</Face>
+					<Size>6</Size>
+					<Leading></Leading>
+				</Font>
+				<Text>~[pagenumber]. - ~[reportname]. - ~[date;dateformat=mm-dd-yyyy] - ps~[version]</Text>
+			</Body>
+		</Object>
+		<Object no="54">
+			<Type>Text</Type>
+			<Label>.1J.J2. Attendance Data</Label>
+			<Page>1</Page>
+			<Layer>10</Layer>
+			<Coordinates>
+				<Left>1.05</Left>
+				<Top>10.005</Top>
+			</Coordinates>
+			<MaxWidth>0</MaxWidth>
+			<MaxHeight>0</MaxHeight>
+			<Body>
+				<Font>
+					<Face>Helvetica</Face>
+					<Size>6</Size>
+					<Leading>9</Leading>
+				</Font>
+				<Text>Membership&lt;tabd 2.75&gt;^(*DM;Q1;format=###,##0.0)&lt;tabd 3.25&gt;^(*DM;Q2;format=###,##0.0)&lt;tabd 3.75&gt;^(*DM;Q3;format=###,##0.0)&lt;tabd 4.25&gt;^(*DM;Q4;format=###,##0.0)&lt;tabd 4.75&gt;~(*DM;format=###,##0.0)
+				Days of Attendance&lt;tabd 2.75&gt;^(*DA;Q1;format=###,##0.0)&lt;tabd 3.25&gt;^(*DA;Q2;format=###,##0.0)&lt;tabd 3.75&gt;^(*DA;Q3;format=###,##0.0)&lt;tabd 4.25&gt;^(*DA;Q4;format=###,##0.0)&lt;tabd 4.75&gt;~(*DA;format=###,##0.0)
+				Days Absent&lt;tabd 2.75&gt;^(daily.att.count;current;A,C,D,E,G,J,K,P,U,X,Y;Q1)&lt;tabd 3.25&gt;^(daily.att.count;current;A,C,D,E,G,J,K,P,U,X,Y;Q2)&lt;tabd 3.75&gt;^(daily.att.count;current;A,C,D,E,G,J,K,P,U,X,Y;Q3)&lt;tabd 4.25&gt;^(daily.att.count;current;A,C,D,E,G,J,K,P,U,X,Y;Q4)&lt;tabd 4.75 &gt;^(daily.att.count;current;A,C,D,E,G,J,K,P,U,X,Y;Y1)</Text>
+			</Body>
+		</Object>
+		<Object no="55">
+			<Type>Line</Type>
+			<Label>.1K.E2. Work Habits Vert</Label>
+			<Page>1</Page>
+			<Layer>20</Layer>
+			<Repeat>
+				<Multiple>3</Multiple>
+				<Offset>
+					<Horizontal>0.5</Horizontal>
+					<Vertical>0</Vertical>
+				</Offset>
+			</Repeat>
+			<Coordinates>
+				<Left>6</Left>
+				<Top>4.161</Top>
+				<Right>6</Right>
+				<Bottom>4.855</Bottom>
+			</Coordinates>
+			<Line>
+				<Width>0.25</Width>
+				<Style>1</Style>
+				<Color>Black</Color>
+			</Line>
+		</Object>
+		<Object no="56">
+			<Type>Text</Type>
+			<Label>.1L.A1.Main Title Pg 2</Label>
+			<Page>2</Page>
+			<Layer>1</Layer>
+			<Coordinates>
+				<Left>1</Left>
+				<Top>1</Top>
+			</Coordinates>
+			<MaxWidth>0</MaxWidth>
+			<MaxHeight>0</MaxHeight>
+			<Body>
+				<Font>
+					<Face>Helvetica</Face>
+					<Size>18</Size>
+					<Leading></Leading>
+					<Bold>True</Bold>
+				</Font>
+				<Text>&lt;center&gt;3rd Grade Report Card&lt;/center&gt;</Text>
+			</Body>
+		</Object>
+		<Object no="57">
+			<Type>Text</Type>
+			<Label>.1M.A2.District Name Pg 2</Label>
+			<Page>2</Page>
+			<Layer>1</Layer>
+			<Coordinates>
+				<Left>1</Left>
+				<Top>1.25</Top>
+			</Coordinates>
+			<MaxWidth>0</MaxWidth>
+			<MaxHeight>0</MaxHeight>
+			<Body>
+				<Font>
+					<Face>Helvetica</Face>
+					<Size>10</Size>
+					<Leading></Leading>
+				</Font>
+				<Text>&lt;center&gt;~(schoolordistrictname)&lt;/center&gt;</Text>
+			</Body>
+		</Object>
+		<Object no="58">
+			<Type>Text</Type>
+			<Label>.1N.A3.StudentName/School Name</Label>
+			<Page>2</Page>
+			<Layer>1</Layer>
+			<Coordinates>
+				<Left>2.75</Left>
+				<Top>1.5</Top>
+			</Coordinates>
+			<MaxWidth>5.25</MaxWidth>
+			<MaxHeight>0</MaxHeight>
+			<Body>
+				<Font>
+					<Face>Helvetica</Face>
+					<Size>14</Size>
+					<Leading></Leading>
+				</Font>
+				<Text>&lt;b&gt;~(last_name), ~(first_name)&lt;/b&gt;&lt;tabr 8.0&gt;~(schoolname)</Text>
+			</Body>
+		</Object>
+		<Object no="59">
+			<Type>Text</Type>
+			<Label>.1O.A4. Student Data</Label>
+			<Page>2</Page>
+			<Layer>1</Layer>
+			<Coordinates>
+				<Left>2.75</Left>
+				<Top>1.65</Top>
+			</Coordinates>
+			<MaxWidth>5.25</MaxWidth>
+			<MaxHeight>0</MaxHeight>
+			<Body>
+				<Font>
+					<Face>Helvetica</Face>
+					<Size>9</Size>
+					<Leading>12</Leading>
+				</Font>
+				<Text>Grade ^(grade_level)&lt;tabr 8.0&gt;~(yearname)</Text>
+			</Body>
+		</Object>
+		<Object no="60">
+			<Type>Text</Type>
+			<Label>.1P.A5.Home Room Teacher</Label>
+			<Page>2</Page>
+			<Layer>1</Layer>
+			<Coordinates>
+				<Left>1</Left>
+				<Top>1.85</Top>
+			</Coordinates>
+			<MaxWidth>5.25</MaxWidth>
+			<MaxHeight>0</MaxHeight>
+			<Body>
+				<Font>
+					<Face>Helvetica</Face>
+					<Size>9</Size>
+					<Leading></Leading>
+					<Italic>True</Italic>
+				</Font>
+				<Text>&lt;tabto 2.75&gt;Homeroom Teacher: &lt;tabto 2.75&gt;Homeroom Teacher: ^(*period_info;P2(R);teacher_i_first_name) ^(*period_info;P2(R);teacher_i_last_name) ^(*period_info;P2(A);teacher_i_first_name) ^(*period_info;P2(A);teacher_i_last_name)</Text>
+			</Body>
+		</Object>
+		<Object no="61">
+			<Type>Box</Type>
+			<Label>.1Q.Writing Box</Label>
+			<Page>2</Page>
+			<Layer>2</Layer>
+			<Coordinates>
+				<Left>1</Left>
+				<Top>2.459</Top>
+				<Right>8</Right>
+				<Bottom>3.444</Bottom>
+			</Coordinates>
+			<Line>
+				<Width>0.25</Width>
+				<Style>1</Style>
+				<Color>Black</Color>
+			</Line>
+		</Object>
+		<Object no="62">
+			<Type>Line</Type>
+			<Label>.1R.Writing Horiz Lines</Label>
+			<Page>2</Page>
+			<Layer>2</Layer>
+			<Repeat>
+				<Multiple>2</Multiple>
+				<Offset>
+					<Horizontal>0</Horizontal>
+					<Vertical>0.28</Vertical>
+				</Offset>
+			</Repeat>
+			<Coordinates>
+				<Left>1</Left>
+				<Top>2.599</Top>
+				<Right>8</Right>
+				<Bottom>2.599</Bottom>
+			</Coordinates>
+			<Line>
+				<Width>0.25</Width>
+				<Style>1</Style>
+				<Color>Black</Color>
+			</Line>
+		</Object>
+		<Object no="63">
+			<Type>Line</Type>
+			<Label>.1S.Writing Vert Lines</Label>
+			<Page>2</Page>
+			<Layer>2</Layer>
+			<Repeat>
+				<Multiple>3</Multiple>
+				<Offset>
+					<Horizontal>0.5</Horizontal>
+					<Vertical>0</Vertical>
+				</Offset>
+			</Repeat>
+			<Coordinates>
+				<Left>6</Left>
+				<Top>2.604</Top>
+				<Right>6</Right>
+				<Bottom>3.444</Bottom>
+			</Coordinates>
+			<Line>
+				<Width>0.25</Width>
+				<Style>1</Style>
+				<Color>Black</Color>
+			</Line>
+		</Object>
+		<Object no="64">
+			<Type>Text</Type>
+			<Label>.1T.Writing Title</Label>
+			<Page>2</Page>
+			<Layer>2</Layer>
+			<Coordinates>
+				<Left>1</Left>
+				<Top>2.414</Top>
+			</Coordinates>
+			<MaxWidth>0</MaxWidth>
+			<MaxHeight>0</MaxHeight>
+			<Body>
+				<Font>
+					<Face>Helvetica</Face>
+					<Size>9</Size>
+					<Leading></Leading>
+					<Bold>True</Bold>
+				</Font>
+				<Text>WRITING&lt;tabc 6.25&gt;Q1&lt;tabc 6.75&gt;Q2&lt;tabc 7.25&gt;Q3&lt;tabc 7.75&gt;Q4</Text>
+			</Body>
+		</Object>
+		<Object no="65">
+			<Type>Text</Type>
+			<Label>.1U.Writing Standards</Label>
+			<Page>2</Page>
+			<Layer>2</Layer>
+			<Coordinates>
+				<Left>1.05</Left>
+				<Top>2.574</Top>
+			</Coordinates>
+			<MaxWidth>4.95</MaxWidth>
+			<MaxHeight>0</MaxHeight>
+			<Body>
+				<Font>
+					<Face>Helvetica</Face>
+					<Size>8</Size>
+					<Leading>10</Leading>
+				</Font>
+				<Text>&lt;b&gt;Range of Writing
+				&lt;/b&gt;3.W-RW.2: Write arguments that introduce the topic, express an opinion supported with facts, details, and reasons, and provide a concluding statement&lt;tabc 6.25&gt;~(*std.stored.transavg;3.W-RW.2;Q1)&lt;tabc 6.75&gt;~(*std.stored.transavg;3.W-RW.2;Q2)&lt;tabc 7.25&gt;~(*std.stored.transavg;3.W-RW.2;Q3)&lt;tabc 7.75&gt;~(*std.stored.transavg;3.W-RW.2;Q4)
+				3.W-RW.3: Write informational texts that introduce the topic, develop the focus with facts and details, and provide a concluding statement&lt;tabc 6.25&gt;~(*std.stored.transavg;3.W-RW.3;Q1)&lt;tabc 6.75&gt;~(*std.stored.transavg;3.W-RW.3;Q2)&lt;tabc 7.25&gt;~(*std.stored.transavg;3.W-RW.3;Q3)&lt;tabc 7.75&gt;~(*std.stored.transavg;3.W-RW.3;Q4)
+				3.W-RW.4: Write personal or fictional stories that recount an event or experience, include details to develop the characters or event(s), and provide a sense of closure&lt;tabc 6.25&gt;~(*std.stored.transavg;3.W-RW.4;Q1)&lt;tabc 6.75&gt;~(*std.stored.transavg;3.W-RW.4;Q2)&lt;tabc 7.25&gt;~(*std.stored.transavg;3.W-RW.4;Q3)&lt;tabc 7.75&gt;~(*std.stored.transavg;3.W-RW.4;Q4)</Text>
+			</Body>
+		</Object>
+		<Object no="66">
+			<Type>Box</Type>
+			<Label>.1V.Math Box</Label>
+			<Page>2</Page>
+			<Layer>4</Layer>
+			<Coordinates>
+				<Left>1</Left>
+				<Top>3.935</Top>
+				<Right>8</Right>
+				<Bottom>6.315</Bottom>
+			</Coordinates>
+			<Line>
+				<Width>0.25</Width>
+				<Style>1</Style>
+				<Color>Black</Color>
+			</Line>
+		</Object>
+		<Object no="67">
+			<Type>Line</Type>
+			<Label>.1W.Math Horiz Lines</Label>
+			<Page>2</Page>
+			<Layer>4</Layer>
+			<Repeat>
+				<Multiple>2</Multiple>
+				<Offset>
+					<Horizontal>0</Horizontal>
+					<Vertical>0.14</Vertical>
+				</Offset>
+			</Repeat>
+			<Coordinates>
+				<Left>1</Left>
+				<Top>4.07</Top>
+				<Right>8</Right>
+				<Bottom>4.07</Bottom>
+			</Coordinates>
+			<Line>
+				<Width>0.25</Width>
+				<Style>1</Style>
+				<Color>Black</Color>
+			</Line>
+		</Object>
+		<Object no="68">
+			<Type>Line</Type>
+			<Label>.1X.Math Vert Line1</Label>
+			<Page>2</Page>
+			<Layer>4</Layer>
+			<Repeat>
+				<Multiple>3</Multiple>
+				<Offset>
+					<Horizontal>0.5</Horizontal>
+					<Vertical>0</Vertical>
+				</Offset>
+			</Repeat>
+			<Coordinates>
+				<Left>6</Left>
+				<Top>4.075</Top>
+				<Right>6</Right>
+				<Bottom>4.635</Bottom>
+			</Coordinates>
+			<Line>
+				<Width>0.25</Width>
+				<Style>1</Style>
+				<Color>Black</Color>
+			</Line>
+		</Object>
+		<Object no="69">
+			<Type>Line</Type>
+			<Label>.1Y.Math Horiz Line2</Label>
+			<Page>2</Page>
+			<Layer>4</Layer>
+			<Repeat>
+				<Multiple>1</Multiple>
+				<Offset>
+					<Horizontal>0</Horizontal>
+					<Vertical>0.14</Vertical>
+				</Offset>
+			</Repeat>
+			<Coordinates>
+				<Left>1</Left>
+				<Top>4.63</Top>
+				<Right>8</Right>
+				<Bottom>4.63</Bottom>
+			</Coordinates>
+			<Line>
+				<Width>0.25</Width>
+				<Style>1</Style>
+				<Color>Black</Color>
+			</Line>
+		</Object>
+		<Object no="70">
+			<Type>Line</Type>
+			<Label>.1Z.Math Horiz Line3</Label>
+			<Page>2</Page>
+			<Layer>4</Layer>
+			<Repeat>
+				<Multiple>3</Multiple>
+				<Offset>
+					<Horizontal>0</Horizontal>
+					<Vertical>0.14</Vertical>
+				</Offset>
+			</Repeat>
+			<Coordinates>
+				<Left>1</Left>
+				<Top>5.05</Top>
+				<Right>8</Right>
+				<Bottom>5.05</Bottom>
+			</Coordinates>
+			<Line>
+				<Width>0.25</Width>
+				<Style>1</Style>
+				<Color>Black</Color>
+			</Line>
+		</Object>
+		<Object no="71">
+			<Type>Line</Type>
+			<Label>.20.Math Horiz Line5</Label>
+			<Page>2</Page>
+			<Layer>4</Layer>
+			<Repeat>
+				<Multiple>3</Multiple>
+				<Offset>
+					<Horizontal>0</Horizontal>
+					<Vertical>0.14</Vertical>
+				</Offset>
+			</Repeat>
+			<Coordinates>
+				<Left>1</Left>
+				<Top>5.748</Top>
+				<Right>8</Right>
+				<Bottom>5.748</Bottom>
+			</Coordinates>
+			<Line>
+				<Width>0.25</Width>
+				<Style>1</Style>
+				<Color>Black</Color>
+			</Line>
+		</Object>
+		<Object no="72">
+			<Type>Line</Type>
+			<Label>.21.Math Vert Line2</Label>
+			<Page>2</Page>
+			<Layer>4</Layer>
+			<Repeat>
+				<Multiple>3</Multiple>
+				<Offset>
+					<Horizontal>0.5</Horizontal>
+					<Vertical>0</Vertical>
+				</Offset>
+			</Repeat>
+			<Coordinates>
+				<Left>6</Left>
+				<Top>4.775</Top>
+				<Right>6</Right>
+				<Bottom>5.055</Bottom>
+			</Coordinates>
+			<Line>
+				<Width>0.25</Width>
+				<Style>1</Style>
+				<Color>Black</Color>
+			</Line>
+		</Object>
+		<Object no="73">
+			<Type>Line</Type>
+			<Label>.22.Math Vert Line3</Label>
+			<Page>2</Page>
+			<Layer>4</Layer>
+			<Repeat>
+				<Multiple>3</Multiple>
+				<Offset>
+					<Horizontal>0.5</Horizontal>
+					<Vertical>0</Vertical>
+				</Offset>
+			</Repeat>
+			<Coordinates>
+				<Left>6</Left>
+				<Top>5.195</Top>
+				<Right>6</Right>
+				<Bottom>5.335</Bottom>
+			</Coordinates>
+			<Line>
+				<Width>0.25</Width>
+				<Style>1</Style>
+				<Color>Black</Color>
+			</Line>
+		</Object>
+		<Object no="74">
+			<Type>Line</Type>
+			<Label>.23.Math Vert Line4</Label>
+			<Page>2</Page>
+			<Layer>4</Layer>
+			<Repeat>
+				<Multiple>3</Multiple>
+				<Offset>
+					<Horizontal>0.5</Horizontal>
+					<Vertical>0</Vertical>
+				</Offset>
+			</Repeat>
+			<Coordinates>
+				<Left>6</Left>
+				<Top>5.475</Top>
+				<Right>6</Right>
+				<Bottom>6.035</Bottom>
+			</Coordinates>
+			<Line>
+				<Width>0.25</Width>
+				<Style>1</Style>
+				<Color>Black</Color>
+			</Line>
+		</Object>
+		<Object no="75">
+			<Type>Line</Type>
+			<Label>.24.Math Vert Line3</Label>
+			<Page>2</Page>
+			<Layer>4</Layer>
+			<Repeat>
+				<Multiple>3</Multiple>
+				<Offset>
+					<Horizontal>0.5</Horizontal>
+					<Vertical>0</Vertical>
+				</Offset>
+			</Repeat>
+			<Coordinates>
+				<Left>6</Left>
+				<Top>6.175</Top>
+				<Right>6</Right>
+				<Bottom>6.315</Bottom>
+			</Coordinates>
+			<Line>
+				<Width>0.25</Width>
+				<Style>1</Style>
+				<Color>Black</Color>
+			</Line>
+		</Object>
+		<Object no="76">
+			<Type>Text</Type>
+			<Label>.25.Math Standards</Label>
+			<Page>2</Page>
+			<Layer>4</Layer>
+			<Coordinates>
+				<Left>1.05</Left>
+				<Top>4.05</Top>
+			</Coordinates>
+			<MaxWidth>4.97</MaxWidth>
+			<MaxHeight>0</MaxHeight>
+			<Body>
+				<Font>
+					<Face>Helvetica</Face>
+					<Size>8</Size>
+					<Leading>10</Leading>
+				</Font>
+				<Text>&lt;b&gt;Operations and Algebraic Thinking&lt;/b&gt;
+				3.OA.A.a: Represent and solve problems involving multiplication&lt;tabc 6.25&gt;~(*std.stored.transavg;3.OA.A.A;Q1)&lt;tabc 6.75&gt;~(*std.stored.transavg;3.OA.A.A;Q2)&lt;tabc 7.25&gt;~(*std.stored.transavg;3.OA.A.A;Q3)&lt;tabc 7.75&gt;~(*std.stored.transavg;3.OA.A.A;Q4)
+				3.OA.A.b: Represent and solve problems involving division&lt;tabc 6.25&gt;~(*std.stored.transavg;3.OA.A.B;Q1)&lt;tabc 6.75&gt;~(*std.stored.transavg;3.OA.A.B;Q2)&lt;tabc 7.25&gt;~(*std.stored.transavg;3.OA.A.B;Q3)&lt;tabc 7.75&gt;~(*std.stored.transavg;3.OA.A.B;Q4)
+				3.OA.C.7b: Demonstrate fluency for multiplication within 100. Know from memory all products of two single-digit numbers and related division facts&lt;tabc 6.25&gt;~(*std.stored.transavg;3.OA.C.7b;Q1)&lt;tabc 6.75&gt;~(*std.stored.transavg;3.OA.C.7b;Q2)&lt;tabc 7.25&gt;~(*std.stored.transavg;3.OA.C.7b;Q3)&lt;tabc 7.75&gt;~(*std.stored.transavg;3.OA.C.7b;Q4)
+				&lt;b&gt;Number and Operations in Base Ten
+				&lt;/b&gt;3.NBT.A.2: Fluently add and subtract whole numbers within 1,000 using place value and properties of operations&lt;tabc 6.25&gt;~(*std.stored.transavg;3.NBT.A.2;Q1)&lt;tabc 6.75&gt;~(*std.stored.transavg;3.NBT.A.2;Q2)&lt;tabc 7.25&gt;~(*std.stored.transavg;3.NBT.A.2;Q3)&lt;tabc 7.75&gt;~(*std.stored.transavg;3.NBT.A.2;Q4)
+				&lt;b&gt;Number and Operations - Fractions&lt;/b&gt;
+				3.NF.A.1-3: Develop understanding of fractions as numbers&lt;tabc 6.25&gt;~(*std.stored.transavg;3.NF.A.1-3;Q1)&lt;tabc 6.75&gt;~(*std.stored.transavg;3.NF.A.1-3;Q2)&lt;tabc 7.25&gt;~(*std.stored.transavg;3.NF.A.1-3;Q3)&lt;tabc 7.75&gt;~(*std.stored.transavg;3.NF.A.1-3;Q4)
+				&lt;b&gt;Measurement and Data&lt;/b&gt;
+				3.MD.A.1-2: Solve problems involving measurement and estimation of intervals of time, liquid volumes, and masses of objects&lt;tabc 6.25&gt;~(*std.stored.transavg;3.MD.A.1-2;Q1)&lt;tabc 6.75&gt;~(*std.stored.transavg;3.MD.A.1-2;Q2)&lt;tabc 7.25&gt;~(*std.stored.transavg;3.MD.A.1-2;Q3)&lt;tabc 7.75&gt;~(*std.stored.transavg;3.MD.A.1-2;Q4)
+				3.MD.B.3-4: Represent and interpret data&lt;tabc 6.25&gt;~(*std.stored.transavg;3.MD.B.3-4;Q1)&lt;tabc 6.75&gt;~(*std.stored.transavg;3.MD.B.3-4;Q2)&lt;tabc 7.25&gt;~(*std.stored.transavg;3.MD.B.3-4;Q3)&lt;tabc 7.75&gt;~(*std.stored.transavg;3.MD.B.3-4;Q4)
+				3.MD.C-D: Understand concepts of area and perimeter&lt;tabc 6.25&gt;~(*std.stored.transavg;3.MD.C-D;Q1)&lt;tabc 6.75&gt;~(*std.stored.transavg;3.MD.C-D;Q2)&lt;tabc 7.25&gt;~(*std.stored.transavg;3.MD.C-D;Q3)&lt;tabc 7.75&gt;~(*std.stored.transavg;3.MD.C-D;Q4)
+				&lt;b&gt;Geometry&lt;/b&gt;
+				3.G.A.1-2: Reason with shapes and their attributes&lt;tabc 6.25&gt;~(*std.stored.transavg;3.G.A.1-2;Q1)&lt;tabc 6.75&gt;~(*std.stored.transavg;3.G.A.1-2;Q2)&lt;tabc 7.25&gt;~(*std.stored.transavg;3.G.A.1-2;Q3)&lt;tabc 7.75&gt;~(*std.stored.transavg;3.G.A.1-2;Q4)</Text>
+			</Body>
+		</Object>
+		<Object no="77">
+			<Type>Text</Type>
+			<Label>.26.Math Title</Label>
+			<Page>2</Page>
+			<Layer>4</Layer>
+			<Coordinates>
+				<Left>1</Left>
+				<Top>3.843</Top>
+			</Coordinates>
+			<MaxWidth>0</MaxWidth>
+			<MaxHeight>0</MaxHeight>
+			<Body>
+				<Font>
+					<Face>Helvetica</Face>
+					<Size>9</Size>
+					<Leading></Leading>
+					<Bold>True</Bold>
+				</Font>
+				<Text>MATHEMATICS&lt;tabc 6.25&gt;Q1&lt;tabc 6.75&gt;Q2&lt;tabc 7.25&gt;Q3&lt;tabc 7.75&gt;Q4
+				</Text>
+			</Body>
+		</Object>
+		<Object no="78">
+			<Type>Box</Type>
+			<Label>.27.F1.Music Box</Label>
+			<Page>2</Page>
+			<Layer>6</Layer>
+			<Coordinates>
+				<Left>1</Left>
+				<Top>6.854</Top>
+				<Right>8</Right>
+				<Bottom>6.994</Bottom>
+			</Coordinates>
+			<Line>
+				<Width>0.25</Width>
+				<Style>1</Style>
+				<Color>Black</Color>
+			</Line>
+		</Object>
+		<Object no="79">
+			<Type>Box</Type>
+			<Label>.28.F1.Music Box</Label>
+			<Page>2</Page>
+			<Layer>6</Layer>
+			<Coordinates>
+				<Left>1</Left>
+				<Top>7.484</Top>
+				<Right>8</Right>
+				<Bottom>7.624</Bottom>
+			</Coordinates>
+			<Line>
+				<Width>0.25</Width>
+				<Style>1</Style>
+				<Color>Black</Color>
+			</Line>
+		</Object>
+		<Object no="80">
+			<Type>Box</Type>
+			<Label>.29.F1.Music Box</Label>
+			<Page>2</Page>
+			<Layer>6</Layer>
+			<Coordinates>
+				<Left>1</Left>
+				<Top>8.114</Top>
+				<Right>8</Right>
+				<Bottom>8.47</Bottom>
+			</Coordinates>
+			<Line>
+				<Width>0.25</Width>
+				<Style>1</Style>
+				<Color>Black</Color>
+			</Line>
+		</Object>
+		<Object no="81">
+			<Type>Box</Type>
+			<Label>.2A.F1.Music Box</Label>
+			<Page>2</Page>
+			<Layer>6</Layer>
+			<Coordinates>
+				<Left>1</Left>
+				<Top>8.94</Top>
+				<Right>8</Right>
+				<Bottom>9.075</Bottom>
+			</Coordinates>
+			<Line>
+				<Width>0.25</Width>
+				<Style>1</Style>
+				<Color>Black</Color>
+			</Line>
+		</Object>
+		<Object no="82">
+			<Type>Line</Type>
+			<Label>.2B.F1.Music Vert Lines</Label>
+			<Page>2</Page>
+			<Layer>6</Layer>
+			<Repeat>
+				<Multiple>3</Multiple>
+				<Offset>
+					<Horizontal>0.5</Horizontal>
+					<Vertical>0</Vertical>
+				</Offset>
+			</Repeat>
+			<Coordinates>
+				<Left>6</Left>
+				<Top>7.484</Top>
+				<Right>6</Right>
+				<Bottom>7.624</Bottom>
+			</Coordinates>
+			<Line>
+				<Width>0.25</Width>
+				<Style>1</Style>
+				<Color>Black</Color>
+			</Line>
+		</Object>
+		<Object no="83">
+			<Type>Line</Type>
+			<Label>.2C.F1.Music Vert Lines</Label>
+			<Page>2</Page>
+			<Layer>6</Layer>
+			<Repeat>
+				<Multiple>3</Multiple>
+				<Offset>
+					<Horizontal>0.5</Horizontal>
+					<Vertical>0</Vertical>
+				</Offset>
+			</Repeat>
+			<Coordinates>
+				<Left>6</Left>
+				<Top>8.114</Top>
+				<Right>6</Right>
+				<Bottom>8.47</Bottom>
+			</Coordinates>
+			<Line>
+				<Width>0.25</Width>
+				<Style>1</Style>
+				<Color>Black</Color>
+			</Line>
+		</Object>
+		<Object no="84">
+			<Type>Line</Type>
+			<Label>.2D.F1.Music Vert Lines</Label>
+			<Page>2</Page>
+			<Layer>6</Layer>
+			<Repeat>
+				<Multiple>3</Multiple>
+				<Offset>
+					<Horizontal>0.5</Horizontal>
+					<Vertical>0</Vertical>
+				</Offset>
+			</Repeat>
+			<Coordinates>
+				<Left>6</Left>
+				<Top>8.94</Top>
+				<Right>6</Right>
+				<Bottom>9.075</Bottom>
+			</Coordinates>
+			<Line>
+				<Width>0.25</Width>
+				<Style>1</Style>
+				<Color>Black</Color>
+			</Line>
+		</Object>
+		<Object no="85">
+			<Type>Line</Type>
+			<Label>.2E.Sci Vert Lines</Label>
+			<Page>2</Page>
+			<Layer>6</Layer>
+			<Repeat>
+				<Multiple>3</Multiple>
+				<Offset>
+					<Horizontal>0.5</Horizontal>
+					<Vertical>0</Vertical>
+				</Offset>
+			</Repeat>
+			<Coordinates>
+				<Left>6</Left>
+				<Top>6.854</Top>
+				<Right>6</Right>
+				<Bottom>6.994</Bottom>
+			</Coordinates>
+			<Line>
+				<Width>0.25</Width>
+				<Style>1</Style>
+				<Color>Black</Color>
+			</Line>
+		</Object>
+		<Object no="86">
+			<Type>Text</Type>
+			<Label>.2F.Soc Stud Title</Label>
+			<Page>2</Page>
+			<Layer>6</Layer>
+			<Coordinates>
+				<Left>1</Left>
+				<Top>7.448</Top>
+			</Coordinates>
+			<MaxWidth>0</MaxWidth>
+			<MaxHeight>0</MaxHeight>
+			<Body>
+				<Font>
+					<Face>Helvetica</Face>
+					<Size>9</Size>
+					<Leading></Leading>
+					<Bold>True</Bold>
+				</Font>
+				<Text>SOCIAL STUDIES&lt;tabc 6.25&gt;Q1&lt;tabc 6.75&gt;Q2&lt;tabc 7.25&gt;Q3&lt;tabc 7.75&gt;Q4</Text>
+			</Body>
+		</Object>
+		<Object no="87">
+			<Type>Text</Type>
+			<Label>.2G.F2. MUSIC STANDARDS</Label>
+			<Page>2</Page>
+			<Layer>6</Layer>
+			<Coordinates>
+				<Left>1.05</Left>
+				<Top>7.584</Top>
+			</Coordinates>
+			<MaxWidth>4.97</MaxWidth>
+			<MaxHeight>0</MaxHeight>
+			<Body>
+				<Font>
+					<Face>Helvetica</Face>
+					<Size>8</Size>
+					<Leading></Leading>
+				</Font>
+				<Text>Demonstrate understanding of grade-level content and concepts&lt;tabc 6.25&gt;~(*std.stored.transavg;SPEC-SS;Q1)&lt;tabc 6.75&gt;~(*std.stored.transavg;SPEC-SS;Q2)&lt;tabc 7.25&gt;~(*std.stored.transavg;SPEC-SS;Q3)&lt;tabc 7.75&gt;~(*std.stored.transavg;SPEC-SS;Q4)</Text>
+			</Body>
+		</Object>
+		<Object no="88">
+			<Type>Text</Type>
+			<Label>.2H.Science Standards</Label>
+			<Page>2</Page>
+			<Layer>6</Layer>
+			<Coordinates>
+				<Left>1.05</Left>
+				<Top>6.954</Top>
+			</Coordinates>
+			<MaxWidth>0</MaxWidth>
+			<MaxHeight>0</MaxHeight>
+			<Body>
+				<Font>
+					<Face>Helvetica</Face>
+					<Size>8</Size>
+					<Leading></Leading>
+				</Font>
+				<Text>Demonstrate understanding of grade-level content and concepts&lt;tabc 6.25&gt;~(*std.stored.transavg;3-SCI;Q1)&lt;tabc 6.75&gt;~(*std.stored.transavg;3-SCI;Q2)&lt;tabc 7.25&gt;~(*std.stored.transavg;3-SCI;Q3)&lt;tabc 7.75&gt;~(*std.stored.transavg;3-SCI;Q4)</Text>
+			</Body>
+		</Object>
+		<Object no="89">
+			<Type>Text</Type>
+			<Label>.2I.Phys Ed Standards</Label>
+			<Page>2</Page>
+			<Layer>6</Layer>
+			<Coordinates>
+				<Left>1.05</Left>
+				<Top>8.228</Top>
+			</Coordinates>
+			<MaxWidth>5</MaxWidth>
+			<MaxHeight>0</MaxHeight>
+			<Body>
+				<Font>
+					<Face>Helvetica</Face>
+					<Size>8</Size>
+					<Leading>10</Leading>
+				</Font>
+				<Text>Recognize the value of physical activity for health, enjoyment, challenge and self-expression. Exhibit responsible personal and social behavior that respects self and others in physical activity settings&lt;tabc 6.25&gt;~(*std.stored.transavg;SPEC-PE;Q1)&lt;tabc 6.75&gt;~(*std.stored.transavg;SPEC-PE;Q2)&lt;tabc 7.25&gt;~(*std.stored.transavg;SPEC-PE;Q3)&lt;tabc 7.75&gt;~(*std.stored.transavg;SPEC-PE;Q4)</Text>
+			</Body>
+		</Object>
+		<Object no="90">
+			<Type>Text</Type>
+			<Label>.2J.F2. MUSIC STANDARDS</Label>
+			<Page>2</Page>
+			<Layer>6</Layer>
+			<Coordinates>
+				<Left>1.05</Left>
+				<Top>9.04</Top>
+			</Coordinates>
+			<MaxWidth>4.97</MaxWidth>
+			<MaxHeight>0</MaxHeight>
+			<Body>
+				<Font>
+					<Face>Helvetica</Face>
+					<Size>8</Size>
+					<Leading></Leading>
+				</Font>
+				<Text>Demonstrate grade-appropriate ability in understanding musical skills and concepts&lt;tabc 6.25&gt;~(*std.stored.transavg;SPEC-MUS;Q1)&lt;tabc 6.75&gt;~(*std.stored.transavg;SPEC-MUS;Q2)&lt;tabc 7.25&gt;~(*std.stored.transavg;SPEC-MUS;Q3)&lt;tabc 7.75&gt;~(*std.stored.transavg;SPEC-MUS;Q4)</Text>
+			</Body>
+		</Object>
+		<Object no="91">
+			<Type>Text</Type>
+			<Label>.2K.Science Title</Label>
+			<Page>2</Page>
+			<Layer>7</Layer>
+			<Coordinates>
+				<Left>1</Left>
+				<Top>6.8</Top>
+			</Coordinates>
+			<MaxWidth>0</MaxWidth>
+			<MaxHeight>0</MaxHeight>
+			<Body>
+				<Font>
+					<Face>Helvetica</Face>
+					<Size>9</Size>
+					<Leading></Leading>
+					<Bold>True</Bold>
+				</Font>
+				<Text>SCIENCE&lt;tabc 6.25&gt;Q1&lt;tabc 6.75&gt;Q2&lt;tabc 7.25&gt;Q3&lt;tabc 7.75&gt;Q4</Text>
+			</Body>
+		</Object>
+		<Object no="92">
+			<Type>Text</Type>
+			<Label>.2L.Phys Ed</Label>
+			<Page>2</Page>
+			<Layer>7</Layer>
+			<Coordinates>
+				<Left>1.014</Left>
+				<Top>8.06</Top>
+			</Coordinates>
+			<MaxWidth>0</MaxWidth>
+			<MaxHeight>0</MaxHeight>
+			<Body>
+				<Font>
+					<Face>Helvetica</Face>
+					<Size>9</Size>
+					<Leading></Leading>
+					<Bold>True</Bold>
+				</Font>
+				<Text>PHYSICAL EDUCATION&lt;tabc 6.25&gt;Q1&lt;tabc 6.75&gt;Q2&lt;tabc 7.25&gt;Q3&lt;tabc 7.75&gt;Q4</Text>
+			</Body>
+		</Object>
+		<Object no="93">
+			<Type>Text</Type>
+			<Label>.2M.Music</Label>
+			<Page>2</Page>
+			<Layer>7</Layer>
+			<Coordinates>
+				<Left>1</Left>
+				<Top>8.872</Top>
+			</Coordinates>
+			<MaxWidth>0</MaxWidth>
+			<MaxHeight>0</MaxHeight>
+			<Body>
+				<Font>
+					<Face>Helvetica</Face>
+					<Size>9</Size>
+					<Leading></Leading>
+					<Bold>True</Bold>
+				</Font>
+				<Text>MUSIC&lt;tabc 6.25&gt;Q1&lt;tabc 6.75&gt;Q2&lt;tabc 7.25&gt;Q3&lt;tabc 7.75&gt;Q4
+				</Text>
+			</Body>
+		</Object>
+		<Object no="94">
+			<Type>Box</Type>
+			<Label>.2N.I1. Instr Music/Band Box</Label>
+			<Page>2</Page>
+			<Layer>9</Layer>
+			<Coordinates>
+				<Left>1</Left>
+				<Top>9.658</Top>
+				<Right>8</Right>
+				<Bottom>9.938</Bottom>
+			</Coordinates>
+			<Line>
+				<Width>0.25</Width>
+				<Style>1</Style>
+				<Color>Black</Color>
+			</Line>
+		</Object>
+		<Object no="95">
+			<Type>Line</Type>
+			<Label>.2O.I2. Instr Music/Band HLine</Label>
+			<Page>2</Page>
+			<Layer>9</Layer>
+			<Coordinates>
+				<Left>1</Left>
+				<Top>9.797</Top>
+				<Right>8</Right>
+				<Bottom>9.797</Bottom>
+			</Coordinates>
+			<Line>
+				<Width>0.258</Width>
+				<Style>1</Style>
+				<Color>Black</Color>
+			</Line>
+		</Object>
+		<Object no="96">
+			<Type>Line</Type>
+			<Label>.2P.I3. Instr Music/Band</Label>
+			<Page>2</Page>
+			<Layer>9</Layer>
+			<Repeat>
+				<Multiple>3</Multiple>
+				<Offset>
+					<Horizontal>0.5</Horizontal>
+					<Vertical>0</Vertical>
+				</Offset>
+			</Repeat>
+			<Coordinates>
+				<Left>6</Left>
+				<Top>9.658</Top>
+				<Right>6</Right>
+				<Bottom>9.938</Bottom>
+			</Coordinates>
+			<Line>
+				<Width>0.25</Width>
+				<Style>1</Style>
+				<Color>Black</Color>
+			</Line>
+		</Object>
+		<Object no="97">
+			<Type>Text</Type>
+			<Label>.2Q.Specials</Label>
+			<Page>2</Page>
+			<Layer>9</Layer>
+			<Coordinates>
+				<Left>1.05</Left>
+				<Top>9.786</Top>
+			</Coordinates>
+			<MaxWidth>4.97</MaxWidth>
+			<MaxHeight>0</MaxHeight>
+			<Body>
+				<Font>
+					<Face>Helvetica</Face>
+					<Size>8</Size>
+					<Leading>9</Leading>
+				</Font>
+				<Text>Library&lt;tabc 6.25&gt;~(*std.stored.transavg;SPEC-LIB;Q1)&lt;tabc 6.75&gt;~(*std.stored.transavg;SPEC-LIB;Q2)&lt;tabc 7.25&gt;~(*std.stored.transavg;SPEC-LIB;Q3)&lt;tabc 7.75&gt;~(*std.stored.transavg;SPEC-LIB;Q4)
+				Outdoor Ed&lt;tabc 6.25&gt;~(*std.stored.transavg;SPEC-OE;Q1)&lt;tabc 6.75&gt;~(*std.stored.transavg;SPEC-OE;Q2)&lt;tabc 7.25&gt;~(*std.stored.transavg;SPEC-OE;Q3)&lt;tabc 7.75&gt;~(*std.stored.transavg;SPEC-OE;Q4)</Text>
+			</Body>
+		</Object>
+		<Object no="98">
+			<Type>Text</Type>
+			<Label>.2R.I4. Instr Music/Band</Label>
+			<Page>2</Page>
+			<Layer>9</Layer>
+			<Coordinates>
+				<Left>1</Left>
+				<Top>9.594</Top>
+			</Coordinates>
+			<MaxWidth>0</MaxWidth>
+			<MaxHeight>0</MaxHeight>
+			<Body>
+				<Font>
+					<Face>Helvetica</Face>
+					<Size>9</Size>
+					<Leading>9</Leading>
+				</Font>
+				<Text>&lt;b&gt;Specials&lt;tabc 6.25&gt;Q1&lt;tabc 6.75&gt;Q2&lt;tabc 7.25&gt;Q3&lt;tabc 7.75&gt;Q4&lt;/b&gt;</Text>
+			</Body>
+		</Object>
+		<Object no="99">
+			<Type>Text</Type>
+			<Label>.2S.K1.Mumbo Jumbo Pg 2</Label>
+			<Page>2</Page>
+			<Layer>11</Layer>
+			<Coordinates>
+				<Left>1</Left>
+				<Top>10.788</Top>
+			</Coordinates>
+			<MaxWidth>0</MaxWidth>
+			<MaxHeight>0</MaxHeight>
+			<Body>
+				<Font>
+					<Face>Helvetica</Face>
+					<Size>6</Size>
+					<Leading></Leading>
+					<Italic>True</Italic>
+				</Font>
+				<Text>~[pagenumber]. - ~[reportname]. - ~[date;dateformat=mm-dd-yyyy] - ps~[version]</Text>
+			</Body>
+		</Object>
+		<Object no="100">
+			<Type>Box</Type>
+			<Label>.2T.Box</Label>
+			<Page>3</Page>
+			<Layer>0</Layer>
+			<Coordinates>
+				<Left>0.602</Left>
+				<Top>2.66</Top>
+				<Right>7.602</Right>
+				<Bottom>10.388</Bottom>
+			</Coordinates>
+			<Line>
+				<Width>1</Width>
+				<Style>1</Style>
+				<Color>Black</Color>
+			</Line>
+		</Object>
+		<Object no="101">
+			<Type>Text</Type>
+			<Label>.2U.Comments</Label>
+			<Page>3</Page>
+			<Layer>0</Layer>
+			<Coordinates>
+				<Left>0.63</Left>
+				<Top>2.618</Top>
+			</Coordinates>
+			<MaxWidth>0</MaxWidth>
+			<MaxHeight>0</MaxHeight>
+			<Body>
+				<Font>
+					<Face>Default</Face>
+					<Size></Size>
+					<Leading></Leading>
+				</Font>
+				<Text>&lt;b&gt;Comments&lt;/b&gt;</Text>
+			</Body>
+		</Object>
+		<Object no="102">
+			<Type>Text</Type>
+			<Label>.2V.Text</Label>
+			<Page>3</Page>
+			<Layer>0</Layer>
+			<Coordinates>
+				<Left>0.686</Left>
+				<Top>2.842</Top>
+			</Coordinates>
+			<MaxWidth>6.7</MaxWidth>
+			<MaxHeight>7.5</MaxHeight>
+			<Body>
+				<Font>
+					<Face>Default</Face>
+					<Size>8</Size>
+					<Leading></Leading>
+				</Font>
+				<Text>^(*std.stored.comment;SPEC-WH;^(termabbr))
+				Physical Education: ^(*std.stored.comment;SPEC-PE;^(termabbr))
+				Music: ^(*std.stored.comment;SPEC-MUS;^(termabbr))</Text>
+			</Body>
+		</Object>
+		<Object no="103">
+			<Type>Text</Type>
+			<Label>.2W.A2.District Name Pg 2</Label>
+			<Page>3</Page>
+			<Layer>1</Layer>
+			<Coordinates>
+				<Left>1</Left>
+				<Top>1.25</Top>
+			</Coordinates>
+			<MaxWidth>0</MaxWidth>
+			<MaxHeight>0</MaxHeight>
+			<Body>
+				<Font>
+					<Face>Helvetica</Face>
+					<Size>10</Size>
+					<Leading></Leading>
+				</Font>
+				<Text>&lt;center&gt;~(schoolordistrictname)&lt;/center&gt;</Text>
+			</Body>
+		</Object>
+		<Object no="104">
+			<Type>Text</Type>
+			<Label>.2X.A1.Main Title Pg 2</Label>
+			<Page>3</Page>
+			<Layer>1</Layer>
+			<Coordinates>
+				<Left>1</Left>
+				<Top>1</Top>
+			</Coordinates>
+			<MaxWidth>0</MaxWidth>
+			<MaxHeight>0</MaxHeight>
+			<Body>
+				<Font>
+					<Face>Helvetica</Face>
+					<Size>18</Size>
+					<Leading></Leading>
+					<Bold>True</Bold>
+				</Font>
+				<Text>&lt;center&gt;3rd Grade Report Card&lt;/center&gt;</Text>
+			</Body>
+		</Object>
+		<Object no="105">
+			<Type>Text</Type>
+			<Label>.2Y.A5.Home Room Teacher</Label>
+			<Page>3</Page>
+			<Layer>1</Layer>
+			<Coordinates>
+				<Left>1</Left>
+				<Top>1.85</Top>
+			</Coordinates>
+			<MaxWidth>5.25</MaxWidth>
+			<MaxHeight>0</MaxHeight>
+			<Body>
+				<Font>
+					<Face>Helvetica</Face>
+					<Size>9</Size>
+					<Leading></Leading>
+					<Italic>True</Italic>
+				</Font>
+				<Text>&lt;tabto 2.75&gt;Homeroom Teacher: &lt;tabto 2.75&gt;Homeroom Teacher: ^(*period_info;P2(R);teacher_i_first_name) ^(*period_info;P2(R);teacher_i_last_name) ^(*period_info;P2(A);teacher_i_first_name) ^(*period_info;P2(A);teacher_i_last_name)</Text>
+			</Body>
+		</Object>
+		<Object no="106">
+			<Type>Text</Type>
+			<Label>.2Z.A4. Student Data</Label>
+			<Page>3</Page>
+			<Layer>1</Layer>
+			<Coordinates>
+				<Left>2.75</Left>
+				<Top>1.65</Top>
+			</Coordinates>
+			<MaxWidth>5.25</MaxWidth>
+			<MaxHeight>0</MaxHeight>
+			<Body>
+				<Font>
+					<Face>Helvetica</Face>
+					<Size>9</Size>
+					<Leading>12</Leading>
+				</Font>
+				<Text>Grade ^(grade_level)&lt;tabr 8.0&gt;~(yearname)</Text>
+			</Body>
+		</Object>
+		<Object no="107">
+			<Type>Text</Type>
+			<Label>.30.A3.StudentName/School Name</Label>
+			<Page>3</Page>
+			<Layer>1</Layer>
+			<Coordinates>
+				<Left>2.75</Left>
+				<Top>1.5</Top>
+			</Coordinates>
+			<MaxWidth>5.25</MaxWidth>
+			<MaxHeight>0</MaxHeight>
+			<Body>
+				<Font>
+					<Face>Helvetica</Face>
+					<Size>14</Size>
+					<Leading></Leading>
+				</Font>
+				<Text>&lt;b&gt;~(last_name), ~(first_name)&lt;/b&gt;&lt;tabr 8.0&gt;~(schoolname)</Text>
+			</Body>
+		</Object>
+		<Object no="108">
+			<Type>Text</Type>
+			<Label>.31.K1.Mumbo Jumbo Pg 2</Label>
+			<Page>3</Page>
+			<Layer>11</Layer>
+			<Coordinates>
+				<Left>1</Left>
+				<Top>10.886</Top>
+			</Coordinates>
+			<MaxWidth>0</MaxWidth>
+			<MaxHeight>0</MaxHeight>
+			<Body>
+				<Font>
+					<Face>Helvetica</Face>
+					<Size>6</Size>
+					<Leading></Leading>
+					<Italic>True</Italic>
+				</Font>
+				<Text>~[pagenumber]. - ~[reportname]. - ~[date;dateformat=mm-dd-yyyy] - ps~[version]</Text>
+			</Body>
+		</Object>
+		<Object no="109">
+			<Type>Text</Type>
+			<Label>.00.000.SPLITTER.KEY</Label>
+			<Page>All</Page>
+			<Layer>0</Layer>
+			<Coordinates>
+				<Left>0.1</Left>
+				<Top>0.1</Top>
+			</Coordinates>
+			<MaxWidth>0</MaxWidth>
+			<MaxHeight>0</MaxHeight>
+			<Fill>
+				<Color>White</Color>
+			</Fill>
+			<Body>
+				<Font>
+					<Face>Default</Face>
+					<Size></Size>
+					<Leading></Leading>
+				</Font>
+				<Text>***studentid=~([students]id)***</Text>
+			</Body>
+		</Object>
+		<Object no="110">
+			<Type>Picture</Type>
+			<Label>.01.A0.Photo</Label>
+			<Page>All</Page>
+			<Layer>1</Layer>
+			<ScalingOption>fillcenter</ScalingOption>
+			<Coordinates>
+				<Left>1</Left>
+				<Top>0.456</Top>
+				<Right>2.25</Right>
+				<Bottom>1.856</Bottom>
+			</Coordinates>
+			<Picture>WA_New.jpg</Picture>
+		</Object>
+	</ObjectData>
+
+</PSReportTemplate>
