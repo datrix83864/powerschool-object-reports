@@ -731,7 +731,7 @@
 				<Color>Black</Color>
 			</Line>
 		</Object>
-		<Object no="34">
+				<Object no="34">
 			<Type>Text</Type>
 			<Label>.0Y.Reading Compre Stand</Label>
 			<Page>1</Page>
@@ -749,13 +749,41 @@
 					<Leading>10</Leading>
 				</Font>
 				<Text>&lt;b&gt;Text Complexity&lt;/b&gt;
-				6.RC-TC.1: Independently and proficiently read and comprehend texts at the lower end of the grades 6-8 band&lt;tabc 6.25&gt;~(*std.stored.transavg;6.RC-TC.1;Q1)&lt;tabc 6.75&gt;~(*std.stored.transavg;6.RC-TC.1;Q2)&lt;tabc 7.25&gt;~(*std.stored.transavg;6.RC-TC.1;Q3)&lt;tabc 7.75&gt;~(*std.stored.transavg;6.RC-TC.1;Q4)
+				6.RC-TC.1: Independently and proficiently read and comprehend texts at the lower end of the grades 6-8 band
 				&lt;b&gt;Textual Evidence&lt;/b&gt;
-				6.RC-TE.3: Draw several pieces of evidence from grade-level texts to support claims and inferences&lt;tabc 6.25&gt;~(*std.stored.transavg;6.RC-TE.3;Q1)&lt;tabc 6.75&gt;~(*std.stored.transavg;6.RC-TE.3;Q2)&lt;tabc 7.25&gt;~(*std.stored.transavg;6.RC-TE.3;Q3)&lt;tabc 7.75&gt;~(*std.stored.transavg;6.RC-TE.3;Q4)
+				6.RC-TE.3: Draw several pieces of evidence from grade-level texts to support claims and inferences
 				&lt;b&gt;Literature&lt;/b&gt;
-				6.RC-L.5: Use evidence from literature to demonstrate understanding of grade-level texts&lt;tabc 6.25&gt;~(*std.stored.transavg;6.RC-L.5;Q1)&lt;tabc 6.75&gt;~(*std.stored.transavg;6.RC-L.5;Q2)&lt;tabc 7.25&gt;~(*std.stored.transavg;6.RC-L.5;Q3)&lt;tabc 7.75&gt;~(*std.stored.transavg;6.RC-L.5;Q4)
+				6.RC-L.5: Use evidence from literature to demonstrate understanding of grade-level texts
 				&lt;b&gt;Nonfiction Text&lt;/b&gt;
-				6.RC-NF.6: Use evidence from nonfiction works to demonstrate understanding of grade-level texts&lt;tabc 6.25&gt;~(*std.stored.transavg;6.RC-NF.6;Q1)&lt;tabc 6.75&gt;~(*std.stored.transavg;6.RC-NF.6;Q2)&lt;tabc 7.25&gt;~(*std.stored.transavg;6.RC-NF.6;Q3)&lt;tabc 7.75&gt;~(*std.stored.transavg;6.RC-NF.6;Q4)</Text>
+				6.RC-NF.6: Use evidence from nonfiction works to demonstrate understanding of grade-level texts</Text>
+			</Body>
+		</Object>
+		<Object no="104">
+			<Type>Text</Type>
+			<Label>.0Y.Reading Compre Grade</Label>
+			<Page>1</Page>
+			<Layer>6</Layer>
+			<Coordinates>
+				<Left>6.2</Left>
+				<Top>5.89</Top>
+			</Coordinates>
+			<MaxWidth>2</MaxWidth>
+			<MaxHeight>0</MaxHeight>
+			<Body>
+				<Font>
+					<Face>Helvetica</Face>
+					<Size>8</Size>
+					<Leading>10</Leading>
+				</Font>
+				<Text>&lt;b&gt;Text Complexity&lt;/b&gt;
+				&lt;tabc 6.25&gt;~(*std.stored.transavg;6.RC-TC.1;Q1)&lt;tabc 6.75&gt;~(*std.stored.transavg;6.RC-TC.1;Q2)&lt;tabc 7.25&gt;~(*std.stored.transavg;6.RC-TC.1;Q3)&lt;tabc 7.75&gt;~(*std.stored.transavg;6.RC-TC.1;Q4)
+				
+
+				&lt;tabc 6.25&gt;~(*std.stored.transavg;6.RC-TE.3;Q1)&lt;tabc 6.75&gt;~(*std.stored.transavg;6.RC-TE.3;Q2)&lt;tabc 7.25&gt;~(*std.stored.transavg;6.RC-TE.3;Q3)&lt;tabc 7.75&gt;~(*std.stored.transavg;6.RC-TE.3;Q4)
+				
+				&lt;tabc 6.25&gt;~(*std.stored.transavg;6.RC-L.5;Q1)&lt;tabc 6.75&gt;~(*std.stored.transavg;6.RC-L.5;Q2)&lt;tabc 7.25&gt;~(*std.stored.transavg;6.RC-L.5;Q3)&lt;tabc 7.75&gt;~(*std.stored.transavg;6.RC-L.5;Q4)
+				
+				&lt;tabc 6.25&gt;~(*std.stored.transavg;6.RC-NF.6;Q1)&lt;tabc 6.75&gt;~(*std.stored.transavg;6.RC-NF.6;Q2)&lt;tabc 7.25&gt;~(*std.stored.transavg;6.RC-NF.6;Q3)&lt;tabc 7.75&gt;~(*std.stored.transavg;6.RC-NF.6;Q4)</Text>
 			</Body>
 		</Object>
 		<Object no="35">
@@ -2202,7 +2230,7 @@
 			</Coordinates>
 			<Picture>KT.jpg</Picture>
 		</Object>
-						<Object no="111">
+						<Object no="103">
 <Type>Text</Type>
 <Label>.2Q.Blank Notice</Label>
 <Page>4</Page>
