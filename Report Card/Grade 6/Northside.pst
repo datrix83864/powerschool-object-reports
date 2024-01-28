@@ -775,7 +775,7 @@
 					<Size>8</Size>
 					<Leading>10</Leading>
 				</Font>
-				<Text>&lt;b&gt;Text Complexity&lt;/b&gt;
+				<Text>
 				&lt;tabc 6.25&gt;~(*std.stored.transavg;6.RC-TC.1;Q1)&lt;tabc 6.75&gt;~(*std.stored.transavg;6.RC-TC.1;Q2)&lt;tabc 7.25&gt;~(*std.stored.transavg;6.RC-TC.1;Q3)&lt;tabc 7.75&gt;~(*std.stored.transavg;6.RC-TC.1;Q4)
 				
 

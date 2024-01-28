@@ -1522,7 +1522,7 @@
 				<Left>1.05</Left>
 				<Top>4.148</Top>
 			</Coordinates>
-			<MaxWidth>5</MaxWidth>
+			<MaxWidth>5.01</MaxWidth>
 			<MaxHeight>0</MaxHeight>
 			<Body>
 				<Font>
@@ -1537,7 +1537,6 @@
 				4.NBT.A: Generalize place value understanding for multi-digit whole numbers up to 1,000,000
 				4.NBT.B.4: Fluently use the standard algorithm for multi-digit whole number addition and subtraction
 				4.NBT.B: Use place value understanding and properties of operations and perform multi-digit arithmetic
-				
 				&lt;b&gt;Number and Operations - Fractions&lt;/b&gt;
 				4.NF.A: Extend understanding of fraction equivalence and ordering
 				4.NF.B: Build fractions from unit fractions by applying and extending previous understandings of operations of whole numbers

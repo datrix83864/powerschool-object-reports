@@ -509,8 +509,8 @@ Seeks positive solutions to problems&lt;tabc 6.25&gt;~(*std.stored.transavg;SPEC
 <Size>8</Size>
 <Leading></Leading>
 </Font>
-<Text>K.VD-WB.1a: Ask and answer questions about unknown words in a text&lt;tabc 6.25&gt;~(*std.stored.transavg;K.VD-WB.1a;Q1)&lt;tabc 6.75&gt;~(*std.stored.transavg;K.VD-WB.1a;Q2)&lt;tabc 7.25&gt;~(*std.stored.transavg;K.VD-WB.1a;Q3)&lt;tabc 7.75&gt;~(*std.stored.transavg;K.VD-WB.1a;Q4)
-K.VD-WB.2b: Demonstrate understanding of words by relating them to their synonyms and antonyms&lt;tabc 6.25&gt;~(*std.stored.transavg;K.VD-WB.2b;Q1)&lt;tabc 6.75&gt;~(*std.stored.transavg;K.VD-WB.2b;Q2)&lt;tabc 7.25&gt;~(*std.stored.transavg;K.VD-WB.2b;Q3)&lt;tabc 7.75&gt;~(*std.stored.transavg;K.VD-WB.2b;Q4)</Text>
+<Text>K.VD-WB.1a: Ask and answer questions about unknown words in a text
+K.VD-WB.2b: Demonstrate understanding of words by relating them to their synonyms and antonyms</Text>
 </Body>
 </Object>
 <Object no="24">
@@ -2146,6 +2146,27 @@ Music: ^(decode;^(termabbr);Q1;^(*std.stored.comment;SPEC-MUS.1;Q1);Q2;^(*std.st
 <Underline>True</Underline>
 </Font>
 <Text>&lt;tabc 4.25&gt;This Page Intentionally Left Blank</Text>
+</Body>
+</Object>
+<Object no="100">
+<Type>Text</Type>
+<Label>.0M.D2. Vocab Dev Grade</Label>
+<Page>1</Page>
+<Layer>4</Layer>
+<Coordinates>
+<Left>6</Left>
+<Top>9.081</Top>
+</Coordinates>
+<MaxWidth>2</MaxWidth>
+<MaxHeight>0</MaxHeight>
+<Body>
+<Font>
+<Face>Helvetica</Face>
+<Size>8</Size>
+<Leading></Leading>
+</Font>
+<Text>&lt;tabc 6.25&gt;~(*std.stored.transavg;K.VD-WB.1a;Q1)&lt;tabc 6.75&gt;~(*std.stored.transavg;K.VD-WB.1a;Q2)&lt;tabc 7.25&gt;~(*std.stored.transavg;K.VD-WB.1a;Q3)&lt;tabc 7.75&gt;~(*std.stored.transavg;K.VD-WB.1a;Q4)
+&lt;tabc 6.25&gt;~(*std.stored.transavg;K.VD-WB.2b;Q1)&lt;tabc 6.75&gt;~(*std.stored.transavg;K.VD-WB.2b;Q2)&lt;tabc 7.25&gt;~(*std.stored.transavg;K.VD-WB.2b;Q3)&lt;tabc 7.75&gt;~(*std.stored.transavg;K.VD-WB.2b;Q4)</Text>
 </Body>
 </Object>
 </ObjectData>
