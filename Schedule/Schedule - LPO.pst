@@ -7,7 +7,7 @@
 </FileHeader>
 <ReportHeader>
 <Type>Object Report</Type>
-<Name>Schedule - CF</Name>
+<Name>Schedule - LPO</Name>
 <Table>Students</Table>
 </ReportHeader>
 <ReportData>
@@ -61,7 +61,7 @@
 <Right>1.5</Right>
 <Bottom>1.5</Bottom>
 </Coordinates>
-<Picture>CF.jpg</Picture>
+<Picture>LPO.jpg</Picture>
 </Object>
 <Object no="3">
 <Type>Line</Type>
