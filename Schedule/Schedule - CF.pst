@@ -1,0 +1,285 @@
+<PSReportTemplate>
+<FileHeader>
+<Created>Thu, 14 Dec 2023 18:56:24 GMT</Created>
+<PSVersion>(VisualPST 3.2.1,)</PSVersion>
+<TemplateVersion>1.0</TemplateVersion>
+<Author>Hawkins, Dalton Jacob</Author>
+</FileHeader>
+<ReportHeader>
+<Type>Object Report</Type>
+<Name>Schedule - CF</Name>
+<Table>Students</Table>
+</ReportHeader>
+<ReportData>
+<Units>Inches</Units>
+<Paper>
+<Size>Letter</Size>
+<Width>8.5</Width>
+<Height>11</Height>
+<Orientation>Portrait</Orientation>
+<Margins>
+<Left>0.75</Left>
+<Top>0.5</Top>
+<Right>0.5</Right>
+<Bottom>0.5</Bottom>
+</Margins>
+<Scale>100</Scale>
+</Paper>
+<Body>
+<Font>
+<Face>Palatino</Face>
+<Size>10</Size>
+<Leading>13</Leading>
+</Font>
+</Body>
+</ReportData>
+<ObjectData>
+<Type>Objects</Type>
+<Object no="1">
+<Type>Picture</Type>
+<Label>.0.LPOSD Logo</Label>
+<Page></Page>
+<Layer>0</Layer>
+<ScalingOption>fill</ScalingOption>
+<Coordinates>
+<Left>7</Left>
+<Top>0.5</Top>
+<Right>8</Right>
+<Bottom>1.5</Bottom>
+</Coordinates>
+<Picture>District.jpg</Picture>
+</Object>
+<Object no="2">
+<Type>Picture</Type>
+<Label>.1.School Logo</Label>
+<Page></Page>
+<Layer>0</Layer>
+<ScalingOption>fill</ScalingOption>
+<Coordinates>
+<Left>0.5</Left>
+<Top>0.5</Top>
+<Right>1.5</Right>
+<Bottom>1.5</Bottom>
+</Coordinates>
+<Picture>CF.jpg</Picture>
+</Object>
+<Object no="3">
+<Type>Line</Type>
+<Label>.2.Header Separator</Label>
+<Page></Page>
+<Layer>0</Layer>
+<Coordinates>
+<Left>0.5</Left>
+<Top>1.75</Top>
+<Right>8</Right>
+<Bottom>1.75</Bottom>
+</Coordinates>
+<Line>
+<Width>1</Width>
+<Style>1</Style>
+<Color>Black</Color>
+</Line>
+</Object>
+<Object no="4">
+<Type>Text</Type>
+<Label>.3.000.SPLITTER.KEY</Label>
+<Page></Page>
+<Layer>0</Layer>
+<Coordinates>
+<Left>0.1</Left>
+<Top>0.1</Top>
+</Coordinates>
+<MaxWidth>0</MaxWidth>
+<MaxHeight>0</MaxHeight>
+<Fill>
+<Color>White</Color>
+<Tint>100</Tint>
+</Fill>
+<Body>
+<Font>
+<Face>Default</Face>
+<Size></Size>
+<Leading></Leading>
+</Font>
+<Text>***studentid=~([students]id)***</Text>
+</Body>
+</Object>
+<Object no="5">
+<Type>Text</Type>
+<Label>.4.Address</Label>
+<Page></Page>
+<Layer>0</Layer>
+<Coordinates>
+<Left>1.5</Left>
+<Top>1</Top>
+</Coordinates>
+<MaxWidth>5.5</MaxWidth>
+<MaxHeight>0</MaxHeight>
+<Fill>
+<Color>Navy</Color>
+<Tint>100</Tint>
+</Fill>
+<Body>
+<Font>
+<Face>Default</Face>
+<Size></Size>
+<Leading></Leading>
+</Font>
+<Text>&lt;center&gt;^([39]schooladdress)
+^([39]schoolcity), ^([39]schoolstate) ^([39]schoolzip)
+^([39]schoolphone)
+Principal: ^([39]Principal)&lt;/center&gt;</Text>
+</Body>
+</Object>
+<Object no="6">
+<Type>Text</Type>
+<Label>.5.School Header</Label>
+<Page></Page>
+<Layer>0</Layer>
+<Coordinates>
+<Left>1.5</Left>
+<Top>0.75</Top>
+</Coordinates>
+<MaxWidth>5.5</MaxWidth>
+<MaxHeight>0</MaxHeight>
+<Fill>
+<Color>Navy</Color>
+<Tint>100</Tint>
+</Fill>
+<Body>
+<Font>
+<Face>Helvetica</Face>
+<Size>18</Size>
+<Leading></Leading>
+<Bold>True</Bold>
+<Underline>True</Underline>
+</Font>
+<Text>&lt;center&gt;^(schoolname)&lt;/center&gt;</Text>
+</Body>
+</Object>
+<Object no="7">
+<Type>Box</Type>
+<Label>.6.Report Area</Label>
+<Page></Page>
+<Layer>1</Layer>
+<Coordinates>
+<Left>0.5</Left>
+<Top>2.066</Top>
+<Right>8</Right>
+<Bottom>10.472</Bottom>
+</Coordinates>
+<Line>
+<Width>1</Width>
+<Style>1</Style>
+<Color>Black</Color>
+</Line>
+</Object>
+<Object no="8">
+<Type>Text</Type>
+<Label>.7.Report For</Label>
+<Page></Page>
+<Layer>1</Layer>
+<Coordinates>
+<Left>0.5</Left>
+<Top>2</Top>
+</Coordinates>
+<MaxWidth>8</MaxWidth>
+<MaxHeight>0.25</MaxHeight>
+<Body>
+<Font>
+<Face>Courier</Face>
+<Size>16</Size>
+<Leading></Leading>
+<Bold>True</Bold>
+<Underline>True</Underline>
+</Font>
+<Text>&lt;center&gt;Schedule: ^(LastFirst)&lt;/center&gt;</Text>
+</Body>
+</Object>
+<Object no="9">
+<Type>Text</Type>
+<Label>.8.Schedule</Label>
+<Page></Page>
+<Layer>2</Layer>
+<Coordinates>
+<Left>0.6</Left>
+<Top>2.286</Top>
+</Coordinates>
+<MaxWidth>7.5</MaxWidth>
+<MaxHeight>0</MaxHeight>
+<Body>
+<Font>
+<Face>Default</Face>
+<Size></Size>
+<Leading></Leading>
+</Font>
+<Text>&lt;b&gt;&lt;u&gt;Semester 1&lt;/b&gt;&lt;/u&gt;
+&lt;b&gt;&lt;u&gt;Period &lt;tabto 1.1&gt;Course&lt;tabto 4&gt;Teacher&lt;tabto 6&gt;Room&lt;/b&gt;&lt;/u&gt;
+1&lt;tabto 1.1&gt;^(*period_info;1(A);course_name;S1)&lt;tabto 4&gt;^(*period_info;1(A);teacher_I_first_name;S1) ^(*period_info;1(A);teacher_I_last_name;S1)&lt;tabto 6&gt;^(*period_info;1(A);room;S1)
+2&lt;tabto 1.1&gt;^(*period_info;2(A);course_name;S1)&lt;tabto 4&gt;^(*period_info;2(A);teacher_I_first_name;S1) ^(*period_info;2(A);teacher_I_last_name;S1)&lt;tabto 6&gt;^(*period_info;2(A);room;S1)
+3&lt;tabto 1.1&gt;^(*period_info;3(A);course_name;S1)&lt;tabto 4&gt;^(*period_info;3(A);teacher_I_first_name;S1) ^(*period_info;3(A);teacher_I_last_name;S1)&lt;tabto 6&gt;^(*period_info;3(A);room;S1)
+4&lt;tabto 1.1&gt;^(*period_info;4(A);course_name;S1)&lt;tabto 4&gt;^(*period_info;4(A);teacher_I_first_name;S1) ^(*period_info;4(A);teacher_I_last_name;S1)&lt;tabto 6&gt;^(*period_info;4(A);room;S1)
+5&lt;tabto 1.1&gt;^(*period_info;5(A);course_name;S1)&lt;tabto 4&gt;^(*period_info;5(A);teacher_I_first_name;S1) ^(*period_info;5(A);teacher_I_last_name;S1)&lt;tabto 6&gt;^(*period_info;5(A);room;S1)
+6&lt;tabto 1.1&gt;^(*period_info;6(A);course_name;S1)&lt;tabto 4&gt;^(*period_info;6(A);teacher_I_first_name;S1) ^(*period_info;6(A);teacher_I_last_name;S1)&lt;tabto 6&gt;^(*period_info;6(A);room;S1)
+CAT&lt;tabto 1.1&gt;^(*period_info;CAT(A);course_name;S1)&lt;tabto 4&gt;^(*period_info;CAT(A);teacher_I_first_name;S1) ^(*period_info;CAT(A);teacher_I_last_name;S1)&lt;tabto 6&gt;^(*period_info;CAT(A);room;S1)
+
+
+&lt;b&gt;&lt;u&gt;Semester 2&lt;/b&gt;&lt;/u&gt;
+&lt;b&gt;&lt;u&gt;Period &lt;tabto 1.1&gt;Course&lt;tabto 4&gt;Teacher&lt;tabto 6&gt;Room&lt;/b&gt;&lt;/u&gt;
+1&lt;tabto 1.1&gt;^(*period_info;1(A);course_name;S2)&lt;tabto 4&gt;^(*period_info;1(A);teacher_I_first_name;S2) ^(*period_info;1(A);teacher_I_last_name;S2)&lt;tabto 6&gt;^(*period_info;1(A);room;S2)
+2&lt;tabto 1.1&gt;^(*period_info;2(A);course_name;S2)&lt;tabto 4&gt;^(*period_info;2(A);teacher_I_first_name;S2) ^(*period_info;2(A);teacher_I_last_name;S2)&lt;tabto 6&gt;^(*period_info;2(A);room;S2)
+3&lt;tabto 1.1&gt;^(*period_info;3(A);course_name;S2)&lt;tabto 4&gt;^(*period_info;3(A);teacher_I_first_name;S2) ^(*period_info;3(A);teacher_I_last_name;S2)&lt;tabto 6&gt;^(*period_info;3(A);room;S2)
+4&lt;tabto 1.1&gt;^(*period_info;4(A);course_name;S2)&lt;tabto 4&gt;^(*period_info;4(A);teacher_I_first_name;S2) ^(*period_info;4(A);teacher_I_last_name;S2)&lt;tabto 6&gt;^(*period_info;4(A);room;S2)
+5&lt;tabto 1.1&gt;^(*period_info;5(A);course_name;S2)&lt;tabto 4&gt;^(*period_info;5(A);teacher_I_first_name;S2) ^(*period_info;5(A);teacher_I_last_name;S2)&lt;tabto 6&gt;^(*period_info;5(A);room;S2)
+6&lt;tabto 1.1&gt;^(*period_info;6(A);course_name;S2)&lt;tabto 4&gt;^(*period_info;6(A);teacher_I_first_name;S2) ^(*period_info;6(A);teacher_I_last_name;S2)&lt;tabto 6&gt;^(*period_info;6(A);room;S2)
+CAT&lt;tabto 1.1&gt;^(*period_info;CAT(A);course_name;S2)&lt;tabto 4&gt;^(*period_info;CAT(A);teacher_I_first_name;S2) ^(*period_info;CAT(A);teacher_I_last_name;S2)&lt;tabto 6&gt;^(*period_info;CAT(A);room;S2)</Text>
+</Body>
+</Object>
+<Object no="10">
+<Type>Text</Type>
+<Label>.9.Locker</Label>
+<Page></Page>
+<Layer>2</Layer>
+<Coordinates>
+<Left>0.588</Left>
+<Top>7.756</Top>
+</Coordinates>
+<MaxWidth>0</MaxWidth>
+<MaxHeight>0</MaxHeight>
+<Body>
+<Font>
+<Face>Default</Face>
+<Size></Size>
+<Leading></Leading>
+</Font>
+<Text>Locker: ^(Locker_Number;if.blank.then=^(U_LOCKER.LOCAKER_NUMBER;if.blank.then=No Locker Assigned))</Text>
+</Body>
+</Object>
+<Object no="11">
+<Type>Text</Type>
+<Label>.10.Schoology</Label>
+<Page></Page>
+<Layer>2</Layer>
+<Coordinates>
+<Left>0.588</Left>
+<Top>8</Top>
+</Coordinates>
+<MaxWidth>7</MaxWidth>
+<MaxHeight>0</MaxHeight>
+<Body>
+<Font>
+<Face>Default</Face>
+<Size></Size>
+<Leading></Leading>
+</Font>
+<Text>&lt;b&gt;&lt;u&gt;Parents&lt;/b&gt;&lt;/u&gt;
+Schoology is our district's Learning Management System (LMS) and is used at all middle schools and high schools in the district. This is the best place to keep up to date on your student's grades and assignments.
+
+To register, go to:  https://app.schoology.com/register.php?type=parent
+When prompted enter the access code:  ^(U_Students_Extension.SCHOOLOGY_ACCESS_CODE)
+
+Have more than one student in middle school or high school? Under your profile in the upper right hand corner, you can add additional students.</Text>
+</Body>
+</Object>
+</ObjectData>
+</PSReportTemplate>
