@@ -2136,9 +2136,22 @@
 					<Size>8</Size>
 					<Leading></Leading>
 				</Font>
-				<Text>^(*std.stored.comment;SPEC-WH;^(termabbr))
-				Physical Education: ^(*std.stored.comment;SPEC-PE;^(termabbr))
-				Band: ^(*std.stored.comment;SPEC-BAND;^(termabbr))</Text>
+				<Text>&lt;b&gt;&lt;u&gt;Quarter 1:&lt;/u&gt;&lt;/b&gt;
+				^(*std.stored.comment;SPEC-WH;Q1)
+				Physical Education: ^(*std.stored.comment;SPEC-PE;Q1)
+				Band: ^(*std.stored.comment;SPEC-MUS;Q1) ^(*std.stored.comment;SPEC-BAND;Q1)
+				&lt;b&gt;&lt;u&gt;Quarter 2:&lt;/u&gt;&lt;/b&gt;
+				^(*std.stored.comment;SPEC-WH;Q2)
+				Physical Education: ^(*std.stored.comment;SPEC-PE;Q2)
+				Band: ^(*std.stored.comment;SPEC-MUS;Q2) ^(*std.stored.comment;SPEC-BAND;Q2)
+				&lt;b&gt;&lt;u&gt;Quarter 3:&lt;/u&gt;&lt;/b&gt;
+				^(*std.stored.comment;SPEC-WH;Q3)
+				Physical Education: ^(*std.stored.comment;SPEC-PE;Q3)
+				Band: ^(*std.stored.comment;SPEC-MUS;Q3) ^(*std.stored.comment;SPEC-BAND;Q3)
+				&lt;b&gt;&lt;u&gt;Quarter 4:&lt;/u&gt;&lt;/b&gt;
+				^(*std.stored.comment;SPEC-WH;Q4)
+				Physical Education: ^(*std.stored.comment;SPEC-PE;Q4)
+				Band: ^(*std.stored.comment;SPEC-MUS;Q4) ^(*std.stored.comment;SPEC-BAND;Q4)</Text>
 			</Body>
 		</Object>
 		<Object no="100">
