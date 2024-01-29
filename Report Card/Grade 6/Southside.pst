@@ -1942,7 +1942,7 @@
 					<Size>8</Size>
 					<Leading></Leading>
 				</Font>
-				<Text>Demonstrate grade-appropriate ability in understanding musical skills and concepts&lt;tabc 6.25&gt;~(*std.stored.transavg;SPEC-BAND;Q1)&lt;tabc 6.75&gt;~(*std.stored.transavg;SPEC-BAND;Q2)&lt;tabc 7.25&gt;~(*std.stored.transavg;SPEC-BAND;Q3)&lt;tabc 7.75&gt;~(*std.stored.transavg;SPEC-BAND;Q4)
+				<Text>Demonstrate grade-appropriate ability in understanding musical skills and concepts&lt;tabc 6.25&gt;^(decode;~(*std.stored.transavg;SPEC-MUS;Q1);;~(*std.stored.transavg;SPEC-BAND;Q1);~(*std.stored.transavg;SPEC-MUS;Q1))&lt;tabc 6.75&gt;^(decode;~(*std.stored.transavg;SPEC-MUS;Q2);;~(*std.stored.transavg;SPEC-BAND;Q2);~(*std.stored.transavg;SPEC-MUS;Q2))&lt;tabc 7.25&gt;^(decode;~(*std.stored.transavg;SPEC-MUS;Q3);;~(*std.stored.transavg;SPEC-BAND;Q3);~(*std.stored.transavg;SPEC-MUS;Q3))&lt;tabc 7.75&gt;^(decode;~(*std.stored.transavg;SPEC-MUS;Q4);;~(*std.stored.transavg;SPEC-BAND;Q4);~(*std.stored.transavg;SPEC-MUS;Q4))
 				
 				</Text>
 			</Body>
