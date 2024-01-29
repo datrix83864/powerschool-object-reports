@@ -193,7 +193,7 @@ Principal: ^([39]Principal)&lt;/center&gt;</Text>
 <Left>0.5</Left>
 <Top>2.5</Top>
 <Right>8</Right>
-<Bottom>10</Bottom>
+<Bottom>10.5</Bottom>
 </Coordinates>
 <Line>
 <Width>1</Width>
@@ -211,7 +211,7 @@ Principal: ^([39]Principal)&lt;/center&gt;</Text>
 <Top>2</Top>
 </Coordinates>
 <MaxWidth>8</MaxWidth>
-<MaxHeight>0.25</MaxHeight>
+<MaxHeight>0.5</MaxHeight>
 <Body>
 <Font>
 <Face>Courier</Face>
@@ -220,7 +220,7 @@ Principal: ^([39]Principal)&lt;/center&gt;</Text>
 <Bold>True</Bold>
 <Underline>True</Underline>
 </Font>
-<Text>&lt;center&gt;^(decode;^(termabbr);S1;Quarter 1;S2; Quarter 3) Report Card: ^(LastFirst)&lt;/center&gt;</Text>
+<Text>&lt;center&gt;^(decode;^(termabbr);S1;Quarter 1;S2; Quarter 3) Report Card:&lt;/center&gt;&lt;center&gt;^(LastFirst)&lt;/center&gt;</Text>
 </Body>
 </Object>
 <Object no="10">
@@ -230,7 +230,7 @@ Principal: ^([39]Principal)&lt;/center&gt;</Text>
 <Layer>2</Layer>
 <Coordinates>
 <Left>0.6</Left>
-<Top>3</Top>
+<Top>2.706</Top>
 </Coordinates>
 <MaxWidth>7.5</MaxWidth>
 <MaxHeight>0</MaxHeight>
@@ -240,27 +240,17 @@ Principal: ^([39]Principal)&lt;/center&gt;</Text>
 <Size></Size>
 <Leading></Leading>
 </Font>
-<Text>1&lt;tabto 1.5&gt;Course&lt;tabto 4&gt;Teacher&lt;tabto 6&gt;Grade&lt;tabto 7&gt;Absent&lt;tabto 7.5&gt;Tardy
-1&lt;tabto 1.5&gt;^(*period_info;1(A);course_name)&lt;tabto 4&gt;^(*period_info;1(A);teacher_I_last_name), ^(*period_info;1(A);teacher_I_first_name)&lt;tabto 6&gt;^(*period_info;1(A);current_grade)&lt;tabto 7&gt;^(per.att;1(A);U,A;^(termabbr))&lt;tabto 7.5&gt;^(per.att;1(A);2,3;^(termabbr))
-2&lt;tabto 1.5&gt;^(*period_info;2(A);course_name)&lt;tabto 4&gt;^(*period_info;2(A);teacher_I_last_name), ^(*period_info;2(A);teacher_I_first_name)&lt;tabto 6&gt;^(*period_info;2(A);current_grade)&lt;tabto 7&gt;^(per.att;2(A);U,A;^(termabbr))&lt;tabto 7.5&gt;^(per.att;2(A);2,3;^(termabbr))
-3&lt;tabto 1.5&gt;^(*period_info;3(A);course_name)&lt;tabto 4&gt;^(*period_info;3(A);teacher_I_last_name), ^(*period_info;3(A);teacher_I_first_name)&lt;tabto 6&gt;^(*period_info;3(A);current_grade)&lt;tabto 7&gt;^(per.att;3(A);U,A;^(termabbr))&lt;tabto 7.5&gt;^(per.att;3(A);2,3;^(termabbr))
-4&lt;tabto 1.5&gt;^(*period_info;4(A);course_name)&lt;tabto 4&gt;^(*period_info;4(A);teacher_I_last_name), ^(*period_info;4(A);teacher_I_first_name)&lt;tabto 6&gt;^(*period_info;4(A);current_grade)&lt;tabto 7&gt;^(per.att;4(A);U,A;^(termabbr))&lt;tabto 7.5&gt;^(per.att;4(A);2,3;^(termabbr))
-5&lt;tabto 1.5&gt;^(*period_info;5(A);course_name)&lt;tabto 4&gt;^(*period_info;5(A);teacher_I_last_name), ^(*period_info;5(A);teacher_I_first_name)&lt;tabto 6&gt;^(*period_info;5(A);current_grade)&lt;tabto 7&gt;^(per.att;5(A);U,A;^(termabbr))&lt;tabto 7.5&gt;^(per.att;5(A);2,3;^(termabbr))
-6&lt;tabto 1.5&gt;^(*period_info;6(A);course_name)&lt;tabto 4&gt;^(*period_info;6(A);teacher_I_last_name), ^(*period_info;6(A);teacher_I_first_name)&lt;tabto 6&gt;^(*period_info;6(A);current_grade)&lt;tabto 7&gt;^(per.att;6(A);U,A;^(termabbr))&lt;tabto 7.5&gt;^(per.att;6(A);2,3;^(termabbr))
-CAT&lt;tabto 1.5&gt;^(*period_info;CAT(A);course_name)&lt;tabto 4&gt;^(*period_info;CAT(A);teacher_I_last_name), ^(*period_info;CAT(A);teacher_I_first_name)&lt;tabto 6&gt;^(*period_info;CAT(A);current_grade)&lt;tabto 7&gt;^(per.att;CAT(A);U,A;^(termabbr))&lt;tabto 7.5&gt;^(per.att;CAT(A);2,3;^(termabbr))
-
-Class rank: ^(*classrank method="Weighted" result="rankoutof")
-Weighted GPA: ^(*gpa method="Weighted")</Text>
+<Text>&lt;b&gt;Period&lt;/b&gt;&lt;tabto 1.5&gt;&lt;b&gt;Course&lt;/b&gt;&lt;tabto 4&gt;&lt;b&gt;Teacher&lt;/b&gt;&lt;tabto 6&gt;&lt;b&gt;Grade&lt;/b&gt;&lt;tabto 7&gt;&lt;b&gt;Absent&lt;/b&gt;&lt;tabto 7.5&gt;&lt;b&gt;Tardy&lt;/b&gt;1&lt;tabto 1.5&gt;^(*period_info;1(A);course_name)&lt;tabto 4&gt;^(*period_info;1(A);teacher_I_last_name), ^(*period_info;1(A);teacher_I_first_name)&lt;tabto 6&gt;^(*period_info;1(A);current_grade)&lt;tabto 7&gt;^(per.att;1(A);U,A;^(termabbr))&lt;tabto 7.5&gt;^(per.att;1(A);2,3;^(termabbr))2&lt;tabto 1.5&gt;^(*period_info;2(A);course_name)&lt;tabto 4&gt;^(*period_info;2(A);teacher_I_last_name), ^(*period_info;2(A);teacher_I_first_name)&lt;tabto 6&gt;^(*period_info;2(A);current_grade)&lt;tabto 7&gt;^(per.att;2(A);U,A;^(termabbr))&lt;tabto 7.5&gt;^(per.att;2(A);2,3;^(termabbr))3&lt;tabto 1.5&gt;^(*period_info;3(A);course_name)&lt;tabto 4&gt;^(*period_info;3(A);teacher_I_last_name), ^(*period_info;3(A);teacher_I_first_name)&lt;tabto 6&gt;^(*period_info;3(A);current_grade)&lt;tabto 7&gt;^(per.att;3(A);U,A;^(termabbr))&lt;tabto 7.5&gt;^(per.att;3(A);2,3;^(termabbr))4&lt;tabto 1.5&gt;^(*period_info;4(A);course_name)&lt;tabto 4&gt;^(*period_info;4(A);teacher_I_last_name), ^(*period_info;4(A);teacher_I_first_name)&lt;tabto 6&gt;^(*period_info;4(A);current_grade)&lt;tabto 7&gt;^(per.att;4(A);U,A;^(termabbr))&lt;tabto 7.5&gt;^(per.att;4(A);2,3;^(termabbr))5&lt;tabto 1.5&gt;^(*period_info;5(A);course_name)&lt;tabto 4&gt;^(*period_info;5(A);teacher_I_last_name), ^(*period_info;5(A);teacher_I_first_name)&lt;tabto 6&gt;^(*period_info;5(A);current_grade)&lt;tabto 7&gt;^(per.att;5(A);U,A;^(termabbr))&lt;tabto 7.5&gt;^(per.att;5(A);2,3;^(termabbr))6&lt;tabto 1.5&gt;^(*period_info;6(A);course_name)&lt;tabto 4&gt;^(*period_info;6(A);teacher_I_last_name), ^(*period_info;6(A);teacher_I_first_name)&lt;tabto 6&gt;^(*period_info;6(A);current_grade)&lt;tabto 7&gt;^(per.att;6(A);U,A;^(termabbr))&lt;tabto 7.5&gt;^(per.att;6(A);2,3;^(termabbr))CAT&lt;tabto 1.5&gt;^(*period_info;CAT(A);course_name)&lt;tabto 4&gt;^(*period_info;CAT(A);teacher_I_last_name), ^(*period_info;CAT(A);teacher_I_first_name)&lt;tabto 6&gt;^(*period_info;CAT(A);current_grade)&lt;tabto 7&gt;^(per.att;CAT(A);U,A;^(termabbr))&lt;tabto 7.5&gt;^(per.att;CAT(A);2,3;^(termabbr))Class rank: ^(*classrank method="Weighted" result="rankoutof")Weighted GPA: ^(*gpa method="Weighted")</Text>
 </Body>
 </Object>
 <Object no="11">
 <Type>Text</Type>
-<Label>.A.Title</Label>
+<Label>.A.Date</Label>
 <Page></Page>
 <Layer>2</Layer>
 <Coordinates>
 <Left>0.6</Left>
-<Top>2.8</Top>
+<Top>10.472</Top>
 </Coordinates>
 <MaxWidth>0</MaxWidth>
 <MaxHeight>0</MaxHeight>
@@ -270,7 +260,7 @@ Weighted GPA: ^(*gpa method="Weighted")</Text>
 <Size></Size>
 <Leading></Leading>
 </Font>
-<Text>Period &lt;tabto 1.1&gt;Course&lt;tabto 4&gt;Teacher&lt;tabto 6&gt;Grade&lt;tabto 6.75&gt;Absent&lt;tabto 7.25&gt;Tardy</Text>
+<Text>Report Generated: ^[Letter.Date]</Text>
 </Body>
 </Object>
 </ObjectData>

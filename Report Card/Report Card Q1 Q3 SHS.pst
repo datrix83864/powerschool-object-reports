@@ -275,5 +275,25 @@ Principal: ^([39]Principal)&lt;/center&gt;</Text>
 <Text>Period &lt;tabto 1.1&gt;Course&lt;tabto 4&gt;Teacher&lt;tabto 6&gt;Grade&lt;tabto 6.75&gt;Absent&lt;tabto 7.25&gt;Tardy</Text>
 </Body>
 </Object>
+<Object no="12">
+<Type>Text</Type>
+<Label>.C.Date</Label>
+<Page></Page>
+<Layer>2</Layer>
+<Coordinates>
+<Left>0.6</Left>
+<Top>10.472</Top>
+</Coordinates>
+<MaxWidth>0</MaxWidth>
+<MaxHeight>0</MaxHeight>
+<Body>
+<Font>
+<Face>Default</Face>
+<Size></Size>
+<Leading></Leading>
+</Font>
+<Text>Report Generated: ^[Letter.Date]</Text>
+</Body>
+</Object>
 </ObjectData>
 </PSReportTemplate>
