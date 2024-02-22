@@ -175,11 +175,11 @@ Principal: ^([39]Principal)&lt;/center&gt;</Text>
 <Leading></Leading>
 </Font>
 <Text>Comments:
-^(*period_info;P0(R);teacher_I_first_name) ^(*period_info;P0(R);teacher_I_last_name): ^(*period_info;P0(R);teacher_comment)
-^(*period_info;P1(R);teacher_I_first_name) ^(*period_info;P1(R);teacher_I_last_name): ^(*period_info;P1(R);teacher_comment)
-^(*period_info;P2(R);teacher_I_first_name) ^(*period_info;P2(R);teacher_I_last_name): ^(*period_info;P2(R);teacher_comment)
-^(*period_info;P3(R);teacher_I_first_name) ^(*period_info;P3(R);teacher_I_last_name): ^(*period_info;P3(R);teacher_comment)
-^(*period_info;P4(R);teacher_I_first_name) ^(*period_info;P4(R);teacher_I_last_name): ^(*period_info;P4(R);teacher_comment)</Text>
+^(*period_info;P0(R);teacher_I_first_name;^(termabbr)) ^(*period_info;P0(R);teacher_I_last_name;^(termabbr)): ^(*period_info;P0(R);teacher_comment;^(termabbr))
+^(*period_info;P1(R);teacher_I_first_name;^(termabbr)) ^(*period_info;P1(R);teacher_I_last_name;^(termabbr)): ^(*period_info;P1(R);teacher_comment;^(termabbr))
+^(*period_info;P2(R);teacher_I_first_name;^(termabbr)) ^(*period_info;P2(R);teacher_I_last_name;^(termabbr)): ^(*period_info;P2(R);teacher_comment;^(termabbr))
+^(*period_info;P3(R);teacher_I_first_name;^(termabbr)) ^(*period_info;P3(R);teacher_I_last_name;^(termabbr)): ^(*period_info;P3(R);teacher_comment;^(termabbr))
+^(*period_info;P4(R);teacher_I_first_name;^(termabbr)) ^(*period_info;P4(R);teacher_I_last_name;^(termabbr)): ^(*period_info;P4(R);teacher_comment;^(termabbr))</Text>
 </Body>
 </Object>
 <Object no="8">
