@@ -518,7 +518,7 @@
 <Size>7</Size>
 <Leading></Leading>
 </Font>
-<Text>&lt;b&gt;Civics Test:&lt;/b&gt;&lt;tabto 1&gt;^(decode;^(tests;name=Civics;score=Pass;which=best;type=alpha;result=value);P;Passed;F;Failed;Not Taken)
+<Text>&lt;b&gt;Civics Test:&lt;/b&gt;&lt;tabto 1&gt;^(decode;^(tests;name=Civics;score=Pass;which=best;type=alpha;result=value);P;Passed;F;Failed;;Not Taken)
 ^(decode;^(tests;name=SAT;score=Reading & Writing;which=best;type=num;format=##0);0; ;&lt;b&gt;SAT&lt;/b&gt; &lt;tabto 1&gt;Read/Write: ^(tests;name=SAT;score=Reading & Writing;which=best;type=num;format=##0)&lt;tabto 3&gt;Math: ^(tests;name=SAT;score=Math;which=best;type=num;format=##0))</Text>
 </Body>
 </Object>
@@ -601,17 +601,17 @@
 <Size>7</Size>
 <Leading>9</Leading>
 </Font>
-<Text>^(*period_info;1(A);course_name)^(*period_info;P1(R);course_name)&lt;tabc 7.79&gt;^(*period_info;1(A);current_grade)^(*period_info;P1(R);current_grade)
-^(*period_info;2(A);course_name)^(*period_info;P2(R);course_name)^(*period_info;1-2(A);course_name)&lt;tabc 7.79&gt;^(*period_info;2(A);current_grade)^(*period_info;P2(R);current_grade)^(*period_info;1-2(A);current_grade)
-^(*period_info;3(A);course_name)^(*period_info;P3(R);course_name)&lt;tabc 7.79&gt;^(*period_info;3(A);current_grade)^(*period_info;P3(R);current_grade)
-^(*period_info;4(A);course_name)^(*period_info;P4(R);course_name)&lt;tabc 7.79&gt;^(*period_info;4(A);current_grade)^(*period_info;P4(R);current_grade)
-^(*period_info;5(A);course_name)^(*period_info;1(B);course_name)^(*period_info;P9(R);course_name)&lt;tabc 7.79&gt;^(*period_info;5(A);current_grade)^(*period_info;1(B);current_grade)^(*period_info;P9(R);course_name)
-^(*period_info;6(A);course_name)^(*period_info;2(B);course_name)^(*period_info;2-3(B);course_name)&lt;tabc 7.79&gt;^(*period_info;6(A);current_grade)^(*period_info;2(B);current_grade)^(*period_info;2-3(B);current_grade)
-^(*period_info;3(B);course_name)&lt;tabc 7.79&gt;^(*period_info;3(B);current_grade)
-^(*period_info;4(B);course_name)&lt;tabc 7.79&gt;^(*period_info;4(B);current_grade)
-^(*period_info;P9(A);course_name)&lt;tabc 7.79&gt;^(*period_info;P9(A);current_grade)
-^(*period_info;0(A);course_name)^(*period_info;0(A-B);course_name)&lt;tabc 7.79&gt;^(*period_info;0(A);current_grade)^(*period_info;0(A-B);current_grade)
-^(*period_info;0(B);course_name)&lt;tabc 7.79&gt;^(*period_info;0(B);current_grade)</Text>
+<Text>^(*period_info;1(A);course_name)^(*period_info;P1(R);course_name)
+^(*period_info;2(A);course_name)^(*period_info;P2(R);course_name)^(*period_info;1-2(A);course_name)
+^(*period_info;3(A);course_name)^(*period_info;P3(R);course_name)
+^(*period_info;4(A);course_name)^(*period_info;P4(R);course_name)
+^(*period_info;5(A);course_name)^(*period_info;1(B);course_name)^(*period_info;P9(R);course_name)
+^(*period_info;6(A);course_name)^(*period_info;2(B);course_name)^(*period_info;2-3(B);course_name)
+^(*period_info;3(B);course_name)
+^(*period_info;4(B);course_name)
+^(*period_info;P9(A);course_name)
+^(*period_info;0(A);course_name)^(*period_info;0(A-B);course_name)
+^(*period_info;0(B);course_name)</Text>
 </Body>
 </Object>
 </ObjectData>

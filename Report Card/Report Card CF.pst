@@ -193,7 +193,7 @@ Principal: ^([39]Principal)&lt;/center&gt;</Text>
 <Bold>True</Bold>
 <Underline>True</Underline>
 </Font>
-<Text>&lt;center&gt;^(decode;^(termabbr);S1;Semester 1;S2;Semester 2;Q1;Quarter 1;Q2;Quarter 2;Q3;Quarter 3;Q4;Quarter 4) Report Card:&lt;/center&gt;
+<Text>&lt;center&gt;^(yearname) ^(decode;^(termabbr);S1;Semester 1;S2;Semester 2;Q1;Quarter 1;Q2;Quarter 2;Q3;Quarter 3;Q4;Quarter 4) Report Card:&lt;/center&gt;
 &lt;center&gt;^(LastFirst)&lt;/center&gt;</Text>
 </Body>
 </Object>
