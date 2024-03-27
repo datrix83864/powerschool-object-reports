@@ -803,12 +803,12 @@
 					<Leading>10</Leading>
 				</Font>
 				<Text>&lt;b&gt;Phonemic Awareness&lt;/b&gt;
-				1.FR-PA.2: Demonstrate understanding of spoken words, syllables, and sounds&lt;tabc 6.25&gt;~(*std.stored.transavg;1.FR-PA.2;Q1)&lt;tabc 6.75&gt;~(*std.stored.transavg;1.FR-PA.2;Q2)&lt;tabc 7.25&gt;~(*std.stored.transavg;1.FR-PA.2;Q3)&lt;tabc 7.75&gt;~(*std.stored.transavg;1.FR-PA.2;Q4)
+				1.FR-PA.2: Demonstrate understanding of spoken words, syllables, and sounds
 				&lt;b&gt;Phonics and Decoding&lt;/b&gt;
-				1.FR-PH.3: Use knowledge of grade-level phonics in decoding words&lt;tabc 6.25&gt;~(*std.stored.transavg;1.FR-PH.3;Q1)&lt;tabc 6.75&gt;~(*std.stored.transavg;1.FR-PH.3;Q2)&lt;tabc 7.25&gt;~(*std.stored.transavg;1.FR-PH.3;Q3)&lt;tabc 7.75&gt;~(*std.stored.transavg;1.FR-PH.3;Q4)
-				1.FR-PH.3a: Know common consonant digraphs (e.g. sh, th, ch, wh, ph)&lt;tabc 6.25&gt;~(*std.stored.transavg;1.FR-PH.3a;Q1)&lt;tabc 6.75&gt;~(*std.stored.transavg;1.FR-PH.3a;Q2)&lt;tabc 7.25&gt;~(*std.stored.transavg;1.FR-PH.3a;Q3)&lt;tabc 7.75&gt;~(*std.stored.transavg;1.FR-PH.3a;Q4)
-				1.FR-PH.3c: Know final -e and common vowel teams for representing long vowel sounds&lt;tabc 6.25&gt;~(*std.stored.transavg;1.FR-PH.3c;Q1)&lt;tabc 6.75&gt;~(*std.stored.transavg;1.FR-PH.3c;Q2)&lt;tabc 7.25&gt;~(*std.stored.transavg;1.FR-PH.3c;Q3)&lt;tabc 7.75&gt;~(*std.stored.transavg;1.FR-PH.3c;Q4)
-				1.FR-PH.3h: Recognize and read grade-appropriate irregularly spelled words (e.g. what, said, have)&lt;tabc 6.25&gt;~(*std.stored.transavg;1.FR-PH.3h;Q1)&lt;tabc 6.75&gt;~(*std.stored.transavg;1.FR-PH.3h;Q2)&lt;tabc 7.25&gt;~(*std.stored.transavg;1.FR-PH.3h;Q3)&lt;tabc 7.75&gt;~(*std.stored.transavg;1.FR-PH.3h;Q4)</Text>
+				1.FR-PH.3: Use knowledge of grade-level phonics in decoding words
+				1.FR-PH.3a: Know common consonant digraphs (e.g. sh, th, ch, wh, ph)
+				1.FR-PH.3c: Know final -e and common vowel teams for representing long vowel sounds
+				1.FR-PH.3h: Recognize and read grade-appropriate irregularly spelled words (e.g. what, said, have)</Text>
 			</Body>
 		</Object>
 		<Object no="37">
@@ -2441,6 +2441,32 @@ Music: ^(*std.stored.comment;SPEC-MUS.4;Q4)</Text>
 <Text>&lt;tabc 4.25&gt;This Page Intentionally Left Blank</Text>
 </Body>
 </Object>
+<Object no="112">
+			<Type>Text</Type>
+			<Label>.10.Reading Compre Grade</Label>
+			<Page>1</Page>
+			<Layer>6</Layer>
+			<Coordinates>
+				<Left>6.25</Left>
+				<Top>5.246</Top>
+			</Coordinates>
+			<MaxWidth>0</MaxWidth>
+			<MaxHeight>0</MaxHeight>
+			<Body>
+				<Font>
+					<Face>Helvetica</Face>
+					<Size>8</Size>
+					<Leading>10</Leading>
+				</Font>
+				<Text>
+				&lt;tabc 6.25&gt;~(*std.stored.transavg;1.FR-PA.2;Q1)&lt;tabc 6.75&gt;~(*std.stored.transavg;1.FR-PA.2;Q2)&lt;tabc 7.25&gt;~(*std.stored.transavg;1.FR-PA.2;Q3)&lt;tabc 7.75&gt;~(*std.stored.transavg;1.FR-PA.2;Q4)
+				
+				&lt;tabc 6.25&gt;~(*std.stored.transavg;1.FR-PH.3;Q1)&lt;tabc 6.75&gt;~(*std.stored.transavg;1.FR-PH.3;Q2)&lt;tabc 7.25&gt;~(*std.stored.transavg;1.FR-PH.3;Q3)&lt;tabc 7.75&gt;~(*std.stored.transavg;1.FR-PH.3;Q4)
+				&lt;tabc 6.25&gt;~(*std.stored.transavg;1.FR-PH.3a;Q1)&lt;tabc 6.75&gt;~(*std.stored.transavg;1.FR-PH.3a;Q2)&lt;tabc 7.25&gt;~(*std.stored.transavg;1.FR-PH.3a;Q3)&lt;tabc 7.75&gt;~(*std.stored.transavg;1.FR-PH.3a;Q4)
+				&lt;tabc 6.25&gt;~(*std.stored.transavg;1.FR-PH.3c;Q1)&lt;tabc 6.75&gt;~(*std.stored.transavg;1.FR-PH.3c;Q2)&lt;tabc 7.25&gt;~(*std.stored.transavg;1.FR-PH.3c;Q3)&lt;tabc 7.75&gt;~(*std.stored.transavg;1.FR-PH.3c;Q4)
+				&lt;tabc 6.25&gt;~(*std.stored.transavg;1.FR-PH.3h;Q1)&lt;tabc 6.75&gt;~(*std.stored.transavg;1.FR-PH.3h;Q2)&lt;tabc 7.25&gt;~(*std.stored.transavg;1.FR-PH.3h;Q3)&lt;tabc 7.75&gt;~(*std.stored.transavg;1.FR-PH.3h;Q4)</Text>
+			</Body>
+		</Object>
 	</ObjectData>
 
 </PSReportTemplate>
