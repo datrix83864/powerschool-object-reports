@@ -960,7 +960,7 @@
 					<Leading>10</Leading>
 				</Font>
 				<Text>&lt;b&gt;Word Building
-				&lt;/b&gt;2.VD-WB.1: Determine or clarify the meaning of unknown and multiple-meaning words and phrases&lt;tabc 6.25&gt;~(*std.stored.transavg;2.VD-WB.1;Q1)&lt;tabc 6.75&gt;~(*std.stored.transavg;2.VD-WB.1;Q2)&lt;tabc 7.25&gt;~(*std.stored.transavg;2.VD-WB.1;Q3)&lt;tabc 7.75&gt;~(*std.stored.transavg;2.VD-WB.1;Q4)</Text>
+				&lt;/b&gt;2.VD-WB.1: Determine or clarify the meaning of unknown and multiple-meaning words and phrases</Text>
 			</Body>
 		</Object>
 		<Object no="44">
@@ -2383,6 +2383,27 @@ Music: ^(*std.stored.comment;SPEC-MUS;Q4)</Text>
 <Text>&lt;tabc 4.25&gt;This Page Intentionally Left Blank</Text>
 </Body>
 </Object>
+<Object no="111">
+			<Type>Text</Type>
+			<Label>.18.Vocab Grades</Label>
+			<Page>1</Page>
+			<Layer>7</Layer>
+			<Coordinates>
+				<Left>1.05</Left>
+				<Top>8.074</Top>
+			</Coordinates>
+			<MaxWidth>0</MaxWidth>
+			<MaxHeight>0</MaxHeight>
+			<Body>
+				<Font>
+					<Face>Helvetica</Face>
+					<Size>8</Size>
+					<Leading>10</Leading>
+				</Font>
+				<Text>
+				&lt;tabc 6.25&gt;~(*std.stored.transavg;2.VD-WB.1;Q1)&lt;tabc 6.75&gt;~(*std.stored.transavg;2.VD-WB.1;Q2)&lt;tabc 7.25&gt;~(*std.stored.transavg;2.VD-WB.1;Q3)&lt;tabc 7.75&gt;~(*std.stored.transavg;2.VD-WB.1;Q4)</Text>
+			</Body>
+		</Object>
 	</ObjectData>
 
 </PSReportTemplate>
