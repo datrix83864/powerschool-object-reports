@@ -56,3 +56,21 @@ Contains requests different schools have had:
 
 1. Students - ID and Access Codes - This leverages a specific custom field, by default PS encrypts any outgoing data with Password in the name
 2. Teacher Grade Checks - LPO - This is specific to LPO due to the schedule system, but provides a quick check on which teachers have input grades for students. It returns the student and the teacher in question
+
+## .gitignore
+
+Have school logos in the logos folder that is in .gitignore
+
+- CF.png
+- District.png
+- fs-logo3.jpg
+- HP.png
+- HS.png
+- KT.png
+- LPO.png
+- NS.png
+- SA.png
+- SHS.png
+- SMS.png
+- SS.png
+- WA_New.jpg
