@@ -49,3 +49,10 @@ Contains schedules for students:
 2. Schedule - CF - Specific to CF due to image restrictions
 3. Schedule - LPO - Specific to LPO due to image restrictions and different term system
 4. Schedule - SMS - Specific to SMS due to image restrictions
+
+### Random Requests
+
+Contains requests different schools have had:
+
+1. Students - ID and Access Codes - This leverages a specific custom field, by default PS encrypts any outgoing data with Password in the name
+2. Teacher Grade Checks - LPO - This is specific to LPO due to the schedule system, but provides a quick check on which teachers have input grades for students. It returns the student and the teacher in question
