@@ -1,13 +1,13 @@
 <PSReportTemplate>
 <FileHeader>
-<Created>Tue, 16 Jan 2024 22:13:33 GMT</Created>
+<Created>Tue, 16 Jan 2024 22:08:59 GMT</Created>
 <PSVersion>(VisualPST 3.2.1,)</PSVersion>
 <TemplateVersion>1.0</TemplateVersion>
 <Author>Hawkins, Dalton Jacob</Author>
 </FileHeader>
 <ReportHeader>
 <Type>Object Report</Type>
-<Name>NS 1st Grade Report Card</Name>
+<Name>FS 1st Grade Report Card</Name>
 <Table>Students</Table>
 </ReportHeader>
 <ReportData>
@@ -337,16 +337,40 @@
 <Size>8</Size>
 <Leading></Leading>
 </Font>
-<Text>Completes work and tasks on time and with care&lt;tabc 6.25&gt;~(*std.stored.transavg;SPEC-WH.1;Q1)&lt;tabc 6.75&gt;~(*std.stored.transavg;SPEC-WH.1;Q2)&lt;tabc 7.25&gt;~(*std.stored.transavg;SPEC-WH.1;Q3)&lt;tabc 7.75&gt;~(*std.stored.transavg;SPEC-WH.1;Q4)
-Follows routines and instructions&lt;tabc 6.25&gt;~(*std.stored.transavg;SPEC-WH.2;Q1)&lt;tabc 6.75&gt;~(*std.stored.transavg;SPEC-WH.2;Q2)&lt;tabc 7.25&gt;~(*std.stored.transavg;SPEC-WH.2;Q3)&lt;tabc 7.75&gt;~(*std.stored.transavg;SPEC-WH.2;Q4)
-Perseveres with tasks and goals&lt;tabc 6.25&gt;~(*std.stored.transavg;SPEC-WH.3;Q1)&lt;tabc 6.75&gt;~(*std.stored.transavg;SPEC-WH.3;Q2)&lt;tabc 7.25&gt;~(*std.stored.transavg;SPEC-WH.3;Q3)&lt;tabc 7.75&gt;~(*std.stored.transavg;SPEC-WH.3;Q4)
-Effectively manages time and materials&lt;tabc 6.25&gt;~(*std.stored.transavg;SPEC-WH.4;Q1)&lt;tabc 6.75&gt;~(*std.stored.transavg;SPEC-WH.4;Q2)&lt;tabc 7.25&gt;~(*std.stored.transavg;SPEC-WH.4;Q3)&lt;tabc 7.75&gt;~(*std.stored.transavg;SPEC-WH.4;Q4)
-Participates and contributes to discussions/activities&lt;tabc 6.25&gt;~(*std.stored.transavg;SPEC-WH.5;Q1)&lt;tabc 6.75&gt;~(*std.stored.transavg;SPEC-WH.5;Q2)&lt;tabc 7.25&gt;~(*std.stored.transavg;SPEC-WH.5;Q3)&lt;tabc 7.75&gt;~(*std.stored.transavg;SPEC-WH.5;Q4)</Text>
+<Text>Completes work and tasks on time and with care
+Follows routines and instructions
+Perseveres with tasks and goals
+Effectively manages time and materials
+Participates and contributes to discussions/activities</Text>
 </Body>
 </Object>
 <Object no="16">
+<Type>Text</Type>
+<Label>.0F.Work Habits Grade</Label>
+<Page>1</Page>
+<Layer>3</Layer>
+<Coordinates>
+<Left>6</Left>
+<Top>4.182</Top>
+</Coordinates>
+<MaxWidth>0</MaxWidth>
+<MaxHeight>0</MaxHeight>
+<Body>
+<Font>
+<Face>Helvetica</Face>
+<Size>8</Size>
+<Leading></Leading>
+</Font>
+<Text>&lt;tabc 6.25&gt;~(*std.stored.transavg;SPEC-WH.1;Q1)&lt;tabc 6.75&gt;~(*std.stored.transavg;SPEC-WH.1;Q2)&lt;tabc 7.25&gt;~(*std.stored.transavg;SPEC-WH.1;Q3)&lt;tabc 7.75&gt;~(*std.stored.transavg;SPEC-WH.1;Q4)
+&lt;tabc 6.25&gt;~(*std.stored.transavg;SPEC-WH.2;Q1)&lt;tabc 6.75&gt;~(*std.stored.transavg;SPEC-WH.2;Q2)&lt;tabc 7.25&gt;~(*std.stored.transavg;SPEC-WH.2;Q3)&lt;tabc 7.75&gt;~(*std.stored.transavg;SPEC-WH.2;Q4)
+&lt;tabc 6.25&gt;~(*std.stored.transavg;SPEC-WH.3;Q1)&lt;tabc 6.75&gt;~(*std.stored.transavg;SPEC-WH.3;Q2)&lt;tabc 7.25&gt;~(*std.stored.transavg;SPEC-WH.3;Q3)&lt;tabc 7.75&gt;~(*std.stored.transavg;SPEC-WH.3;Q4)
+&lt;tabc 6.25&gt;~(*std.stored.transavg;SPEC-WH.4;Q1)&lt;tabc 6.75&gt;~(*std.stored.transavg;SPEC-WH.4;Q2)&lt;tabc 7.25&gt;~(*std.stored.transavg;SPEC-WH.4;Q3)&lt;tabc 7.75&gt;~(*std.stored.transavg;SPEC-WH.4;Q4)
+&lt;tabc 6.25&gt;~(*std.stored.transavg;SPEC-WH.5;Q1)&lt;tabc 6.75&gt;~(*std.stored.transavg;SPEC-WH.5;Q2)&lt;tabc 7.25&gt;~(*std.stored.transavg;SPEC-WH.5;Q3)&lt;tabc 7.75&gt;~(*std.stored.transavg;SPEC-WH.5;Q4)</Text>
+</Body>
+</Object>
+<Object no="17">
 <Type>Box</Type>
-<Label>.0F.D1.Cit Box</Label>
+<Label>.0G.D1.Cit Box</Label>
 <Page>1</Page>
 <Layer>4</Layer>
 <Coordinates>
@@ -361,9 +385,9 @@ Participates and contributes to discussions/activities&lt;tabc 6.25&gt;~(*std.st
 <Color>Black</Color>
 </Line>
 </Object>
-<Object no="17">
+<Object no="18">
 <Type>Line</Type>
-<Label>.0G.D1.Cit Horz Lines</Label>
+<Label>.0H.D1.Cit Horz Lines</Label>
 <Page>1</Page>
 <Layer>4</Layer>
 <Coordinates>
@@ -378,9 +402,9 @@ Participates and contributes to discussions/activities&lt;tabc 6.25&gt;~(*std.st
 <Color>Black</Color>
 </Line>
 </Object>
-<Object no="18">
+<Object no="19">
 <Type>Line</Type>
-<Label>.0H.D2.Cit Vert Lines</Label>
+<Label>.0I.D2.Cit Vert Lines</Label>
 <Page>1</Page>
 <Layer>4</Layer>
 <Repeat>
@@ -402,9 +426,9 @@ Participates and contributes to discussions/activities&lt;tabc 6.25&gt;~(*std.st
 <Color>Black</Color>
 </Line>
 </Object>
-<Object no="19">
+<Object no="20">
 <Type>Line</Type>
-<Label>.0I.D1.Cit Horz Lines</Label>
+<Label>.0J.D1.Cit Horz Lines</Label>
 <Page>1</Page>
 <Layer>4</Layer>
 <Coordinates>
@@ -419,9 +443,9 @@ Participates and contributes to discussions/activities&lt;tabc 6.25&gt;~(*std.st
 <Color>Black</Color>
 </Line>
 </Object>
-<Object no="20">
+<Object no="21">
 <Type>Text</Type>
-<Label>.0J.D1. Citizenship Head</Label>
+<Label>.0K.D1. Citizenship Head</Label>
 <Page>1</Page>
 <Layer>4</Layer>
 <Coordinates>
@@ -439,9 +463,9 @@ Participates and contributes to discussions/activities&lt;tabc 6.25&gt;~(*std.st
 <Text>&lt;b&gt;CITIZENSHIP&lt;tabc 6.25&gt;Q1&lt;tabc 6.75&gt;Q2&lt;tabc 7.25&gt;Q3&lt;tabc 7.75&gt;Q4&lt;/b&gt;</Text>
 </Body>
 </Object>
-<Object no="21">
+<Object no="22">
 <Type>Text</Type>
-<Label>.0K.D2. Citizenship Stan</Label>
+<Label>.0L.D2. Citizenship Stan</Label>
 <Page>1</Page>
 <Layer>4</Layer>
 <Coordinates>
@@ -456,14 +480,35 @@ Participates and contributes to discussions/activities&lt;tabc 6.25&gt;~(*std.st
 <Size>8</Size>
 <Leading></Leading>
 </Font>
-<Text>Demonstrates respect for self, others, and property&lt;tabc 6.25&gt;~(*std.stored.transavg;SPEC-CIT-1;Q1)&lt;tabc 6.75&gt;~(*std.stored.transavg;SPEC-CIT-1;Q2)&lt;tabc 7.25&gt;~(*std.stored.transavg;SPEC-CIT-1;Q3)&lt;tabc 7.75&gt;~(*std.stored.transavg;SPEC-CIT-1;Q4)
-Seeks positive solutions to problems&lt;tabc 6.25&gt;~(*std.stored.transavg;SPEC-CIT-2;Q1)&lt;tabc 6.75&gt;~(*std.stored.transavg;SPEC-CIT-2;Q2)&lt;tabc 7.25&gt;~(*std.stored.transavg;SPEC-CIT-2;Q3)&lt;tabc 7.75&gt;~(*std.stored.transavg;SPEC-CIT-2;Q4)
+<Text>Demonstrates respect for self, others, and property
+Seeks positive solutions to problems</Text>
+</Body>
+</Object>
+<Object no="23">
+<Type>Text</Type>
+<Label>.0M.Citizenship Grade</Label>
+<Page>1</Page>
+<Layer>4</Layer>
+<Coordinates>
+<Left>6</Left>
+<Top>3.607</Top>
+</Coordinates>
+<MaxWidth>0</MaxWidth>
+<MaxHeight>0</MaxHeight>
+<Body>
+<Font>
+<Face>Helvetica</Face>
+<Size>8</Size>
+<Leading></Leading>
+</Font>
+<Text>&lt;tabc 6.25&gt;~(*std.stored.transavg;SPEC-CIT-1;Q1)&lt;tabc 6.75&gt;~(*std.stored.transavg;SPEC-CIT-1;Q2)&lt;tabc 7.25&gt;~(*std.stored.transavg;SPEC-CIT-1;Q3)&lt;tabc 7.75&gt;~(*std.stored.transavg;SPEC-CIT-1;Q4)
+&lt;tabc 6.25&gt;~(*std.stored.transavg;SPEC-CIT-2;Q1)&lt;tabc 6.75&gt;~(*std.stored.transavg;SPEC-CIT-2;Q2)&lt;tabc 7.25&gt;~(*std.stored.transavg;SPEC-CIT-2;Q3)&lt;tabc 7.75&gt;~(*std.stored.transavg;SPEC-CIT-2;Q4)
 </Text>
 </Body>
 </Object>
-<Object no="22">
+<Object no="24">
 <Type>Line</Type>
-<Label>.0L.E1. Work Habits Horiz Line</Label>
+<Label>.0N.E1. Work Habits Horiz Line</Label>
 <Page>1</Page>
 <Layer>5</Layer>
 <Repeat>
@@ -485,9 +530,9 @@ Seeks positive solutions to problems&lt;tabc 6.25&gt;~(*std.stored.transavg;SPEC
 <Color>Black</Color>
 </Line>
 </Object>
-<Object no="23">
+<Object no="25">
 <Type>Text</Type>
-<Label>.0M.E1. Work Habits Head</Label>
+<Label>.0O.E1. Work Habits Head</Label>
 <Page>1</Page>
 <Layer>5</Layer>
 <Coordinates>
@@ -505,9 +550,9 @@ Seeks positive solutions to problems&lt;tabc 6.25&gt;~(*std.stored.transavg;SPEC
 <Text>&lt;b&gt;WORK HABITS&lt;tabc 6.25&gt;Q1&lt;tabc 6.75&gt;Q2&lt;tabc 7.25&gt;Q3&lt;tabc 7.75&gt;Q4&lt;/b&gt;</Text>
 </Body>
 </Object>
-<Object no="24">
+<Object no="26">
 <Type>Box</Type>
-<Label>.0N.Found Read Box</Label>
+<Label>.0P.Found Read Box</Label>
 <Page>1</Page>
 <Layer>6</Layer>
 <Coordinates>
@@ -522,9 +567,9 @@ Seeks positive solutions to problems&lt;tabc 6.25&gt;~(*std.stored.transavg;SPEC
 <Color>Black</Color>
 </Line>
 </Object>
-<Object no="25">
+<Object no="27">
 <Type>Box</Type>
-<Label>.0O.F1. Read Box</Label>
+<Label>.0Q.F1. Read Box</Label>
 <Page>1</Page>
 <Layer>6</Layer>
 <Coordinates>
@@ -539,9 +584,9 @@ Seeks positive solutions to problems&lt;tabc 6.25&gt;~(*std.stored.transavg;SPEC
 <Color>Black</Color>
 </Line>
 </Object>
-<Object no="26">
+<Object no="28">
 <Type>Line</Type>
-<Label>.0P.Found Read Horiz Lin</Label>
+<Label>.0R.Found Read Horiz Lin</Label>
 <Page>1</Page>
 <Layer>6</Layer>
 <Repeat>
@@ -563,9 +608,9 @@ Seeks positive solutions to problems&lt;tabc 6.25&gt;~(*std.stored.transavg;SPEC
 <Color>Black</Color>
 </Line>
 </Object>
-<Object no="27">
+<Object no="29">
 <Type>Line</Type>
-<Label>.0Q.Found Read Vert Line</Label>
+<Label>.0S.Found Read Vert Line</Label>
 <Page>1</Page>
 <Layer>6</Layer>
 <Repeat>
@@ -587,9 +632,9 @@ Seeks positive solutions to problems&lt;tabc 6.25&gt;~(*std.stored.transavg;SPEC
 <Color>Black</Color>
 </Line>
 </Object>
-<Object no="28">
+<Object no="30">
 <Type>Line</Type>
-<Label>.0R.Read Comp Horiz Line</Label>
+<Label>.0T.Read Comp Horiz Line</Label>
 <Page>1</Page>
 <Layer>6</Layer>
 <Repeat>
@@ -611,9 +656,9 @@ Seeks positive solutions to problems&lt;tabc 6.25&gt;~(*std.stored.transavg;SPEC
 <Color>Black</Color>
 </Line>
 </Object>
-<Object no="29">
+<Object no="31">
 <Type>Line</Type>
-<Label>.0S.Read C Vert Lines2</Label>
+<Label>.0U.Read C Vert Lines2</Label>
 <Page>1</Page>
 <Layer>6</Layer>
 <Repeat>
@@ -635,9 +680,9 @@ Seeks positive solutions to problems&lt;tabc 6.25&gt;~(*std.stored.transavg;SPEC
 <Color>Black</Color>
 </Line>
 </Object>
-<Object no="30">
+<Object no="32">
 <Type>Line</Type>
-<Label>.0T.Found Read Horiz Li2</Label>
+<Label>.0V.Found Read Horiz Li2</Label>
 <Page>1</Page>
 <Layer>6</Layer>
 <Repeat>
@@ -659,9 +704,9 @@ Seeks positive solutions to problems&lt;tabc 6.25&gt;~(*std.stored.transavg;SPEC
 <Color>Black</Color>
 </Line>
 </Object>
-<Object no="31">
+<Object no="33">
 <Type>Line</Type>
-<Label>.0U.Read Comp Horiz Lin2</Label>
+<Label>.0W.Read Comp Horiz Lin2</Label>
 <Page>1</Page>
 <Layer>6</Layer>
 <Repeat>
@@ -683,9 +728,9 @@ Seeks positive solutions to problems&lt;tabc 6.25&gt;~(*std.stored.transavg;SPEC
 <Color>Black</Color>
 </Line>
 </Object>
-<Object no="32">
+<Object no="34">
 <Type>Line</Type>
-<Label>.0V.Read Vert Lines1</Label>
+<Label>.0X.Read Vert Lines1</Label>
 <Page>1</Page>
 <Layer>6</Layer>
 <Repeat>
@@ -707,9 +752,9 @@ Seeks positive solutions to problems&lt;tabc 6.25&gt;~(*std.stored.transavg;SPEC
 <Color>Black</Color>
 </Line>
 </Object>
-<Object no="33">
+<Object no="35">
 <Type>Line</Type>
-<Label>.0W.Read C Vert Lines3</Label>
+<Label>.0Y.Read C Vert Lines3</Label>
 <Page>1</Page>
 <Layer>6</Layer>
 <Repeat>
@@ -731,9 +776,9 @@ Seeks positive solutions to problems&lt;tabc 6.25&gt;~(*std.stored.transavg;SPEC
 <Color>Black</Color>
 </Line>
 </Object>
-<Object no="34">
+<Object no="36">
 <Type>Line</Type>
-<Label>.0X.Read C Vert Lines4</Label>
+<Label>.0Z.Read C Vert Lines4</Label>
 <Page>1</Page>
 <Layer>6</Layer>
 <Repeat>
@@ -755,9 +800,9 @@ Seeks positive solutions to problems&lt;tabc 6.25&gt;~(*std.stored.transavg;SPEC
 <Color>Black</Color>
 </Line>
 </Object>
-<Object no="35">
+<Object no="37">
 <Type>Line</Type>
-<Label>.0Y.Found Read Vert Lin2</Label>
+<Label>.10.Found Read Vert Lin2</Label>
 <Page>1</Page>
 <Layer>6</Layer>
 <Repeat>
@@ -779,9 +824,9 @@ Seeks positive solutions to problems&lt;tabc 6.25&gt;~(*std.stored.transavg;SPEC
 <Color>Black</Color>
 </Line>
 </Object>
-<Object no="36">
+<Object no="38">
 <Type>Line</Type>
-<Label>.0Z.Found Read Horiz Li3</Label>
+<Label>.11.Found Read Horiz Li3</Label>
 <Page>1</Page>
 <Layer>6</Layer>
 <Coordinates>
@@ -796,9 +841,9 @@ Seeks positive solutions to problems&lt;tabc 6.25&gt;~(*std.stored.transavg;SPEC
 <Color>Black</Color>
 </Line>
 </Object>
-<Object no="37">
+<Object no="39">
 <Type>Text</Type>
-<Label>.10.Reading Compre Stand</Label>
+<Label>.12.Found Read Stand</Label>
 <Page>1</Page>
 <Layer>6</Layer>
 <Coordinates>
@@ -822,9 +867,9 @@ Seeks positive solutions to problems&lt;tabc 6.25&gt;~(*std.stored.transavg;SPEC
 1.FR-PH.3h: Recognize and read grade-appropriate irregularly spelled words (e.g. what, said, have)</Text>
 </Body>
 </Object>
-<Object no="38">
+<Object no="40">
 <Type>Text</Type>
-<Label>.11.Found Read Title</Label>
+<Label>.13.Found Read Title</Label>
 <Page>1</Page>
 <Layer>6</Layer>
 <Coordinates>
@@ -843,9 +888,9 @@ Seeks positive solutions to problems&lt;tabc 6.25&gt;~(*std.stored.transavg;SPEC
 <Text>FOUNDATIONAL READING SKILLS&lt;tabc 6.25&gt;Q1&lt;tabc 6.75&gt;Q2&lt;tabc 7.25&gt;Q3&lt;tabc 7.75&gt;Q4</Text>
 </Body>
 </Object>
-<Object no="39">
+<Object no="41">
 <Type>Text</Type>
-<Label>.12.F2. Reading Comp Hd</Label>
+<Label>.14.F2. Reading Comp Hd</Label>
 <Page>1</Page>
 <Layer>6</Layer>
 <Coordinates>
@@ -864,16 +909,16 @@ Seeks positive solutions to problems&lt;tabc 6.25&gt;~(*std.stored.transavg;SPEC
 <Text>READING COMPREHENSION&lt;tabc 6.25&gt;Q1&lt;tabc 6.75&gt;Q2&lt;tabc 7.25&gt;Q3&lt;tabc 7.75&gt;Q4</Text>
 </Body>
 </Object>
-<Object no="40">
+<Object no="42">
 <Type>Text</Type>
-<Label>.13.Reading Compre Stand</Label>
+<Label>.15.Reading Compre Stand</Label>
 <Page>1</Page>
 <Layer>6</Layer>
 <Coordinates>
 <Left>1.036</Left>
 <Top>6.618</Top>
 </Coordinates>
-<MaxWidth>5</MaxWidth>
+<MaxWidth>4.9</MaxWidth>
 <MaxHeight>0</MaxHeight>
 <Body>
 <Font>
@@ -882,18 +927,46 @@ Seeks positive solutions to problems&lt;tabc 6.25&gt;~(*std.stored.transavg;SPEC
 <Leading>10</Leading>
 </Font>
 <Text>&lt;b&gt;Textual Evidence&lt;/b&gt;
-1.RC-TE.3: Ask and answer questions about key details in texts heard or read&lt;tabc 6.25&gt;~(*std.stored.transavg;1.RC-TE.3;Q1)&lt;tabc 6.75&gt;~(*std.stored.transavg;1.RC-TE.3;Q2)&lt;tabc 7.25&gt;~(*std.stored.transavg;1.RC-TE.3;Q3)&lt;tabc 7.75&gt;~(*std.stored.transavg;1.RC-TE.3;Q4)
+1.RC-TE.3: Ask and answer questions about key details in texts heard or read
 &lt;b&gt;Reading Fluency&lt;/b&gt;
-1.RC-RF.4: Read grade-level text with accuracy, appropriate rate, and expression to support comprehension&lt;tabc 6.25&gt;~(*std.stored.transavg;1.RC-RF.4;Q1)&lt;tabc 6.75&gt;~(*std.stored.transavg;1.RC-RF.4;Q2)&lt;tabc 7.25&gt;~(*std.stored.transavg;1.RC-RF.4;Q3)&lt;tabc 7.75&gt;~(*std.stored.transavg;1.RC-RF.4;Q4)
+1.RC-RF.4: Read grade-level text with accuracy, appropriate rate, and expression to support comprehension
 &lt;b&gt;Literature&lt;/b&gt;
-1.RC-L.5: Use evidence from literature to demonstrate understanding of grade-level texts&lt;tabc 6.25&gt;~(*std.stored.transavg;1.RC-L.5;Q1)&lt;tabc 6.75&gt;~(*std.stored.transavg;1.RC-L.5;Q2)&lt;tabc 7.25&gt;~(*std.stored.transavg;1.RC-L.5;Q3)&lt;tabc 7.75&gt;~(*std.stored.transavg;1.RC-L.5;Q4)
+1.RC-L.5: Use evidence from literature to demonstrate understanding of grade-level texts
 &lt;b&gt;Nonfiction Text
-&lt;/b&gt;1.RC-NF.6: Use evidence from nonfiction works to demonstrate understanding of grade-level texts&lt;tabc 6.25&gt;~(*std.stored.transavg;1.RC-NF.6;Q1)&lt;tabc 6.75&gt;~(*std.stored.transavg;1.RC-NF.6;Q2)&lt;tabc 7.25&gt;~(*std.stored.transavg;1.RC-NF.6;Q3)&lt;tabc 7.75&gt;~(*std.stored.transavg;1.RC-NF.6;Q4)</Text>
+&lt;/b&gt;1.RC-NF.6: Use evidence from nonfiction works to demonstrate understanding of grade-level texts</Text>
 </Body>
 </Object>
-<Object no="41">
+<Object no="43">
 <Type>Text</Type>
-<Label>.14.Reading Compre Grade</Label>
+<Label>.16.Reading Compre Grade</Label>
+<Page>1</Page>
+<Layer>6</Layer>
+<Coordinates>
+<Left>6</Left>
+<Top>6.618</Top>
+</Coordinates>
+<MaxWidth>0</MaxWidth>
+<MaxHeight>0</MaxHeight>
+<Body>
+<Font>
+<Face>Helvetica</Face>
+<Size>8</Size>
+<Leading>10</Leading>
+</Font>
+<Text>
+&lt;tabc 6.25&gt;~(*std.stored.transavg;1.RC-TE.3;Q1)&lt;tabc 6.75&gt;~(*std.stored.transavg;1.RC-TE.3;Q2)&lt;tabc 7.25&gt;~(*std.stored.transavg;1.RC-TE.3;Q3)&lt;tabc 7.75&gt;~(*std.stored.transavg;1.RC-TE.3;Q4)
+
+&lt;tabc 6.25&gt;~(*std.stored.transavg;1.RC-RF.4;Q1)&lt;tabc 6.75&gt;~(*std.stored.transavg;1.RC-RF.4;Q2)&lt;tabc 7.25&gt;~(*std.stored.transavg;1.RC-RF.4;Q3)&lt;tabc 7.75&gt;~(*std.stored.transavg;1.RC-RF.4;Q4)
+
+
+&lt;tabc 6.25&gt;~(*std.stored.transavg;1.RC-L.5;Q1)&lt;tabc 6.75&gt;~(*std.stored.transavg;1.RC-L.5;Q2)&lt;tabc 7.25&gt;~(*std.stored.transavg;1.RC-L.5;Q3)&lt;tabc 7.75&gt;~(*std.stored.transavg;1.RC-L.5;Q4)
+
+&lt;tabc 6.25&gt;~(*std.stored.transavg;1.RC-NF.6;Q1)&lt;tabc 6.75&gt;~(*std.stored.transavg;1.RC-NF.6;Q2)&lt;tabc 7.25&gt;~(*std.stored.transavg;1.RC-NF.6;Q3)&lt;tabc 7.75&gt;~(*std.stored.transavg;1.RC-NF.6;Q4)</Text>
+</Body>
+</Object>
+<Object no="44">
+<Type>Text</Type>
+<Label>.17.Found Read Grade</Label>
 <Page>1</Page>
 <Layer>6</Layer>
 <Coordinates>
@@ -917,9 +990,9 @@ Seeks positive solutions to problems&lt;tabc 6.25&gt;~(*std.stored.transavg;SPEC
 &lt;tabc 6.25&gt;~(*std.stored.transavg;1.FR-PH.3h;Q1)&lt;tabc 6.75&gt;~(*std.stored.transavg;1.FR-PH.3h;Q2)&lt;tabc 7.25&gt;~(*std.stored.transavg;1.FR-PH.3h;Q3)&lt;tabc 7.75&gt;~(*std.stored.transavg;1.FR-PH.3h;Q4)</Text>
 </Body>
 </Object>
-<Object no="42">
+<Object no="45">
 <Type>Box</Type>
-<Label>.15.Vocab Box</Label>
+<Label>.18.Vocab Box</Label>
 <Page>1</Page>
 <Layer>7</Layer>
 <Coordinates>
@@ -934,9 +1007,9 @@ Seeks positive solutions to problems&lt;tabc 6.25&gt;~(*std.stored.transavg;SPEC
 <Color>Black</Color>
 </Line>
 </Object>
-<Object no="43">
+<Object no="46">
 <Type>Line</Type>
-<Label>.16.Vocab Vert Lines</Label>
+<Label>.19.Vocab Vert Lines</Label>
 <Page>1</Page>
 <Layer>7</Layer>
 <Repeat>
@@ -958,9 +1031,9 @@ Seeks positive solutions to problems&lt;tabc 6.25&gt;~(*std.stored.transavg;SPEC
 <Color>Black</Color>
 </Line>
 </Object>
-<Object no="44">
+<Object no="47">
 <Type>Text</Type>
-<Label>.17.VOCAB Title</Label>
+<Label>.1A.VOCAB Title</Label>
 <Page>1</Page>
 <Layer>7</Layer>
 <Coordinates>
@@ -980,9 +1053,9 @@ Seeks positive solutions to problems&lt;tabc 6.25&gt;~(*std.stored.transavg;SPEC
 </Text>
 </Body>
 </Object>
-<Object no="45">
+<Object no="48">
 <Type>Text</Type>
-<Label>.18.Vocab Standards</Label>
+<Label>.1B.Vocab Standards</Label>
 <Page>1</Page>
 <Layer>7</Layer>
 <Coordinates>
@@ -998,12 +1071,33 @@ Seeks positive solutions to problems&lt;tabc 6.25&gt;~(*std.stored.transavg;SPEC
 <Leading></Leading>
 </Font>
 <Text>&lt;b&gt;Word Building
-&lt;/b&gt;1.VD-WB.1: Determine or clarify the meaning of unknown and multiple-meaning words and phrases&lt;tabc 6.25&gt;~(*std.stored.transavg;1.VD-WB.1;Q1)&lt;tabc 6.75&gt;~(*std.stored.transavg;1.VD-WB.1;Q2)&lt;tabc 7.25&gt;~(*std.stored.transavg;1.VD-WB.1;Q3)&lt;tabc 7.75&gt;~(*std.stored.transavg;1.VD-WB.1;Q4)</Text>
+&lt;/b&gt;1.VD-WB.1: Determine or clarify the meaning of unknown and multiple-meaning words and phrases</Text>
 </Body>
 </Object>
-<Object no="46">
+<Object no="49">
+<Type>Text</Type>
+<Label>.1C.Vocab Grade</Label>
+<Page>1</Page>
+<Layer>7</Layer>
+<Coordinates>
+<Left>6</Left>
+<Top>8.228</Top>
+</Coordinates>
+<MaxWidth>5</MaxWidth>
+<MaxHeight>0</MaxHeight>
+<Body>
+<Font>
+<Face>Helvetica</Face>
+<Size>8</Size>
+<Leading></Leading>
+</Font>
+<Text>
+&lt;tabc 6.25&gt;~(*std.stored.transavg;1.VD-WB.1;Q1)&lt;tabc 6.75&gt;~(*std.stored.transavg;1.VD-WB.1;Q2)&lt;tabc 7.25&gt;~(*std.stored.transavg;1.VD-WB.1;Q3)&lt;tabc 7.75&gt;~(*std.stored.transavg;1.VD-WB.1;Q4)</Text>
+</Body>
+</Object>
+<Object no="50">
 <Type>Box</Type>
-<Label>.19.Writing Box</Label>
+<Label>.1D.Writing Box</Label>
 <Page>1</Page>
 <Layer>8</Layer>
 <Coordinates>
@@ -1018,9 +1112,9 @@ Seeks positive solutions to problems&lt;tabc 6.25&gt;~(*std.stored.transavg;SPEC
 <Color>Black</Color>
 </Line>
 </Object>
-<Object no="47">
+<Object no="51">
 <Type>Line</Type>
-<Label>.1A.Writing Vert Lines</Label>
+<Label>.1E.Writing Vert Lines</Label>
 <Page>1</Page>
 <Layer>8</Layer>
 <Repeat>
@@ -1042,9 +1136,9 @@ Seeks positive solutions to problems&lt;tabc 6.25&gt;~(*std.stored.transavg;SPEC
 <Color>Black</Color>
 </Line>
 </Object>
-<Object no="48">
+<Object no="52">
 <Type>Line</Type>
-<Label>.1B.Writing Horiz Lines</Label>
+<Label>.1F.Writing Horiz Lines</Label>
 <Page>1</Page>
 <Layer>8</Layer>
 <Repeat>
@@ -1066,9 +1160,9 @@ Seeks positive solutions to problems&lt;tabc 6.25&gt;~(*std.stored.transavg;SPEC
 <Color>Black</Color>
 </Line>
 </Object>
-<Object no="49">
+<Object no="53">
 <Type>Line</Type>
-<Label>.1C.Writing Vert Line2</Label>
+<Label>.1G.Writing Vert Line2</Label>
 <Page>1</Page>
 <Layer>8</Layer>
 <Repeat>
@@ -1090,9 +1184,9 @@ Seeks positive solutions to problems&lt;tabc 6.25&gt;~(*std.stored.transavg;SPEC
 <Color>Black</Color>
 </Line>
 </Object>
-<Object no="50">
+<Object no="54">
 <Type>Text</Type>
-<Label>.1D.Writing Stand Title</Label>
+<Label>.1H.Writing Stand Title</Label>
 <Page>1</Page>
 <Layer>8</Layer>
 <Coordinates>
@@ -1111,9 +1205,9 @@ Seeks positive solutions to problems&lt;tabc 6.25&gt;~(*std.stored.transavg;SPEC
 <Text>WRITING&lt;tabc 6.25&gt;Q1&lt;tabc 6.75&gt;Q2&lt;tabc 7.25&gt;Q3&lt;tabc 7.75&gt;Q4</Text>
 </Body>
 </Object>
-<Object no="51">
+<Object no="55">
 <Type>Text</Type>
-<Label>.1E.Writing Standards</Label>
+<Label>.1I.Writing Standards</Label>
 <Page>1</Page>
 <Layer>8</Layer>
 <Coordinates>
@@ -1129,14 +1223,37 @@ Seeks positive solutions to problems&lt;tabc 6.25&gt;~(*std.stored.transavg;SPEC
 <Leading></Leading>
 </Font>
 <Text>&lt;b&gt;Range of Writing
-&lt;/b&gt;1.W-RW.1: Routinely write for a range of tasks, purposes, and audiences&lt;tabc 6.25&gt;~(*std.stored.transavg;1.W-RW.1;Q1)&lt;tabc 6.75&gt;~(*std.stored.transavg;1.W-RW.1;Q2)&lt;tabc 7.25&gt;~(*std.stored.transavg;1.W-RW.1;Q3)&lt;tabc 7.75&gt;~(*std.stored.transavg;1.W-RW.1;Q4)
+&lt;/b&gt;1.W-RW.1: Routinely write for a range of tasks, purposes, and audiences
 &lt;b&gt;Handwriting
-&lt;/b&gt;1.W.HWK.2: Print legibly and space words appropriately when writing a complete sentence&lt;tabc 6.25&gt;~(*std.stored.transavg;1.W.HWK.2;Q1)&lt;tabc 6.75&gt;~(*std.stored.transavg;1.W.HWK.2;Q2)&lt;tabc 7.25&gt;~(*std.stored.transavg;1.W.HWK.2;Q3)&lt;tabc 7.75&gt;~(*std.stored.transavg;1.W.HWK.2;Q4)</Text>
+&lt;/b&gt;1.W.HWK.2: Print legibly and space words appropriately when writing a complete sentence</Text>
 </Body>
 </Object>
-<Object no="52">
+<Object no="56">
+<Type>Text</Type>
+<Label>.1J.Writing Grades</Label>
+<Page>1</Page>
+<Layer>8</Layer>
+<Coordinates>
+<Left>6</Left>
+<Top>8.888</Top>
+</Coordinates>
+<MaxWidth>0</MaxWidth>
+<MaxHeight>0</MaxHeight>
+<Body>
+<Font>
+<Face>Helvetica</Face>
+<Size>8</Size>
+<Leading></Leading>
+</Font>
+<Text>
+&lt;tabc 6.25&gt;~(*std.stored.transavg;1.W-RW.1;Q1)&lt;tabc 6.75&gt;~(*std.stored.transavg;1.W-RW.1;Q2)&lt;tabc 7.25&gt;~(*std.stored.transavg;1.W-RW.1;Q3)&lt;tabc 7.75&gt;~(*std.stored.transavg;1.W-RW.1;Q4)
+
+&lt;tabc 6.25&gt;~(*std.stored.transavg;1.W.HWK.2;Q1)&lt;tabc 6.75&gt;~(*std.stored.transavg;1.W.HWK.2;Q2)&lt;tabc 7.25&gt;~(*std.stored.transavg;1.W.HWK.2;Q3)&lt;tabc 7.75&gt;~(*std.stored.transavg;1.W.HWK.2;Q4)</Text>
+</Body>
+</Object>
+<Object no="57">
 <Type>Box</Type>
-<Label>.1F.J1. Attendance Box</Label>
+<Label>.1K.J1. Attendance Box</Label>
 <Page>1</Page>
 <Layer>10</Layer>
 <Coordinates>
@@ -1151,9 +1268,9 @@ Seeks positive solutions to problems&lt;tabc 6.25&gt;~(*std.stored.transavg;SPEC
 <Color>Black</Color>
 </Line>
 </Object>
-<Object no="53">
+<Object no="58">
 <Type>Line</Type>
-<Label>.1G.J3. Attendance Vert Line</Label>
+<Label>.1L.J3. Attendance Vert Line</Label>
 <Page>1</Page>
 <Layer>10</Layer>
 <Repeat>
@@ -1175,9 +1292,9 @@ Seeks positive solutions to problems&lt;tabc 6.25&gt;~(*std.stored.transavg;SPEC
 <Color>Black</Color>
 </Line>
 </Object>
-<Object no="54">
+<Object no="59">
 <Type>Line</Type>
-<Label>.1H.J2. Attendance Horiz Lines</Label>
+<Label>.1M.J2. Attendance Horiz Lines</Label>
 <Page>1</Page>
 <Layer>10</Layer>
 <Repeat>
@@ -1199,9 +1316,9 @@ Seeks positive solutions to problems&lt;tabc 6.25&gt;~(*std.stored.transavg;SPEC
 <Color>Black</Color>
 </Line>
 </Object>
-<Object no="55">
+<Object no="60">
 <Type>Text</Type>
-<Label>.1I.J1. Attendance Report Head</Label>
+<Label>.1N.J1. Attendance Report Head</Label>
 <Page>1</Page>
 <Layer>10</Layer>
 <Coordinates>
@@ -1219,9 +1336,9 @@ Seeks positive solutions to problems&lt;tabc 6.25&gt;~(*std.stored.transavg;SPEC
 <Text>&lt;b&gt;ATTENDANCE REPORT&lt;tabc 2.75&gt;Q1&lt;tabc 3.25&gt;Q2&lt;tabc 3.75&gt;Q3&lt;tabc 4.25&gt;Q4&lt;tabc 4.75&gt;Total&lt;/b&gt;</Text>
 </Body>
 </Object>
-<Object no="56">
+<Object no="61">
 <Type>Text</Type>
-<Label>.1J.J3.Mumbo Jumbo</Label>
+<Label>.1O.J3.Mumbo Jumbo</Label>
 <Page>1</Page>
 <Layer>10</Layer>
 <Coordinates>
@@ -1239,9 +1356,9 @@ Seeks positive solutions to problems&lt;tabc 6.25&gt;~(*std.stored.transavg;SPEC
 <Text>~[pagenumber]. - ~[reportname]. - ~[date;dateformat=mm-dd-yyyy] - ps~[version]</Text>
 </Body>
 </Object>
-<Object no="57">
+<Object no="62">
 <Type>Text</Type>
-<Label>.1K.J2. Attendance Data</Label>
+<Label>.1P.J2. Attendance Data</Label>
 <Page>1</Page>
 <Layer>10</Layer>
 <Coordinates>
@@ -1261,9 +1378,9 @@ Days of Attendance&lt;tabd 2.75&gt;^(*DA;Q1;format=###,##0.0)&lt;tabd 3.25&gt;^(
 Days Absent&lt;tabd 2.75&gt;^(daily.att.count;current;A,C,D,E,G,J,K,P,U,X,Y;Q1)&lt;tabd 3.25&gt;^(daily.att.count;current;A,C,D,E,G,J,K,P,U,X,Y;Q2)&lt;tabd 3.75&gt;^(daily.att.count;current;A,C,D,E,G,J,K,P,U,X,Y;Q3)&lt;tabd 4.25&gt;^(daily.att.count;current;A,C,D,E,G,J,K,P,U,X,Y;Q4)&lt;tabd 4.75 &gt;^(daily.att.count;current;A,C,D,E,G,J,K,P,U,X,Y;Y1)</Text>
 </Body>
 </Object>
-<Object no="58">
+<Object no="63">
 <Type>Line</Type>
-<Label>.1L.E2. Work Habits Vert</Label>
+<Label>.1Q.E2. Work Habits Vert</Label>
 <Page>1</Page>
 <Layer>20</Layer>
 <Repeat>
@@ -1285,9 +1402,9 @@ Days Absent&lt;tabd 2.75&gt;^(daily.att.count;current;A,C,D,E,G,J,K,P,U,X,Y;Q1)&
 <Color>Black</Color>
 </Line>
 </Object>
-<Object no="59">
+<Object no="64">
 <Type>Picture</Type>
-<Label>.1M.A0.Photo</Label>
+<Label>.1R.A0.Photo</Label>
 <Page>2</Page>
 <Layer>1</Layer>
 <ScalingOption>fillcenter</ScalingOption>
@@ -1299,9 +1416,9 @@ Days Absent&lt;tabd 2.75&gt;^(daily.att.count;current;A,C,D,E,G,J,K,P,U,X,Y;Q1)&
 </Coordinates>
 <Picture>NS.jpg</Picture>
 </Object>
-<Object no="60">
+<Object no="65">
 <Type>Text</Type>
-<Label>.1N.A1.Main Title Pg 2</Label>
+<Label>.1S.A1.Main Title Pg 2</Label>
 <Page>2</Page>
 <Layer>1</Layer>
 <Coordinates>
@@ -1320,9 +1437,9 @@ Days Absent&lt;tabd 2.75&gt;^(daily.att.count;current;A,C,D,E,G,J,K,P,U,X,Y;Q1)&
 <Text>&lt;center&gt;1st Grade Report Card&lt;/center&gt;</Text>
 </Body>
 </Object>
-<Object no="61">
+<Object no="66">
 <Type>Text</Type>
-<Label>.1O.A2.District Name Pg 2</Label>
+<Label>.1T.A2.District Name Pg 2</Label>
 <Page>2</Page>
 <Layer>1</Layer>
 <Coordinates>
@@ -1340,9 +1457,9 @@ Days Absent&lt;tabd 2.75&gt;^(daily.att.count;current;A,C,D,E,G,J,K,P,U,X,Y;Q1)&
 <Text>&lt;center&gt;~(schoolordistrictname)&lt;/center&gt;</Text>
 </Body>
 </Object>
-<Object no="62">
+<Object no="67">
 <Type>Text</Type>
-<Label>.1P.A3.StudentName/School Name</Label>
+<Label>.1U.A3.StudentName/School Name</Label>
 <Page>2</Page>
 <Layer>1</Layer>
 <Coordinates>
@@ -1360,9 +1477,9 @@ Days Absent&lt;tabd 2.75&gt;^(daily.att.count;current;A,C,D,E,G,J,K,P,U,X,Y;Q1)&
 <Text>&lt;b&gt;~(last_name), ~(first_name)&lt;/b&gt;&lt;tabr 8.0&gt;~(schoolname)</Text>
 </Body>
 </Object>
-<Object no="63">
+<Object no="68">
 <Type>Text</Type>
-<Label>.1Q.A4. Student Data</Label>
+<Label>.1V.A4. Student Data</Label>
 <Page>2</Page>
 <Layer>1</Layer>
 <Coordinates>
@@ -1380,9 +1497,9 @@ Days Absent&lt;tabd 2.75&gt;^(daily.att.count;current;A,C,D,E,G,J,K,P,U,X,Y;Q1)&
 <Text>Grade ^(grade_level)&lt;tabr 8.0&gt;~(yearname)</Text>
 </Body>
 </Object>
-<Object no="64">
+<Object no="69">
 <Type>Text</Type>
-<Label>.1R.A5.Home Room Teacher</Label>
+<Label>.1W.A5.Home Room Teacher</Label>
 <Page>2</Page>
 <Layer>1</Layer>
 <Coordinates>
@@ -1402,16 +1519,16 @@ Days Absent&lt;tabd 2.75&gt;^(daily.att.count;current;A,C,D,E,G,J,K,P,U,X,Y;Q1)&
 </Text>
 </Body>
 </Object>
-<Object no="65">
+<Object no="70">
 <Type>Box</Type>
-<Label>.1S.Math Box</Label>
+<Label>.1X.Math Box</Label>
 <Page>2</Page>
 <Layer>4</Layer>
 <Coordinates>
 <Left>1</Left>
-<Top>3.599</Top>
+<Top>3.417</Top>
 <Right>8</Right>
-<Bottom>6.539</Bottom>
+<Bottom>6.357</Bottom>
 </Coordinates>
 <Line>
 <Width>0.25</Width>
@@ -1419,9 +1536,9 @@ Days Absent&lt;tabd 2.75&gt;^(daily.att.count;current;A,C,D,E,G,J,K,P,U,X,Y;Q1)&
 <Color>Black</Color>
 </Line>
 </Object>
-<Object no="66">
+<Object no="71">
 <Type>Line</Type>
-<Label>.1T.Math Horiz Lines</Label>
+<Label>.1Y.Math Horiz Lines</Label>
 <Page>2</Page>
 <Layer>4</Layer>
 <Repeat>
@@ -1433,9 +1550,9 @@ Days Absent&lt;tabd 2.75&gt;^(daily.att.count;current;A,C,D,E,G,J,K,P,U,X,Y;Q1)&
 </Repeat>
 <Coordinates>
 <Left>1</Left>
-<Top>3.734</Top>
+<Top>3.552</Top>
 <Right>8</Right>
-<Bottom>3.734</Bottom>
+<Bottom>3.552</Bottom>
 </Coordinates>
 <Line>
 <Width>0.25</Width>
@@ -1443,9 +1560,9 @@ Days Absent&lt;tabd 2.75&gt;^(daily.att.count;current;A,C,D,E,G,J,K,P,U,X,Y;Q1)&
 <Color>Black</Color>
 </Line>
 </Object>
-<Object no="67">
+<Object no="72">
 <Type>Line</Type>
-<Label>.1U.Math Vert Lines1</Label>
+<Label>.1Z.Math Vert Lines1</Label>
 <Page>2</Page>
 <Layer>4</Layer>
 <Repeat>
@@ -1457,9 +1574,9 @@ Days Absent&lt;tabd 2.75&gt;^(daily.att.count;current;A,C,D,E,G,J,K,P,U,X,Y;Q1)&
 </Repeat>
 <Coordinates>
 <Left>6</Left>
-<Top>3.739</Top>
+<Top>3.557</Top>
 <Right>6</Right>
-<Bottom>4.579</Bottom>
+<Bottom>4.397</Bottom>
 </Coordinates>
 <Line>
 <Width>0.25</Width>
@@ -1467,9 +1584,9 @@ Days Absent&lt;tabd 2.75&gt;^(daily.att.count;current;A,C,D,E,G,J,K,P,U,X,Y;Q1)&
 <Color>Black</Color>
 </Line>
 </Object>
-<Object no="68">
+<Object no="73">
 <Type>Line</Type>
-<Label>.1V.Math Vert Lines2</Label>
+<Label>.20.Math Vert Lines2</Label>
 <Page>2</Page>
 <Layer>4</Layer>
 <Repeat>
@@ -1481,9 +1598,9 @@ Days Absent&lt;tabd 2.75&gt;^(daily.att.count;current;A,C,D,E,G,J,K,P,U,X,Y;Q1)&
 </Repeat>
 <Coordinates>
 <Left>6</Left>
-<Top>4.719</Top>
+<Top>4.537</Top>
 <Right>6</Right>
-<Bottom>5.419</Bottom>
+<Bottom>5.237</Bottom>
 </Coordinates>
 <Line>
 <Width>0.25</Width>
@@ -1491,9 +1608,9 @@ Days Absent&lt;tabd 2.75&gt;^(daily.att.count;current;A,C,D,E,G,J,K,P,U,X,Y;Q1)&
 <Color>Black</Color>
 </Line>
 </Object>
-<Object no="69">
+<Object no="74">
 <Type>Line</Type>
-<Label>.1W.Math Vert Lines3</Label>
+<Label>.21.Math Vert Lines3</Label>
 <Page>2</Page>
 <Layer>4</Layer>
 <Repeat>
@@ -1505,9 +1622,9 @@ Days Absent&lt;tabd 2.75&gt;^(daily.att.count;current;A,C,D,E,G,J,K,P,U,X,Y;Q1)&
 </Repeat>
 <Coordinates>
 <Left>6</Left>
-<Top>5.559</Top>
+<Top>5.377</Top>
 <Right>6</Right>
-<Bottom>6.119</Bottom>
+<Bottom>5.937</Bottom>
 </Coordinates>
 <Line>
 <Width>0.25</Width>
@@ -1515,9 +1632,9 @@ Days Absent&lt;tabd 2.75&gt;^(daily.att.count;current;A,C,D,E,G,J,K,P,U,X,Y;Q1)&
 <Color>Black</Color>
 </Line>
 </Object>
-<Object no="70">
+<Object no="75">
 <Type>Line</Type>
-<Label>.1X.Math Vert Lines4</Label>
+<Label>.22.Math Vert Lines4</Label>
 <Page>2</Page>
 <Layer>4</Layer>
 <Repeat>
@@ -1529,9 +1646,9 @@ Days Absent&lt;tabd 2.75&gt;^(daily.att.count;current;A,C,D,E,G,J,K,P,U,X,Y;Q1)&
 </Repeat>
 <Coordinates>
 <Left>6</Left>
-<Top>6.259</Top>
+<Top>6.077</Top>
 <Right>6</Right>
-<Bottom>6.539</Bottom>
+<Bottom>6.357</Bottom>
 </Coordinates>
 <Line>
 <Width>0.25</Width>
@@ -1539,14 +1656,14 @@ Days Absent&lt;tabd 2.75&gt;^(daily.att.count;current;A,C,D,E,G,J,K,P,U,X,Y;Q1)&
 <Color>Black</Color>
 </Line>
 </Object>
-<Object no="71">
+<Object no="76">
 <Type>Text</Type>
-<Label>.1Y.Math Standards</Label>
+<Label>.23.Math Standards</Label>
 <Page>2</Page>
 <Layer>4</Layer>
 <Coordinates>
 <Left>1.05</Left>
-<Top>3.714</Top>
+<Top>3.532</Top>
 </Coordinates>
 <MaxWidth>5.1</MaxWidth>
 <MaxHeight>0</MaxHeight>
@@ -1557,36 +1674,76 @@ Days Absent&lt;tabd 2.75&gt;^(daily.att.count;current;A,C,D,E,G,J,K,P,U,X,Y;Q1)&
 <Leading>10</Leading>
 </Font>
 <Text>&lt;b&gt;Operations and Algebraic Thinking&lt;/b&gt;
-1.OA.A.1-2: Solve addition and subtraction word problems within 20&lt;tabc 6.25&gt;~(*std.stored.transavg;1.OA.A.1-2;Q1)&lt;tabc 6.75&gt;~(*std.stored.transavg;1.OA.A.1-2;Q2)&lt;tabc 7.25&gt;~(*std.stored.transavg;1.OA.A.1-2;Q3)&lt;tabc 7.75&gt;~(*std.stored.transavg;1.OA.A.1-2;Q4)
-1.OA.C.a: Add within 20&lt;tabc 6.25&gt;~(*std.stored.transavg;1.OA.C.a;Q1)&lt;tabc 6.75&gt;~(*std.stored.transavg;1.OA.C.a;Q2)&lt;tabc 7.25&gt;~(*std.stored.transavg;1.OA.C.a;Q3)&lt;tabc 7.75&gt;~(*std.stored.transavg;1.OA.C.a;Q4)
-1.OA.C.b: Subtract within 20&lt;tabc 6.25&gt;~(*std.stored.transavg;1.OA.C.b;Q1)&lt;tabc 6.75&gt;~(*std.stored.transavg;1.OA.C.b;Q2)&lt;tabc 7.25&gt;~(*std.stored.transavg;1.OA.C.b;Q3)&lt;tabc 7.75&gt;~(*std.stored.transavg;1.OA.C.b;Q4)
-1.OA.C.6a: Demonstrate fluency for addition within 10&lt;tabc 6.25&gt;~(*std.stored.transavg;1.OA.C.6a;Q1)&lt;tabc 6.75&gt;~(*std.stored.transavg;1.OA.C.6a;Q2)&lt;tabc 7.25&gt;~(*std.stored.transavg;1.OA.C.6a;Q3)&lt;tabc 7.75&gt;~(*std.stored.transavg;1.OA.C.6a;Q4)
-1.OA.C.6b: Demonstrate fluency for subtraction within 10&lt;tabc 6.25&gt;~(*std.stored.transavg;1.OA.C.6b;Q1)&lt;tabc 6.75&gt;~(*std.stored.transavg;1.OA.C.6b;Q2)&lt;tabc 7.25&gt;~(*std.stored.transavg;1.OA.C.6b;Q3)&lt;tabc 7.75&gt;~(*std.stored.transavg;1.OA.C.6b;Q4)
-1.OA.D.8: Find the unknown number in an addition or subtraction problem&lt;tabc 6.25&gt;~(*std.stored.transavg;1.OA.D.8;Q1)&lt;tabc 6.75&gt;~(*std.stored.transavg;1.OA.D.8;Q2)&lt;tabc 7.25&gt;~(*std.stored.transavg;1.OA.D.8;Q3)&lt;tabc 7.75&gt;~(*std.stored.transavg;1.OA.D.8;Q4)
+1.OA.A.1-2: Solve addition and subtraction word problems within 20
+1.OA.C.a: Add within 20
+1.OA.C.b: Subtract within 20
+1.OA.C.6a: Demonstrate fluency for addition within 10
+1.OA.C.6b: Demonstrate fluency for subtraction within 10
+1.OA.D.8: Find the unknown number in an addition or subtraction problem
 &lt;b&gt;Number and Operations in Base Ten
-&lt;/b&gt;1.NBT.A.1: Read, write, count, and show numbers to 120&lt;tabc 6.25&gt;~(*std.stored.transavg;1.NBT.A.1;Q1)&lt;tabc 6.75&gt;~(*std.stored.transavg;1.NBT.A.1;Q2)&lt;tabc 7.25&gt;~(*std.stored.transavg;1.NBT.A.1;Q3)&lt;tabc 7.75&gt;~(*std.stored.transavg;1.NBT.A.1;Q4)
-1.NBT.B.2: Demonstrate tens and ones in a two digit number (10-99)&lt;tabc 6.25&gt;~(*std.stored.transavg;1.NBT.B.2;Q1)&lt;tabc 6.75&gt;~(*std.stored.transavg;1.NBT.B.2;Q2)&lt;tabc 7.25&gt;~(*std.stored.transavg;1.NBT.B.2;Q3)&lt;tabc 7.75&gt;~(*std.stored.transavg;1.NBT.B.2;Q4)
-1.NBT.B.3: Compare numbers through 99 by using &lt;, &gt;, =&lt;tabc 6.25&gt;~(*std.stored.transavg;1.NBT.B.3;Q1)&lt;tabc 6.75&gt;~(*std.stored.transavg;1.NBT.B.3;Q2)&lt;tabc 7.25&gt;~(*std.stored.transavg;1.NBT.B.3;Q3)&lt;tabc 7.75&gt;~(*std.stored.transavg;1.NBT.B.3;Q4)
-1.NBT.C.4a-c: Add a two-digit number with a one-digit number, compose a ten when necessary&lt;tabc 6.25&gt;~(*std.stored.transavg;1.NBT.C.4a-c;Q1)&lt;tabc 6.75&gt;~(*std.stored.transavg;1.NBT.C.4a-c;Q2)&lt;tabc 7.25&gt;~(*std.stored.transavg;1.NBT.C.4a-c;Q3)&lt;tabc 7.75&gt;~(*std.stored.transavg;1.NBT.C.4a-c;Q4)
-1.NBT.C.5: Given a two-digit number, mentally find 10 more or 10 less&lt;tabc 6.25&gt;~(*std.stored.transavg;1.NBT.C.5;Q1)&lt;tabc 6.75&gt;~(*std.stored.transavg;1.NBT.C.5;Q2)&lt;tabc 7.25&gt;~(*std.stored.transavg;1.NBT.C.5;Q3)&lt;tabc 7.75&gt;~(*std.stored.transavg;1.NBT.C.5;Q4)
+&lt;/b&gt;1.NBT.A.1: Read, write, count, and show numbers to 120
+1.NBT.B.2: Demonstrate tens and ones in a two digit number (10-99)
+1.NBT.B.3: Compare numbers through 99 by using &lt;, &gt;, =
+1.NBT.C.4a-c: Add a two-digit number with a one-digit number, compose a ten when necessary
+1.NBT.C.5: Given a two-digit number, mentally find 10 more or 10 less
 &lt;b&gt;Measurement and Data&lt;/b&gt;
-1.MD.A.1: Order and compare lengths of three objects using non standard tools (cubes, paperclips)&lt;tabc 6.25&gt;~(*std.stored.transavg;1.MD.A.1;Q1)&lt;tabc 6.75&gt;~(*std.stored.transavg;1.MD.A.1;Q2)&lt;tabc 7.25&gt;~(*std.stored.transavg;1.MD.A.1;Q3)&lt;tabc 7.75&gt;~(*std.stored.transavg;1.MD.A.1;Q4)
-1.MD.B.3: Tell and write time in hours and half-hours&lt;tabc 6.25&gt;~(*std.stored.transavg;1.MD.B.3;Q1)&lt;tabc 6.75&gt;~(*std.stored.transavg;1.MD.B.3;Q2)&lt;tabc 7.25&gt;~(*std.stored.transavg;1.MD.B.3;Q3)&lt;tabc 7.75&gt;~(*std.stored.transavg;1.MD.B.3;Q4)
-1.MD.C.4: Organize and interpret data by graphing up to three categories&lt;tabc 6.25&gt;~(*std.stored.transavg;1.MD.C.4;Q1)&lt;tabc 6.75&gt;~(*std.stored.transavg;1.MD.C.4;Q2)&lt;tabc 7.25&gt;~(*std.stored.transavg;1.MD.C.4;Q3)&lt;tabc 7.75&gt;~(*std.stored.transavg;1.MD.C.4;Q4)
-1.MD.D.5: Identify quarters, dimes, nickels and their value&lt;tabc 6.25&gt;~(*std.stored.transavg;1.MD.D.5;Q1)&lt;tabc 6.75&gt;~(*std.stored.transavg;1.MD.D.5;Q2)&lt;tabc 7.25&gt;~(*std.stored.transavg;1.MD.D.5;Q3)&lt;tabc 7.75&gt;~(*std.stored.transavg;1.MD.D.5;Q4)
+1.MD.A.1: Order and compare lengths of three objects using non standard tools (cubes, paperclips)
+1.MD.B.3: Tell and write time in hours and half-hours
+1.MD.C.4: Organize and interpret data by graphing up to three categories
+1.MD.D.5: Identify quarters, dimes, nickels and their value
 &lt;b&gt;Geometry
-&lt;/b&gt;1.G.A.1-2: Create and explain two and three dimensional shapes&lt;tabc 6.25&gt;~(*std.stored.transavg;1.G.A.1-2;Q1)&lt;tabc 6.75&gt;~(*std.stored.transavg;1.G.A.1-2;Q2)&lt;tabc 7.25&gt;~(*std.stored.transavg;1.G.A.1-2;Q3)&lt;tabc 7.75&gt;~(*std.stored.transavg;1.G.A.1-2;Q4)
-1.G.A.3: Describe and show two and four equal shares&lt;tabc 6.25&gt;~(*std.stored.transavg;1.G.A.3;Q1)&lt;tabc 6.75&gt;~(*std.stored.transavg;1.G.A.3;Q2)&lt;tabc 7.25&gt;~(*std.stored.transavg;1.G.A.3;Q3)&lt;tabc 7.75&gt;~(*std.stored.transavg;1.G.A.3;Q4)</Text>
+&lt;/b&gt;1.G.A.1-2: Create and explain two and three dimensional shapes
+1.G.A.3: Describe and show two and four equal shares</Text>
 </Body>
 </Object>
-<Object no="72">
+<Object no="77">
 <Type>Text</Type>
-<Label>.1Z.Math Title</Label>
+<Label>.24.Math Grade</Label>
+<Page>2</Page>
+<Layer>4</Layer>
+<Coordinates>
+<Left>6</Left>
+<Top>3.532</Top>
+</Coordinates>
+<MaxWidth>0</MaxWidth>
+<MaxHeight>0</MaxHeight>
+<Body>
+<Font>
+<Face>Helvetica</Face>
+<Size>8</Size>
+<Leading>10</Leading>
+</Font>
+<Text>
+&lt;tabc 6.25&gt;~(*std.stored.transavg;1.OA.A.1-2;Q1)&lt;tabc 6.75&gt;~(*std.stored.transavg;1.OA.A.1-2;Q2)&lt;tabc 7.25&gt;~(*std.stored.transavg;1.OA.A.1-2;Q3)&lt;tabc 7.75&gt;~(*std.stored.transavg;1.OA.A.1-2;Q4)
+&lt;tabc 6.25&gt;~(*std.stored.transavg;1.OA.C.a;Q1)&lt;tabc 6.75&gt;~(*std.stored.transavg;1.OA.C.a;Q2)&lt;tabc 7.25&gt;~(*std.stored.transavg;1.OA.C.a;Q3)&lt;tabc 7.75&gt;~(*std.stored.transavg;1.OA.C.a;Q4)
+&lt;tabc 6.25&gt;~(*std.stored.transavg;1.OA.C.b;Q1)&lt;tabc 6.75&gt;~(*std.stored.transavg;1.OA.C.b;Q2)&lt;tabc 7.25&gt;~(*std.stored.transavg;1.OA.C.b;Q3)&lt;tabc 7.75&gt;~(*std.stored.transavg;1.OA.C.b;Q4)
+&lt;tabc 6.25&gt;~(*std.stored.transavg;1.OA.C.6a;Q1)&lt;tabc 6.75&gt;~(*std.stored.transavg;1.OA.C.6a;Q2)&lt;tabc 7.25&gt;~(*std.stored.transavg;1.OA.C.6a;Q3)&lt;tabc 7.75&gt;~(*std.stored.transavg;1.OA.C.6a;Q4)
+&lt;tabc 6.25&gt;~(*std.stored.transavg;1.OA.C.6b;Q1)&lt;tabc 6.75&gt;~(*std.stored.transavg;1.OA.C.6b;Q2)&lt;tabc 7.25&gt;~(*std.stored.transavg;1.OA.C.6b;Q3)&lt;tabc 7.75&gt;~(*std.stored.transavg;1.OA.C.6b;Q4)
+&lt;tabc 6.25&gt;~(*std.stored.transavg;1.OA.D.8;Q1)&lt;tabc 6.75&gt;~(*std.stored.transavg;1.OA.D.8;Q2)&lt;tabc 7.25&gt;~(*std.stored.transavg;1.OA.D.8;Q3)&lt;tabc 7.75&gt;~(*std.stored.transavg;1.OA.D.8;Q4)
+
+&lt;tabc 6.25&gt;~(*std.stored.transavg;1.NBT.A.1;Q1)&lt;tabc 6.75&gt;~(*std.stored.transavg;1.NBT.A.1;Q2)&lt;tabc 7.25&gt;~(*std.stored.transavg;1.NBT.A.1;Q3)&lt;tabc 7.75&gt;~(*std.stored.transavg;1.NBT.A.1;Q4)
+&lt;tabc 6.25&gt;~(*std.stored.transavg;1.NBT.B.2;Q1)&lt;tabc 6.75&gt;~(*std.stored.transavg;1.NBT.B.2;Q2)&lt;tabc 7.25&gt;~(*std.stored.transavg;1.NBT.B.2;Q3)&lt;tabc 7.75&gt;~(*std.stored.transavg;1.NBT.B.2;Q4)
+&lt;tabc 6.25&gt;~(*std.stored.transavg;1.NBT.B.3;Q1)&lt;tabc 6.75&gt;~(*std.stored.transavg;1.NBT.B.3;Q2)&lt;tabc 7.25&gt;~(*std.stored.transavg;1.NBT.B.3;Q3)&lt;tabc 7.75&gt;~(*std.stored.transavg;1.NBT.B.3;Q4)
+&lt;tabc 6.25&gt;~(*std.stored.transavg;1.NBT.C.4a-c;Q1)&lt;tabc 6.75&gt;~(*std.stored.transavg;1.NBT.C.4a-c;Q2)&lt;tabc 7.25&gt;~(*std.stored.transavg;1.NBT.C.4a-c;Q3)&lt;tabc 7.75&gt;~(*std.stored.transavg;1.NBT.C.4a-c;Q4)
+&lt;tabc 6.25&gt;~(*std.stored.transavg;1.NBT.C.5;Q1)&lt;tabc 6.75&gt;~(*std.stored.transavg;1.NBT.C.5;Q2)&lt;tabc 7.25&gt;~(*std.stored.transavg;1.NBT.C.5;Q3)&lt;tabc 7.75&gt;~(*std.stored.transavg;1.NBT.C.5;Q4)
+
+&lt;tabc 6.25&gt;~(*std.stored.transavg;1.MD.A.1;Q1)&lt;tabc 6.75&gt;~(*std.stored.transavg;1.MD.A.1;Q2)&lt;tabc 7.25&gt;~(*std.stored.transavg;1.MD.A.1;Q3)&lt;tabc 7.75&gt;~(*std.stored.transavg;1.MD.A.1;Q4)
+&lt;tabc 6.25&gt;~(*std.stored.transavg;1.MD.B.3;Q1)&lt;tabc 6.75&gt;~(*std.stored.transavg;1.MD.B.3;Q2)&lt;tabc 7.25&gt;~(*std.stored.transavg;1.MD.B.3;Q3)&lt;tabc 7.75&gt;~(*std.stored.transavg;1.MD.B.3;Q4)
+&lt;tabc 6.25&gt;~(*std.stored.transavg;1.MD.C.4;Q1)&lt;tabc 6.75&gt;~(*std.stored.transavg;1.MD.C.4;Q2)&lt;tabc 7.25&gt;~(*std.stored.transavg;1.MD.C.4;Q3)&lt;tabc 7.75&gt;~(*std.stored.transavg;1.MD.C.4;Q4)
+&lt;tabc 6.25&gt;~(*std.stored.transavg;1.MD.D.5;Q1)&lt;tabc 6.75&gt;~(*std.stored.transavg;1.MD.D.5;Q2)&lt;tabc 7.25&gt;~(*std.stored.transavg;1.MD.D.5;Q3)&lt;tabc 7.75&gt;~(*std.stored.transavg;1.MD.D.5;Q4)
+
+&lt;tabc 6.25&gt;~(*std.stored.transavg;1.G.A.1-2;Q1)&lt;tabc 6.75&gt;~(*std.stored.transavg;1.G.A.1-2;Q2)&lt;tabc 7.25&gt;~(*std.stored.transavg;1.G.A.1-2;Q3)&lt;tabc 7.75&gt;~(*std.stored.transavg;1.G.A.1-2;Q4)
+&lt;tabc 6.25&gt;~(*std.stored.transavg;1.G.A.3;Q1)&lt;tabc 6.75&gt;~(*std.stored.transavg;1.G.A.3;Q2)&lt;tabc 7.25&gt;~(*std.stored.transavg;1.G.A.3;Q3)&lt;tabc 7.75&gt;~(*std.stored.transavg;1.G.A.3;Q4)</Text>
+</Body>
+</Object>
+<Object no="78">
+<Type>Text</Type>
+<Label>.25.Math Title</Label>
 <Page>2</Page>
 <Layer>4</Layer>
 <Coordinates>
 <Left>1</Left>
-<Top>3.507</Top>
+<Top>3.325</Top>
 </Coordinates>
 <MaxWidth>0</MaxWidth>
 <MaxHeight>0</MaxHeight>
@@ -1601,139 +1758,16 @@ Days Absent&lt;tabd 2.75&gt;^(daily.att.count;current;A,C,D,E,G,J,K,P,U,X,Y;Q1)&
 </Text>
 </Body>
 </Object>
-<Object no="73">
-<Type>Box</Type>
-<Label>.20.F1.Music Box</Label>
-<Page>2</Page>
-<Layer>6</Layer>
-<Coordinates>
-<Left>1</Left>
-<Top>6.98</Top>
-<Right>8</Right>
-<Bottom>7.12</Bottom>
-</Coordinates>
-<Line>
-<Width>0.25</Width>
-<Style>1</Style>
-<Color>Black</Color>
-</Line>
-</Object>
-<Object no="74">
-<Type>Box</Type>
-<Label>.21.F1.Music Box</Label>
-<Page>2</Page>
-<Layer>6</Layer>
-<Coordinates>
-<Left>1</Left>
-<Top>7.554</Top>
-<Right>8</Right>
-<Bottom>7.694</Bottom>
-</Coordinates>
-<Line>
-<Width>0.25</Width>
-<Style>1</Style>
-<Color>Black</Color>
-</Line>
-</Object>
-<Object no="75">
-<Type>Box</Type>
-<Label>.22.F1.Music Box</Label>
-<Page>2</Page>
-<Layer>6</Layer>
-<Coordinates>
-<Left>1</Left>
-<Top>8.184</Top>
-<Right>8</Right>
-<Bottom>8.54</Bottom>
-</Coordinates>
-<Line>
-<Width>0.25</Width>
-<Style>1</Style>
-<Color>Black</Color>
-</Line>
-</Object>
-<Object no="76">
-<Type>Box</Type>
-<Label>.23.F1.Music Box</Label>
-<Page>2</Page>
-<Layer>6</Layer>
-<Coordinates>
-<Left>1</Left>
-<Top>9.024</Top>
-<Right>8</Right>
-<Bottom>10.144</Bottom>
-</Coordinates>
-<Line>
-<Width>0.25</Width>
-<Style>1</Style>
-<Color>Black</Color>
-</Line>
-</Object>
-<Object no="77">
-<Type>Line</Type>
-<Label>.24.F1.Music Vert Lines</Label>
-<Page>2</Page>
-<Layer>6</Layer>
-<Repeat>
-<Multiple>3</Multiple>
-<Offset>
-<Horizontal>0.5</Horizontal>
-<Vertical>0</Vertical>
-</Offset>
-</Repeat>
-<Coordinates>
-<Left>6</Left>
-<Top>6.98</Top>
-<Right>6</Right>
-<Bottom>7.115</Bottom>
-</Coordinates>
-<Line>
-<Width>0.25</Width>
-<Style>1</Style>
-<Color>Black</Color>
-</Line>
-</Object>
-<Object no="78">
-<Type>Line</Type>
-<Label>.25.F1.Music Vert Lines</Label>
-<Page>2</Page>
-<Layer>6</Layer>
-<Repeat>
-<Multiple>3</Multiple>
-<Offset>
-<Horizontal>0.5</Horizontal>
-<Vertical>0</Vertical>
-</Offset>
-</Repeat>
-<Coordinates>
-<Left>6</Left>
-<Top>7.554</Top>
-<Right>6</Right>
-<Bottom>7.694</Bottom>
-</Coordinates>
-<Line>
-<Width>0.25</Width>
-<Style>1</Style>
-<Color>Black</Color>
-</Line>
-</Object>
 <Object no="79">
-<Type>Line</Type>
-<Label>.26.F1.Music Vert Lines</Label>
+<Type>Box</Type>
+<Label>.26.F1.Music Box</Label>
 <Page>2</Page>
 <Layer>6</Layer>
-<Repeat>
-<Multiple>3</Multiple>
-<Offset>
-<Horizontal>0.5</Horizontal>
-<Vertical>0</Vertical>
-</Offset>
-</Repeat>
 <Coordinates>
-<Left>6</Left>
-<Top>8.184</Top>
-<Right>6</Right>
-<Bottom>8.54</Bottom>
+<Left>1</Left>
+<Top>6.798</Top>
+<Right>8</Right>
+<Bottom>6.938</Bottom>
 </Coordinates>
 <Line>
 <Width>0.25</Width>
@@ -1742,8 +1776,59 @@ Days Absent&lt;tabd 2.75&gt;^(daily.att.count;current;A,C,D,E,G,J,K,P,U,X,Y;Q1)&
 </Line>
 </Object>
 <Object no="80">
+<Type>Box</Type>
+<Label>.27.F1.Music Box</Label>
+<Page>2</Page>
+<Layer>6</Layer>
+<Coordinates>
+<Left>1</Left>
+<Top>7.218</Top>
+<Right>8</Right>
+<Bottom>7.358</Bottom>
+</Coordinates>
+<Line>
+<Width>0.25</Width>
+<Style>1</Style>
+<Color>Black</Color>
+</Line>
+</Object>
+<Object no="81">
+<Type>Box</Type>
+<Label>.28.F1.Music Box</Label>
+<Page>2</Page>
+<Layer>6</Layer>
+<Coordinates>
+<Left>1</Left>
+<Top>7.708</Top>
+<Right>8</Right>
+<Bottom>8.064</Bottom>
+</Coordinates>
+<Line>
+<Width>0.25</Width>
+<Style>1</Style>
+<Color>Black</Color>
+</Line>
+</Object>
+<Object no="82">
+<Type>Box</Type>
+<Label>.29.F1.Music Box</Label>
+<Page>2</Page>
+<Layer>6</Layer>
+<Coordinates>
+<Left>1</Left>
+<Top>8.422</Top>
+<Right>8</Right>
+<Bottom>9.542</Bottom>
+</Coordinates>
+<Line>
+<Width>0.25</Width>
+<Style>1</Style>
+<Color>Black</Color>
+</Line>
+</Object>
+<Object no="83">
 <Type>Line</Type>
-<Label>.27.F1.Music Vert Lines</Label>
+<Label>.2A.F1.Music Vert Lines</Label>
 <Page>2</Page>
 <Layer>6</Layer>
 <Repeat>
@@ -1755,9 +1840,9 @@ Days Absent&lt;tabd 2.75&gt;^(daily.att.count;current;A,C,D,E,G,J,K,P,U,X,Y;Q1)&
 </Repeat>
 <Coordinates>
 <Left>6</Left>
-<Top>9.024</Top>
+<Top>6.798</Top>
 <Right>6</Right>
-<Bottom>10.144</Bottom>
+<Bottom>6.933</Bottom>
 </Coordinates>
 <Line>
 <Width>0.25</Width>
@@ -1765,14 +1850,86 @@ Days Absent&lt;tabd 2.75&gt;^(daily.att.count;current;A,C,D,E,G,J,K,P,U,X,Y;Q1)&
 <Color>Black</Color>
 </Line>
 </Object>
-<Object no="81">
+<Object no="84">
+<Type>Line</Type>
+<Label>.2B.F1.Music Vert Lines</Label>
+<Page>2</Page>
+<Layer>6</Layer>
+<Repeat>
+<Multiple>3</Multiple>
+<Offset>
+<Horizontal>0.5</Horizontal>
+<Vertical>0</Vertical>
+</Offset>
+</Repeat>
+<Coordinates>
+<Left>6</Left>
+<Top>7.218</Top>
+<Right>6</Right>
+<Bottom>7.358</Bottom>
+</Coordinates>
+<Line>
+<Width>0.25</Width>
+<Style>1</Style>
+<Color>Black</Color>
+</Line>
+</Object>
+<Object no="85">
+<Type>Line</Type>
+<Label>.2C.F1.Music Vert Lines</Label>
+<Page>2</Page>
+<Layer>6</Layer>
+<Repeat>
+<Multiple>3</Multiple>
+<Offset>
+<Horizontal>0.5</Horizontal>
+<Vertical>0</Vertical>
+</Offset>
+</Repeat>
+<Coordinates>
+<Left>6</Left>
+<Top>7.708</Top>
+<Right>6</Right>
+<Bottom>8.064</Bottom>
+</Coordinates>
+<Line>
+<Width>0.25</Width>
+<Style>1</Style>
+<Color>Black</Color>
+</Line>
+</Object>
+<Object no="86">
+<Type>Line</Type>
+<Label>.2D.F1.Music Vert Lines</Label>
+<Page>2</Page>
+<Layer>6</Layer>
+<Repeat>
+<Multiple>3</Multiple>
+<Offset>
+<Horizontal>0.5</Horizontal>
+<Vertical>0</Vertical>
+</Offset>
+</Repeat>
+<Coordinates>
+<Left>6</Left>
+<Top>8.422</Top>
+<Right>6</Right>
+<Bottom>9.542</Bottom>
+</Coordinates>
+<Line>
+<Width>0.25</Width>
+<Style>1</Style>
+<Color>Black</Color>
+</Line>
+</Object>
+<Object no="87">
 <Type>Text</Type>
-<Label>.28.Soc Stud Title</Label>
+<Label>.2E.Soc Stud Title</Label>
 <Page>2</Page>
 <Layer>6</Layer>
 <Coordinates>
 <Left>1</Left>
-<Top>7.518</Top>
+<Top>7.182</Top>
 </Coordinates>
 <MaxWidth>0</MaxWidth>
 <MaxHeight>0</MaxHeight>
@@ -1786,14 +1943,14 @@ Days Absent&lt;tabd 2.75&gt;^(daily.att.count;current;A,C,D,E,G,J,K,P,U,X,Y;Q1)&
 <Text>SOCIAL STUDIES&lt;tabc 6.25&gt;Q1&lt;tabc 6.75&gt;Q2&lt;tabc 7.25&gt;Q3&lt;tabc 7.75&gt;Q4</Text>
 </Body>
 </Object>
-<Object no="82">
+<Object no="88">
 <Type>Text</Type>
-<Label>.29.Soc Stud Stand</Label>
+<Label>.2F.Soc Stud Stand</Label>
 <Page>2</Page>
 <Layer>6</Layer>
 <Coordinates>
 <Left>1.05</Left>
-<Top>7.668</Top>
+<Top>7.332</Top>
 </Coordinates>
 <MaxWidth>4.97</MaxWidth>
 <MaxHeight>0</MaxHeight>
@@ -1803,17 +1960,37 @@ Days Absent&lt;tabd 2.75&gt;^(daily.att.count;current;A,C,D,E,G,J,K,P,U,X,Y;Q1)&
 <Size>8</Size>
 <Leading></Leading>
 </Font>
-<Text>Demonstrate understanding of grade-level content and concepts&lt;tabc 6.25&gt;~(*std.stored.transavg;SPEC-SS;Q1)&lt;tabc 6.75&gt;~(*std.stored.transavg;SPEC-SS;Q2)&lt;tabc 7.25&gt;~(*std.stored.transavg;SPEC-SS;Q3)&lt;tabc 7.75&gt;~(*std.stored.transavg;SPEC-SS;Q4)</Text>
+<Text>Demonstrate understanding of grade-level content and concepts</Text>
 </Body>
 </Object>
-<Object no="83">
+<Object no="89">
 <Type>Text</Type>
-<Label>.2A.Science Standards</Label>
+<Label>.2G.Soc Stud Grade</Label>
+<Page>2</Page>
+<Layer>6</Layer>
+<Coordinates>
+<Left>6</Left>
+<Top>7.332</Top>
+</Coordinates>
+<MaxWidth>0</MaxWidth>
+<MaxHeight>0</MaxHeight>
+<Body>
+<Font>
+<Face>Helvetica</Face>
+<Size>8</Size>
+<Leading></Leading>
+</Font>
+<Text>&lt;tabc 6.25&gt;~(*std.stored.transavg;SPEC-SS;Q1)&lt;tabc 6.75&gt;~(*std.stored.transavg;SPEC-SS;Q2)&lt;tabc 7.25&gt;~(*std.stored.transavg;SPEC-SS;Q3)&lt;tabc 7.75&gt;~(*std.stored.transavg;SPEC-SS;Q4)</Text>
+</Body>
+</Object>
+<Object no="90">
+<Type>Text</Type>
+<Label>.2H.Science Standards</Label>
 <Page>2</Page>
 <Layer>6</Layer>
 <Coordinates>
 <Left>1.05</Left>
-<Top>7.08</Top>
+<Top>6.898</Top>
 </Coordinates>
 <MaxWidth>5</MaxWidth>
 <MaxHeight>0</MaxHeight>
@@ -1823,64 +2000,128 @@ Days Absent&lt;tabd 2.75&gt;^(daily.att.count;current;A,C,D,E,G,J,K,P,U,X,Y;Q1)&
 <Size>8</Size>
 <Leading></Leading>
 </Font>
-<Text>Demonstrate understanding of grade-level content and concepts&lt;tabc 6.25&gt;~(*std.stored.transavg;1-SCI;Q1)&lt;tabc 6.75&gt;~(*std.stored.transavg;1-SCI;Q2)&lt;tabc 7.25&gt;~(*std.stored.transavg;1-SCI;Q3)&lt;tabc 7.75&gt;~(*std.stored.transavg;1-SCI;Q4)
+<Text>Demonstrate understanding of grade-level content and concepts</Text>
+</Body>
+</Object>
+<Object no="91">
+<Type>Text</Type>
+<Label>.2I.Science Grade</Label>
+<Page>2</Page>
+<Layer>6</Layer>
+<Coordinates>
+<Left>6</Left>
+<Top>6.898</Top>
+</Coordinates>
+<MaxWidth>0</MaxWidth>
+<MaxHeight>0</MaxHeight>
+<Body>
+<Font>
+<Face>Helvetica</Face>
+<Size>8</Size>
+<Leading></Leading>
+</Font>
+<Text>&lt;tabc 6.25&gt;~(*std.stored.transavg;1-SCI;Q1)&lt;tabc 6.75&gt;~(*std.stored.transavg;1-SCI;Q2)&lt;tabc 7.25&gt;~(*std.stored.transavg;1-SCI;Q3)&lt;tabc 7.75&gt;~(*std.stored.transavg;1-SCI;Q4)</Text>
+</Body>
+</Object>
+<Object no="92">
+<Type>Text</Type>
+<Label>.2J.Phys Ed Standards</Label>
+<Page>2</Page>
+<Layer>6</Layer>
+<Coordinates>
+<Left>1.05</Left>
+<Top>7.822</Top>
+</Coordinates>
+<MaxWidth>5</MaxWidth>
+<MaxHeight>0</MaxHeight>
+<Body>
+<Font>
+<Face>Helvetica</Face>
+<Size>8</Size>
+<Leading>10</Leading>
+</Font>
+<Text>Recognize the value of physical activity for health, enjoyment, challenge and self-expression. Exhibit responsible personal and social behavior that respects self and others in physical activity settings</Text>
+</Body>
+</Object>
+<Object no="93">
+<Type>Text</Type>
+<Label>.2K.Phys Ed Grade</Label>
+<Page>2</Page>
+<Layer>6</Layer>
+<Coordinates>
+<Left>6</Left>
+<Top>7.822</Top>
+</Coordinates>
+<MaxWidth>0</MaxWidth>
+<MaxHeight>0</MaxHeight>
+<Body>
+<Font>
+<Face>Helvetica</Face>
+<Size>8</Size>
+<Leading>10</Leading>
+</Font>
+<Text>&lt;tabc 6.25&gt;~(*std.stored.transavg;SPEC-PE;Q1)&lt;tabc 6.75&gt;~(*std.stored.transavg;SPEC-PE;Q2)&lt;tabc 7.25&gt;~(*std.stored.transavg;SPEC-PE;Q3)&lt;tabc 7.75&gt;~(*std.stored.transavg;SPEC-PE;Q4)</Text>
+</Body>
+</Object>
+<Object no="94">
+<Type>Text</Type>
+<Label>.2L.F2. MUSIC STANDARDS</Label>
+<Page>2</Page>
+<Layer>6</Layer>
+<Coordinates>
+<Left>1.05</Left>
+<Top>8.536</Top>
+</Coordinates>
+<MaxWidth>4.97</MaxWidth>
+<MaxHeight>0</MaxHeight>
+<Body>
+<Font>
+<Face>Helvetica</Face>
+<Size>8</Size>
+<Leading>10</Leading>
+</Font>
+<Text>Quarter 1- Imitate a vocal slide using head voice. Perform a series of prescribed movements with appropriate expression
+Quarter 2 - Echo simple melodic patterns with and without words using head voice. Listen attentively to a song with several verses
+Quarter 3 - Sing a simple song using head voice. Create movements that expressively reflect various styles of music
+Quarter 4- Spontaneously create an original tune using more than two tones. Maintain a consistent beat in groups of 2s and 3s</Text>
+</Body>
+</Object>
+<Object no="95">
+<Type>Text</Type>
+<Label>.2M.F2. MUSIC STANDARDS</Label>
+<Page>2</Page>
+<Layer>6</Layer>
+<Coordinates>
+<Left>6</Left>
+<Top>8.536</Top>
+</Coordinates>
+<MaxWidth>0</MaxWidth>
+<MaxHeight>0</MaxHeight>
+<Body>
+<Font>
+<Face>Helvetica</Face>
+<Size>8</Size>
+<Leading>10</Leading>
+</Font>
+<Text>&lt;tabc 6.25&gt;~(*std.stored.transavg;SPEC-MUS.1;Q1)&lt;tabc 6.75&gt;~(*std.stored.transavg;SPEC-MUS.1;Q2)&lt;tabc 7.25&gt;~(*std.stored.transavg;SPEC-MUS.1;Q3)&lt;tabc 7.75&gt;~(*std.stored.transavg;SPEC-MUS.1;Q4)
 
-</Text>
+&lt;tabc 6.25&gt;~(*std.stored.transavg;SPEC-MUS.2;Q1)&lt;tabc 6.75&gt;~(*std.stored.transavg;SPEC-MUS.2;Q2)&lt;tabc 7.25&gt;~(*std.stored.transavg;SPEC-MUS.2;Q3)&lt;tabc 7.75&gt;~(*std.stored.transavg;SPEC-MUS.2;Q4)
+
+&lt;tabc 6.25&gt;~(*std.stored.transavg;SPEC-MUS.3;Q1)&lt;tabc 6.75&gt;~(*std.stored.transavg;SPEC-MUS.3;Q2)&lt;tabc 7.25&gt;~(*std.stored.transavg;SPEC-MUS.3;Q3)&lt;tabc 7.75&gt;~(*std.stored.transavg;SPEC-MUS.3;Q4)
+
+&lt;tabc 6.25&gt;~(*std.stored.transavg;SPEC-MUS.4;Q1)&lt;tabc 6.75&gt;~(*std.stored.transavg;SPEC-MUS.4;Q2)&lt;tabc 7.25&gt;~(*std.stored.transavg;SPEC-MUS.4;Q3)&lt;tabc 7.75&gt;~(*std.stored.transavg;SPEC-MUS.4;Q4)</Text>
 </Body>
 </Object>
-<Object no="84">
+<Object no="96">
 <Type>Text</Type>
-<Label>.2B.Phys Ed Standards</Label>
-<Page>2</Page>
-<Layer>6</Layer>
-<Coordinates>
-<Left>1.05</Left>
-<Top>8.298</Top>
-</Coordinates>
-<MaxWidth>5</MaxWidth>
-<MaxHeight>0</MaxHeight>
-<Body>
-<Font>
-<Face>Helvetica</Face>
-<Size>8</Size>
-<Leading>10</Leading>
-</Font>
-<Text>Recognize the value of physical activity for health, enjoyment, challenge and self-expression. Exhibit responsible personal and social behavior that respects self and others in physical activity settings&lt;tabc 6.25&gt;~(*std.stored.transavg;SPEC-PE;Q1)&lt;tabc 6.75&gt;~(*std.stored.transavg;SPEC-PE;Q2)&lt;tabc 7.25&gt;~(*std.stored.transavg;SPEC-PE;Q3)&lt;tabc 7.75&gt;~(*std.stored.transavg;SPEC-PE;Q4)</Text>
-</Body>
-</Object>
-<Object no="85">
-<Type>Text</Type>
-<Label>.2C.F2. MUSIC STANDARDS</Label>
-<Page>2</Page>
-<Layer>6</Layer>
-<Coordinates>
-<Left>1.05</Left>
-<Top>9.138</Top>
-</Coordinates>
-<MaxWidth>4.97</MaxWidth>
-<MaxHeight>0</MaxHeight>
-<Body>
-<Font>
-<Face>Helvetica</Face>
-<Size>8</Size>
-<Leading>10</Leading>
-</Font>
-<Text>Quarter 1- Imitate a vocal slide using head voice. Perform a series of prescribed movements with appropriate expression&lt;tabc 6.25&gt;~(*std.stored.transavg;SPEC-MUS.1;Q1)&lt;tabc 6.75&gt;~(*std.stored.transavg;SPEC-MUS.1;Q2)&lt;tabc 7.25&gt;~(*std.stored.transavg;SPEC-MUS.1;Q3)&lt;tabc 7.75&gt;~(*std.stored.transavg;SPEC-MUS.1;Q4)
-Quarter 2 - Echo simple melodic patterns with and without words using head voice. Listen attentively to a song with several verses&lt;tabc 6.25&gt;~(*std.stored.transavg;SPEC-MUS.2;Q1)&lt;tabc 6.75&gt;~(*std.stored.transavg;SPEC-MUS.2;Q2)&lt;tabc 7.25&gt;~(*std.stored.transavg;SPEC-MUS.2;Q3)&lt;tabc 7.75&gt;~(*std.stored.transavg;SPEC-MUS.2;Q4)
-Quarter 3 - Sing a simple song using head voice. Create movements that expressively reflect various styles of music&lt;tabc 6.25&gt;~(*std.stored.transavg;SPEC-MUS.3;Q1)&lt;tabc 6.75&gt;~(*std.stored.transavg;SPEC-MUS.3;Q2)&lt;tabc 7.25&gt;~(*std.stored.transavg;SPEC-MUS.3;Q3)&lt;tabc 7.75&gt;~(*std.stored.transavg;SPEC-MUS.3;Q4)
-Quarter 4- Spontaneously create an original tune using more than two tones. Maintain a consistent beat in groups of 2s and 3s&lt;tabc 6.25&gt;~(*std.stored.transavg;SPEC-MUS.4;Q1)&lt;tabc 6.75&gt;~(*std.stored.transavg;SPEC-MUS.4;Q2)&lt;tabc 7.25&gt;~(*std.stored.transavg;SPEC-MUS.4;Q3)&lt;tabc 7.75&gt;~(*std.stored.transavg;SPEC-MUS.4;Q4)</Text>
-</Body>
-</Object>
-<Object no="86">
-<Type>Text</Type>
-<Label>.2D.Science Title</Label>
+<Label>.2N.Science Title</Label>
 <Page>2</Page>
 <Layer>7</Layer>
 <Coordinates>
 <Left>1</Left>
-<Top>6.912</Top>
+<Top>6.73</Top>
 </Coordinates>
-<MaxWidth>5</MaxWidth>
+<MaxWidth>0</MaxWidth>
 <MaxHeight>0</MaxHeight>
 <Body>
 <Font>
@@ -1893,14 +2134,14 @@ Quarter 4- Spontaneously create an original tune using more than two tones. Main
 </Text>
 </Body>
 </Object>
-<Object no="87">
+<Object no="97">
 <Type>Text</Type>
-<Label>.2E.Phys Ed</Label>
+<Label>.2O.Phys Ed</Label>
 <Page>2</Page>
 <Layer>7</Layer>
 <Coordinates>
 <Left>1.014</Left>
-<Top>8.116</Top>
+<Top>7.64</Top>
 </Coordinates>
 <MaxWidth>0</MaxWidth>
 <MaxHeight>0</MaxHeight>
@@ -1915,14 +2156,14 @@ Quarter 4- Spontaneously create an original tune using more than two tones. Main
 </Text>
 </Body>
 </Object>
-<Object no="88">
+<Object no="98">
 <Type>Text</Type>
-<Label>.2F.Music</Label>
+<Label>.2P.Music</Label>
 <Page>2</Page>
 <Layer>7</Layer>
 <Coordinates>
 <Left>1</Left>
-<Top>8.97</Top>
+<Top>8.368</Top>
 </Coordinates>
 <MaxWidth>0</MaxWidth>
 <MaxHeight>0</MaxHeight>
@@ -1936,9 +2177,9 @@ Quarter 4- Spontaneously create an original tune using more than two tones. Main
 <Text>MUSIC&lt;tabc 6.25&gt;Q1&lt;tabc 6.75&gt;Q2&lt;tabc 7.25&gt;Q3&lt;tabc 7.75&gt;Q4</Text>
 </Body>
 </Object>
-<Object no="89">
+<Object no="99">
 <Type>Box</Type>
-<Label>.2G.Gram Conv Box</Label>
+<Label>.2Q.Gram Conv Box</Label>
 <Page>2</Page>
 <Layer>8</Layer>
 <Coordinates>
@@ -1953,9 +2194,9 @@ Quarter 4- Spontaneously create an original tune using more than two tones. Main
 <Color>Black</Color>
 </Line>
 </Object>
-<Object no="90">
+<Object no="100">
 <Type>Line</Type>
-<Label>.2H.Gram Conv Vert Lines</Label>
+<Label>.2R.Gram Conv Vert Lines</Label>
 <Page>2</Page>
 <Layer>8</Layer>
 <Repeat>
@@ -1977,9 +2218,9 @@ Quarter 4- Spontaneously create an original tune using more than two tones. Main
 <Color>Black</Color>
 </Line>
 </Object>
-<Object no="91">
+<Object no="101">
 <Type>Line</Type>
-<Label>.2I.Gram ConvHoriz Lines</Label>
+<Label>.2S.Gram ConvHoriz Lines</Label>
 <Page>2</Page>
 <Layer>8</Layer>
 <Repeat>
@@ -2001,9 +2242,9 @@ Quarter 4- Spontaneously create an original tune using more than two tones. Main
 <Color>Black</Color>
 </Line>
 </Object>
-<Object no="92">
+<Object no="102">
 <Type>Line</Type>
-<Label>.2J.Gram ConvHoriz Lines</Label>
+<Label>.2T.Gram ConvHoriz Lines</Label>
 <Page>2</Page>
 <Layer>8</Layer>
 <Repeat>
@@ -2025,16 +2266,16 @@ Quarter 4- Spontaneously create an original tune using more than two tones. Main
 <Color>Black</Color>
 </Line>
 </Object>
-<Object no="93">
+<Object no="103">
 <Type>Line</Type>
-<Label>.2K.Math Horiz Lines2</Label>
+<Label>.2U.Math Horiz Lines2</Label>
 <Page>2</Page>
 <Layer>8</Layer>
 <Coordinates>
 <Left>1</Left>
-<Top>6.392</Top>
+<Top>6.21</Top>
 <Right>8</Right>
-<Bottom>6.392</Bottom>
+<Bottom>6.21</Bottom>
 </Coordinates>
 <Line>
 <Width>0.25</Width>
@@ -2042,9 +2283,9 @@ Quarter 4- Spontaneously create an original tune using more than two tones. Main
 <Color>Black</Color>
 </Line>
 </Object>
-<Object no="94">
+<Object no="104">
 <Type>Line</Type>
-<Label>.2L.Gram Conv Vert Line2</Label>
+<Label>.2V.Gram Conv Vert Line2</Label>
 <Page>2</Page>
 <Layer>8</Layer>
 <Repeat>
@@ -2066,9 +2307,9 @@ Quarter 4- Spontaneously create an original tune using more than two tones. Main
 <Color>Black</Color>
 </Line>
 </Object>
-<Object no="95">
+<Object no="105">
 <Type>Line</Type>
-<Label>.2M.Music Horiz Line</Label>
+<Label>.2W.Music Horiz Line</Label>
 <Page>2</Page>
 <Layer>8</Layer>
 <Repeat>
@@ -2080,9 +2321,9 @@ Quarter 4- Spontaneously create an original tune using more than two tones. Main
 </Repeat>
 <Coordinates>
 <Left>1</Left>
-<Top>9.304</Top>
+<Top>8.702</Top>
 <Right>8</Right>
-<Bottom>9.304</Bottom>
+<Bottom>8.702</Bottom>
 </Coordinates>
 <Line>
 <Width>0.25</Width>
@@ -2090,9 +2331,9 @@ Quarter 4- Spontaneously create an original tune using more than two tones. Main
 <Color>Black</Color>
 </Line>
 </Object>
-<Object no="96">
+<Object no="106">
 <Type>Text</Type>
-<Label>.2N.GRAM CONV Title</Label>
+<Label>.2X.GRAM CONV Title</Label>
 <Page>2</Page>
 <Layer>8</Layer>
 <Coordinates>
@@ -2111,9 +2352,9 @@ Quarter 4- Spontaneously create an original tune using more than two tones. Main
 <Text>GRAMMAR AND CONVENTIONS&lt;tabc 6.25&gt;Q1&lt;tabc 6.75&gt;Q2&lt;tabc 7.25&gt;Q3&lt;tabc 7.75&gt;Q4</Text>
 </Body>
 </Object>
-<Object no="97">
+<Object no="107">
 <Type>Text</Type>
-<Label>.2O.Gram Conv Standards</Label>
+<Label>.2Y.Gram Conv Standards</Label>
 <Page>2</Page>
 <Layer>8</Layer>
 <Coordinates>
@@ -2128,15 +2369,38 @@ Quarter 4- Spontaneously create an original tune using more than two tones. Main
 <Size>8</Size>
 <Leading></Leading>
 </Font>
-<Text>Grammar and Usage
-1.GC-GU.1: Demonstrate understanding of grammar and usage when writing or speaking&lt;tabc 6.25&gt;~(*std.stored.transavg;1.GC-GU.1;Q1)&lt;tabc 6.75&gt;~(*std.stored.transavg;1.GC-GU.1;Q2)&lt;tabc 7.25&gt;~(*std.stored.transavg;1.GC-GU.1;Q3)&lt;tabc 7.75&gt;~(*std.stored.transavg;1.GC-GU.1;Q4)
-Mechanics
-1.GC-M.2-3: Demonstrate understanding of capitalization, punctuation, and spelling in writing&lt;tabc 6.25&gt;~(*std.stored.transavg;1.GC-M.2-3;Q1)&lt;tabc 6.75&gt;~(*std.stored.transavg;1.GC-M.2-3;Q2)&lt;tabc 7.25&gt;~(*std.stored.transavg;1.GC-M.2-3;Q3)&lt;tabc 7.75&gt;~(*std.stored.transavg;1.GC-M.2-3;Q4)</Text>
+<Text>&lt;b&gt;Grammar and Usage&lt;/b&gt;
+1.GC-GU.1: Demonstrate understanding of grammar and usage when writing or speaking
+&lt;b&gt;Mechanics&lt;/b&gt;
+1.GC-M.2-3: Demonstrate understanding of capitalization, punctuation, and spelling in writing</Text>
 </Body>
 </Object>
-<Object no="98">
+<Object no="108">
 <Type>Text</Type>
-<Label>.2P.K1.Mumbo Jumbo Pg 2</Label>
+<Label>.2Z.Gram Conv Grade</Label>
+<Page>2</Page>
+<Layer>8</Layer>
+<Coordinates>
+<Left>6</Left>
+<Top>2.644</Top>
+</Coordinates>
+<MaxWidth>5.1</MaxWidth>
+<MaxHeight>0</MaxHeight>
+<Body>
+<Font>
+<Face>Helvetica</Face>
+<Size>8</Size>
+<Leading></Leading>
+</Font>
+<Text>
+&lt;tabc 6.25&gt;~(*std.stored.transavg;1.GC-GU.1;Q1)&lt;tabc 6.75&gt;~(*std.stored.transavg;1.GC-GU.1;Q2)&lt;tabc 7.25&gt;~(*std.stored.transavg;1.GC-GU.1;Q3)&lt;tabc 7.75&gt;~(*std.stored.transavg;1.GC-GU.1;Q4)
+
+&lt;tabc 6.25&gt;~(*std.stored.transavg;1.GC-M.2-3;Q1)&lt;tabc 6.75&gt;~(*std.stored.transavg;1.GC-M.2-3;Q2)&lt;tabc 7.25&gt;~(*std.stored.transavg;1.GC-M.2-3;Q3)&lt;tabc 7.75&gt;~(*std.stored.transavg;1.GC-M.2-3;Q4)</Text>
+</Body>
+</Object>
+<Object no="109">
+<Type>Text</Type>
+<Label>.30.K1.Mumbo Jumbo Pg 2</Label>
 <Page>2</Page>
 <Layer>11</Layer>
 <Coordinates>
@@ -2155,9 +2419,9 @@ Mechanics
 <Text>~[pagenumber]. - ~[reportname]. - ~[date;dateformat=mm-dd-yyyy] - ps~[version]</Text>
 </Body>
 </Object>
-<Object no="99">
+<Object no="110">
 <Type>Box</Type>
-<Label>.2Q.Box</Label>
+<Label>.31.Box</Label>
 <Page>3</Page>
 <Layer>0</Layer>
 <Coordinates>
@@ -2172,9 +2436,9 @@ Mechanics
 <Color>Black</Color>
 </Line>
 </Object>
-<Object no="100">
+<Object no="111">
 <Type>Text</Type>
-<Label>.2R.Comments</Label>
+<Label>.32.Comments</Label>
 <Page>3</Page>
 <Layer>0</Layer>
 <Coordinates>
@@ -2192,9 +2456,9 @@ Mechanics
 <Text>&lt;b&gt;Comments&lt;/b&gt;</Text>
 </Body>
 </Object>
-<Object no="101">
+<Object no="112">
 <Type>Text</Type>
-<Label>.2S.Text</Label>
+<Label>.33.Q1-Q2 Comments</Label>
 <Page>3</Page>
 <Layer>0</Layer>
 <Coordinates>
@@ -2209,12 +2473,19 @@ Mechanics
 <Size>8</Size>
 <Leading></Leading>
 </Font>
-<Text>&lt;b&gt;&lt;u&gt;Quarter 1:&lt;/b&gt;&lt;/u&gt;^(*std.stored.comment;SPEC-WH;Q1)Physical Education: ^(*std.stored.comment;SPEC-PE;Q1)Music: ^(*std.stored.comment;SPEC-MUS.1;Q1)&lt;b&gt;&lt;u&gt;Quarter 2:&lt;/b&gt;&lt;/u&gt;^(*std.stored.comment;SPEC-WH;Q2)Physical Education: ^(*std.stored.comment;SPEC-PE;Q2)Music: ^(*std.stored.comment;SPEC-MUS.2;Q2)</Text>
+<Text>&lt;b&gt;&lt;u&gt;Quarter 1:&lt;/b&gt;&lt;/u&gt;
+^(*std.stored.comment;SPEC-WH;Q1)
+Physical Education: ^(*std.stored.comment;SPEC-PE;Q1)
+Music: ^(*std.stored.comment;SPEC-MUS.1;Q1)
+&lt;b&gt;&lt;u&gt;Quarter 2:&lt;/b&gt;&lt;/u&gt;
+^(*std.stored.comment;SPEC-WH;Q2)
+Physical Education: ^(*std.stored.comment;SPEC-PE;Q2)
+Music: ^(*std.stored.comment;SPEC-MUS.2;Q2)</Text>
 </Body>
 </Object>
-<Object no="102">
+<Object no="113">
 <Type>Picture</Type>
-<Label>.2T.A0.Photo</Label>
+<Label>.34.A0.Photo</Label>
 <Page>3</Page>
 <Layer>1</Layer>
 <ScalingOption>fillcenter</ScalingOption>
@@ -2226,9 +2497,9 @@ Mechanics
 </Coordinates>
 <Picture>NS.jpg</Picture>
 </Object>
-<Object no="103">
+<Object no="114">
 <Type>Text</Type>
-<Label>.2U.A2.District Name Pg 2</Label>
+<Label>.35.A2.District Name Pg 3</Label>
 <Page>3</Page>
 <Layer>1</Layer>
 <Coordinates>
@@ -2246,9 +2517,9 @@ Mechanics
 <Text>&lt;center&gt;~(schoolordistrictname)&lt;/center&gt;</Text>
 </Body>
 </Object>
-<Object no="104">
+<Object no="115">
 <Type>Text</Type>
-<Label>.2V.A1.Main Title Pg 2</Label>
+<Label>.36.A1.Main Title Pg 3</Label>
 <Page>3</Page>
 <Layer>1</Layer>
 <Coordinates>
@@ -2267,9 +2538,9 @@ Mechanics
 <Text>&lt;center&gt;1st Grade Report Card&lt;/center&gt;</Text>
 </Body>
 </Object>
-<Object no="105">
+<Object no="116">
 <Type>Text</Type>
-<Label>.2W.A5.Home Room Teacher</Label>
+<Label>.37.A5.Home Room Teacher</Label>
 <Page>3</Page>
 <Layer>1</Layer>
 <Coordinates>
@@ -2288,9 +2559,9 @@ Mechanics
 <Text>&lt;tabto 2.75&gt;Homeroom Teacher: &lt;tabto 2.75&gt;Homeroom Teacher: ^(*period_info;P2(R);teacher_i_first_name) ^(*period_info;P2(R);teacher_i_last_name) ^(*period_info;P2(A);teacher_i_first_name) ^(*period_info;P2(A);teacher_i_last_name)</Text>
 </Body>
 </Object>
-<Object no="106">
+<Object no="117">
 <Type>Text</Type>
-<Label>.2X.A4. Student Data</Label>
+<Label>.38.A4. Student Data</Label>
 <Page>3</Page>
 <Layer>1</Layer>
 <Coordinates>
@@ -2308,9 +2579,9 @@ Mechanics
 <Text>Grade ^(grade_level)&lt;tabr 8.0&gt;~(yearname)</Text>
 </Body>
 </Object>
-<Object no="107">
+<Object no="118">
 <Type>Text</Type>
-<Label>.2Y.A3.StudentName/School Name</Label>
+<Label>.39.A3.StudentName/School Name</Label>
 <Page>3</Page>
 <Layer>1</Layer>
 <Coordinates>
@@ -2328,9 +2599,9 @@ Mechanics
 <Text>&lt;b&gt;~(last_name), ~(first_name)&lt;/b&gt;&lt;tabr 8.0&gt;~(schoolname)</Text>
 </Body>
 </Object>
-<Object no="108">
+<Object no="119">
 <Type>Text</Type>
-<Label>.2Z.K1.Mumbo Jumbo Pg 2</Label>
+<Label>.3A.K1.Mumbo Jumbo Pg 3</Label>
 <Page>3</Page>
 <Layer>11</Layer>
 <Coordinates>
@@ -2349,9 +2620,9 @@ Mechanics
 <Text>~[pagenumber]. - ~[reportname]. - ~[date;dateformat=mm-dd-yyyy] - ps~[version]</Text>
 </Body>
 </Object>
-<Object no="109">
+<Object no="120">
 <Type>Box</Type>
-<Label>.30.Box</Label>
+<Label>.3B.Box</Label>
 <Page>4</Page>
 <Layer>0</Layer>
 <Coordinates>
@@ -2366,9 +2637,9 @@ Mechanics
 <Color>Black</Color>
 </Line>
 </Object>
-<Object no="110">
+<Object no="121">
 <Type>Text</Type>
-<Label>.31.Comments</Label>
+<Label>.3C.Comments</Label>
 <Page>4</Page>
 <Layer>0</Layer>
 <Coordinates>
@@ -2386,9 +2657,9 @@ Mechanics
 <Text>&lt;b&gt;Comments&lt;/b&gt;</Text>
 </Body>
 </Object>
-<Object no="111">
+<Object no="122">
 <Type>Text</Type>
-<Label>.32.Text</Label>
+<Label>.3D.Q3-Q4 Comments</Label>
 <Page>4</Page>
 <Layer>0</Layer>
 <Coordinates>
@@ -2403,12 +2674,19 @@ Mechanics
 <Size>8</Size>
 <Leading></Leading>
 </Font>
-<Text>&lt;b&gt;&lt;u&gt;Quarter 3:&lt;/b&gt;&lt;/u&gt;^(*std.stored.comment;SPEC-WH;Q3)Physical Education: ^(*std.stored.comment;SPEC-PE;Q3)Music: ^(*std.stored.comment;SPEC-MUS.3;Q3)&lt;b&gt;&lt;u&gt;Quarter 4:&lt;/b&gt;&lt;/u&gt;^(*std.stored.comment;SPEC-WH;Q4)Physical Education: ^(*std.stored.comment;SPEC-PE;Q4)Music: ^(*std.stored.comment;SPEC-MUS.4;Q4)</Text>
+<Text>&lt;b&gt;&lt;u&gt;Quarter 3:&lt;/b&gt;&lt;/u&gt;
+^(*std.stored.comment;SPEC-WH;Q3)
+Physical Education: ^(*std.stored.comment;SPEC-PE;Q3)
+Music: ^(*std.stored.comment;SPEC-MUS.3;Q3)
+&lt;b&gt;&lt;u&gt;Quarter 4:&lt;/b&gt;&lt;/u&gt;
+^(*std.stored.comment;SPEC-WH;Q4)
+Physical Education: ^(*std.stored.comment;SPEC-PE;Q4)
+Music: ^(*std.stored.comment;SPEC-MUS.4;Q4)</Text>
 </Body>
 </Object>
-<Object no="112">
+<Object no="123">
 <Type>Picture</Type>
-<Label>.33.A0.Photo</Label>
+<Label>.3E.A0.Photo</Label>
 <Page>4</Page>
 <Layer>1</Layer>
 <ScalingOption>fillcenter</ScalingOption>
@@ -2420,9 +2698,9 @@ Mechanics
 </Coordinates>
 <Picture>NS.jpg</Picture>
 </Object>
-<Object no="113">
+<Object no="124">
 <Type>Text</Type>
-<Label>.34.A2.District Name Pg 2</Label>
+<Label>.3F.A2.District Name Pg 4</Label>
 <Page>4</Page>
 <Layer>1</Layer>
 <Coordinates>
@@ -2440,9 +2718,9 @@ Mechanics
 <Text>&lt;center&gt;~(schoolordistrictname)&lt;/center&gt;</Text>
 </Body>
 </Object>
-<Object no="114">
+<Object no="125">
 <Type>Text</Type>
-<Label>.35.A1.Main Title Pg 2</Label>
+<Label>.3G.A1.Main Title Pg 4</Label>
 <Page>4</Page>
 <Layer>1</Layer>
 <Coordinates>
@@ -2461,9 +2739,9 @@ Mechanics
 <Text>&lt;center&gt;1st Grade Report Card&lt;/center&gt;</Text>
 </Body>
 </Object>
-<Object no="115">
+<Object no="126">
 <Type>Text</Type>
-<Label>.36.A5.Home Room Teacher</Label>
+<Label>.3H.A5.Home Room Teacher</Label>
 <Page>4</Page>
 <Layer>1</Layer>
 <Coordinates>
@@ -2482,9 +2760,9 @@ Mechanics
 <Text>&lt;tabto 2.75&gt;Homeroom Teacher: &lt;tabto 2.75&gt;Homeroom Teacher: ^(*period_info;P2(R);teacher_i_first_name) ^(*period_info;P2(R);teacher_i_last_name) ^(*period_info;P2(A);teacher_i_first_name) ^(*period_info;P2(A);teacher_i_last_name)</Text>
 </Body>
 </Object>
-<Object no="116">
+<Object no="127">
 <Type>Text</Type>
-<Label>.37.A4. Student Data</Label>
+<Label>.3I.A4. Student Data</Label>
 <Page>4</Page>
 <Layer>1</Layer>
 <Coordinates>
@@ -2502,9 +2780,9 @@ Mechanics
 <Text>Grade ^(grade_level)&lt;tabr 8.0&gt;~(yearname)</Text>
 </Body>
 </Object>
-<Object no="117">
+<Object no="128">
 <Type>Text</Type>
-<Label>.38.A3.StudentName/School Name</Label>
+<Label>.3J.A3.StudentName/School Name</Label>
 <Page>4</Page>
 <Layer>1</Layer>
 <Coordinates>
@@ -2522,9 +2800,9 @@ Mechanics
 <Text>&lt;b&gt;~(last_name), ~(first_name)&lt;/b&gt;&lt;tabr 8.0&gt;~(schoolname)</Text>
 </Body>
 </Object>
-<Object no="118">
+<Object no="129">
 <Type>Text</Type>
-<Label>.39.K1.Mumbo Jumbo Pg 2</Label>
+<Label>.3K.K1.Mumbo Jumbo Pg 4</Label>
 <Page>4</Page>
 <Layer>11</Layer>
 <Coordinates>

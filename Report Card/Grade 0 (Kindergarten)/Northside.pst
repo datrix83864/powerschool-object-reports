@@ -1,13 +1,13 @@
 <PSReportTemplate>
 <FileHeader>
-<Created>Tue, 16 Jan 2024 22:13:48 GMT</Created>
+<Created>Wed, 10 Apr 2024 17:05:29 GMT</Created>
 <PSVersion>(VisualPST 3.2.1,)</PSVersion>
 <TemplateVersion>1.0</TemplateVersion>
 <Author>Hawkins, Dalton Jacob</Author>
 </FileHeader>
 <ReportHeader>
 <Type>Object Report</Type>
-<Name>NS Kindergarten Report Card</Name>
+<Name>FS Kindergarten Report Card</Name>
 <Table>Students</Table>
 </ReportHeader>
 <ReportData>
@@ -152,7 +152,7 @@
 <Leading>12</Leading>
 <Italic>True</Italic>
 </Font>
-<Text>Grade ~(grade_level)&lt;tabr 8.0&gt;~(yearname)</Text>
+<Text>Grade: ^(decode;~(grade_level);0;Kindergarten;~(grade_level))&lt;tabr 8.0&gt;~(yearname)</Text>
 </Body>
 </Object>
 <Object no="7">
@@ -488,13 +488,34 @@
 <Size>8</Size>
 <Leading></Leading>
 </Font>
-<Text>Demonstrates respect for self, others, and property&lt;tabc 6.25&gt;~(*std.stored.transavg;SPEC-CIT-1;Q1)&lt;tabc 6.75&gt;~(*std.stored.transavg;SPEC-CIT-1;Q2)&lt;tabc 7.25&gt;~(*std.stored.transavg;SPEC-CIT-1;Q3)&lt;tabc 7.75&gt;~(*std.stored.transavg;SPEC-CIT-1;Q4)
-Seeks positive solutions to problems&lt;tabc 6.25&gt;~(*std.stored.transavg;SPEC-CIT-2;Q1)&lt;tabc 6.75&gt;~(*std.stored.transavg;SPEC-CIT-2;Q2)&lt;tabc 7.25&gt;~(*std.stored.transavg;SPEC-CIT-2;Q3)&lt;tabc 7.75&gt;~(*std.stored.transavg;SPEC-CIT-2;Q4)</Text>
+<Text>Demonstrates respect for self, others, and property
+Seeks positive solutions to problems</Text>
 </Body>
 </Object>
 <Object no="23">
 <Type>Text</Type>
-<Label>.0M.D2. Citizenship Stan</Label>
+<Label>.0M.D2. Citizenship Grade</Label>
+<Page>1</Page>
+<Layer>4</Layer>
+<Coordinates>
+<Left>6</Left>
+<Top>3.705</Top>
+</Coordinates>
+<MaxWidth>0</MaxWidth>
+<MaxHeight>0</MaxHeight>
+<Body>
+<Font>
+<Face>Helvetica</Face>
+<Size>8</Size>
+<Leading></Leading>
+</Font>
+<Text>&lt;tabc 6.25&gt;~(*std.stored.transavg;SPEC-CIT-1;Q1)&lt;tabc 6.75&gt;~(*std.stored.transavg;SPEC-CIT-1;Q2)&lt;tabc 7.25&gt;~(*std.stored.transavg;SPEC-CIT-1;Q3)&lt;tabc 7.75&gt;~(*std.stored.transavg;SPEC-CIT-1;Q4)
+&lt;tabc 6.25&gt;~(*std.stored.transavg;SPEC-CIT-2;Q1)&lt;tabc 6.75&gt;~(*std.stored.transavg;SPEC-CIT-2;Q2)&lt;tabc 7.25&gt;~(*std.stored.transavg;SPEC-CIT-2;Q3)&lt;tabc 7.75&gt;~(*std.stored.transavg;SPEC-CIT-2;Q4)</Text>
+</Body>
+</Object>
+<Object no="24">
+<Type>Text</Type>
+<Label>.0N.D2. Citizenship Stan</Label>
 <Page>1</Page>
 <Layer>4</Layer>
 <Coordinates>
@@ -509,28 +530,8 @@ Seeks positive solutions to problems&lt;tabc 6.25&gt;~(*std.stored.transavg;SPEC
 <Size>8</Size>
 <Leading></Leading>
 </Font>
-<Text>K.VD-WB.1a: Ask and answer questions about unknown words in a text
+<Text>K.VD-WB.1a: Ask and answer questions about unknown words in a text.
 K.VD-WB.2b: Demonstrate understanding of words by relating them to their synonyms and antonyms</Text>
-</Body>
-</Object>
-<Object no="24">
-<Type>Text</Type>
-<Label>.0N.D1. Citizenship Head</Label>
-<Page>1</Page>
-<Layer>4</Layer>
-<Coordinates>
-<Left>1</Left>
-<Top>8.93</Top>
-</Coordinates>
-<MaxWidth>0</MaxWidth>
-<MaxHeight>0</MaxHeight>
-<Body>
-<Font>
-<Face>Helvetica</Face>
-<Size>9</Size>
-<Leading>9</Leading>
-</Font>
-<Text>&lt;b&gt;VOCABULARY DEVELOPMENT&lt;tabc 6.25&gt;Q1&lt;tabc 6.75&gt;Q2&lt;tabc 7.25&gt;Q3&lt;tabc 7.75&gt;Q4&lt;/b&gt;</Text>
 </Body>
 </Object>
 <Object no="25">
@@ -555,8 +556,28 @@ K.VD-WB.2b: Demonstrate understanding of words by relating them to their synonym
 </Body>
 </Object>
 <Object no="26">
+<Type>Text</Type>
+<Label>.0P.D1. Citizenship Head</Label>
+<Page>1</Page>
+<Layer>4</Layer>
+<Coordinates>
+<Left>1</Left>
+<Top>8.93</Top>
+</Coordinates>
+<MaxWidth>0</MaxWidth>
+<MaxHeight>0</MaxHeight>
+<Body>
+<Font>
+<Face>Helvetica</Face>
+<Size>9</Size>
+<Leading>9</Leading>
+</Font>
+<Text>&lt;b&gt;VOCABULARY DEVELOPMENT&lt;tabc 6.25&gt;Q1&lt;tabc 6.75&gt;Q2&lt;tabc 7.25&gt;Q3&lt;tabc 7.75&gt;Q4&lt;/b&gt;</Text>
+</Body>
+</Object>
+<Object no="27">
 <Type>Line</Type>
-<Label>.0P.E1. Work Habits Horiz Line</Label>
+<Label>.0Q.E1. Work Habits Horiz Line</Label>
 <Page>1</Page>
 <Layer>5</Layer>
 <Repeat>
@@ -578,9 +599,9 @@ K.VD-WB.2b: Demonstrate understanding of words by relating them to their synonym
 <Color>Black</Color>
 </Line>
 </Object>
-<Object no="27">
+<Object no="28">
 <Type>Text</Type>
-<Label>.0Q.E1. Work Habits Head</Label>
+<Label>.0R.E1. Work Habits Head</Label>
 <Page>1</Page>
 <Layer>5</Layer>
 <Coordinates>
@@ -598,9 +619,9 @@ K.VD-WB.2b: Demonstrate understanding of words by relating them to their synonym
 <Text>&lt;b&gt;WORK HABITS&lt;tabc 6.25&gt;Q1&lt;tabc 6.75&gt;Q2&lt;tabc 7.25&gt;Q3&lt;tabc 7.75&gt;Q4&lt;/b&gt;</Text>
 </Body>
 </Object>
-<Object no="28">
+<Object no="29">
 <Type>Box</Type>
-<Label>.0R.F1. Math Box</Label>
+<Label>.0S.F1. Math Box</Label>
 <Page>1</Page>
 <Layer>6</Layer>
 <Coordinates>
@@ -615,9 +636,9 @@ K.VD-WB.2b: Demonstrate understanding of words by relating them to their synonym
 <Color>Black</Color>
 </Line>
 </Object>
-<Object no="29">
+<Object no="30">
 <Type>Line</Type>
-<Label>.0S.F2. Math Vert Line1</Label>
+<Label>.0T.F2. Math Vert Line1</Label>
 <Page>1</Page>
 <Layer>6</Layer>
 <Repeat>
@@ -639,9 +660,9 @@ K.VD-WB.2b: Demonstrate understanding of words by relating them to their synonym
 <Color>Black</Color>
 </Line>
 </Object>
-<Object no="30">
+<Object no="31">
 <Type>Line</Type>
-<Label>.0T.F2. Math Vert Line2</Label>
+<Label>.0U.F2. Math Vert Line2</Label>
 <Page>1</Page>
 <Layer>6</Layer>
 <Repeat>
@@ -663,9 +684,9 @@ K.VD-WB.2b: Demonstrate understanding of words by relating them to their synonym
 <Color>Black</Color>
 </Line>
 </Object>
-<Object no="31">
+<Object no="32">
 <Type>Line</Type>
-<Label>.0U.F2. Math Vert Line3</Label>
+<Label>.0V.F2. Math Vert Line3</Label>
 <Page>1</Page>
 <Layer>6</Layer>
 <Repeat>
@@ -687,9 +708,9 @@ K.VD-WB.2b: Demonstrate understanding of words by relating them to their synonym
 <Color>Black</Color>
 </Line>
 </Object>
-<Object no="32">
+<Object no="33">
 <Type>Line</Type>
-<Label>.0V.F1. Math Horiz Lines</Label>
+<Label>.0W.F1. Math Horiz Lines</Label>
 <Page>1</Page>
 <Layer>6</Layer>
 <Repeat>
@@ -711,9 +732,9 @@ K.VD-WB.2b: Demonstrate understanding of words by relating them to their synonym
 <Color>Black</Color>
 </Line>
 </Object>
-<Object no="33">
+<Object no="34">
 <Type>Text</Type>
-<Label>.0W.F2. Reading Comp Hd</Label>
+<Label>.0X.F2. Reading Comp Hd</Label>
 <Page>1</Page>
 <Layer>6</Layer>
 <Coordinates>
@@ -732,16 +753,16 @@ K.VD-WB.2b: Demonstrate understanding of words by relating them to their synonym
 <Text>READING COMPREHENSION&lt;tabc 6.25&gt;Q1&lt;tabc 6.75&gt;Q2&lt;tabc 7.25&gt;Q3&lt;tabc 7.75&gt;Q4</Text>
 </Body>
 </Object>
-<Object no="34">
+<Object no="35">
 <Type>Text</Type>
-<Label>.0X.F1. MATH STANDARDS</Label>
+<Label>.0Y.F1. MATH STANDARDS</Label>
 <Page>1</Page>
 <Layer>6</Layer>
 <Coordinates>
 <Left>1.05</Left>
 <Top>7.192</Top>
 </Coordinates>
-<MaxWidth>4.97</MaxWidth>
+<MaxWidth>4.8</MaxWidth>
 <MaxHeight>0</MaxHeight>
 <Body>
 <Font>
@@ -750,20 +771,50 @@ K.VD-WB.2b: Demonstrate understanding of words by relating them to their synonym
 <Leading>10</Leading>
 </Font>
 <Text>&lt;b&gt;Reading Literature&lt;/b&gt;
-K.RC-L.5a: Retell key details of familiar stories, poems, and nursery rhymes heard&lt;tabc 6.25&gt;~(*std.stored.transavg;K.RC-L.5a;Q1)&lt;tabc 6.75&gt;~(*std.stored.transavg;K.RC-L.5a;Q2)&lt;tabc 7.25&gt;~(*std.stored.transavg;K.RC-L.5a;Q3)&lt;tabc 7.75&gt;~(*std.stored.transavg;K.RC-L.5a;Q4)
-K.RC-L.5b: Identify the characters, setting, and major events in a story&lt;tabc 6.25&gt;~(*std.stored.transavg;K.RC-L.5b;Q1)&lt;tabc 6.75&gt;~(*std.stored.transavg;K.RC-L.5b;Q2)&lt;tabc 7.25&gt;~(*std.stored.transavg;K.RC-L.5b;Q3)&lt;tabc 7.75&gt;~(*std.stored.transavg;K.RC-L.5b;Q4)
-K.RC-L5e: Compare and contrast the adventures or experiences of characters in familiar stories&lt;tabc 6.25&gt;~(*std.stored.transavg;K.RC-L.5e;Q1)&lt;tabc 6.75&gt;~(*std.stored.transavg;K.RC-L.5e;Q2)&lt;tabc 7.25&gt;~(*std.stored.transavg;K.RC-L.5e;Q3)&lt;tabc 7.75&gt;~(*std.stored.transavg;K.RC-L.5e;Q4)
+K.RC-L.5a: Retell key details of familiar stories, poems, and nursery rhymes heard
+K.RC-L.5b: Identify the characters, setting, and major events in a story
+K.RC-L5e: Compare and contrast the adventures or experiences of characters in familiar stories
 &lt;b&gt;Non-Fiction
-&lt;/b&gt;K.RC-NF.6a: Identify the main topic and retell key details of a text&lt;tabc 6.25&gt;~(*std.stored.transavg;K.RC-NF.6a;Q1)&lt;tabc 6.75&gt;~(*std.stored.transavg;K.RC-NF.6a;Q2)&lt;tabc 7.25&gt;~(*std.stored.transavg;K.RC-NF.6a;Q3)&lt;tabc 7.75&gt;~(*std.stored.transavg;K.RC-NF.6a;Q4)
-K.RC-NF.6b: Describe the connection between two individuals, events, ideas or pieces of information in texts heard&lt;tabc 6.25&gt;~(*std.stored.transavg;K.RC-NF.6b;Q1)&lt;tabc 6.75&gt;~(*std.stored.transavg;K.RC-NF.6b;Q2)&lt;tabc 7.25&gt;~(*std.stored.transavg;K.RC-NF.6b;Q3)&lt;tabc 7.75&gt;~(*std.stored.transavg;K.RC-NF.6b;Q4)
-K.RC-NF.6e: Identify basic similarities and differences between two texts heard on the same topic&lt;tabc 6.25&gt;~(*std.stored.transavg;K.RC-NF.6e;Q1)&lt;tabc 6.75&gt;~(*std.stored.transavg;K.RC-NF.6e;Q2)&lt;tabc 7.25&gt;~(*std.stored.transavg;K.RC-NF.6e;Q3)&lt;tabc 7.75&gt;~(*std.stored.transavg;K.RC-NF.6e;Q4)
+&lt;/b&gt;K.RC-NF.6a: Identify the main topic and retell key details of a text
+K.RC-NF.6b: Describe the connection between two individuals, events, ideas or pieces of information in texts heard
+K.RC-NF.6e: Identify basic similarities and differences between two texts heard on the same topic
 &lt;b&gt;Textual Evidence
-&lt;/b&gt;K.RC-TE.3: Ask and answer questions about key details in text&lt;tabc 6.25&gt;~(*std.stored.transavg;K.RC-TE.3;Q1)&lt;tabc 6.75&gt;~(*std.stored.transavg;K.RC-TE.3;Q2)&lt;tabc 7.25&gt;~(*std.stored.transavg;K.RC-TE.3;Q3)&lt;tabc 7.75&gt;~(*std.stored.transavg;K.RC-TE.3;Q4)</Text>
+&lt;/b&gt;K.RC-TE.3: Ask and answer questions about key details in text</Text>
 </Body>
 </Object>
-<Object no="35">
+<Object no="36">
+<Type>Text</Type>
+<Label>.0Z.F1. MATH Grade</Label>
+<Page>1</Page>
+<Layer>6</Layer>
+<Coordinates>
+<Left>6</Left>
+<Top>7.192</Top>
+</Coordinates>
+<MaxWidth>0</MaxWidth>
+<MaxHeight>0</MaxHeight>
+<Body>
+<Font>
+<Face>Helvetica</Face>
+<Size>8</Size>
+<Leading>10</Leading>
+</Font>
+<Text>
+&lt;tabc 6.25&gt;~(*std.stored.transavg;K.RC-L.5a;Q1)&lt;tabc 6.75&gt;~(*std.stored.transavg;K.RC-L.5a;Q2)&lt;tabc 7.25&gt;~(*std.stored.transavg;K.RC-L.5a;Q3)&lt;tabc 7.75&gt;~(*std.stored.transavg;K.RC-L.5a;Q4)
+&lt;tabc 6.25&gt;~(*std.stored.transavg;K.RC-L.5b;Q1)&lt;tabc 6.75&gt;~(*std.stored.transavg;K.RC-L.5b;Q2)&lt;tabc 7.25&gt;~(*std.stored.transavg;K.RC-L.5b;Q3)&lt;tabc 7.75&gt;~(*std.stored.transavg;K.RC-L.5b;Q4)
+&lt;tabc 6.25&gt;~(*std.stored.transavg;K.RC-L.5e;Q1)&lt;tabc 6.75&gt;~(*std.stored.transavg;K.RC-L.5e;Q2)&lt;tabc 7.25&gt;~(*std.stored.transavg;K.RC-L.5e;Q3)&lt;tabc 7.75&gt;~(*std.stored.transavg;K.RC-L.5e;Q4)
+
+&lt;tabc 6.25&gt;~(*std.stored.transavg;K.RC-NF.6a;Q1)&lt;tabc 6.75&gt;~(*std.stored.transavg;K.RC-NF.6a;Q2)&lt;tabc 7.25&gt;~(*std.stored.transavg;K.RC-NF.6a;Q3)&lt;tabc 7.75&gt;~(*std.stored.transavg;K.RC-NF.6a;Q4)
+&lt;tabc 6.25&gt;~(*std.stored.transavg;K.RC-NF.6b;Q1)&lt;tabc 6.75&gt;~(*std.stored.transavg;K.RC-NF.6b;Q2)&lt;tabc 7.25&gt;~(*std.stored.transavg;K.RC-NF.6b;Q3)&lt;tabc 7.75&gt;~(*std.stored.transavg;K.RC-NF.6b;Q4)
+
+&lt;tabc 6.25&gt;~(*std.stored.transavg;K.RC-NF.6e;Q1)&lt;tabc 6.75&gt;~(*std.stored.transavg;K.RC-NF.6e;Q2)&lt;tabc 7.25&gt;~(*std.stored.transavg;K.RC-NF.6e;Q3)&lt;tabc 7.75&gt;~(*std.stored.transavg;K.RC-NF.6e;Q4)
+
+&lt;tabc 6.25&gt;~(*std.stored.transavg;K.RC-TE.3;Q1)&lt;tabc 6.75&gt;~(*std.stored.transavg;K.RC-TE.3;Q2)&lt;tabc 7.25&gt;~(*std.stored.transavg;K.RC-TE.3;Q3)&lt;tabc 7.75&gt;~(*std.stored.transavg;K.RC-TE.3;Q4)</Text>
+</Body>
+</Object>
+<Object no="37">
 <Type>Box</Type>
-<Label>.0Y.H1. Social Studies Box</Label>
+<Label>.10.H1. Social Studies Box</Label>
 <Page>1</Page>
 <Layer>8</Layer>
 <Coordinates>
@@ -778,9 +829,9 @@ K.RC-NF.6e: Identify basic similarities and differences between two texts heard 
 <Color>Black</Color>
 </Line>
 </Object>
-<Object no="36">
+<Object no="38">
 <Type>Box</Type>
-<Label>.0Z.E1. Work Habits Box</Label>
+<Label>.11.E1. Work Habits Box</Label>
 <Page>1</Page>
 <Layer>8</Layer>
 <Coordinates>
@@ -795,9 +846,9 @@ K.RC-NF.6e: Identify basic similarities and differences between two texts heard 
 <Color>Black</Color>
 </Line>
 </Object>
-<Object no="37">
+<Object no="39">
 <Type>Line</Type>
-<Label>.10.H1. Social Studies Horiz L</Label>
+<Label>.12.H1. Social Studies Horiz L</Label>
 <Page>1</Page>
 <Layer>8</Layer>
 <Repeat>
@@ -819,9 +870,9 @@ K.RC-NF.6e: Identify basic similarities and differences between two texts heard 
 <Color>Black</Color>
 </Line>
 </Object>
-<Object no="38">
+<Object no="40">
 <Type>Line</Type>
-<Label>.11.H2. Social Studies Vert Li</Label>
+<Label>.13.H2. Social Studies Vert Li</Label>
 <Page>1</Page>
 <Layer>8</Layer>
 <Repeat>
@@ -843,9 +894,9 @@ K.RC-NF.6e: Identify basic similarities and differences between two texts heard 
 <Color>Black</Color>
 </Line>
 </Object>
-<Object no="39">
+<Object no="41">
 <Type>Line</Type>
-<Label>.12.SS Vert Line 2</Label>
+<Label>.14.SS Vert Line 2</Label>
 <Page>1</Page>
 <Layer>8</Layer>
 <Repeat>
@@ -867,9 +918,9 @@ K.RC-NF.6e: Identify basic similarities and differences between two texts heard 
 <Color>Black</Color>
 </Line>
 </Object>
-<Object no="40">
+<Object no="42">
 <Type>Line</Type>
-<Label>.13.SS Vert Line 3</Label>
+<Label>.15.SS Vert Line 3</Label>
 <Page>1</Page>
 <Layer>8</Layer>
 <Repeat>
@@ -891,9 +942,9 @@ K.RC-NF.6e: Identify basic similarities and differences between two texts heard 
 <Color>Black</Color>
 </Line>
 </Object>
-<Object no="41">
+<Object no="43">
 <Type>Text</Type>
-<Label>.14.H1.Social Stud Subje</Label>
+<Label>.16.H1.Social Stud Subje</Label>
 <Page>1</Page>
 <Layer>8</Layer>
 <Coordinates>
@@ -912,9 +963,9 @@ K.RC-NF.6e: Identify basic similarities and differences between two texts heard 
 <Text>FOUNDATIONAL READING SKILLS&lt;tabc 6.25&gt;Q1&lt;tabc 6.75&gt;Q2&lt;tabc 7.25&gt;Q3&lt;tabc 7.75&gt;Q4</Text>
 </Body>
 </Object>
-<Object no="42">
+<Object no="44">
 <Type>Text</Type>
-<Label>.15.H2. SOCIAL STUDIES S</Label>
+<Label>.17.H2. READ SKILL Standard</Label>
 <Page>1</Page>
 <Layer>8</Layer>
 <Coordinates>
@@ -930,20 +981,49 @@ K.RC-NF.6e: Identify basic similarities and differences between two texts heard 
 <Leading></Leading>
 </Font>
 <Text>&lt;b&gt;Print Concepts
-&lt;/b&gt;K.FR-PC.1: Demonstrates understanding of the basic features of print&lt;tabc 6.25&gt;~(*std.stored.transavg;K.FR-PC.1;Q1)&lt;tabc 6.75&gt;~(*std.stored.transavg;K.FR-PC.1;Q2)&lt;tabc 7.25&gt;~(*std.stored.transavg;K.FR-PC.1;Q3)&lt;tabc 7.75&gt;~(*std.stored.transavg;K.FR-PC.1;Q4)
-K.FR-PC.1h: Identify and name all upper- and lowercase letters of the alphabet&lt;tabc 6.25&gt;~(*std.stored.transavg;K.FR-PC.1h;Q1)&lt;tabc 6.75&gt;~(*std.stored.transavg;K.FR-PC.1h;Q2)&lt;tabc 7.25&gt;~(*std.stored.transavg;K.FR-PC.1h;Q3)&lt;tabc 7.75&gt;~(*std.stored.transavg;K.FR-PC.1h;Q4)
+&lt;/b&gt;K.FR-PC.1: Demonstrates understanding of the basic features of print
+K.FR-PC.1h: Identify and name all upper- and lowercase letters of the alphabet
 &lt;b&gt;Phonemic Awareness
-&lt;/b&gt;K.FR-PA.2a: Identify and produce rhyming words&lt;tabc 6.25&gt;~(*std.stored.transavg;K.FR-PA.2a;Q1)&lt;tabc 6.75&gt;~(*std.stored.transavg;K.FR-PA.2a;Q2)&lt;tabc 7.25&gt;~(*std.stored.transavg;K.FR-PA.2a;Q3)&lt;tabc 7.75&gt;~(*std.stored.transavg;K.FR-PA.2a;Q4)
-K.FR-PA.2: Demonstrate understanding of spoken words, syllables, and sounds heard&lt;tabc 6.25&gt;~(*std.stored.transavg;K.FR-PA.2;Q1)&lt;tabc 6.75&gt;~(*std.stored.transavg;K.FR-PA.2;Q2)&lt;tabc 7.25&gt;~(*std.stored.transavg;K.FR-PA.2;Q3)&lt;tabc 7.75&gt;~(*std.stored.transavg;K.FR-PA.2;Q4)
+&lt;/b&gt;K.FR-PA.2a: Identify and produce rhyming words
+K.FR-PA.2: Demonstrate understanding of spoken words, syllables, and sounds heard
 &lt;b&gt;Phonics and Decoding
-&lt;/b&gt;K.FR-PH.3a-b: Know and produce the letter sounds&lt;tabc 6.25&gt;~(*std.stored.transavg;K.FR-PH.3a-b;Q1)&lt;tabc 6.75&gt;~(*std.stored.transavg;K.FR-PH.3a-b;Q2)&lt;tabc 7.25&gt;~(*std.stored.transavg;K.FR-PH.3a-b;Q3)&lt;tabc 7.75&gt;~(*std.stored.transavg;K.FR-PH.3a-b;Q4)
-K.FR-PH.3c: Read sight words&lt;tabc 6.25&gt;~(*std.stored.transavg;K.FR-PH.3c;Q1)&lt;tabc 6.75&gt;~(*std.stored.transavg;K.FR-PH.3c;Q2)&lt;tabc 7.25&gt;~(*std.stored.transavg;K.FR-PH.3c;Q3)&lt;tabc 7.75&gt;~(*std.stored.transavg;K.FR-PH.3c;Q4)
-K.RC-RF.4: Read emergent-reader texts&lt;tabc 6.25&gt;~(*std.stored.transavg;K.RC-RF.4;Q1)&lt;tabc 6.75&gt;~(*std.stored.transavg;K.RC-RF.4;Q2)&lt;tabc 7.25&gt;~(*std.stored.transavg;K.RC-RF.4;Q3)&lt;tabc 7.75&gt;~(*std.stored.transavg;K.RC-RF.4;Q4)</Text>
+&lt;/b&gt;K.FR-PH.3a-b: Know and produce the letter sounds
+K.FR-PH.3c: Read sight words
+K.RC-RF.4: Read emergent-reader texts</Text>
 </Body>
 </Object>
-<Object no="43">
+<Object no="45">
 <Type>Text</Type>
-<Label>.16.E2. Work Habits Stan</Label>
+<Label>.18.H2. READ SKILL Grade</Label>
+<Page>1</Page>
+<Layer>8</Layer>
+<Coordinates>
+<Left>6</Left>
+<Top>5.444</Top>
+</Coordinates>
+<MaxWidth>0</MaxWidth>
+<MaxHeight>0</MaxHeight>
+<Body>
+<Font>
+<Face>Helvetica</Face>
+<Size>8</Size>
+<Leading></Leading>
+</Font>
+<Text>
+&lt;tabc 6.25&gt;~(*std.stored.transavg;K.FR-PC.1;Q1)&lt;tabc 6.75&gt;~(*std.stored.transavg;K.FR-PC.1;Q2)&lt;tabc 7.25&gt;~(*std.stored.transavg;K.FR-PC.1;Q3)&lt;tabc 7.75&gt;~(*std.stored.transavg;K.FR-PC.1;Q4)
+&lt;tabc 6.25&gt;~(*std.stored.transavg;K.FR-PC.1h;Q1)&lt;tabc 6.75&gt;~(*std.stored.transavg;K.FR-PC.1h;Q2)&lt;tabc 7.25&gt;~(*std.stored.transavg;K.FR-PC.1h;Q3)&lt;tabc 7.75&gt;~(*std.stored.transavg;K.FR-PC.1h;Q4)
+
+&lt;tabc 6.25&gt;~(*std.stored.transavg;K.FR-PA.2a;Q1)&lt;tabc 6.75&gt;~(*std.stored.transavg;K.FR-PA.2a;Q2)&lt;tabc 7.25&gt;~(*std.stored.transavg;K.FR-PA.2a;Q3)&lt;tabc 7.75&gt;~(*std.stored.transavg;K.FR-PA.2a;Q4)
+&lt;tabc 6.25&gt;~(*std.stored.transavg;K.FR-PA.2;Q1)&lt;tabc 6.75&gt;~(*std.stored.transavg;K.FR-PA.2;Q2)&lt;tabc 7.25&gt;~(*std.stored.transavg;K.FR-PA.2;Q3)&lt;tabc 7.75&gt;~(*std.stored.transavg;K.FR-PA.2;Q4)
+
+&lt;tabc 6.25&gt;~(*std.stored.transavg;K.FR-PH.3a-b;Q1)&lt;tabc 6.75&gt;~(*std.stored.transavg;K.FR-PH.3a-b;Q2)&lt;tabc 7.25&gt;~(*std.stored.transavg;K.FR-PH.3a-b;Q3)&lt;tabc 7.75&gt;~(*std.stored.transavg;K.FR-PH.3a-b;Q4)
+&lt;tabc 6.25&gt;~(*std.stored.transavg;K.FR-PH.3c;Q1)&lt;tabc 6.75&gt;~(*std.stored.transavg;K.FR-PH.3c;Q2)&lt;tabc 7.25&gt;~(*std.stored.transavg;K.FR-PH.3c;Q3)&lt;tabc 7.75&gt;~(*std.stored.transavg;K.FR-PH.3c;Q4)
+&lt;tabc 6.25&gt;~(*std.stored.transavg;K.RC-RF.4;Q1)&lt;tabc 6.75&gt;~(*std.stored.transavg;K.RC-RF.4;Q2)&lt;tabc 7.25&gt;~(*std.stored.transavg;K.RC-RF.4;Q3)&lt;tabc 7.75&gt;~(*std.stored.transavg;K.RC-RF.4;Q4)</Text>
+</Body>
+</Object>
+<Object no="46">
+<Type>Text</Type>
+<Label>.19.E2. Work Habits Stan</Label>
 <Page>1</Page>
 <Layer>8</Layer>
 <Coordinates>
@@ -958,17 +1038,42 @@ K.RC-RF.4: Read emergent-reader texts&lt;tabc 6.25&gt;~(*std.stored.transavg;K.R
 <Size>8</Size>
 <Leading></Leading>
 </Font>
-<Text>Completes work and tasks on time and with care&lt;tabc 6.25&gt;~(*std.stored.transavg;SPEC-WH.1;Q1)&lt;tabc 6.75&gt;~(*std.stored.transavg;SPEC-WH.1;Q2)&lt;tabc 7.25&gt;~(*std.stored.transavg;SPEC-WH.1;Q3)&lt;tabc 7.75&gt;~(*std.stored.transavg;SPEC-WH.1;Q4)
-Follows routines and instructions&lt;tabc 6.25&gt;~(*std.stored.transavg;SPEC-WH.2;Q1)&lt;tabc 6.75&gt;~(*std.stored.transavg;SPEC-WH.2;Q2)&lt;tabc 7.25&gt;~(*std.stored.transavg;SPEC-WH.2;Q3)&lt;tabc 7.75&gt;~(*std.stored.transavg;SPEC-WH.2;Q4)
-Perseveres with tasks and goals&lt;tabc 6.25&gt;~(*std.stored.transavg;SPEC-WH.3;Q1)&lt;tabc 6.75&gt;~(*std.stored.transavg;SPEC-WH.3;Q2)&lt;tabc 7.25&gt;~(*std.stored.transavg;SPEC-WH.3;Q3)&lt;tabc 7.75&gt;~(*std.stored.transavg;SPEC-WH.3;Q4)
-Effectively manages time and materials&lt;tabc 6.25&gt;~(*std.stored.transavg;SPEC-WH.4;Q1)&lt;tabc 6.75&gt;~(*std.stored.transavg;SPEC-WH.4;Q2)&lt;tabc 7.25&gt;~(*std.stored.transavg;SPEC-WH.4;Q3)&lt;tabc 7.75&gt;~(*std.stored.transavg;SPEC-WH.4;Q4)
-Uses best effort on class work&lt;tabc 6.25&gt;~(*std.stored.transavg;SPEC-WH.6;Q1)&lt;tabc 6.75&gt;~(*std.stored.transavg;SPEC-WH.6;Q2)&lt;tabc 7.25&gt;~(*std.stored.transavg;SPEC-WH.6;Q3)&lt;tabc 7.75&gt;~(*std.stored.transavg;SPEC-WH.6;Q4)
+<Text>Completes work and tasks on time and with care
+Follows routines and instructions
+Perseveres with tasks and goals
+Effectively manages time and materials
+Uses best effort on class work
 </Text>
 </Body>
 </Object>
-<Object no="44">
+<Object no="47">
+<Type>Text</Type>
+<Label>.1A.E2. Work Habits Grad</Label>
+<Page>1</Page>
+<Layer>8</Layer>
+<Coordinates>
+<Left>6</Left>
+<Top>4.378</Top>
+</Coordinates>
+<MaxWidth>0</MaxWidth>
+<MaxHeight>0</MaxHeight>
+<Body>
+<Font>
+<Face>Helvetica</Face>
+<Size>8</Size>
+<Leading></Leading>
+</Font>
+<Text>&lt;tabc 6.25&gt;~(*std.stored.transavg;SPEC-WH.1;Q1)&lt;tabc 6.75&gt;~(*std.stored.transavg;SPEC-WH.1;Q2)&lt;tabc 7.25&gt;~(*std.stored.transavg;SPEC-WH.1;Q3)&lt;tabc 7.75&gt;~(*std.stored.transavg;SPEC-WH.1;Q4)
+&lt;tabc 6.25&gt;~(*std.stored.transavg;SPEC-WH.2;Q1)&lt;tabc 6.75&gt;~(*std.stored.transavg;SPEC-WH.2;Q2)&lt;tabc 7.25&gt;~(*std.stored.transavg;SPEC-WH.2;Q3)&lt;tabc 7.75&gt;~(*std.stored.transavg;SPEC-WH.2;Q4)
+&lt;tabc 6.25&gt;~(*std.stored.transavg;SPEC-WH.3;Q1)&lt;tabc 6.75&gt;~(*std.stored.transavg;SPEC-WH.3;Q2)&lt;tabc 7.25&gt;~(*std.stored.transavg;SPEC-WH.3;Q3)&lt;tabc 7.75&gt;~(*std.stored.transavg;SPEC-WH.3;Q4)
+&lt;tabc 6.25&gt;~(*std.stored.transavg;SPEC-WH.4;Q1)&lt;tabc 6.75&gt;~(*std.stored.transavg;SPEC-WH.4;Q2)&lt;tabc 7.25&gt;~(*std.stored.transavg;SPEC-WH.4;Q3)&lt;tabc 7.75&gt;~(*std.stored.transavg;SPEC-WH.4;Q4)
+&lt;tabc 6.25&gt;~(*std.stored.transavg;SPEC-WH.6;Q1)&lt;tabc 6.75&gt;~(*std.stored.transavg;SPEC-WH.6;Q2)&lt;tabc 7.25&gt;~(*std.stored.transavg;SPEC-WH.6;Q3)&lt;tabc 7.75&gt;~(*std.stored.transavg;SPEC-WH.6;Q4)
+</Text>
+</Body>
+</Object>
+<Object no="48">
 <Type>Box</Type>
-<Label>.17.J1. Attendance Box</Label>
+<Label>.1B.J1. Attendance Box</Label>
 <Page>1</Page>
 <Layer>10</Layer>
 <Coordinates>
@@ -983,9 +1088,9 @@ Uses best effort on class work&lt;tabc 6.25&gt;~(*std.stored.transavg;SPEC-WH.6;
 <Color>Black</Color>
 </Line>
 </Object>
-<Object no="45">
+<Object no="49">
 <Type>Line</Type>
-<Label>.18.J2. Attendance Horiz Lines</Label>
+<Label>.1C.J2. Attendance Horiz Lines</Label>
 <Page>1</Page>
 <Layer>10</Layer>
 <Repeat>
@@ -1007,9 +1112,9 @@ Uses best effort on class work&lt;tabc 6.25&gt;~(*std.stored.transavg;SPEC-WH.6;
 <Color>Black</Color>
 </Line>
 </Object>
-<Object no="46">
+<Object no="50">
 <Type>Line</Type>
-<Label>.19.J3. Attendance Vert Line</Label>
+<Label>.1D.J3. Attendance Vert Line</Label>
 <Page>1</Page>
 <Layer>10</Layer>
 <Repeat>
@@ -1031,9 +1136,9 @@ Uses best effort on class work&lt;tabc 6.25&gt;~(*std.stored.transavg;SPEC-WH.6;
 <Color>Black</Color>
 </Line>
 </Object>
-<Object no="47">
+<Object no="51">
 <Type>Text</Type>
-<Label>.1A.J1. Attendance Report Head</Label>
+<Label>.1E.J1. Attendance Report Head</Label>
 <Page>1</Page>
 <Layer>10</Layer>
 <Coordinates>
@@ -1051,9 +1156,9 @@ Uses best effort on class work&lt;tabc 6.25&gt;~(*std.stored.transavg;SPEC-WH.6;
 <Text>&lt;b&gt;ATTENDANCE REPORT&lt;tabc 2.75&gt;Q1&lt;tabc 3.25&gt;Q2&lt;tabc 3.75&gt;Q3&lt;tabc 4.25&gt;Q4&lt;tabc 4.75&gt;Total&lt;/b&gt;</Text>
 </Body>
 </Object>
-<Object no="48">
+<Object no="52">
 <Type>Text</Type>
-<Label>.1B.J2. Attendance Data</Label>
+<Label>.1F.J2. Attendance Data</Label>
 <Page>1</Page>
 <Layer>10</Layer>
 <Coordinates>
@@ -1073,9 +1178,9 @@ Days of Attendance&lt;tabd 2.75&gt;^(*DA;Q1;format=###,##0.0)&lt;tabd 3.25&gt;^(
 Days Absent&lt;tabd 2.75&gt;^(daily.att.count;current;A,C,D,E,G,J,K,P,U,X,Y;Q1)&lt;tabd 3.25&gt;^(daily.att.count;current;A,C,D,E,G,J,K,P,U,X,Y;Q2)&lt;tabd 3.75&gt;^(daily.att.count;current;A,C,D,E,G,J,K,P,U,X,Y;Q3)&lt;tabd 4.25&gt;^(daily.att.count;current;A,C,D,E,G,J,K,P,U,X,Y;Q4)&lt;tabd 4.75 &gt;^(daily.att.count;current;A,C,D,E,G,J,K,P,U,X,Y;Y1)</Text>
 </Body>
 </Object>
-<Object no="49">
+<Object no="53">
 <Type>Text</Type>
-<Label>.1C.J3.Mumbo Jumbo</Label>
+<Label>.1G.J3.Mumbo Jumbo</Label>
 <Page>1</Page>
 <Layer>10</Layer>
 <Coordinates>
@@ -1093,9 +1198,9 @@ Days Absent&lt;tabd 2.75&gt;^(daily.att.count;current;A,C,D,E,G,J,K,P,U,X,Y;Q1)&
 <Text>~[pagenumber]. - ~[reportname]. - ~[date;dateformat=mm-dd-yyyy] - ps~[version]</Text>
 </Body>
 </Object>
-<Object no="50">
+<Object no="54">
 <Type>Line</Type>
-<Label>.1D.E2. Work Habits Vert</Label>
+<Label>.1H.E2. Work Habits Vert</Label>
 <Page>1</Page>
 <Layer>20</Layer>
 <Repeat>
@@ -1117,9 +1222,9 @@ Days Absent&lt;tabd 2.75&gt;^(daily.att.count;current;A,C,D,E,G,J,K,P,U,X,Y;Q1)&
 <Color>Black</Color>
 </Line>
 </Object>
-<Object no="51">
+<Object no="55">
 <Type>Picture</Type>
-<Label>.1E.A0.Photo</Label>
+<Label>.1I.A0.Photo</Label>
 <Page>2</Page>
 <Layer>1</Layer>
 <ScalingOption>fillcenter</ScalingOption>
@@ -1131,9 +1236,9 @@ Days Absent&lt;tabd 2.75&gt;^(daily.att.count;current;A,C,D,E,G,J,K,P,U,X,Y;Q1)&
 </Coordinates>
 <Picture>NS.jpg</Picture>
 </Object>
-<Object no="52">
+<Object no="56">
 <Type>Text</Type>
-<Label>.1F.A1.Main Title Pg 2</Label>
+<Label>.1J.A1.Main Title Pg 2</Label>
 <Page>2</Page>
 <Layer>1</Layer>
 <Coordinates>
@@ -1152,9 +1257,9 @@ Days Absent&lt;tabd 2.75&gt;^(daily.att.count;current;A,C,D,E,G,J,K,P,U,X,Y;Q1)&
 <Text>&lt;center&gt;Kindergarten Report Card&lt;/center&gt;</Text>
 </Body>
 </Object>
-<Object no="53">
+<Object no="57">
 <Type>Text</Type>
-<Label>.1G.A2.District Name Pg 2</Label>
+<Label>.1K.A2.District Name Pg 2</Label>
 <Page>2</Page>
 <Layer>1</Layer>
 <Coordinates>
@@ -1172,9 +1277,9 @@ Days Absent&lt;tabd 2.75&gt;^(daily.att.count;current;A,C,D,E,G,J,K,P,U,X,Y;Q1)&
 <Text>&lt;center&gt;~(schoolordistrictname)&lt;/center&gt;</Text>
 </Body>
 </Object>
-<Object no="54">
+<Object no="58">
 <Type>Text</Type>
-<Label>.1H.A3.StudentName/School Name</Label>
+<Label>.1L.A3.StudentName/School Name</Label>
 <Page>2</Page>
 <Layer>1</Layer>
 <Coordinates>
@@ -1192,9 +1297,9 @@ Days Absent&lt;tabd 2.75&gt;^(daily.att.count;current;A,C,D,E,G,J,K,P,U,X,Y;Q1)&
 <Text>&lt;b&gt;~(last_name), ~(first_name)&lt;/b&gt;&lt;tabr 8.0&gt;~(schoolname)</Text>
 </Body>
 </Object>
-<Object no="55">
+<Object no="59">
 <Type>Text</Type>
-<Label>.1I.A4. Student Data</Label>
+<Label>.1M.A4. Student Data</Label>
 <Page>2</Page>
 <Layer>1</Layer>
 <Coordinates>
@@ -1209,12 +1314,12 @@ Days Absent&lt;tabd 2.75&gt;^(daily.att.count;current;A,C,D,E,G,J,K,P,U,X,Y;Q1)&
 <Size>9</Size>
 <Leading>12</Leading>
 </Font>
-<Text>Grade ^(grade_level)&lt;tabr 8.0&gt;~(yearname)</Text>
+<Text>Grade: ^(decode;~(grade_level);0;Kindergarten;~(grade_level))&lt;tabr 8.0&gt;~(yearname)</Text>
 </Body>
 </Object>
-<Object no="56">
+<Object no="60">
 <Type>Text</Type>
-<Label>.1J.A5.Home Room Teacher</Label>
+<Label>.1N.A5.Home Room Teacher</Label>
 <Page>2</Page>
 <Layer>1</Layer>
 <Coordinates>
@@ -1233,9 +1338,9 @@ Days Absent&lt;tabd 2.75&gt;^(daily.att.count;current;A,C,D,E,G,J,K,P,U,X,Y;Q1)&
 <Text>&lt;tabto 2.75&gt;Homeroom Teacher: &lt;tabto 2.75&gt;Homeroom Teacher: ^(*period_info;P2(R);teacher_i_first_name) ^(*period_info;P2(R);teacher_i_last_name) ^(*period_info;P2(A);teacher_i_first_name) ^(*period_info;P2(A);teacher_i_last_name)</Text>
 </Body>
 </Object>
-<Object no="57">
+<Object no="61">
 <Type>Box</Type>
-<Label>.1K.B1. Sp & List Box</Label>
+<Label>.1O.B1. Sp & List Box</Label>
 <Page>2</Page>
 <Layer>2</Layer>
 <Coordinates>
@@ -1250,9 +1355,9 @@ Days Absent&lt;tabd 2.75&gt;^(daily.att.count;current;A,C,D,E,G,J,K,P,U,X,Y;Q1)&
 <Color>Black</Color>
 </Line>
 </Object>
-<Object no="58">
+<Object no="62">
 <Type>Line</Type>
-<Label>.1L.B1. Sp & List Horiz Lines</Label>
+<Label>.1P.B1. Sp & List Horiz Lines</Label>
 <Page>2</Page>
 <Layer>2</Layer>
 <Repeat>
@@ -1274,9 +1379,9 @@ Days Absent&lt;tabd 2.75&gt;^(daily.att.count;current;A,C,D,E,G,J,K,P,U,X,Y;Q1)&
 <Color>Black</Color>
 </Line>
 </Object>
-<Object no="59">
+<Object no="63">
 <Type>Line</Type>
-<Label>.1M.B2. Sp & List Vert L</Label>
+<Label>.1Q.B2. Sp & List Vert L</Label>
 <Page>2</Page>
 <Layer>2</Layer>
 <Repeat>
@@ -1298,9 +1403,9 @@ Days Absent&lt;tabd 2.75&gt;^(daily.att.count;current;A,C,D,E,G,J,K,P,U,X,Y;Q1)&
 <Color>Black</Color>
 </Line>
 </Object>
-<Object no="60">
+<Object no="64">
 <Type>Text</Type>
-<Label>.1N.B1.Speak Listen Subj</Label>
+<Label>.1R.B1.Speak Listen Subj</Label>
 <Page>2</Page>
 <Layer>2</Layer>
 <Coordinates>
@@ -1319,9 +1424,9 @@ Days Absent&lt;tabd 2.75&gt;^(daily.att.count;current;A,C,D,E,G,J,K,P,U,X,Y;Q1)&
 <Text>WRITING&lt;tabc 6.25&gt;Q1&lt;tabc 6.75&gt;Q2&lt;tabc 7.25&gt;Q3&lt;tabc 7.75&gt;Q4</Text>
 </Body>
 </Object>
-<Object no="61">
+<Object no="65">
 <Type>Text</Type>
-<Label>.1O.Writing Standards</Label>
+<Label>.1S.Writing Standards</Label>
 <Page>2</Page>
 <Layer>2</Layer>
 <Coordinates>
@@ -1336,21 +1441,43 @@ Days Absent&lt;tabd 2.75&gt;^(daily.att.count;current;A,C,D,E,G,J,K,P,U,X,Y;Q1)&
 <Size>8</Size>
 <Leading></Leading>
 </Font>
-<Text>K.W.RW.1: Routinely write or dictate writing for a range of tasks, purposes, and audiences&lt;tabc 6.25&gt;~(*std.stored.transavg;K.W.RW.1;Q1)&lt;tabc 6.75&gt;~(*std.stored.transavg;K.W.RW.1;Q2)&lt;tabc 7.25&gt;~(*std.stored.transavg;K.W.RW.1;Q3)&lt;tabc 7.75&gt;~(*std.stored.transavg;K.W.RW.1;Q4)
-K.GC-M.3: Spell words phonetically drawing on knowledge of sound-letter relationship&lt;tabc 6.25&gt;~(*std.stored.transavg;K.GC-M.3;Q1)&lt;tabc 6.75&gt;~(*std.stored.transavg;K.GC-M.3;Q2)&lt;tabc 7.25&gt;~(*std.stored.transavg;K.GC-M.3;Q3)&lt;tabc 7.75&gt;~(*std.stored.transavg;K.GC-M.3;Q4)
-K.W-HWK.2: Write letters legibly with correct formation, height, and space&lt;tabc 6.25&gt;~(*std.stored.transavg;K.W-HWK.2;Q1)&lt;tabc 6.75&gt;~(*std.stored.transavg;K.W-HWK.2;Q2)&lt;tabc 7.25&gt;~(*std.stored.transavg;K.W-HWK.2;Q3)&lt;tabc 7.75&gt;~(*std.stored.transavg;K.W-HWK.2;Q4)</Text>
+<Text>K.W.RW.1: Routinely write or dictate writing for a range of tasks, purposes, and audiences
+K.GC-M.3: Spell words phonetically drawing on knowledge of sound-letter relationship
+K.W-HWK.2: Write letters legibly with correct formation, height, and space</Text>
 </Body>
 </Object>
-<Object no="62">
+<Object no="66">
+<Type>Text</Type>
+<Label>.1T.Writing Grade</Label>
+<Page>2</Page>
+<Layer>2</Layer>
+<Coordinates>
+<Left>6</Left>
+<Top>2.35</Top>
+</Coordinates>
+<MaxWidth>0</MaxWidth>
+<MaxHeight>0</MaxHeight>
+<Body>
+<Font>
+<Face>Helvetica</Face>
+<Size>8</Size>
+<Leading></Leading>
+</Font>
+<Text>&lt;tabc 6.25&gt;~(*std.stored.transavg;K.W.RW.1;Q1)&lt;tabc 6.75&gt;~(*std.stored.transavg;K.W.RW.1;Q2)&lt;tabc 7.25&gt;~(*std.stored.transavg;K.W.RW.1;Q3)&lt;tabc 7.75&gt;~(*std.stored.transavg;K.W.RW.1;Q4)
+&lt;tabc 6.25&gt;~(*std.stored.transavg;K.GC-M.3;Q1)&lt;tabc 6.75&gt;~(*std.stored.transavg;K.GC-M.3;Q2)&lt;tabc 7.25&gt;~(*std.stored.transavg;K.GC-M.3;Q3)&lt;tabc 7.75&gt;~(*std.stored.transavg;K.GC-M.3;Q4)
+&lt;tabc 6.25&gt;~(*std.stored.transavg;K.W-HWK.2;Q1)&lt;tabc 6.75&gt;~(*std.stored.transavg;K.W-HWK.2;Q2)&lt;tabc 7.25&gt;~(*std.stored.transavg;K.W-HWK.2;Q3)&lt;tabc 7.75&gt;~(*std.stored.transavg;K.W-HWK.2;Q4)</Text>
+</Body>
+</Object>
+<Object no="67">
 <Type>Box</Type>
-<Label>.1P.E1.Art Box</Label>
+<Label>.1U.E1.Art Box</Label>
 <Page>2</Page>
 <Layer>4</Layer>
 <Coordinates>
 <Left>1</Left>
-<Top>3.347</Top>
+<Top>3.137</Top>
 <Right>8</Right>
-<Bottom>5.16</Bottom>
+<Bottom>4.95</Bottom>
 </Coordinates>
 <Line>
 <Width>0.25</Width>
@@ -1358,9 +1485,9 @@ K.W-HWK.2: Write letters legibly with correct formation, height, and space&lt;ta
 <Color>Black</Color>
 </Line>
 </Object>
-<Object no="63">
+<Object no="68">
 <Type>Line</Type>
-<Label>.1Q.Math Horiz Lines</Label>
+<Label>.1V.Math Horiz Lines</Label>
 <Page>2</Page>
 <Layer>4</Layer>
 <Repeat>
@@ -1372,9 +1499,9 @@ K.W-HWK.2: Write letters legibly with correct formation, height, and space&lt;ta
 </Repeat>
 <Coordinates>
 <Left>1</Left>
-<Top>3.482</Top>
+<Top>3.272</Top>
 <Right>8</Right>
-<Bottom>3.482</Bottom>
+<Bottom>3.272</Bottom>
 </Coordinates>
 <Line>
 <Width>0.25</Width>
@@ -1382,9 +1509,9 @@ K.W-HWK.2: Write letters legibly with correct formation, height, and space&lt;ta
 <Color>Black</Color>
 </Line>
 </Object>
-<Object no="64">
+<Object no="69">
 <Type>Line</Type>
-<Label>.1R.D2.Art Vert Lines</Label>
+<Label>.1W.D2.Art Vert Lines</Label>
 <Page>2</Page>
 <Layer>4</Layer>
 <Repeat>
@@ -1396,9 +1523,9 @@ K.W-HWK.2: Write letters legibly with correct formation, height, and space&lt;ta
 </Repeat>
 <Coordinates>
 <Left>6</Left>
-<Top>3.347</Top>
+<Top>3.137</Top>
 <Right>6</Right>
-<Bottom>5.16</Bottom>
+<Bottom>4.95</Bottom>
 </Coordinates>
 <Line>
 <Width>0.25</Width>
@@ -1406,9 +1533,9 @@ K.W-HWK.2: Write letters legibly with correct formation, height, and space&lt;ta
 <Color>Black</Color>
 </Line>
 </Object>
-<Object no="65">
+<Object no="70">
 <Type>Line</Type>
-<Label>.1S.Math Horiz Line2</Label>
+<Label>.1X.Math Horiz Line2</Label>
 <Page>2</Page>
 <Layer>4</Layer>
 <Repeat>
@@ -1420,9 +1547,9 @@ K.W-HWK.2: Write letters legibly with correct formation, height, and space&lt;ta
 </Repeat>
 <Coordinates>
 <Left>1</Left>
-<Top>4.462</Top>
+<Top>4.252</Top>
 <Right>8</Right>
-<Bottom>4.462</Bottom>
+<Bottom>4.252</Bottom>
 </Coordinates>
 <Line>
 <Width>0.25</Width>
@@ -1430,16 +1557,16 @@ K.W-HWK.2: Write letters legibly with correct formation, height, and space&lt;ta
 <Color>Black</Color>
 </Line>
 </Object>
-<Object no="66">
+<Object no="71">
 <Type>Text</Type>
-<Label>.1T.Math Standards</Label>
+<Label>.1Y.Math Standards</Label>
 <Page>2</Page>
 <Layer>4</Layer>
 <Coordinates>
 <Left>1.05</Left>
-<Top>3.448</Top>
+<Top>3.238</Top>
 </Coordinates>
-<MaxWidth>5</MaxWidth>
+<MaxWidth>4.8</MaxWidth>
 <MaxHeight>0</MaxHeight>
 <Body>
 <Font>
@@ -1447,28 +1574,60 @@ K.W-HWK.2: Write letters legibly with correct formation, height, and space&lt;ta
 <Size>8</Size>
 <Leading>10</Leading>
 </Font>
-<Text>K.CC.A.1a: Count to 100 by ones&lt;tabc 6.25&gt;~(*std.stored.transavg;K.CC.A.1a;Q1)&lt;tabc 6.75&gt;~(*std.stored.transavg;K.CC.A.1a;Q2)&lt;tabc 7.25&gt;~(*std.stored.transavg;K.CC.A.1a;Q3)&lt;tabc 7.75&gt;~(*std.stored.transavg;K.CC.A.1a;Q4)
-K.CC.A.1b: Count to 100 by tens&lt;tabc 6.25&gt;~(*std.stored.transavg;K.CC.A.1b;Q1)&lt;tabc 6.75&gt;~(*std.stored.transavg;K.CC.A.1b;Q2)&lt;tabc 7.25&gt;~(*std.stored.transavg;K.CC.A.1b;Q3)&lt;tabc 7.75&gt;~(*std.stored.transavg;K.CC.A.1b;Q4)
-K.CC.A.4: Identify numbers 0-20 randomly&lt;tabc 6.25&gt;~(*std.stored.transavg;K.CC.A.4;Q1)&lt;tabc 6.75&gt;~(*std.stored.transavg;K.CC.A.4;Q2)&lt;tabc 7.25&gt;~(*std.stored.transavg;K.CC.A.4;Q3)&lt;tabc 7.75&gt;~(*std.stored.transavg;K.CC.A.4;Q4)
-K.CC.A.2: Count on, starting from any number&lt;tabc 6.25&gt;~(*std.stored.transavg;K.CC.A.2;Q1)&lt;tabc 6.75&gt;~(*std.stored.transavg;K.CC.A.2;Q2)&lt;tabc 7.25&gt;~(*std.stored.transavg;K.CC.A.2;Q3)&lt;tabc 7.75&gt;~(*std.stored.transavg;K.CC.A.2;Q4)
-K.CC.A.3: Write numbers from 0-20&lt;tabc 6.25&gt;~(*std.stored.transavg;K.CC.A.3;Q1)&lt;tabc 6.75&gt;~(*std.stored.transavg;K.CC.A.3;Q2)&lt;tabc 7.25&gt;~(*std.stored.transavg;K.CC.A.3;Q3)&lt;tabc 7.75&gt;~(*std.stored.transavg;K.CC.A.3;Q4)
-K.CC.B.4-5: Count objects with one-to-one correspondence up to 20&lt;tabc 6.25&gt;~(*std.stored.transavg;K.CC.B.4-5;Q1)&lt;tabc 6.75&gt;~(*std.stored.transavg;K.CC.B.4-5;Q2)&lt;tabc 7.25&gt;~(*std.stored.transavg;K.CC.B.4-5;Q3)&lt;tabc 7.75&gt;~(*std.stored.transavg;K.CC.B.4-5;Q4)
-K.CC.C.6-7: Compare a group of objects and written numerals to decide which is greater than, equal to, or less than another group&lt;tabc 6.25&gt;~(*std.stored.transavg;K.CC.C.6-7;Q1)&lt;tabc 6.75&gt;~(*std.stored.transavg;K.CC.C.6-7;Q2)&lt;tabc 7.25&gt;~(*std.stored.transavg;K.CC.C.6-7;Q3)&lt;tabc 7.75&gt;~(*std.stored.transavg;K.CC.C.6-7;Q4)
-K.OA.A.1: Break apart and put together numbers into pairs in many different ways&lt;tabc 6.25&gt;~(*std.stored.transavg;K.OA.A.1;Q1)&lt;tabc 6.75&gt;~(*std.stored.transavg;K.OA.A.1;Q2)&lt;tabc 7.25&gt;~(*std.stored.transavg;K.OA.A.1;Q3)&lt;tabc 7.75&gt;~(*std.stored.transavg;K.OA.A.1;Q4)
-K.OA.A.2: Use objects and symbols to add and/or subtract including solving story problems&lt;tabc 6.25&gt;~(*std.stored.transavg;K.OA.A.2;Q1)&lt;tabc 6.75&gt;~(*std.stored.transavg;K.OA.A.2;Q2)&lt;tabc 7.25&gt;~(*std.stored.transavg;K.OA.A.2;Q3)&lt;tabc 7.75&gt;~(*std.stored.transavg;K.OA.A.2;Q4)
-K.OA.A.4: Find the number that makes 10 for any number from 1 to 9&lt;tabc 6.25&gt;~(*std.stored.transavg;K.OA.A.4;Q1)&lt;tabc 6.75&gt;~(*std.stored.transavg;K.OA.A.4;Q2)&lt;tabc 7.25&gt;~(*std.stored.transavg;K.OA.A.4;Q3)&lt;tabc 7.75&gt;~(*std.stored.transavg;K.OA.A.4;Q4)
-K.OA.A.5: Fluently add and subtract within 5&lt;tabc 6.25&gt;~(*std.stored.transavg;K.OA.A.5;Q1)&lt;tabc 6.75&gt;~(*std.stored.transavg;K.OA.A.5;Q2)&lt;tabc 7.25&gt;~(*std.stored.transavg;K.OA.A.5;Q3)&lt;tabc 7.75&gt;~(*std.stored.transavg;K.OA.A.5;Q4)
-K.NBT.A.1: Show how numbers 11 to 19 are made of tens and ones&lt;tabc 6.25&gt;~(*std.stored.transavg;K.NBT.A.1;Q1)&lt;tabc 6.75&gt;~(*std.stored.transavg;K.NBT.A.1;Q2)&lt;tabc 7.25&gt;~(*std.stored.transavg;K.NBT.A.1;Q3)&lt;tabc 7.75&gt;~(*std.stored.transavg;K.NBT.A.1;Q4)</Text>
+<Text>K.CC.A.1a: Count to 100 by ones
+K.CC.A.1b: Count to 100 by tens
+K.CC.A.4: Identify numbers 0-20 randomly
+K.CC.A.2: Count on, starting from any number
+K.CC.A.3: Write numbers from 0-20
+K.CC.B.4-5: Count objects with one-to-one correspondence up to 20
+K.CC.C.6-7: Compare a group of objects and written numerals to decide which is greater than, equal to, or less than another group
+K.OA.A.1: Break apart and put together numbers into pairs in many different ways
+K.OA.A.2: Use objects and symbols to add and/or subtract including solving story problems
+K.OA.A.4: Find the number that makes 10 for any number from 1 to 9
+K.OA.A.5: Fluently add and subtract within 5
+K.NBT.A.1: Show how numbers 11 to 19 are made of tens and ones</Text>
 </Body>
 </Object>
-<Object no="67">
+<Object no="72">
 <Type>Text</Type>
-<Label>.1U.E1.Art Subject Area </Label>
+<Label>.1Z.Math Grade</Label>
+<Page>2</Page>
+<Layer>4</Layer>
+<Coordinates>
+<Left>6</Left>
+<Top>3.238</Top>
+</Coordinates>
+<MaxWidth>0</MaxWidth>
+<MaxHeight>0</MaxHeight>
+<Body>
+<Font>
+<Face>Helvetica</Face>
+<Size>8</Size>
+<Leading>10</Leading>
+</Font>
+<Text>&lt;tabc 6.25&gt;~(*std.stored.transavg;K.CC.A.1a;Q1)&lt;tabc 6.75&gt;~(*std.stored.transavg;K.CC.A.1a;Q2)&lt;tabc 7.25&gt;~(*std.stored.transavg;K.CC.A.1a;Q3)&lt;tabc 7.75&gt;~(*std.stored.transavg;K.CC.A.1a;Q4)
+&lt;tabc 6.25&gt;~(*std.stored.transavg;K.CC.A.1b;Q1)&lt;tabc 6.75&gt;~(*std.stored.transavg;K.CC.A.1b;Q2)&lt;tabc 7.25&gt;~(*std.stored.transavg;K.CC.A.1b;Q3)&lt;tabc 7.75&gt;~(*std.stored.transavg;K.CC.A.1b;Q4)
+&lt;tabc 6.25&gt;~(*std.stored.transavg;K.CC.A.4;Q1)&lt;tabc 6.75&gt;~(*std.stored.transavg;K.CC.A.4;Q2)&lt;tabc 7.25&gt;~(*std.stored.transavg;K.CC.A.4;Q3)&lt;tabc 7.75&gt;~(*std.stored.transavg;K.CC.A.4;Q4)
+&lt;tabc 6.25&gt;~(*std.stored.transavg;K.CC.A.2;Q1)&lt;tabc 6.75&gt;~(*std.stored.transavg;K.CC.A.2;Q2)&lt;tabc 7.25&gt;~(*std.stored.transavg;K.CC.A.2;Q3)&lt;tabc 7.75&gt;~(*std.stored.transavg;K.CC.A.2;Q4)
+&lt;tabc 6.25&gt;~(*std.stored.transavg;K.CC.A.3;Q1)&lt;tabc 6.75&gt;~(*std.stored.transavg;K.CC.A.3;Q2)&lt;tabc 7.25&gt;~(*std.stored.transavg;K.CC.A.3;Q3)&lt;tabc 7.75&gt;~(*std.stored.transavg;K.CC.A.3;Q4)
+&lt;tabc 6.25&gt;~(*std.stored.transavg;K.CC.B.4-5;Q1)&lt;tabc 6.75&gt;~(*std.stored.transavg;K.CC.B.4-5;Q2)&lt;tabc 7.25&gt;~(*std.stored.transavg;K.CC.B.4-5;Q3)&lt;tabc 7.75&gt;~(*std.stored.transavg;K.CC.B.4-5;Q4)
+&lt;tabc 6.25&gt;~(*std.stored.transavg;K.CC.C.6-7;Q1)&lt;tabc 6.75&gt;~(*std.stored.transavg;K.CC.C.6-7;Q2)&lt;tabc 7.25&gt;~(*std.stored.transavg;K.CC.C.6-7;Q3)&lt;tabc 7.75&gt;~(*std.stored.transavg;K.CC.C.6-7;Q4)
+
+&lt;tabc 6.25&gt;~(*std.stored.transavg;K.OA.A.1;Q1)&lt;tabc 6.75&gt;~(*std.stored.transavg;K.OA.A.1;Q2)&lt;tabc 7.25&gt;~(*std.stored.transavg;K.OA.A.1;Q3)&lt;tabc 7.75&gt;~(*std.stored.transavg;K.OA.A.1;Q4)
+&lt;tabc 6.25&gt;~(*std.stored.transavg;K.OA.A.2;Q1)&lt;tabc 6.75&gt;~(*std.stored.transavg;K.OA.A.2;Q2)&lt;tabc 7.25&gt;~(*std.stored.transavg;K.OA.A.2;Q3)&lt;tabc 7.75&gt;~(*std.stored.transavg;K.OA.A.2;Q4)
+&lt;tabc 6.25&gt;~(*std.stored.transavg;K.OA.A.4;Q1)&lt;tabc 6.75&gt;~(*std.stored.transavg;K.OA.A.4;Q2)&lt;tabc 7.25&gt;~(*std.stored.transavg;K.OA.A.4;Q3)&lt;tabc 7.75&gt;~(*std.stored.transavg;K.OA.A.4;Q4)
+&lt;tabc 6.25&gt;~(*std.stored.transavg;K.OA.A.5;Q1)&lt;tabc 6.75&gt;~(*std.stored.transavg;K.OA.A.5;Q2)&lt;tabc 7.25&gt;~(*std.stored.transavg;K.OA.A.5;Q3)&lt;tabc 7.75&gt;~(*std.stored.transavg;K.OA.A.5;Q4)
+&lt;tabc 6.25&gt;~(*std.stored.transavg;K.NBT.A.1;Q1)&lt;tabc 6.75&gt;~(*std.stored.transavg;K.NBT.A.1;Q2)&lt;tabc 7.25&gt;~(*std.stored.transavg;K.NBT.A.1;Q3)&lt;tabc 7.75&gt;~(*std.stored.transavg;K.NBT.A.1;Q4)</Text>
+</Body>
+</Object>
+<Object no="73">
+<Type>Text</Type>
+<Label>.20.E1.Art Subject Area </Label>
 <Page>2</Page>
 <Layer>4</Layer>
 <Coordinates>
 <Left>1</Left>
-<Top>3.101</Top>
+<Top>2.891</Top>
 </Coordinates>
 <MaxWidth>0</MaxWidth>
 <MaxHeight>0</MaxHeight>
@@ -1484,16 +1643,16 @@ Number Sense and Counting&lt;tabc 6.25&gt;Q1&lt;tabc 6.75&gt;Q2&lt;tabc 7.25&gt;
 </Text>
 </Body>
 </Object>
-<Object no="68">
+<Object no="74">
 <Type>Box</Type>
-<Label>.1V.E1. Media Box</Label>
+<Label>.21.E1. Media Box</Label>
 <Page>2</Page>
 <Layer>5</Layer>
 <Coordinates>
 <Left>1</Left>
-<Top>5.635</Top>
+<Top>5.271</Top>
 <Right>8</Right>
-<Bottom>6.058</Bottom>
+<Bottom>5.694</Bottom>
 </Coordinates>
 <Line>
 <Width>0.25</Width>
@@ -1501,16 +1660,16 @@ Number Sense and Counting&lt;tabc 6.25&gt;Q1&lt;tabc 6.75&gt;Q2&lt;tabc 7.25&gt;
 <Color>Black</Color>
 </Line>
 </Object>
-<Object no="69">
+<Object no="75">
 <Type>Line</Type>
-<Label>.1W.E1. Media Horiz Lines</Label>
+<Label>.22.E1. Media Horiz Lines</Label>
 <Page>2</Page>
 <Layer>5</Layer>
 <Coordinates>
 <Left>1</Left>
-<Top>5.919</Top>
+<Top>5.555</Top>
 <Right>8</Right>
-<Bottom>5.919</Bottom>
+<Bottom>5.555</Bottom>
 </Coordinates>
 <Line>
 <Width>0.25</Width>
@@ -1518,9 +1677,9 @@ Number Sense and Counting&lt;tabc 6.25&gt;Q1&lt;tabc 6.75&gt;Q2&lt;tabc 7.25&gt;
 <Color>Black</Color>
 </Line>
 </Object>
-<Object no="70">
+<Object no="76">
 <Type>Line</Type>
-<Label>.1X.E2. Media Vert Lines</Label>
+<Label>.23.E2. Media Vert Lines</Label>
 <Page>2</Page>
 <Layer>5</Layer>
 <Repeat>
@@ -1532,9 +1691,9 @@ Number Sense and Counting&lt;tabc 6.25&gt;Q1&lt;tabc 6.75&gt;Q2&lt;tabc 7.25&gt;
 </Repeat>
 <Coordinates>
 <Left>6</Left>
-<Top>5.635</Top>
+<Top>5.271</Top>
 <Right>6</Right>
-<Bottom>6.058</Bottom>
+<Bottom>5.694</Bottom>
 </Coordinates>
 <Line>
 <Width>0.25</Width>
@@ -1542,14 +1701,14 @@ Number Sense and Counting&lt;tabc 6.25&gt;Q1&lt;tabc 6.75&gt;Q2&lt;tabc 7.25&gt;
 <Color>Black</Color>
 </Line>
 </Object>
-<Object no="71">
+<Object no="77">
 <Type>Text</Type>
-<Label>.1Y.E1. Media Header</Label>
+<Label>.24.E1. Media Header</Label>
 <Page>2</Page>
 <Layer>5</Layer>
 <Coordinates>
 <Left>1</Left>
-<Top>5.585</Top>
+<Top>5.221</Top>
 </Coordinates>
 <MaxWidth>0</MaxWidth>
 <MaxHeight>0</MaxHeight>
@@ -1562,16 +1721,16 @@ Number Sense and Counting&lt;tabc 6.25&gt;Q1&lt;tabc 6.75&gt;Q2&lt;tabc 7.25&gt;
 <Text>&lt;b&gt;Measurement, Data, & Geometry&lt;tabc 6.25&gt;Q1&lt;tabc 6.75&gt;Q2&lt;tabc 7.25&gt;Q3&lt;tabc 7.75&gt;Q4&lt;/b&gt;</Text>
 </Body>
 </Object>
-<Object no="72">
+<Object no="78">
 <Type>Text</Type>
-<Label>.1Z.MDG Stand</Label>
+<Label>.25.MDG Stand</Label>
 <Page>2</Page>
 <Layer>5</Layer>
 <Coordinates>
 <Left>1.05</Left>
-<Top>5.759</Top>
+<Top>5.395</Top>
 </Coordinates>
-<MaxWidth>5</MaxWidth>
+<MaxWidth>4.8</MaxWidth>
 <MaxHeight>0</MaxHeight>
 <Body>
 <Font>
@@ -1579,20 +1738,42 @@ Number Sense and Counting&lt;tabc 6.25&gt;Q1&lt;tabc 6.75&gt;Q2&lt;tabc 7.25&gt;
 <Size>8</Size>
 <Leading>10</Leading>
 </Font>
-<Text>K.MD.A.1: Identify how objects can be measured (length and weight) and describe how objects are different sizes&lt;tabc 6.25&gt;~(*std.stored.transavg;K.MD.A.1;Q1)&lt;tabc 6.75&gt;~(*std.stored.transavg;K.MD.A.1;Q2)&lt;tabc 7.25&gt;~(*std.stored.transavg;K.MD.A.1;Q3)&lt;tabc 7.75&gt;~(*std.stored.transavg;K.MD.A.1;Q4)
-K.G.A.3: Identify and describe shapes (including two and three dimensional shapes)&lt;tabc 6.25&gt;~(*std.stored.transavg;K.G.A.3;Q1)&lt;tabc 6.75&gt;~(*std.stored.transavg;K.G.A.3;Q2)&lt;tabc 7.25&gt;~(*std.stored.transavg;K.G.A.3;Q3)&lt;tabc 7.75&gt;~(*std.stored.transavg;K.G.A.3;Q4)</Text>
+<Text>K.MD.A.1: Identify how objects can be measured (length and weight) and describe how objects are different sizes
+K.G.A.3: Identify and describe shapes (including two and three dimensional shapes)</Text>
 </Body>
 </Object>
-<Object no="73">
+<Object no="79">
+<Type>Text</Type>
+<Label>.26.MDG Grade</Label>
+<Page>2</Page>
+<Layer>5</Layer>
+<Coordinates>
+<Left>6</Left>
+<Top>5.395</Top>
+</Coordinates>
+<MaxWidth>0</MaxWidth>
+<MaxHeight>0</MaxHeight>
+<Body>
+<Font>
+<Face>Helvetica</Face>
+<Size>8</Size>
+<Leading>10</Leading>
+</Font>
+<Text>&lt;tabc 6.25&gt;~(*std.stored.transavg;K.MD.A.1;Q1)&lt;tabc 6.75&gt;~(*std.stored.transavg;K.MD.A.1;Q2)&lt;tabc 7.25&gt;~(*std.stored.transavg;K.MD.A.1;Q3)&lt;tabc 7.75&gt;~(*std.stored.transavg;K.MD.A.1;Q4)
+
+&lt;tabc 6.25&gt;~(*std.stored.transavg;K.G.A.3;Q1)&lt;tabc 6.75&gt;~(*std.stored.transavg;K.G.A.3;Q2)&lt;tabc 7.25&gt;~(*std.stored.transavg;K.G.A.3;Q3)&lt;tabc 7.75&gt;~(*std.stored.transavg;K.G.A.3;Q4)</Text>
+</Body>
+</Object>
+<Object no="80">
 <Type>Box</Type>
-<Label>.20.F1.Music Box</Label>
+<Label>.27.F1.Music Box</Label>
 <Page>2</Page>
 <Layer>6</Layer>
 <Coordinates>
 <Left>1</Left>
-<Top>6.728</Top>
+<Top>6.336</Top>
 <Right>8</Right>
-<Bottom>6.868</Bottom>
+<Bottom>6.476</Bottom>
 </Coordinates>
 <Line>
 <Width>0.25</Width>
@@ -1600,16 +1781,16 @@ K.G.A.3: Identify and describe shapes (including two and three dimensional shape
 <Color>Black</Color>
 </Line>
 </Object>
-<Object no="74">
+<Object no="81">
 <Type>Box</Type>
-<Label>.21.F1.Music Box</Label>
+<Label>.28.SS Box</Label>
 <Page>2</Page>
 <Layer>6</Layer>
 <Coordinates>
-<Left>0.986</Left>
-<Top>7.386</Top>
+<Left>1</Left>
+<Top>6.826</Top>
 <Right>7.986</Right>
-<Bottom>7.526</Bottom>
+<Bottom>6.966</Bottom>
 </Coordinates>
 <Line>
 <Width>0.25</Width>
@@ -1617,16 +1798,16 @@ K.G.A.3: Identify and describe shapes (including two and three dimensional shape
 <Color>Black</Color>
 </Line>
 </Object>
-<Object no="75">
+<Object no="82">
 <Type>Box</Type>
-<Label>.22.F1.Music Box</Label>
+<Label>.29.PE Box</Label>
 <Page>2</Page>
 <Layer>6</Layer>
 <Coordinates>
 <Left>1</Left>
-<Top>8.1</Top>
+<Top>7.358</Top>
 <Right>8</Right>
-<Bottom>8.596</Bottom>
+<Bottom>7.854</Bottom>
 </Coordinates>
 <Line>
 <Width>0.25</Width>
@@ -1634,16 +1815,16 @@ K.G.A.3: Identify and describe shapes (including two and three dimensional shape
 <Color>Black</Color>
 </Line>
 </Object>
-<Object no="76">
+<Object no="83">
 <Type>Box</Type>
-<Label>.23.F1.Music Box</Label>
+<Label>.2A.F1.Music Box</Label>
 <Page>2</Page>
 <Layer>6</Layer>
 <Coordinates>
 <Left>1</Left>
-<Top>9.024</Top>
+<Top>8.184</Top>
 <Right>8</Right>
-<Bottom>10.144</Bottom>
+<Bottom>9.304</Bottom>
 </Coordinates>
 <Line>
 <Width>0.25</Width>
@@ -1651,9 +1832,9 @@ K.G.A.3: Identify and describe shapes (including two and three dimensional shape
 <Color>Black</Color>
 </Line>
 </Object>
-<Object no="77">
+<Object no="84">
 <Type>Line</Type>
-<Label>.24.F1.Music Vert Lines</Label>
+<Label>.2B.F1.Music Vert Lines</Label>
 <Page>2</Page>
 <Layer>6</Layer>
 <Repeat>
@@ -1665,9 +1846,9 @@ K.G.A.3: Identify and describe shapes (including two and three dimensional shape
 </Repeat>
 <Coordinates>
 <Left>6</Left>
-<Top>6.728</Top>
+<Top>6.336</Top>
 <Right>6</Right>
-<Bottom>6.863</Bottom>
+<Bottom>6.471</Bottom>
 </Coordinates>
 <Line>
 <Width>0.25</Width>
@@ -1675,9 +1856,9 @@ K.G.A.3: Identify and describe shapes (including two and three dimensional shape
 <Color>Black</Color>
 </Line>
 </Object>
-<Object no="78">
+<Object no="85">
 <Type>Line</Type>
-<Label>.25.F1.Music Vert Lines</Label>
+<Label>.2C.F1.Music Vert Lines</Label>
 <Page>2</Page>
 <Layer>6</Layer>
 <Repeat>
@@ -1689,9 +1870,9 @@ K.G.A.3: Identify and describe shapes (including two and three dimensional shape
 </Repeat>
 <Coordinates>
 <Left>5.986</Left>
-<Top>7.386</Top>
+<Top>6.826</Top>
 <Right>5.986</Right>
-<Bottom>7.521</Bottom>
+<Bottom>6.961</Bottom>
 </Coordinates>
 <Line>
 <Width>0.25</Width>
@@ -1699,9 +1880,9 @@ K.G.A.3: Identify and describe shapes (including two and three dimensional shape
 <Color>Black</Color>
 </Line>
 </Object>
-<Object no="79">
+<Object no="86">
 <Type>Line</Type>
-<Label>.26.F1.Music Vert Lines</Label>
+<Label>.2D.F1.Music Vert Lines</Label>
 <Page>2</Page>
 <Layer>6</Layer>
 <Repeat>
@@ -1713,9 +1894,9 @@ K.G.A.3: Identify and describe shapes (including two and three dimensional shape
 </Repeat>
 <Coordinates>
 <Left>6</Left>
-<Top>8.1</Top>
+<Top>7.358</Top>
 <Right>6</Right>
-<Bottom>8.596</Bottom>
+<Bottom>7.854</Bottom>
 </Coordinates>
 <Line>
 <Width>0.25</Width>
@@ -1723,9 +1904,9 @@ K.G.A.3: Identify and describe shapes (including two and three dimensional shape
 <Color>Black</Color>
 </Line>
 </Object>
-<Object no="80">
+<Object no="87">
 <Type>Line</Type>
-<Label>.27.F1.Music Vert Lines</Label>
+<Label>.2E.F1.Music Vert Lines</Label>
 <Page>2</Page>
 <Layer>6</Layer>
 <Repeat>
@@ -1737,9 +1918,9 @@ K.G.A.3: Identify and describe shapes (including two and three dimensional shape
 </Repeat>
 <Coordinates>
 <Left>6</Left>
-<Top>9.024</Top>
+<Top>8.184</Top>
 <Right>6</Right>
-<Bottom>10.144</Bottom>
+<Bottom>9.304</Bottom>
 </Coordinates>
 <Line>
 <Width>0.25</Width>
@@ -1747,14 +1928,14 @@ K.G.A.3: Identify and describe shapes (including two and three dimensional shape
 <Color>Black</Color>
 </Line>
 </Object>
-<Object no="81">
+<Object no="88">
 <Type>Text</Type>
-<Label>.28.F1.Music Header</Label>
+<Label>.2F.F1.Music Header</Label>
 <Page>2</Page>
 <Layer>6</Layer>
 <Coordinates>
 <Left>1</Left>
-<Top>6.482</Top>
+<Top>6.09</Top>
 </Coordinates>
 <MaxWidth>0</MaxWidth>
 <MaxHeight>0</MaxHeight>
@@ -1770,14 +1951,14 @@ Physical Science, Life Science, Earth Science&lt;tabc 6.25&gt;Q1&lt;tabc 6.75&gt
 </Text>
 </Body>
 </Object>
-<Object no="82">
+<Object no="89">
 <Type>Text</Type>
-<Label>.29.F2. MUSIC STANDARDS</Label>
+<Label>.2G.F2. SCIENCE STANDARDS</Label>
 <Page>2</Page>
 <Layer>6</Layer>
 <Coordinates>
 <Left>1.05</Left>
-<Top>6.842</Top>
+<Top>6.45</Top>
 </Coordinates>
 <MaxWidth>0</MaxWidth>
 <MaxHeight>0</MaxHeight>
@@ -1787,17 +1968,17 @@ Physical Science, Life Science, Earth Science&lt;tabc 6.25&gt;Q1&lt;tabc 6.75&gt
 <Size>8</Size>
 <Leading></Leading>
 </Font>
-<Text>Demonstrates understanding of grade-level content and concepts&lt;tabc 6.25&gt;~(*std.stored.transavg;K-SCI;Q1)&lt;tabc 6.75&gt;~(*std.stored.transavg;K-SCI;Q2)&lt;tabc 7.25&gt;~(*std.stored.transavg;K-SCI;Q3)&lt;tabc 7.75&gt;~(*std.stored.transavg;K-SCI;Q4)</Text>
+<Text>Demonstrates understanding of grade-level content and concepts</Text>
 </Body>
 </Object>
-<Object no="83">
+<Object no="90">
 <Type>Text</Type>
-<Label>.2A.F2. MUSIC STANDARDS</Label>
+<Label>.2H.F2. SCIENCE GRADES</Label>
 <Page>2</Page>
 <Layer>6</Layer>
 <Coordinates>
-<Left>1.05</Left>
-<Top>7.5</Top>
+<Left>6</Left>
+<Top>6.45</Top>
 </Coordinates>
 <MaxWidth>0</MaxWidth>
 <MaxHeight>0</MaxHeight>
@@ -1807,18 +1988,59 @@ Physical Science, Life Science, Earth Science&lt;tabc 6.25&gt;Q1&lt;tabc 6.75&gt
 <Size>8</Size>
 <Leading></Leading>
 </Font>
-<Text>Demonstrates understanding of grade-level content and concepts&lt;tabc 6.25&gt;~(*std.stored.transavg;SPEC-SS;Q1)&lt;tabc 6.75&gt;~(*std.stored.transavg;SPEC-SS;Q2)&lt;tabc 7.25&gt;~(*std.stored.transavg;SPEC-SS;Q3)&lt;tabc 7.75&gt;~(*std.stored.transavg;SPEC-SS;Q4)
-</Text>
+<Text>&lt;tabc 6.25&gt;~(*std.stored.transavg;K-SCI;Q1)&lt;tabc 6.75&gt;~(*std.stored.transavg;K-SCI;Q2)&lt;tabc 7.25&gt;~(*std.stored.transavg;K-SCI;Q3)&lt;tabc 7.75&gt;~(*std.stored.transavg;K-SCI;Q4)</Text>
 </Body>
 </Object>
-<Object no="84">
+<Object no="91">
 <Type>Text</Type>
-<Label>.2B.F2. MUSIC STANDARDS</Label>
+<Label>.2I.F2. SS STANDARDS</Label>
 <Page>2</Page>
 <Layer>6</Layer>
 <Coordinates>
 <Left>1.05</Left>
-<Top>8.214</Top>
+<Top>6.94</Top>
+</Coordinates>
+<MaxWidth>0</MaxWidth>
+<MaxHeight>0</MaxHeight>
+<Body>
+<Font>
+<Face>Helvetica</Face>
+<Size>8</Size>
+<Leading></Leading>
+</Font>
+<Text>Demonstrates understanding of grade-level content and concepts
+</Text>
+</Body>
+</Object>
+<Object no="92">
+<Type>Text</Type>
+<Label>.2J.F2. SS STANDARDS</Label>
+<Page>2</Page>
+<Layer>6</Layer>
+<Coordinates>
+<Left>6</Left>
+<Top>6.94</Top>
+</Coordinates>
+<MaxWidth>0</MaxWidth>
+<MaxHeight>0</MaxHeight>
+<Body>
+<Font>
+<Face>Helvetica</Face>
+<Size>8</Size>
+<Leading></Leading>
+</Font>
+<Text>&lt;tabc 6.25&gt;~(*std.stored.transavg;SPEC-SS;Q1)&lt;tabc 6.75&gt;~(*std.stored.transavg;SPEC-SS;Q2)&lt;tabc 7.25&gt;~(*std.stored.transavg;SPEC-SS;Q3)&lt;tabc 7.75&gt;~(*std.stored.transavg;SPEC-SS;Q4)
+</Text>
+</Body>
+</Object>
+<Object no="93">
+<Type>Text</Type>
+<Label>.2K.F2. PE STANDARDS</Label>
+<Page>2</Page>
+<Layer>6</Layer>
+<Coordinates>
+<Left>1.05</Left>
+<Top>7.472</Top>
 </Coordinates>
 <MaxWidth>4.97</MaxWidth>
 <MaxHeight>0</MaxHeight>
@@ -1828,20 +2050,20 @@ Physical Science, Life Science, Earth Science&lt;tabc 6.25&gt;Q1&lt;tabc 6.75&gt
 <Size>8</Size>
 <Leading>10</Leading>
 </Font>
-<Text>Recognize the value of physical activity for health, enjoyment, challenge and self-expression. Exhibit responsible personal and social behavior that respects self and others in physical activity settings&lt;tabc 6.25&gt;~(*std.stored.transavg;SPEC-PE;Q1)&lt;tabc 6.75&gt;~(*std.stored.transavg;SPEC-PE;Q2)&lt;tabc 7.25&gt;~(*std.stored.transavg;SPEC-PE;Q3)&lt;tabc 7.75&gt;~(*std.stored.transavg;SPEC-PE;Q4)
+<Text>Recognize the value of physical activity for health, enjoyment, challenge and self-expression. Exhibit responsible personal and social behavior that respects self and others in physical activity settings
 </Text>
 </Body>
 </Object>
-<Object no="85">
+<Object no="94">
 <Type>Text</Type>
-<Label>.2C.F2. MUSIC STANDARDS</Label>
+<Label>.2L.F2. MUSIC GRADE</Label>
 <Page>2</Page>
 <Layer>6</Layer>
 <Coordinates>
-<Left>1.05</Left>
-<Top>9.138</Top>
+<Left>6</Left>
+<Top>7.472</Top>
 </Coordinates>
-<MaxWidth>4.97</MaxWidth>
+<MaxWidth>0</MaxWidth>
 <MaxHeight>0</MaxHeight>
 <Body>
 <Font>
@@ -1849,20 +2071,67 @@ Physical Science, Life Science, Earth Science&lt;tabc 6.25&gt;Q1&lt;tabc 6.75&gt
 <Size>8</Size>
 <Leading>10</Leading>
 </Font>
-<Text>Quarter 1 - Imitate a vocal slide using head voice. Perform a series of prescribed movements with appropriate expression&lt;tabc 6.25&gt;~(*std.stored.transavg;SPEC-MUS.1;Q1)&lt;tabc 6.75&gt;~(*std.stored.transavg;SPEC-MUS.1;Q2)&lt;tabc 7.25&gt;~(*std.stored.transavg;SPEC-MUS.1;Q3)&lt;tabc 7.75&gt;~(*std.stored.transavg;SPEC-MUS.1;Q4)
-Quarter 2 - Echo simple melodic patterns with and without words using head voice. Listen attentively to a song with several verses&lt;tabc 6.25&gt;~(*std.stored.transavg;SPEC-MUS.2;Q1)&lt;tabc 6.75&gt;~(*std.stored.transavg;SPEC-MUS.2;Q2)&lt;tabc 7.25&gt;~(*std.stored.transavg;SPEC-MUS.2;Q3)&lt;tabc 7.75&gt;~(*std.stored.transavg;SPEC-MUS.2;Q4)
-Quarter 3 - Sing a simple song using head voice. Create movements that expressively reflect various styles of music&lt;tabc 6.25&gt;~(*std.stored.transavg;SPEC-MUS.3;Q1)&lt;tabc 6.75&gt;~(*std.stored.transavg;SPEC-MUS.3;Q2)&lt;tabc 7.25&gt;~(*std.stored.transavg;SPEC-MUS.3;Q3)&lt;tabc 7.75&gt;~(*std.stored.transavg;SPEC-MUS.3;Q4)
-Quarter 4 - Spontaneously create an original tune using more than two tones. Maintain a consistent beat in groups of 2s and 3s&lt;tabc 6.25&gt;~(*std.stored.transavg;SPEC-MUS.4;Q1)&lt;tabc 6.75&gt;~(*std.stored.transavg;SPEC-MUS.4;Q2)&lt;tabc 7.25&gt;~(*std.stored.transavg;SPEC-MUS.4;Q3)&lt;tabc 7.75&gt;~(*std.stored.transavg;SPEC-MUS.4;Q4)</Text>
+<Text>&lt;tabc 6.25&gt;~(*std.stored.transavg;SPEC-PE;Q1)&lt;tabc 6.75&gt;~(*std.stored.transavg;SPEC-PE;Q2)&lt;tabc 7.25&gt;~(*std.stored.transavg;SPEC-PE;Q3)&lt;tabc 7.75&gt;~(*std.stored.transavg;SPEC-PE;Q4)
+</Text>
 </Body>
 </Object>
-<Object no="86">
+<Object no="95">
 <Type>Text</Type>
-<Label>.2D.Soc Stud</Label>
+<Label>.2M.F2. MUSIC STANDARDS</Label>
+<Page>2</Page>
+<Layer>6</Layer>
+<Coordinates>
+<Left>1.05</Left>
+<Top>8.298</Top>
+</Coordinates>
+<MaxWidth>4.8</MaxWidth>
+<MaxHeight>0</MaxHeight>
+<Body>
+<Font>
+<Face>Helvetica</Face>
+<Size>8</Size>
+<Leading>10</Leading>
+</Font>
+<Text>Quarter 1 - Imitate a vocal slide using head voice. Perform a series of prescribed movements with appropriate expression
+Quarter 2 - Echo simple melodic patterns with and without words using head voice. Listen attentively to a song with several verses
+Quarter 3 - Sing a simple song using head voice. Create movements that expressively reflect various styles of music
+Quarter 4 - Spontaneously create an original tune using more than two tones. Maintain a consistent beat in groups of 2s and 3s</Text>
+</Body>
+</Object>
+<Object no="96">
+<Type>Text</Type>
+<Label>.2N.F2. MUSIC STANDARDS</Label>
+<Page>2</Page>
+<Layer>6</Layer>
+<Coordinates>
+<Left>6</Left>
+<Top>8.298</Top>
+</Coordinates>
+<MaxWidth>0</MaxWidth>
+<MaxHeight>0</MaxHeight>
+<Body>
+<Font>
+<Face>Helvetica</Face>
+<Size>8</Size>
+<Leading>10</Leading>
+</Font>
+<Text>&lt;tabc 6.25&gt;~(*std.stored.transavg;SPEC-MUS.1;Q1)&lt;tabc 6.75&gt;~(*std.stored.transavg;SPEC-MUS.1;Q2)&lt;tabc 7.25&gt;~(*std.stored.transavg;SPEC-MUS.1;Q3)&lt;tabc 7.75&gt;~(*std.stored.transavg;SPEC-MUS.1;Q4)
+
+&lt;tabc 6.25&gt;~(*std.stored.transavg;SPEC-MUS.2;Q1)&lt;tabc 6.75&gt;~(*std.stored.transavg;SPEC-MUS.2;Q2)&lt;tabc 7.25&gt;~(*std.stored.transavg;SPEC-MUS.2;Q3)&lt;tabc 7.75&gt;~(*std.stored.transavg;SPEC-MUS.2;Q4)
+
+&lt;tabc 6.25&gt;~(*std.stored.transavg;SPEC-MUS.3;Q1)&lt;tabc 6.25&gt;~(*std.stored.transavg;SPEC-MUS.3;Q1)&lt;tabc 6.75&gt;~(*std.stored.transavg;SPEC-MUS.3;Q2)&lt;tabc 7.25&gt;~(*std.stored.transavg;SPEC-MUS.3;Q3)&lt;tabc 7.75&gt;~(*std.stored.transavg;SPEC-MUS.3;Q4)
+
+&lt;tabc 6.25&gt;~(*std.stored.transavg;SPEC-MUS.4;Q1)&lt;tabc 6.75&gt;~(*std.stored.transavg;SPEC-MUS.4;Q2)&lt;tabc 7.25&gt;~(*std.stored.transavg;SPEC-MUS.4;Q3)&lt;tabc 7.75&gt;~(*std.stored.transavg;SPEC-MUS.4;Q4)</Text>
+</Body>
+</Object>
+<Object no="97">
+<Type>Text</Type>
+<Label>.2O.Soc Stud</Label>
 <Page>2</Page>
 <Layer>7</Layer>
 <Coordinates>
-<Left>0.986</Left>
-<Top>7.318</Top>
+<Left>1</Left>
+<Top>6.758</Top>
 </Coordinates>
 <MaxWidth>0</MaxWidth>
 <MaxHeight>0</MaxHeight>
@@ -1877,14 +2146,14 @@ Quarter 4 - Spontaneously create an original tune using more than two tones. Mai
 </Text>
 </Body>
 </Object>
-<Object no="87">
+<Object no="98">
 <Type>Text</Type>
-<Label>.2E.Phys Ed</Label>
+<Label>.2P.Phys Ed</Label>
 <Page>2</Page>
 <Layer>7</Layer>
 <Coordinates>
-<Left>1.014</Left>
-<Top>8.004</Top>
+<Left>1</Left>
+<Top>7.262</Top>
 </Coordinates>
 <MaxWidth>0</MaxWidth>
 <MaxHeight>0</MaxHeight>
@@ -1899,14 +2168,14 @@ Quarter 4 - Spontaneously create an original tune using more than two tones. Mai
 </Text>
 </Body>
 </Object>
-<Object no="88">
+<Object no="99">
 <Type>Text</Type>
-<Label>.2F.Music</Label>
+<Label>.2Q.Music</Label>
 <Page>2</Page>
 <Layer>7</Layer>
 <Coordinates>
 <Left>1</Left>
-<Top>8.97</Top>
+<Top>8.13</Top>
 </Coordinates>
 <MaxWidth>0</MaxWidth>
 <MaxHeight>0</MaxHeight>
@@ -1920,9 +2189,9 @@ Quarter 4 - Spontaneously create an original tune using more than two tones. Mai
 <Text>MUSIC&lt;tabc 6.25&gt;Q1&lt;tabc 6.75&gt;Q2&lt;tabc 7.25&gt;Q3&lt;tabc 7.75&gt;Q4</Text>
 </Body>
 </Object>
-<Object no="89">
+<Object no="100">
 <Type>Line</Type>
-<Label>.2G.Music Horiz Line</Label>
+<Label>.2R.Music Horiz Line</Label>
 <Page>2</Page>
 <Layer>8</Layer>
 <Repeat>
@@ -1934,9 +2203,9 @@ Quarter 4 - Spontaneously create an original tune using more than two tones. Mai
 </Repeat>
 <Coordinates>
 <Left>1</Left>
-<Top>9.304</Top>
+<Top>8.464</Top>
 <Right>8</Right>
-<Bottom>9.304</Bottom>
+<Bottom>8.464</Bottom>
 </Coordinates>
 <Line>
 <Width>0.25</Width>
@@ -1944,9 +2213,9 @@ Quarter 4 - Spontaneously create an original tune using more than two tones. Mai
 <Color>Black</Color>
 </Line>
 </Object>
-<Object no="90">
+<Object no="101">
 <Type>Text</Type>
-<Label>.2H.K1.Mumbo Jumbo Pg 2</Label>
+<Label>.2S.K1.Mumbo Jumbo Pg 2</Label>
 <Page>2</Page>
 <Layer>11</Layer>
 <Coordinates>
@@ -1965,241 +2234,47 @@ Quarter 4 - Spontaneously create an original tune using more than two tones. Mai
 <Text>~[pagenumber]. - ~[reportname]. - ~[date;dateformat=mm-dd-yyyy] - ps~[version]</Text>
 </Body>
 </Object>
-<Object no="91">
-<Type>Box</Type>
-<Label>.2I.Box</Label>
-<Page>3</Page>
-<Layer>0</Layer>
-<Coordinates>
-<Left>0.602</Left>
-<Top>2.66</Top>
-<Right>7.602</Right>
-<Bottom>10.388</Bottom>
-</Coordinates>
-<Line>
-<Width>1</Width>
-<Style>1</Style>
-<Color>Black</Color>
-</Line>
-</Object>
-<Object no="92">
-<Type>Text</Type>
-<Label>.2J.Comments</Label>
-<Page>3</Page>
-<Layer>0</Layer>
-<Coordinates>
-<Left>0.63</Left>
-<Top>2.618</Top>
-</Coordinates>
-<MaxWidth>0</MaxWidth>
-<MaxHeight>0</MaxHeight>
-<Body>
-<Font>
-<Face>Default</Face>
-<Size></Size>
-<Leading></Leading>
-</Font>
-<Text>&lt;b&gt;Comments&lt;/b&gt;</Text>
-</Body>
-</Object>
-<Object no="93">
-<Type>Text</Type>
-<Label>.2K.Text</Label>
-<Page>3</Page>
-<Layer>0</Layer>
-<Coordinates>
-<Left>0.686</Left>
-<Top>2.842</Top>
-</Coordinates>
-<MaxWidth>6.7</MaxWidth>
-<MaxHeight>7.5</MaxHeight>
-<Body>
-<Font>
-<Face>Default</Face>
-<Size>8</Size>
-<Leading></Leading>
-</Font>
-<Text>&lt;b&gt;&lt;u&gt;Quarter 1:&lt;/b&gt;&lt;/u&gt;^(*std.stored.comment;SPEC-WH;Q1)Physical Education: ^(*std.stored.comment;SPEC-PE;Q1)Music: ^(*std.stored.comment;SPEC-MUS.1;Q1)&lt;b&gt;&lt;u&gt;Quarter 2:&lt;/b&gt;&lt;/u&gt;^(*std.stored.comment;SPEC-WH;Q2)Physical Education: ^(*std.stored.comment;SPEC-PE;Q2)Music: ^(*std.stored.comment;SPEC-MUS.2;Q2)</Text>
-</Body>
-</Object>
-<Object no="94">
-<Type>Picture</Type>
-<Label>.2L.A0.Photo</Label>
-<Page>3</Page>
-<Layer>1</Layer>
-<ScalingOption>fillcenter</ScalingOption>
-<Coordinates>
-<Left>1</Left>
-<Top>0.4</Top>
-<Right>2.25</Right>
-<Bottom>1.8</Bottom>
-</Coordinates>
-<Picture>NS.jpg</Picture>
-</Object>
-<Object no="95">
-<Type>Text</Type>
-<Label>.2M.A2.District Name Pg 2</Label>
-<Page>3</Page>
-<Layer>1</Layer>
-<Coordinates>
-<Left>1</Left>
-<Top>1.25</Top>
-</Coordinates>
-<MaxWidth>0</MaxWidth>
-<MaxHeight>0</MaxHeight>
-<Body>
-<Font>
-<Face>Helvetica</Face>
-<Size>10</Size>
-<Leading></Leading>
-</Font>
-<Text>&lt;center&gt;~(schoolordistrictname)&lt;/center&gt;</Text>
-</Body>
-</Object>
-<Object no="96">
-<Type>Text</Type>
-<Label>.2N.A1.Main Title Pg 2</Label>
-<Page>3</Page>
-<Layer>1</Layer>
-<Coordinates>
-<Left>1</Left>
-<Top>1</Top>
-</Coordinates>
-<MaxWidth>0</MaxWidth>
-<MaxHeight>0</MaxHeight>
-<Body>
-<Font>
-<Face>Helvetica</Face>
-<Size>18</Size>
-<Leading></Leading>
-<Bold>True</Bold>
-</Font>
-<Text>&lt;center&gt;Kindergarten Report Card&lt;/center&gt;</Text>
-</Body>
-</Object>
-<Object no="97">
-<Type>Text</Type>
-<Label>.2O.A4. Student Data</Label>
-<Page>3</Page>
-<Layer>1</Layer>
-<Coordinates>
-<Left>2.75</Left>
-<Top>1.65</Top>
-</Coordinates>
-<MaxWidth>5.25</MaxWidth>
-<MaxHeight>0</MaxHeight>
-<Body>
-<Font>
-<Face>Helvetica</Face>
-<Size>9</Size>
-<Leading>12</Leading>
-</Font>
-<Text>Grade ^(grade_level)&lt;tabr 8.0&gt;~(yearname)</Text>
-</Body>
-</Object>
-<Object no="98">
-<Type>Text</Type>
-<Label>.2P.A3.StudentName/School Name</Label>
-<Page>3</Page>
-<Layer>1</Layer>
-<Coordinates>
-<Left>2.75</Left>
-<Top>1.5</Top>
-</Coordinates>
-<MaxWidth>5.25</MaxWidth>
-<MaxHeight>0</MaxHeight>
-<Body>
-<Font>
-<Face>Helvetica</Face>
-<Size>14</Size>
-<Leading></Leading>
-</Font>
-<Text>&lt;b&gt;~(last_name), ~(first_name)&lt;/b&gt;&lt;tabr 8.0&gt;~(schoolname)</Text>
-</Body>
-</Object>
-<Object no="99">
-<Type>Text</Type>
-<Label>.2Q.A5.Home Room Teacher</Label>
-<Page>3</Page>
-<Layer>1</Layer>
-<Coordinates>
-<Left>1</Left>
-<Top>1.85</Top>
-</Coordinates>
-<MaxWidth>5.25</MaxWidth>
-<MaxHeight>0</MaxHeight>
-<Body>
-<Font>
-<Face>Helvetica</Face>
-<Size>9</Size>
-<Leading></Leading>
-<Italic>True</Italic>
-</Font>
-<Text>&lt;tabto 2.75&gt;Homeroom Teacher: &lt;tabto 2.75&gt;Homeroom Teacher: ^(*period_info;P2(R);teacher_i_first_name) ^(*period_info;P2(R);teacher_i_last_name) ^(*period_info;P2(A);teacher_i_first_name) ^(*period_info;P2(A);teacher_i_last_name)</Text>
-</Body>
-</Object>
-<Object no="100">
-<Type>Text</Type>
-<Label>.2R.K1.Mumbo Jumbo Pg 2</Label>
-<Page>3</Page>
-<Layer>11</Layer>
-<Coordinates>
-<Left>1</Left>
-<Top>10.886</Top>
-</Coordinates>
-<MaxWidth>0</MaxWidth>
-<MaxHeight>0</MaxHeight>
-<Body>
-<Font>
-<Face>Helvetica</Face>
-<Size>6</Size>
-<Leading></Leading>
-<Italic>True</Italic>
-</Font>
-<Text>~[pagenumber]. - ~[reportname]. - ~[date;dateformat=mm-dd-yyyy] - ps~[version]</Text>
-</Body>
-</Object>
-<Object no="101">
-<Type>Box</Type>
-<Label>.2S.Box</Label>
-<Page>4</Page>
-<Layer>0</Layer>
-<Coordinates>
-<Left>0.602</Left>
-<Top>2.66</Top>
-<Right>7.602</Right>
-<Bottom>10.388</Bottom>
-</Coordinates>
-<Line>
-<Width>1</Width>
-<Style>1</Style>
-<Color>Black</Color>
-</Line>
-</Object>
 <Object no="102">
-<Type>Text</Type>
-<Label>.2T.Comments</Label>
-<Page>4</Page>
+<Type>Box</Type>
+<Label>.2T.Box</Label>
+<Page>3</Page>
 <Layer>0</Layer>
 <Coordinates>
-<Left>0.63</Left>
-<Top>2.618</Top>
+<Left>0.602</Left>
+<Top>2.66</Top>
+<Right>7.602</Right>
+<Bottom>10.388</Bottom>
 </Coordinates>
-<MaxWidth>0</MaxWidth>
-<MaxHeight>0</MaxHeight>
-<Body>
-<Font>
-<Face>Default</Face>
-<Size></Size>
-<Leading></Leading>
-</Font>
-<Text>&lt;b&gt;Comments&lt;/b&gt;</Text>
-</Body>
+<Line>
+<Width>1</Width>
+<Style>1</Style>
+<Color>Black</Color>
+</Line>
 </Object>
 <Object no="103">
 <Type>Text</Type>
-<Label>.2U.Text</Label>
-<Page>4</Page>
+<Label>.2U.Comments</Label>
+<Page>3</Page>
+<Layer>0</Layer>
+<Coordinates>
+<Left>0.63</Left>
+<Top>2.618</Top>
+</Coordinates>
+<MaxWidth>0</MaxWidth>
+<MaxHeight>0</MaxHeight>
+<Body>
+<Font>
+<Face>Default</Face>
+<Size></Size>
+<Leading></Leading>
+</Font>
+<Text>&lt;b&gt;Comments&lt;/b&gt;</Text>
+</Body>
+</Object>
+<Object no="104">
+<Type>Text</Type>
+<Label>.2V.Q1-Q2 Comments</Label>
+<Page>3</Page>
 <Layer>0</Layer>
 <Coordinates>
 <Left>0.686</Left>
@@ -2213,13 +2288,20 @@ Quarter 4 - Spontaneously create an original tune using more than two tones. Mai
 <Size>8</Size>
 <Leading></Leading>
 </Font>
-<Text>&lt;b&gt;&lt;u&gt;Quarter 3:&lt;/b&gt;&lt;/u&gt;^(*std.stored.comment;SPEC-WH;Q3)Physical Education: ^(*std.stored.comment;SPEC-PE;Q3)Music: ^(*std.stored.comment;SPEC-MUS.3;Q3)&lt;b&gt;&lt;u&gt;Quarter 4:&lt;/b&gt;&lt;/u&gt;^(*std.stored.comment;SPEC-WH;Q4)Physical Education: ^(*std.stored.comment;SPEC-PE;Q4)Music: ^(*std.stored.comment;SPEC-MUS.4;Q4)</Text>
+<Text>&lt;b&gt;&lt;u&gt;Quarter 1:&lt;/b&gt;&lt;/u&gt;
+^(*std.stored.comment;SPEC-WH;Q1)
+Physical Education: ^(*std.stored.comment;SPEC-PE;Q1)
+Music: ^(*std.stored.comment;SPEC-MUS.1;Q1)
+&lt;b&gt;&lt;u&gt;Quarter 2:&lt;/b&gt;&lt;/u&gt;
+^(*std.stored.comment;SPEC-WH;Q2)
+Physical Education: ^(*std.stored.comment;SPEC-PE;Q2)
+Music: ^(*std.stored.comment;SPEC-MUS.2;Q2)</Text>
 </Body>
 </Object>
-<Object no="104">
+<Object no="105">
 <Type>Picture</Type>
-<Label>.2V.A0.Photo</Label>
-<Page>4</Page>
+<Label>.2W.Picture</Label>
+<Page>3</Page>
 <Layer>1</Layer>
 <ScalingOption>fillcenter</ScalingOption>
 <Coordinates>
@@ -2230,10 +2312,10 @@ Quarter 4 - Spontaneously create an original tune using more than two tones. Mai
 </Coordinates>
 <Picture>NS.jpg</Picture>
 </Object>
-<Object no="105">
+<Object no="106">
 <Type>Text</Type>
-<Label>.2W.A2.District Name Pg 2</Label>
-<Page>4</Page>
+<Label>.2X.A2.District Name Pg 2</Label>
+<Page>3</Page>
 <Layer>1</Layer>
 <Coordinates>
 <Left>1</Left>
@@ -2248,33 +2330,12 @@ Quarter 4 - Spontaneously create an original tune using more than two tones. Mai
 <Leading></Leading>
 </Font>
 <Text>&lt;center&gt;~(schoolordistrictname)&lt;/center&gt;</Text>
-</Body>
-</Object>
-<Object no="106">
-<Type>Text</Type>
-<Label>.2X.A5.Home Room Teacher</Label>
-<Page>4</Page>
-<Layer>1</Layer>
-<Coordinates>
-<Left>1</Left>
-<Top>1.85</Top>
-</Coordinates>
-<MaxWidth>5.25</MaxWidth>
-<MaxHeight>0</MaxHeight>
-<Body>
-<Font>
-<Face>Helvetica</Face>
-<Size>9</Size>
-<Leading></Leading>
-<Italic>True</Italic>
-</Font>
-<Text>&lt;tabto 2.75&gt;Homeroom Teacher: &lt;tabto 2.75&gt;Homeroom Teacher: ^(*period_info;P2(R);teacher_i_first_name) ^(*period_info;P2(R);teacher_i_last_name) ^(*period_info;P2(A);teacher_i_first_name) ^(*period_info;P2(A);teacher_i_last_name)</Text>
 </Body>
 </Object>
 <Object no="107">
 <Type>Text</Type>
 <Label>.2Y.A1.Main Title Pg 2</Label>
-<Page>4</Page>
+<Page>3</Page>
 <Layer>1</Layer>
 <Coordinates>
 <Left>1</Left>
@@ -2295,7 +2356,7 @@ Quarter 4 - Spontaneously create an original tune using more than two tones. Mai
 <Object no="108">
 <Type>Text</Type>
 <Label>.2Z.A4. Student Data</Label>
-<Page>4</Page>
+<Page>3</Page>
 <Layer>1</Layer>
 <Coordinates>
 <Left>2.75</Left>
@@ -2309,13 +2370,13 @@ Quarter 4 - Spontaneously create an original tune using more than two tones. Mai
 <Size>9</Size>
 <Leading>12</Leading>
 </Font>
-<Text>Grade ^(grade_level)&lt;tabr 8.0&gt;~(yearname)</Text>
+<Text>Grade: ^(decode;~(grade_level);0;Kindergarten;~(grade_level))&lt;tabr 8.0&gt;~(yearname)</Text>
 </Body>
 </Object>
 <Object no="109">
 <Type>Text</Type>
 <Label>.30.A3.StudentName/School Name</Label>
-<Page>4</Page>
+<Page>3</Page>
 <Layer>1</Layer>
 <Coordinates>
 <Left>2.75</Left>
@@ -2334,7 +2395,229 @@ Quarter 4 - Spontaneously create an original tune using more than two tones. Mai
 </Object>
 <Object no="110">
 <Type>Text</Type>
-<Label>.31.K1.Mumbo Jumbo Pg 2</Label>
+<Label>.31.A5.Home Room Teacher</Label>
+<Page>3</Page>
+<Layer>1</Layer>
+<Coordinates>
+<Left>1</Left>
+<Top>1.85</Top>
+</Coordinates>
+<MaxWidth>5.25</MaxWidth>
+<MaxHeight>0</MaxHeight>
+<Body>
+<Font>
+<Face>Helvetica</Face>
+<Size>9</Size>
+<Leading></Leading>
+<Italic>True</Italic>
+</Font>
+<Text>&lt;tabto 2.75&gt;Homeroom Teacher: &lt;tabto 2.75&gt;Homeroom Teacher: ^(*period_info;P2(R);teacher_i_first_name) ^(*period_info;P2(R);teacher_i_last_name) ^(*period_info;P2(A);teacher_i_first_name) ^(*period_info;P2(A);teacher_i_last_name)</Text>
+</Body>
+</Object>
+<Object no="111">
+<Type>Text</Type>
+<Label>.32.K1.Mumbo Jumbo Pg 2</Label>
+<Page>3</Page>
+<Layer>11</Layer>
+<Coordinates>
+<Left>1</Left>
+<Top>10.886</Top>
+</Coordinates>
+<MaxWidth>0</MaxWidth>
+<MaxHeight>0</MaxHeight>
+<Body>
+<Font>
+<Face>Helvetica</Face>
+<Size>6</Size>
+<Leading></Leading>
+<Italic>True</Italic>
+</Font>
+<Text>~[pagenumber]. - ~[reportname]. - ~[date;dateformat=mm-dd-yyyy] - ps~[version]</Text>
+</Body>
+</Object>
+<Object no="112">
+<Type>Box</Type>
+<Label>.33.Box</Label>
+<Page>4</Page>
+<Layer>0</Layer>
+<Coordinates>
+<Left>0.602</Left>
+<Top>2.66</Top>
+<Right>7.602</Right>
+<Bottom>10.388</Bottom>
+</Coordinates>
+<Line>
+<Width>1</Width>
+<Style>1</Style>
+<Color>Black</Color>
+</Line>
+</Object>
+<Object no="113">
+<Type>Text</Type>
+<Label>.34.Comments</Label>
+<Page>4</Page>
+<Layer>0</Layer>
+<Coordinates>
+<Left>0.63</Left>
+<Top>2.618</Top>
+</Coordinates>
+<MaxWidth>0</MaxWidth>
+<MaxHeight>0</MaxHeight>
+<Body>
+<Font>
+<Face>Default</Face>
+<Size></Size>
+<Leading></Leading>
+</Font>
+<Text>&lt;b&gt;Comments&lt;/b&gt;</Text>
+</Body>
+</Object>
+<Object no="114">
+<Type>Text</Type>
+<Label>.35.Q3-Q4 Comments</Label>
+<Page>4</Page>
+<Layer>0</Layer>
+<Coordinates>
+<Left>0.686</Left>
+<Top>2.842</Top>
+</Coordinates>
+<MaxWidth>6.7</MaxWidth>
+<MaxHeight>7.5</MaxHeight>
+<Body>
+<Font>
+<Face>Default</Face>
+<Size>8</Size>
+<Leading></Leading>
+</Font>
+<Text>&lt;b&gt;&lt;u&gt;Quarter 3:&lt;/b&gt;&lt;/u&gt;
+^(*std.stored.comment;SPEC-WH;Q3)
+Physical Education: ^(*std.stored.comment;SPEC-PE;Q3)
+Music: ^(*std.stored.comment;SPEC-MUS.3;Q3)
+&lt;b&gt;&lt;u&gt;Quarter 4:&lt;/b&gt;&lt;/u&gt;
+^(*std.stored.comment;SPEC-WH;Q4)
+Physical Education: ^(*std.stored.comment;SPEC-PE;Q4)
+Music: ^(*std.stored.comment;SPEC-MUS.4;Q4)</Text>
+</Body>
+</Object>
+<Object no="115">
+<Type>Picture</Type>
+<Label>.36.Picture</Label>
+<Page>4</Page>
+<Layer>1</Layer>
+<ScalingOption>fillcenter</ScalingOption>
+<Coordinates>
+<Left>1</Left>
+<Top>0.4</Top>
+<Right>2.25</Right>
+<Bottom>1.8</Bottom>
+</Coordinates>
+<Picture>NS.jpg</Picture>
+</Object>
+<Object no="116">
+<Type>Text</Type>
+<Label>.37.A2.District Name Pg 2</Label>
+<Page>4</Page>
+<Layer>1</Layer>
+<Coordinates>
+<Left>1</Left>
+<Top>1.25</Top>
+</Coordinates>
+<MaxWidth>0</MaxWidth>
+<MaxHeight>0</MaxHeight>
+<Body>
+<Font>
+<Face>Helvetica</Face>
+<Size>10</Size>
+<Leading></Leading>
+</Font>
+<Text>&lt;center&gt;~(schoolordistrictname)&lt;/center&gt;</Text>
+</Body>
+</Object>
+<Object no="117">
+<Type>Text</Type>
+<Label>.38.A1.Main Title Pg 2</Label>
+<Page>4</Page>
+<Layer>1</Layer>
+<Coordinates>
+<Left>1</Left>
+<Top>1</Top>
+</Coordinates>
+<MaxWidth>0</MaxWidth>
+<MaxHeight>0</MaxHeight>
+<Body>
+<Font>
+<Face>Helvetica</Face>
+<Size>18</Size>
+<Leading></Leading>
+<Bold>True</Bold>
+</Font>
+<Text>&lt;center&gt;Kindergarten Report Card&lt;/center&gt;</Text>
+</Body>
+</Object>
+<Object no="118">
+<Type>Text</Type>
+<Label>.39.A5.Home Room Teacher</Label>
+<Page>4</Page>
+<Layer>1</Layer>
+<Coordinates>
+<Left>1</Left>
+<Top>1.85</Top>
+</Coordinates>
+<MaxWidth>5.25</MaxWidth>
+<MaxHeight>0</MaxHeight>
+<Body>
+<Font>
+<Face>Helvetica</Face>
+<Size>9</Size>
+<Leading></Leading>
+<Italic>True</Italic>
+</Font>
+<Text>&lt;tabto 2.75&gt;Homeroom Teacher: &lt;tabto 2.75&gt;Homeroom Teacher: ^(*period_info;P2(R);teacher_i_first_name) ^(*period_info;P2(R);teacher_i_last_name) ^(*period_info;P2(A);teacher_i_first_name) ^(*period_info;P2(A);teacher_i_last_name)</Text>
+</Body>
+</Object>
+<Object no="119">
+<Type>Text</Type>
+<Label>.3A.A4. Student Data</Label>
+<Page>4</Page>
+<Layer>1</Layer>
+<Coordinates>
+<Left>2.75</Left>
+<Top>1.65</Top>
+</Coordinates>
+<MaxWidth>5.25</MaxWidth>
+<MaxHeight>0</MaxHeight>
+<Body>
+<Font>
+<Face>Helvetica</Face>
+<Size>9</Size>
+<Leading>12</Leading>
+</Font>
+<Text>Grade: ^(decode;~(grade_level);0;Kindergarten;~(grade_level))&lt;tabr 8.0&gt;~(yearname)</Text>
+</Body>
+</Object>
+<Object no="120">
+<Type>Text</Type>
+<Label>.3B.A3.StudentName/School Name</Label>
+<Page>4</Page>
+<Layer>1</Layer>
+<Coordinates>
+<Left>2.75</Left>
+<Top>1.5</Top>
+</Coordinates>
+<MaxWidth>5.25</MaxWidth>
+<MaxHeight>0</MaxHeight>
+<Body>
+<Font>
+<Face>Helvetica</Face>
+<Size>14</Size>
+<Leading></Leading>
+</Font>
+<Text>&lt;b&gt;~(last_name), ~(first_name)&lt;/b&gt;&lt;tabr 8.0&gt;~(schoolname)</Text>
+</Body>
+</Object>
+<Object no="121">
+<Type>Text</Type>
+<Label>.3C.K1.Mumbo Jumbo Pg 2</Label>
 <Page>4</Page>
 <Layer>11</Layer>
 <Coordinates>
