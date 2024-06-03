@@ -1393,7 +1393,12 @@ Days Absent&lt;tabd 2.75&gt;^(daily.att.count;current;A,C,D,E,G,J,K,P,U,X,Y;Q1)&
 <Size>8</Size>
 <Leading>10</Leading>
 </Font>
-<Text>&lt;tabc 6.25&gt;~(*std.stored.transavg;4.W-RW.2;Q1)&lt;tabc 6.75&gt;~(*std.stored.transavg;4.W-RW.2;Q2)&lt;tabc 7.25&gt;~(*std.stored.transavg;4.W-RW.2;Q3)&lt;tabc 7.75&gt;~(*std.stored.transavg;4.W-RW.2;Q4)&lt;tabc 6.25&gt;~(*std.stored.transavg;4.W-RW.3;Q1)&lt;tabc 6.75&gt;~(*std.stored.transavg;4.W-RW.3;Q2)&lt;tabc 7.25&gt;~(*std.stored.transavg;4.W-RW.3;Q3)&lt;tabc 7.75&gt;~(*std.stored.transavg;4.W-RW.3;Q4)&lt;tabc 6.25&gt;~(*std.stored.transavg;4.W-RW.4;Q1)&lt;tabc 6.75&gt;~(*std.stored.transavg;4.W-RW.4;Q2)&lt;tabc 7.25&gt;~(*std.stored.transavg;4.W-RW.4;Q3)&lt;tabc 7.75&gt;~(*std.stored.transavg;4.W-RW.4;Q4)</Text>
+<Text>
+&lt;tabc 6.25&gt;~(*std.stored.transavg;4.W-RW.2;Q1)&lt;tabc 6.75&gt;~(*std.stored.transavg;4.W-RW.2;Q2)&lt;tabc 7.25&gt;~(*std.stored.transavg;4.W-RW.2;Q3)&lt;tabc 7.75&gt;~(*std.stored.transavg;4.W-RW.2;Q4)
+
+&lt;tabc 6.25&gt;~(*std.stored.transavg;4.W-RW.3;Q1)&lt;tabc 6.75&gt;~(*std.stored.transavg;4.W-RW.3;Q2)&lt;tabc 7.25&gt;~(*std.stored.transavg;4.W-RW.3;Q3)&lt;tabc 7.75&gt;~(*std.stored.transavg;4.W-RW.3;Q4)
+
+&lt;tabc 6.25&gt;~(*std.stored.transavg;4.W-RW.4;Q1)&lt;tabc 6.75&gt;~(*std.stored.transavg;4.W-RW.4;Q2)&lt;tabc 7.25&gt;~(*std.stored.transavg;4.W-RW.4;Q3)&lt;tabc 7.75&gt;~(*std.stored.transavg;4.W-RW.4;Q4)</Text>
 </Body>
 </Object>
 <Object no="65">
@@ -1655,14 +1660,14 @@ Days Absent&lt;tabd 2.75&gt;^(daily.att.count;current;A,C,D,E,G,J,K,P,U,X,Y;Q1)&
 </Object>
 <Object no="76">
 <Type>Text</Type>
-<Label>.23.Math Standards</Label>
+<Label>Math Standards</Label>
 <Page>2</Page>
 <Layer>4</Layer>
 <Coordinates>
 <Left>1.05</Left>
 <Top>3.994</Top>
 </Coordinates>
-<MaxWidth>4.9</MaxWidth>
+<MaxWidth>4.95</MaxWidth>
 <MaxHeight>0</MaxHeight>
 <Body>
 <Font>
@@ -1677,7 +1682,6 @@ Days Absent&lt;tabd 2.75&gt;^(daily.att.count;current;A,C,D,E,G,J,K,P,U,X,Y;Q1)&
 4.NBT.A: Generalize place value understanding for multi-digit whole numbers up to 1,000,000
 4.NBT.B.4: Fluently use the standard algorithm for multi-digit whole number addition and subtraction
 4.NBT.B: Use place value understanding and properties of operations and perform multi-digit arithmetic
-
 &lt;b&gt;Number and Operations - Fractions&lt;/b&gt;
 4.NF.A: Extend understanding of fraction equivalence and ordering
 4.NF.B: Build fractions from unit fractions by applying and extending previous understandings of operations of whole numbers
@@ -1785,14 +1789,14 @@ Days Absent&lt;tabd 2.75&gt;^(daily.att.count;current;A,C,D,E,G,J,K,P,U,X,Y;Q1)&
 </Object>
 <Object no="81">
 <Type>Box</Type>
-<Label>.28.F1.Music Box</Label>
+<Label>PE Box</Label>
 <Page>2</Page>
 <Layer>6</Layer>
 <Coordinates>
 <Left>1</Left>
 <Top>8.156</Top>
 <Right>8</Right>
-<Bottom>8.512</Bottom>
+<Bottom>8.6</Bottom>
 </Coordinates>
 <Line>
 <Width>0.25</Width>
@@ -1867,7 +1871,7 @@ Days Absent&lt;tabd 2.75&gt;^(daily.att.count;current;A,C,D,E,G,J,K,P,U,X,Y;Q1)&
 </Object>
 <Object no="85">
 <Type>Line</Type>
-<Label>.2C.F1.Music Vert Lines</Label>
+<Label>PE Vert Lines</Label>
 <Page>2</Page>
 <Layer>6</Layer>
 <Repeat>
@@ -1881,7 +1885,7 @@ Days Absent&lt;tabd 2.75&gt;^(daily.att.count;current;A,C,D,E,G,J,K,P,U,X,Y;Q1)&
 <Left>6</Left>
 <Top>8.156</Top>
 <Right>6</Right>
-<Bottom>8.512</Bottom>
+<Bottom>8.6</Bottom>
 </Coordinates>
 <Line>
 <Width>0.25</Width>
@@ -2017,14 +2021,14 @@ Days Absent&lt;tabd 2.75&gt;^(daily.att.count;current;A,C,D,E,G,J,K,P,U,X,Y;Q1)&
 </Object>
 <Object no="92">
 <Type>Text</Type>
-<Label>.2J.Phys Ed Standards</Label>
+<Label>Phys Ed Standards</Label>
 <Page>2</Page>
 <Layer>6</Layer>
 <Coordinates>
 <Left>1.05</Left>
 <Top>8.27</Top>
 </Coordinates>
-<MaxWidth>4.9</MaxWidth>
+<MaxWidth>4.95</MaxWidth>
 <MaxHeight>0</MaxHeight>
 <Body>
 <Font>
@@ -2365,7 +2369,14 @@ Outdoor Education</Text>
 <Size>8</Size>
 <Leading></Leading>
 </Font>
-<Text>&lt;b&gt;&lt;u&gt;Quarter 1:&lt;/b&gt;&lt;/u&gt;^(*std.stored.comment;SPEC-WH;Q1)Physical Education: ^(*std.stored.comment;SPEC-PE;Q1)Music: ^(*std.stored.comment;SPEC-MUS;Q1)&lt;b&gt;&lt;u&gt;Quarter 2:&lt;/b&gt;&lt;/u&gt;^(*std.stored.comment;SPEC-WH;Q2)Physical Education: ^(*std.stored.comment;SPEC-PE;Q2)Music: ^(*std.stored.comment;SPEC-MUS;Q2)</Text>
+<Text>&lt;b&gt;&lt;u&gt;Quarter 1:&lt;/b&gt;&lt;/u&gt;
+^(*std.stored.comment;SPEC-WH;Q1)
+Physical Education: ^(*std.stored.comment;SPEC-PE;Q1)
+Music: ^(*std.stored.comment;SPEC-MUS;Q1)
+&lt;b&gt;&lt;u&gt;Quarter 2:&lt;/b&gt;&lt;/u&gt;
+^(*std.stored.comment;SPEC-WH;Q2)
+Physical Education: ^(*std.stored.comment;SPEC-PE;Q2)
+Music: ^(*std.stored.comment;SPEC-MUS;Q2)</Text>
 </Body>
 </Object>
 <Object no="109">
@@ -2559,7 +2570,14 @@ Outdoor Education</Text>
 <Size>8</Size>
 <Leading></Leading>
 </Font>
-<Text>&lt;b&gt;&lt;u&gt;Quarter 3:&lt;/b&gt;&lt;/u&gt;^(*std.stored.comment;SPEC-WH;Q3)Physical Education: ^(*std.stored.comment;SPEC-PE;Q3)Music: ^(*std.stored.comment;SPEC-MUS;Q3)&lt;b&gt;&lt;u&gt;Quarter 4:&lt;/b&gt;&lt;/u&gt;^(*std.stored.comment;SPEC-WH;Q4)Physical Education: ^(*std.stored.comment;SPEC-PE;Q4)Music: ^(*std.stored.comment;SPEC-MUS;Q4)</Text>
+<Text>&lt;b&gt;&lt;u&gt;Quarter 3:&lt;/b&gt;&lt;/u&gt;
+^(*std.stored.comment;SPEC-WH;Q3)
+Physical Education: ^(*std.stored.comment;SPEC-PE;Q3)
+Music: ^(*std.stored.comment;SPEC-MUS;Q3)
+&lt;b&gt;&lt;u&gt;Quarter 4:&lt;/b&gt;&lt;/u&gt;
+^(*std.stored.comment;SPEC-WH;Q4)
+Physical Education: ^(*std.stored.comment;SPEC-PE;Q4)
+Music: ^(*std.stored.comment;SPEC-MUS;Q4)</Text>
 </Body>
 </Object>
 <Object no="119">
