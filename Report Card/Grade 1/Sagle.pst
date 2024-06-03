@@ -7,7 +7,7 @@
 </FileHeader>
 <ReportHeader>
 <Type>Object Report</Type>
-<Name>FS 1st Grade Report Card</Name>
+<Name>SA 1st Grade Report Card</Name>
 <Table>Students</Table>
 </ReportHeader>
 <ReportData>
@@ -2080,7 +2080,10 @@ Days Absent&lt;tabd 2.75&gt;^(daily.att.count;current;A,C,D,E,G,J,K,P,U,X,Y;Q1)&
 <Size>8</Size>
 <Leading>10</Leading>
 </Font>
-<Text>Quarter 1- Imitate a vocal slide using head voice. Perform a series of prescribed movements with appropriate expressionQuarter 2 - Echo simple melodic patterns with and without words using head voice. Listen attentively to a song with several versesQuarter 3 - Sing a simple song using head voice. Create movements that expressively reflect various styles of musicQuarter 4- Spontaneously create an original tune using more than two tones. Maintain a consistent beat in groups of 2s and 3s</Text>
+<Text>Quarter 1- Imitate a vocal slide using head voice. Perform a series of prescribed movements with appropriate expression
+Quarter 2 - Echo simple melodic patterns with and without words using head voice. Listen attentively to a song with several verses
+Quarter 3 - Sing a simple song using head voice. Create movements that expressively reflect various styles of music
+Quarter 4- Spontaneously create an original tune using more than two tones. Maintain a consistent beat in groups of 2s and 3s</Text>
 </Body>
 </Object>
 <Object no="95">
@@ -2497,7 +2500,8 @@ Days Absent&lt;tabd 2.75&gt;^(daily.att.count;current;A,C,D,E,G,J,K,P,U,X,Y;Q1)&
 <Size>8</Size>
 <Leading>9</Leading>
 </Font>
-<Text>LibraryTechnology</Text>
+<Text>Library
+Technology</Text>
 </Body>
 </Object>
 <Object no="114">
@@ -2517,7 +2521,8 @@ Days Absent&lt;tabd 2.75&gt;^(daily.att.count;current;A,C,D,E,G,J,K,P,U,X,Y;Q1)&
 <Size>8</Size>
 <Leading>9</Leading>
 </Font>
-<Text>&lt;tabc 6.25&gt;~(*std.stored.transavg;SPEC-LIB;Q1)&lt;tabc 6.75&gt;~(*std.stored.transavg;SPEC-LIB;Q2)&lt;tabc 7.25&gt;~(*std.stored.transavg;SPEC-LIB;Q3)&lt;tabc 7.75&gt;~(*std.stored.transavg;SPEC-LIB;Q4)&lt;tabc 6.25&gt;~(*std.stored.transavg;SPEC-TEC;Q1)&lt;tabc 6.75&gt;~(*std.stored.transavg;SPEC-TEC;Q2)&lt;tabc 7.25&gt;~(*std.stored.transavg;SPEC-TEC;Q3)&lt;tabc 7.75&gt;~(*std.stored.transavg;SPEC-TEC;Q4)</Text>
+<Text>&lt;tabc 6.25&gt;~(*std.stored.transavg;SPEC-LIB;Q1)&lt;tabc 6.75&gt;~(*std.stored.transavg;SPEC-LIB;Q2)&lt;tabc 7.25&gt;~(*std.stored.transavg;SPEC-LIB;Q3)&lt;tabc 7.75&gt;~(*std.stored.transavg;SPEC-LIB;Q4)
+&lt;tabc 6.25&gt;~(*std.stored.transavg;SPEC-TEC;Q1)&lt;tabc 6.75&gt;~(*std.stored.transavg;SPEC-TEC;Q2)&lt;tabc 7.25&gt;~(*std.stored.transavg;SPEC-TEC;Q3)&lt;tabc 7.75&gt;~(*std.stored.transavg;SPEC-TEC;Q4)</Text>
 </Body>
 </Object>
 <Object no="115">

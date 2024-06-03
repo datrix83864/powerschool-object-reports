@@ -7,7 +7,7 @@
 </FileHeader>
 <ReportHeader>
 <Type>Object Report</Type>
-<Name>FS 3rd Grade Report Card</Name>
+<Name>HP 3rd Grade Report Card</Name>
 <Table>Students</Table>
 </ReportHeader>
 <ReportData>
@@ -512,7 +512,10 @@
 <Size>8</Size>
 <Leading>10</Leading>
 </Font>
-<Text>;&lt;tabc 6.25&gt;~(*std.stored.transavg;3.GC-GU.1;Q1)&lt;tabc 6.75&gt;~(*std.stored.transavg;3.GC-GU.1;Q2)&lt;tabc 7.25&gt;~(*std.stored.transavg;3.GC-GU.1;Q3)&lt;tabc 7.75&gt;~(*std.stored.transavg;3.GC-GU.1;Q4)&lt;tabc 6.25&gt;~(*std.stored.transavg;3.GC-M.2-3;Q1)&lt;tabc 6.75&gt;~(*std.stored.transavg;3.GC-M.2-3;Q2)&lt;tabc 7.25&gt;~(*std.stored.transavg;3.GC-M.2-3;Q3)&lt;tabc 7.75&gt;~(*std.stored.transavg;3.GC-M.2-3;Q4)</Text>
+<Text>
+;&lt;tabc 6.25&gt;~(*std.stored.transavg;3.GC-GU.1;Q1)&lt;tabc 6.75&gt;~(*std.stored.transavg;3.GC-GU.1;Q2)&lt;tabc 7.25&gt;~(*std.stored.transavg;3.GC-GU.1;Q3)&lt;tabc 7.75&gt;~(*std.stored.transavg;3.GC-GU.1;Q4)
+
+&lt;tabc 6.25&gt;~(*std.stored.transavg;3.GC-M.2-3;Q1)&lt;tabc 6.75&gt;~(*std.stored.transavg;3.GC-M.2-3;Q2)&lt;tabc 7.25&gt;~(*std.stored.transavg;3.GC-M.2-3;Q3)&lt;tabc 7.75&gt;~(*std.stored.transavg;3.GC-M.2-3;Q4)</Text>
 </Body>
 </Object>
 <Object no="24">
