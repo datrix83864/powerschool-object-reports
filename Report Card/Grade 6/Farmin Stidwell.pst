@@ -794,7 +794,7 @@ Seeks positive solutions to problems</Text>
 <Left>1.05</Left>
 <Top>5.89</Top>
 </Coordinates>
-<MaxWidth>4.9</MaxWidth>
+<MaxWidth>5</MaxWidth>
 <MaxHeight>0</MaxHeight>
 <Body>
 <Font>
@@ -941,7 +941,8 @@ Seeks positive solutions to problems</Text>
 <Size>8</Size>
 <Leading>10</Leading>
 </Font>
-<Text>&lt;b&gt;Word Building&lt;/b&gt;6.VD-WB.1: Determine or clarify the meaning of unknown and multiple-meaning words and phrases</Text>
+<Text>&lt;b&gt;Word Building
+&lt;/b&gt;6.VD-WB.1: Determine or clarify the meaning of unknown and multiple-meaning words and phrases</Text>
 </Body>
 </Object>
 <Object no="44">
@@ -1012,7 +1013,7 @@ Participates and contributes to discussions/activities</Text>
 <Page>1</Page>
 <Layer>8</Layer>
 <Coordinates>
-<Left>1.05</Left>
+<Left>6</Left>
 <Top>4.686</Top>
 </Coordinates>
 <MaxWidth>0</MaxWidth>
@@ -1642,7 +1643,7 @@ Days Absent&lt;tabd 2.75&gt;^(daily.att.count;current;A,C,D,E,G,J,K,P,U,X,Y;Q1)&
 <Left>1.05</Left>
 <Top>3.504</Top>
 </Coordinates>
-<MaxWidth>4.9</MaxWidth>
+<MaxWidth>5</MaxWidth>
 <MaxHeight>0</MaxHeight>
 <Body>
 <Font>
@@ -1650,7 +1651,28 @@ Days Absent&lt;tabd 2.75&gt;^(daily.att.count;current;A,C,D,E,G,J,K,P,U,X,Y;Q1)&
 <Size>8</Size>
 <Leading>10</Leading>
 </Font>
-<Text>&lt;b&gt;Ratios and Proportional Relationships&lt;/b&gt;6.RP.A.1-3: Use ratio and rate reasoning to solve real world and mathematical problems&lt;b&gt;The Number System&lt;/b&gt;6.NS.A: Extend previous understandings of multiplication and division to divide fractions by fractions6.NS.B.2: Fluently divide multi-digit numbers using the standard algorithm6.NS.B.3a: Fluently add and subtract multi-digit decimals using the standard algorithm for each operation6.NS.B.3b: Fluently multiply and divide multi-digit decimals using the standard algorithm for each operation6.NS.B.4: Find the greatest common factor of two whole numbers less than or equal to 100. Find the least common multiple of two whole numbers less than or equal to 12.6.NS.C.6: Understand number coordinates on a number line (including negative numbers)6.NS.C.7: Understand ordering and absolute value of rational numbers&lt;b&gt;Expressions and Equations&lt;/b&gt;6.EE.A.1-2: Read, write, and evaluate expressions involving whole numbers or letters to stand for numbers6.EE.A.3-4: Use operations to create equivalent expressions and identify when the expressions are equivalent6.EE.B: Reason about and solve one-variable equations and inequalities6.EE.C.9: Represent and analyze quantitative relationships between dependent and independent variables&lt;b&gt;Geometry&lt;/b&gt;6.G.A.1: Find the area of triangles, quadrilaterals, and polygons6.G.A.2: Find the volume of a right rectangular prism6.G.A.3-4: Draw polygons with coordinates and represent 3-dimensional figures using nets&lt;b&gt;Statistics and Probability&lt;/b&gt;6.SP.A: Develop understanding of statistical variability6.SP.B: Summarize and describe distributions</Text>
+<Text>&lt;b&gt;Ratios and Proportional Relationships&lt;/b&gt;
+6.RP.A.1-3: Use ratio and rate reasoning to solve real world and mathematical problems
+&lt;b&gt;The Number System&lt;/b&gt;
+6.NS.A: Extend previous understandings of multiplication and division to divide fractions by fractions
+6.NS.B.2: Fluently divide multi-digit numbers using the standard algorithm
+6.NS.B.3a: Fluently add and subtract multi-digit decimals using the standard algorithm for each operation
+6.NS.B.3b: Fluently multiply and divide multi-digit decimals using the standard algorithm for each operation
+6.NS.B.4: Find the greatest common factor of two whole numbers less than or equal to 100. Find the least common multiple of two whole numbers less than or equal to 12.
+6.NS.C.6: Understand number coordinates on a number line (including negative numbers)
+6.NS.C.7: Understand ordering and absolute value of rational numbers
+&lt;b&gt;Expressions and Equations&lt;/b&gt;
+6.EE.A.1-2: Read, write, and evaluate expressions involving whole numbers or letters to stand for numbers
+6.EE.A.3-4: Use operations to create equivalent expressions and identify when the expressions are equivalent
+6.EE.B: Reason about and solve one-variable equations and inequalities
+6.EE.C.9: Represent and analyze quantitative relationships between dependent and independent variables
+&lt;b&gt;Geometry&lt;/b&gt;
+6.G.A.1: Find the area of triangles, quadrilaterals, and polygons
+6.G.A.2: Find the volume of a right rectangular prism
+6.G.A.3-4: Draw polygons with coordinates and represent 3-dimensional figures using nets
+&lt;b&gt;Statistics and Probability&lt;/b&gt;
+6.SP.A: Develop understanding of statistical variability
+6.SP.B: Summarize and describe distributions</Text>
 </Body>
 </Object>
 <Object no="77">
@@ -1670,7 +1692,34 @@ Days Absent&lt;tabd 2.75&gt;^(daily.att.count;current;A,C,D,E,G,J,K,P,U,X,Y;Q1)&
 <Size>8</Size>
 <Leading>10</Leading>
 </Font>
-<Text>&lt;tabc 6.25&gt;~(*std.stored.transavg;6.RP.A.1-3;Q1)&lt;tabc 6.75&gt;~(*std.stored.transavg;6.RP.A.1-3;Q2)&lt;tabc 7.25&gt;~(*std.stored.transavg;6.RP.A.1-3;Q3)&lt;tabc 7.75&gt;~(*std.stored.transavg;6.RP.A.1-3;Q4)&lt;tabc 6.25&gt;~(*std.stored.transavg;6.NS.A;Q1)&lt;tabc 6.75&gt;~(*std.stored.transavg;6.NS.A;Q2)&lt;tabc 7.25&gt;~(*std.stored.transavg;6.NS.A;Q3)&lt;tabc 7.75&gt;~(*std.stored.transavg;6.NS.A;Q4)&lt;tabc 6.25&gt;~(*std.stored.transavg;6.NS.B.2;Q1)&lt;tabc 6.75&gt;~(*std.stored.transavg;6.NS.B.2;Q2)&lt;tabc 7.25&gt;~(*std.stored.transavg;6.NS.B.2;Q3)&lt;tabc 7.75&gt;~(*std.stored.transavg;6.NS.B.2;Q4)&lt;tabc 6.25&gt;~(*std.stored.transavg;6.NS.B.3a;Q1)&lt;tabc 6.75&gt;~(*std.stored.transavg;6.NS.B.3a;Q2)&lt;tabc 7.25&gt;~(*std.stored.transavg;6.NS.B.3a;Q3)&lt;tabc 7.75&gt;~(*std.stored.transavg;6.NS.B.3a;Q4)&lt;tabc 6.25&gt;~(*std.stored.transavg;6.NS.B.3b;Q1)&lt;tabc 6.75&gt;~(*std.stored.transavg;6.NS.B.3b;Q2)&lt;tabc 7.25&gt;~(*std.stored.transavg;6.NS.B.3b;Q3)&lt;tabc 7.75&gt;~(*std.stored.transavg;6.NS.B.3b;Q4)&lt;tabc 6.25&gt;~(*std.stored.transavg;6.NS.B.4;Q1)&lt;tabc 6.75&gt;~(*std.stored.transavg;6.NS.B.4;Q2)&lt;tabc 7.25&gt;~(*std.stored.transavg;6.NS.B.4;Q3)&lt;tabc 7.75&gt;~(*std.stored.transavg;6.NS.B.4;Q4)&lt;tabc 6.25&gt;~(*std.stored.transavg;6.NS.C.6;Q1)&lt;tabc 6.75&gt;~(*std.stored.transavg;6.NS.C.6;Q2)&lt;tabc 7.25&gt;~(*std.stored.transavg;6.NS.C.6;Q3)&lt;tabc 7.75&gt;~(*std.stored.transavg;6.NS.C.6;Q4)&lt;tabc 6.25&gt;~(*std.stored.transavg;6.NS.C.7;Q1)&lt;tabc 6.75&gt;~(*std.stored.transavg;6.NS.C.7;Q2)&lt;tabc 7.25&gt;~(*std.stored.transavg;6.NS.C.7;Q3)&lt;tabc 7.75&gt;~(*std.stored.transavg;6.NS.C.7;Q4)&lt;tabc 6.25&gt;~(*std.stored.transavg;6.EE.A.1-2;Q1)&lt;tabc 6.75&gt;~(*std.stored.transavg;6.EE.A.1-2;Q2)&lt;tabc 7.25&gt;~(*std.stored.transavg;6.EE.A.1-2;Q3)&lt;tabc 7.75&gt;~(*std.stored.transavg;6.EE.A.1-2;Q4)&lt;tabc 6.25&gt;~(*std.stored.transavg;6.EE.A.3-4;Q1)&lt;tabc 6.75&gt;~(*std.stored.transavg;6.EE.A.3-4;Q2)&lt;tabc 7.25&gt;~(*std.stored.transavg;6.EE.A.3-4;Q3)&lt;tabc 7.75&gt;~(*std.stored.transavg;6.EE.A.3-4;Q4)&lt;tabc 6.25&gt;~(*std.stored.transavg;6.EE.B;Q1)&lt;tabc 6.75&gt;~(*std.stored.transavg;6.EE.B;Q2)&lt;tabc 7.25&gt;~(*std.stored.transavg;6.EE.B;Q3)&lt;tabc 7.75&gt;~(*std.stored.transavg;6.EE.B;Q4)&lt;tabc 6.25&gt;~(*std.stored.transavg;6.EE.C.9;Q1)&lt;tabc 6.75&gt;~(*std.stored.transavg;6.EE.C.9;Q2)&lt;tabc 7.25&gt;~(*std.stored.transavg;6.EE.C.9;Q3)&lt;tabc 7.75&gt;~(*std.stored.transavg;6.EE.C.9;Q4)&lt;tabc 6.25&gt;~(*std.stored.transavg;6.G.A.1;Q1)&lt;tabc 6.75&gt;~(*std.stored.transavg;6.G.A.1;Q2)&lt;tabc 7.25&gt;~(*std.stored.transavg;6.G.A.1;Q3)&lt;tabc 7.75&gt;~(*std.stored.transavg;6.G.A.1;Q4)&lt;tabc 6.25&gt;~(*std.stored.transavg;6.G.A.2;Q1)&lt;tabc 6.75&gt;~(*std.stored.transavg;6.G.A.2;Q2)&lt;tabc 7.25&gt;~(*std.stored.transavg;6.G.A.2;Q3)&lt;tabc 7.75&gt;~(*std.stored.transavg;6.G.A.2;Q4)&lt;tabc 6.25&gt;~(*std.stored.transavg;6.G.A.3-4;Q1)&lt;tabc 6.75&gt;~(*std.stored.transavg;6.G.A.3-4;Q2)&lt;tabc 7.25&gt;~(*std.stored.transavg;6.G.A.3-4;Q3)&lt;tabc 7.75&gt;~(*std.stored.transavg;6.G.A.3-4;Q4)&lt;tabc 6.25&gt;~(*std.stored.transavg;6.SP.A;Q1)&lt;tabc 6.75&gt;~(*std.stored.transavg;6.SP.A;Q2)&lt;tabc 7.25&gt;~(*std.stored.transavg;6.SP.A;Q3)&lt;tabc 7.75&gt;~(*std.stored.transavg;6.SP.A;Q4)&lt;tabc 6.25&gt;~(*std.stored.transavg;6.SP.B;Q1)&lt;tabc 6.75&gt;~(*std.stored.transavg;6.SP.B;Q2)&lt;tabc 7.25&gt;~(*std.stored.transavg;6.SP.B;Q3)&lt;tabc 7.75&gt;~(*std.stored.transavg;6.SP.B;Q4)</Text>
+<Text>
+&lt;tabc 6.25&gt;~(*std.stored.transavg;6.RP.A.1-3;Q1)&lt;tabc 6.75&gt;~(*std.stored.transavg;6.RP.A.1-3;Q2)&lt;tabc 7.25&gt;~(*std.stored.transavg;6.RP.A.1-3;Q3)&lt;tabc 7.75&gt;~(*std.stored.transavg;6.RP.A.1-3;Q4)
+
+&lt;tabc 6.25&gt;~(*std.stored.transavg;6.NS.A;Q1)&lt;tabc 6.75&gt;~(*std.stored.transavg;6.NS.A;Q2)&lt;tabc 7.25&gt;~(*std.stored.transavg;6.NS.A;Q3)&lt;tabc 7.75&gt;~(*std.stored.transavg;6.NS.A;Q4)
+&lt;tabc 6.25&gt;~(*std.stored.transavg;6.NS.B.2;Q1)&lt;tabc 6.75&gt;~(*std.stored.transavg;6.NS.B.2;Q2)&lt;tabc 7.25&gt;~(*std.stored.transavg;6.NS.B.2;Q3)&lt;tabc 7.75&gt;~(*std.stored.transavg;6.NS.B.2;Q4)
+&lt;tabc 6.25&gt;~(*std.stored.transavg;6.NS.B.3a;Q1)&lt;tabc 6.75&gt;~(*std.stored.transavg;6.NS.B.3a;Q2)&lt;tabc 7.25&gt;~(*std.stored.transavg;6.NS.B.3a;Q3)&lt;tabc 7.75&gt;~(*std.stored.transavg;6.NS.B.3a;Q4)
+
+&lt;tabc 6.25&gt;~(*std.stored.transavg;6.NS.B.3b;Q1)&lt;tabc 6.75&gt;~(*std.stored.transavg;6.NS.B.3b;Q2)&lt;tabc 7.25&gt;~(*std.stored.transavg;6.NS.B.3b;Q3)&lt;tabc 7.75&gt;~(*std.stored.transavg;6.NS.B.3b;Q4)
+
+&lt;tabc 6.25&gt;~(*std.stored.transavg;6.NS.B.4;Q1)&lt;tabc 6.75&gt;~(*std.stored.transavg;6.NS.B.4;Q2)&lt;tabc 7.25&gt;~(*std.stored.transavg;6.NS.B.4;Q3)&lt;tabc 7.75&gt;~(*std.stored.transavg;6.NS.B.4;Q4)
+
+&lt;tabc 6.25&gt;~(*std.stored.transavg;6.NS.C.6;Q1)&lt;tabc 6.75&gt;~(*std.stored.transavg;6.NS.C.6;Q2)&lt;tabc 7.25&gt;~(*std.stored.transavg;6.NS.C.6;Q3)&lt;tabc 7.75&gt;~(*std.stored.transavg;6.NS.C.6;Q4)
+&lt;tabc 6.25&gt;~(*std.stored.transavg;6.NS.C.7;Q1)&lt;tabc 6.75&gt;~(*std.stored.transavg;6.NS.C.7;Q2)&lt;tabc 7.25&gt;~(*std.stored.transavg;6.NS.C.7;Q3)&lt;tabc 7.75&gt;~(*std.stored.transavg;6.NS.C.7;Q4)
+
+&lt;tabc 6.25&gt;~(*std.stored.transavg;6.EE.A.1-2;Q1)&lt;tabc 6.75&gt;~(*std.stored.transavg;6.EE.A.1-2;Q2)&lt;tabc 7.25&gt;~(*std.stored.transavg;6.EE.A.1-2;Q3)&lt;tabc 7.75&gt;~(*std.stored.transavg;6.EE.A.1-2;Q4)
+
+&lt;tabc 6.25&gt;~(*std.stored.transavg;6.EE.A.3-4;Q1)&lt;tabc 6.75&gt;~(*std.stored.transavg;6.EE.A.3-4;Q2)&lt;tabc 7.25&gt;~(*std.stored.transavg;6.EE.A.3-4;Q3)&lt;tabc 7.75&gt;~(*std.stored.transavg;6.EE.A.3-4;Q4)
+
+&lt;tabc 6.25&gt;~(*std.stored.transavg;6.EE.B;Q1)&lt;tabc 6.75&gt;~(*std.stored.transavg;6.EE.B;Q2)&lt;tabc 7.25&gt;~(*std.stored.transavg;6.EE.B;Q3)&lt;tabc 7.75&gt;~(*std.stored.transavg;6.EE.B;Q4)
+&lt;tabc 6.25&gt;~(*std.stored.transavg;6.EE.C.9;Q1)&lt;tabc 6.75&gt;~(*std.stored.transavg;6.EE.C.9;Q2)&lt;tabc 7.25&gt;~(*std.stored.transavg;6.EE.C.9;Q3)&lt;tabc 7.75&gt;~(*std.stored.transavg;6.EE.C.9;Q4)
+
+
+&lt;tabc 6.25&gt;~(*std.stored.transavg;6.G.A.1;Q1)&lt;tabc 6.75&gt;~(*std.stored.transavg;6.G.A.1;Q2)&lt;tabc 7.25&gt;~(*std.stored.transavg;6.G.A.1;Q3)&lt;tabc 7.75&gt;~(*std.stored.transavg;6.G.A.1;Q4)
+&lt;tabc 6.25&gt;~(*std.stored.transavg;6.G.A.2;Q1)&lt;tabc 6.75&gt;~(*std.stored.transavg;6.G.A.2;Q2)&lt;tabc 7.25&gt;~(*std.stored.transavg;6.G.A.2;Q3)&lt;tabc 7.75&gt;~(*std.stored.transavg;6.G.A.2;Q4)
+&lt;tabc 6.25&gt;~(*std.stored.transavg;6.G.A.3-4;Q1)&lt;tabc 6.75&gt;~(*std.stored.transavg;6.G.A.3-4;Q2)&lt;tabc 7.25&gt;~(*std.stored.transavg;6.G.A.3-4;Q3)&lt;tabc 7.75&gt;~(*std.stored.transavg;6.G.A.3-4;Q4)
+
+&lt;tabc 6.25&gt;~(*std.stored.transavg;6.SP.A;Q1)&lt;tabc 6.75&gt;~(*std.stored.transavg;6.SP.A;Q2)&lt;tabc 7.25&gt;~(*std.stored.transavg;6.SP.A;Q3)&lt;tabc 7.75&gt;~(*std.stored.transavg;6.SP.A;Q4)
+&lt;tabc 6.25&gt;~(*std.stored.transavg;6.SP.B;Q1)&lt;tabc 6.75&gt;~(*std.stored.transavg;6.SP.B;Q2)&lt;tabc 7.25&gt;~(*std.stored.transavg;6.SP.B;Q3)&lt;tabc 7.75&gt;~(*std.stored.transavg;6.SP.B;Q4)</Text>
 </Body>
 </Object>
 <Object no="78">
@@ -2144,7 +2193,7 @@ Days Absent&lt;tabd 2.75&gt;^(daily.att.count;current;A,C,D,E,G,J,K,P,U,X,Y;Q1)&
 <Page>2</Page>
 <Layer>6</Layer>
 <Coordinates>
-<Left>1.05</Left>
+<Left>6</Left>
 <Top>9.53</Top>
 </Coordinates>
 <MaxWidth>0</MaxWidth>
@@ -2337,7 +2386,7 @@ Outdoor Education</Text>
 <Page>2</Page>
 <Layer>9</Layer>
 <Coordinates>
-<Left>1.05</Left>
+<Left>6</Left>
 <Top>9.968</Top>
 </Coordinates>
 <MaxWidth>0</MaxWidth>
@@ -2428,7 +2477,14 @@ Outdoor Education</Text>
 <Size>8</Size>
 <Leading></Leading>
 </Font>
-<Text>&lt;b&gt;&lt;u&gt;Quarter 1:&lt;/b&gt;&lt;/u&gt;^(*std.stored.comment;SPEC-WH;Q1)Physical Education: ^(*std.stored.comment;SPEC-PE;Q1)Band: ^(*std.stored.comment;SPEC-MUS;Q1) ^(*std.stored.comment;SPEC-BAND;Q1)&lt;b&gt;&lt;u&gt;Quarter 2:&lt;/b&gt;&lt;/u&gt;^(*std.stored.comment;SPEC-WH;Q2)Physical Education: ^(*std.stored.comment;SPEC-PE;Q2)Band: ^(*std.stored.comment;SPEC-MUS;Q2) ^(*std.stored.comment;SPEC-BAND;Q2)</Text>
+<Text>&lt;b&gt;&lt;u&gt;Quarter 1:&lt;/b&gt;&lt;/u&gt;
+^(*std.stored.comment;SPEC-WH;Q1)
+Physical Education: ^(*std.stored.comment;SPEC-PE;Q1)
+Band: ^(*std.stored.comment;SPEC-MUS;Q1) ^(*std.stored.comment;SPEC-BAND;Q1)
+&lt;b&gt;&lt;u&gt;Quarter 2:&lt;/b&gt;&lt;/u&gt;
+^(*std.stored.comment;SPEC-WH;Q2)
+Physical Education: ^(*std.stored.comment;SPEC-PE;Q2)
+Band: ^(*std.stored.comment;SPEC-MUS;Q2) ^(*std.stored.comment;SPEC-BAND;Q2)</Text>
 </Body>
 </Object>
 <Object no="115">
@@ -2622,7 +2678,14 @@ Outdoor Education</Text>
 <Size>8</Size>
 <Leading></Leading>
 </Font>
-<Text>&lt;b&gt;&lt;u&gt;Quarter 3:&lt;/b&gt;&lt;/u&gt;^(*std.stored.comment;SPEC-WH;Q3)Physical Education: ^(*std.stored.comment;SPEC-PE;Q3)Band: ^(*std.stored.comment;SPEC-MUS;Q3) ^(*std.stored.comment;SPEC-BAND;Q3)&lt;b&gt;&lt;u&gt;Quarter 4:&lt;/b&gt;&lt;/u&gt;^(*std.stored.comment;SPEC-WH;Q4)Physical Education: ^(*std.stored.comment;SPEC-PE;Q4)Band: ^(*std.stored.comment;SPEC-MUS;Q4) ^(*std.stored.comment;SPEC-BAND;Q4)</Text>
+<Text>&lt;b&gt;&lt;u&gt;Quarter 3:&lt;/b&gt;&lt;/u&gt;
+^(*std.stored.comment;SPEC-WH;Q3)
+Physical Education: ^(*std.stored.comment;SPEC-PE;Q3)
+Band: ^(*std.stored.comment;SPEC-MUS;Q3) ^(*std.stored.comment;SPEC-BAND;Q3)
+&lt;b&gt;&lt;u&gt;Quarter 4:&lt;/b&gt;&lt;/u&gt;
+^(*std.stored.comment;SPEC-WH;Q4)
+Physical Education: ^(*std.stored.comment;SPEC-PE;Q4)
+Band: ^(*std.stored.comment;SPEC-MUS;Q4) ^(*std.stored.comment;SPEC-BAND;Q4)</Text>
 </Body>
 </Object>
 <Object no="125">
