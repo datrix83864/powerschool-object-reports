@@ -513,7 +513,7 @@
 <Leading>10</Leading>
 </Font>
 <Text>
-;&lt;tabc 6.25&gt;~(*std.stored.transavg;3.GC-GU.1;Q1)&lt;tabc 6.75&gt;~(*std.stored.transavg;3.GC-GU.1;Q2)&lt;tabc 7.25&gt;~(*std.stored.transavg;3.GC-GU.1;Q3)&lt;tabc 7.75&gt;~(*std.stored.transavg;3.GC-GU.1;Q4)
+&lt;tabc 6.25&gt;~(*std.stored.transavg;3.GC-GU.1;Q1)&lt;tabc 6.75&gt;~(*std.stored.transavg;3.GC-GU.1;Q2)&lt;tabc 7.25&gt;~(*std.stored.transavg;3.GC-GU.1;Q3)&lt;tabc 7.75&gt;~(*std.stored.transavg;3.GC-GU.1;Q4)
 
 &lt;tabc 6.25&gt;~(*std.stored.transavg;3.GC-M.2-3;Q1)&lt;tabc 6.75&gt;~(*std.stored.transavg;3.GC-M.2-3;Q2)&lt;tabc 7.25&gt;~(*std.stored.transavg;3.GC-M.2-3;Q3)&lt;tabc 7.75&gt;~(*std.stored.transavg;3.GC-M.2-3;Q4)</Text>
 </Body>
@@ -1006,7 +1006,6 @@ Seeks positive solutions to problems</Text>
 </Font>
 <Text>&lt;b&gt;Text Complexity&lt;/b&gt;
 3.RC-TC.1: Independently and proficiently read and comprehend texts representing a balance of genres
-
 &lt;b&gt;Textual Evidence&lt;/b&gt;
 3.RC-TE.3: Ask and answer questions to demonstrate understanding of grade-level texts, referring explicitly to textual evidence as the basis for the answers
 &lt;b&gt;Reading Fluency&lt;/b&gt;
@@ -2002,14 +2001,14 @@ Days Absent&lt;tabd 2.75&gt;^(daily.att.count;current;A,C,D,E,G,J,K,P,U,X,Y;Q1)&
 </Object>
 <Object no="91">
 <Type>Box</Type>
-<Label>.2I.F1.Music Box</Label>
+<Label>PE Box</Label>
 <Page>2</Page>
 <Layer>6</Layer>
 <Coordinates>
 <Left>1</Left>
 <Top>8.114</Top>
 <Right>8</Right>
-<Bottom>8.47</Bottom>
+<Bottom>8.55</Bottom>
 </Coordinates>
 <Line>
 <Width>0.25</Width>
@@ -2060,7 +2059,7 @@ Days Absent&lt;tabd 2.75&gt;^(daily.att.count;current;A,C,D,E,G,J,K,P,U,X,Y;Q1)&
 </Object>
 <Object no="94">
 <Type>Line</Type>
-<Label>.2L.F1.Music Vert Lines</Label>
+<Label>PE Vert Lines</Label>
 <Page>2</Page>
 <Layer>6</Layer>
 <Repeat>
@@ -2074,7 +2073,7 @@ Days Absent&lt;tabd 2.75&gt;^(daily.att.count;current;A,C,D,E,G,J,K,P,U,X,Y;Q1)&
 <Left>6</Left>
 <Top>8.114</Top>
 <Right>6</Right>
-<Bottom>8.47</Bottom>
+<Bottom>8.55</Bottom>
 </Coordinates>
 <Line>
 <Width>0.25</Width>
