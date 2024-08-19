@@ -152,7 +152,7 @@
 <Leading>12</Leading>
 <Italic>True</Italic>
 </Font>
-<Text>Grade ~(grade_level)&lt;tabr 8.0&gt;~(yearname)</Text>
+<Text>Grade: 6&lt;tabr 8.0&gt;~(yearname)</Text>
 </Body>
 </Object>
 <Object no="7">
@@ -1275,7 +1275,7 @@ Days Absent&lt;tabd 2.75&gt;^(daily.att.count;current;A,C,D,E,G,J,K,P,U,X,Y;Q1)&
 <Size>9</Size>
 <Leading>12</Leading>
 </Font>
-<Text>Grade ^(grade_level)&lt;tabr 8.0&gt;~(yearname)</Text>
+<Text>Grade: 6&lt;tabr 8.0&gt;~(yearname)</Text>
 </Body>
 </Object>
 <Object no="60">
@@ -2368,7 +2368,8 @@ Days Absent&lt;tabd 2.75&gt;^(daily.att.count;current;A,C,D,E,G,J,K,P,U,X,Y;Q1)&
 <Size>8</Size>
 <Leading>9</Leading>
 </Font>
-<Text>LibraryTechnology</Text>
+<Text>Library
+Technology</Text>
 </Body>
 </Object>
 <Object no="110">
@@ -2388,7 +2389,8 @@ Days Absent&lt;tabd 2.75&gt;^(daily.att.count;current;A,C,D,E,G,J,K,P,U,X,Y;Q1)&
 <Size>8</Size>
 <Leading>9</Leading>
 </Font>
-<Text>&lt;tabc 6.25&gt;~(*std.stored.transavg;SPEC-LIB;Q1)&lt;tabc 6.75&gt;~(*std.stored.transavg;SPEC-LIB;Q2)&lt;tabc 7.25&gt;~(*std.stored.transavg;SPEC-LIB;Q3)&lt;tabc 7.75&gt;~(*std.stored.transavg;SPEC-LIB;Q4)&lt;tabc 6.25&gt;~(*std.stored.transavg;SPEC-TEC;Q1)&lt;tabc 6.75&gt;~(*std.stored.transavg;SPEC-TEC;Q2)&lt;tabc 7.25&gt;~(*std.stored.transavg;SPEC-TEC;Q3)&lt;tabc 7.75&gt;~(*std.stored.transavg;SPEC-TEC;Q4)</Text>
+<Text>&lt;tabc 6.25&gt;~(*std.stored.transavg;SPEC-LIB;Q1)&lt;tabc 6.75&gt;~(*std.stored.transavg;SPEC-LIB;Q2)&lt;tabc 7.25&gt;~(*std.stored.transavg;SPEC-LIB;Q3)&lt;tabc 7.75&gt;~(*std.stored.transavg;SPEC-LIB;Q4)
+&lt;tabc 6.25&gt;~(*std.stored.transavg;SPEC-TEC;Q1)&lt;tabc 6.75&gt;~(*std.stored.transavg;SPEC-TEC;Q2)&lt;tabc 7.25&gt;~(*std.stored.transavg;SPEC-TEC;Q3)&lt;tabc 7.75&gt;~(*std.stored.transavg;SPEC-TEC;Q4)</Text>
 </Body>
 </Object>
 <Object no="111">
@@ -2569,7 +2571,7 @@ Band: ^(*std.stored.comment;SPEC-MUS;Q2) ^(*std.stored.comment;SPEC-BAND;Q2)</Te
 <Size>9</Size>
 <Leading>12</Leading>
 </Font>
-<Text>Grade ^(grade_level)&lt;tabr 8.0&gt;~(yearname)</Text>
+<Text>Grade: 6&lt;tabr 8.0&gt;~(yearname)</Text>
 </Body>
 </Object>
 <Object no="120">
@@ -2770,7 +2772,7 @@ Band: ^(*std.stored.comment;SPEC-MUS;Q4) ^(*std.stored.comment;SPEC-BAND;Q4)</Te
 <Size>9</Size>
 <Leading>12</Leading>
 </Font>
-<Text>Grade ^(grade_level)&lt;tabr 8.0&gt;~(yearname)</Text>
+<Text>Grade: 6&lt;tabr 8.0&gt;~(yearname)</Text>
 </Body>
 </Object>
 <Object no="130">

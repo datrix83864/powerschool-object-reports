@@ -152,7 +152,7 @@
 <Leading>12</Leading>
 <Italic>True</Italic>
 </Font>
-<Text>Grade: ^(decode;~(grade_level);0;Kindergarten;~(grade_level))&lt;tabr 8.0&gt;~(yearname)</Text>
+<Text>Grade: Kindergarten&lt;tabr 8.0&gt;~(yearname)</Text>
 </Body>
 </Object>
 <Object no="7">
@@ -488,7 +488,8 @@
 <Size>8</Size>
 <Leading></Leading>
 </Font>
-<Text>Demonstrates respect for self, others, and propertySeeks positive solutions to problems</Text>
+<Text>Demonstrates respect for self, others, and property
+Seeks positive solutions to problems</Text>
 </Body>
 </Object>
 <Object no="23">
@@ -529,7 +530,8 @@
 <Size>8</Size>
 <Leading></Leading>
 </Font>
-<Text>K.VD-WB.1a: Ask and answer questions about unknown words in a text.K.VD-WB.2b: Demonstrate understanding of words by relating them to their synonyms and antonyms</Text>
+<Text>K.VD-WB.1a: Ask and answer questions about unknown words in a text.
+K.VD-WB.2b: Demonstrate understanding of words by relating them to their synonyms and antonyms</Text>
 </Body>
 </Object>
 <Object no="25">
@@ -768,7 +770,16 @@
 <Size>8</Size>
 <Leading>10</Leading>
 </Font>
-<Text>&lt;b&gt;Reading Literature&lt;/b&gt;K.RC-L.5a: Retell key details of familiar stories, poems, and nursery rhymes heardK.RC-L.5b: Identify the characters, setting, and major events in a storyK.RC-L5e: Compare and contrast the adventures or experiences of characters in familiar stories&lt;b&gt;Non-Fiction&lt;/b&gt;K.RC-NF.6a: Identify the main topic and retell key details of a textK.RC-NF.6b: Describe the connection between two individuals, events, ideas or pieces of information in texts heardK.RC-NF.6e: Identify basic similarities and differences between two texts heard on the same topic&lt;b&gt;Textual Evidence&lt;/b&gt;K.RC-TE.3: Ask and answer questions about key details in text</Text>
+<Text>&lt;b&gt;Reading Literature&lt;/b&gt;
+K.RC-L.5a: Retell key details of familiar stories, poems, and nursery rhymes heard
+K.RC-L.5b: Identify the characters, setting, and major events in a story
+K.RC-L5e: Compare and contrast the adventures or experiences of characters in familiar stories
+&lt;b&gt;Non-Fiction
+&lt;/b&gt;K.RC-NF.6a: Identify the main topic and retell key details of a text
+K.RC-NF.6b: Describe the connection between two individuals, events, ideas or pieces of information in texts heard
+K.RC-NF.6e: Identify basic similarities and differences between two texts heard on the same topic
+&lt;b&gt;Textual Evidence
+&lt;/b&gt;K.RC-TE.3: Ask and answer questions about key details in text</Text>
 </Body>
 </Object>
 <Object no="36">
@@ -969,7 +980,16 @@
 <Size>8</Size>
 <Leading></Leading>
 </Font>
-<Text>&lt;b&gt;Print Concepts&lt;/b&gt;K.FR-PC.1: Demonstrates understanding of the basic features of printK.FR-PC.1h: Identify and name all upper- and lowercase letters of the alphabet&lt;b&gt;Phonemic Awareness&lt;/b&gt;K.FR-PA.2a: Identify and produce rhyming wordsK.FR-PA.2: Demonstrate understanding of spoken words, syllables, and sounds heard&lt;b&gt;Phonics and Decoding&lt;/b&gt;K.FR-PH.3a-b: Know and produce the letter soundsK.FR-PH.3c: Read sight wordsK.RC-RF.4: Read emergent-reader texts</Text>
+<Text>&lt;b&gt;Print Concepts
+&lt;/b&gt;K.FR-PC.1: Demonstrates understanding of the basic features of print
+K.FR-PC.1h: Identify and name all upper- and lowercase letters of the alphabet
+&lt;b&gt;Phonemic Awareness
+&lt;/b&gt;K.FR-PA.2a: Identify and produce rhyming words
+K.FR-PA.2: Demonstrate understanding of spoken words, syllables, and sounds heard
+&lt;b&gt;Phonics and Decoding
+&lt;/b&gt;K.FR-PH.3a-b: Know and produce the letter sounds
+K.FR-PH.3c: Read sight words
+K.RC-RF.4: Read emergent-reader texts</Text>
 </Body>
 </Object>
 <Object no="45">
@@ -1018,7 +1038,12 @@
 <Size>8</Size>
 <Leading></Leading>
 </Font>
-<Text>Completes work and tasks on time and with careFollows routines and instructionsPerseveres with tasks and goalsEffectively manages time and materialsUses best effort on class work</Text>
+<Text>Completes work and tasks on time and with care
+Follows routines and instructions
+Perseveres with tasks and goals
+Effectively manages time and materials
+Uses best effort on class work
+</Text>
 </Body>
 </Object>
 <Object no="47">
@@ -1289,7 +1314,7 @@ Days Absent&lt;tabd 2.75&gt;^(daily.att.count;current;A,C,D,E,G,J,K,P,U,X,Y;Q1)&
 <Size>9</Size>
 <Leading>12</Leading>
 </Font>
-<Text>Grade: ^(decode;~(grade_level);0;Kindergarten;~(grade_level))&lt;tabr 8.0&gt;~(yearname)</Text>
+<Text>Grade: Kindergarten&lt;tabr 8.0&gt;~(yearname)</Text>
 </Body>
 </Object>
 <Object no="60">
@@ -1549,7 +1574,18 @@ K.W-HWK.2: Write letters legibly with correct formation, height, and space</Text
 <Size>8</Size>
 <Leading>10</Leading>
 </Font>
-<Text>K.CC.A.1a: Count to 100 by onesK.CC.A.1b: Count to 100 by tensK.CC.A.4: Identify numbers 0-20 randomlyK.CC.A.2: Count on, starting from any numberK.CC.A.3: Write numbers from 0-20K.CC.B.4-5: Count objects with one-to-one correspondence up to 20K.CC.C.6-7: Compare a group of objects and written numerals to decide which is greater than, equal to, or less than another groupK.OA.A.1: Break apart and put together numbers into pairs in many different waysK.OA.A.2: Use objects and symbols to add and/or subtract including solving story problemsK.OA.A.4: Find the number that makes 10 for any number from 1 to 9K.OA.A.5: Fluently add and subtract within 5K.NBT.A.1: Show how numbers 11 to 19 are made of tens and ones</Text>
+<Text>K.CC.A.1a: Count to 100 by ones
+K.CC.A.1b: Count to 100 by tens
+K.CC.A.4: Identify numbers 0-20 randomly
+K.CC.A.2: Count on, starting from any number
+K.CC.A.3: Write numbers from 0-20
+K.CC.B.4-5: Count objects with one-to-one correspondence up to 20
+K.CC.C.6-7: Compare a group of objects and written numerals to decide which is greater than, equal to, or less than another group
+K.OA.A.1: Break apart and put together numbers into pairs in many different ways
+K.OA.A.2: Use objects and symbols to add and/or subtract including solving story problems
+K.OA.A.4: Find the number that makes 10 for any number from 1 to 9
+K.OA.A.5: Fluently add and subtract within 5
+K.NBT.A.1: Show how numbers 11 to 19 are made of tens and ones</Text>
 </Body>
 </Object>
 <Object no="72">
@@ -1702,7 +1738,8 @@ Number Sense and Counting&lt;tabc 6.25&gt;Q1&lt;tabc 6.75&gt;Q2&lt;tabc 7.25&gt;
 <Size>8</Size>
 <Leading>10</Leading>
 </Font>
-<Text>K.MD.A.1: Identify how objects can be measured (length and weight) and describe how objects are different sizesK.G.A.3: Identify and describe shapes (including two and three dimensional shapes)</Text>
+<Text>K.MD.A.1: Identify how objects can be measured (length and weight) and describe how objects are different sizes
+K.G.A.3: Identify and describe shapes (including two and three dimensional shapes)</Text>
 </Body>
 </Object>
 <Object no="79">
@@ -1909,7 +1946,9 @@ Number Sense and Counting&lt;tabc 6.25&gt;Q1&lt;tabc 6.75&gt;Q2&lt;tabc 7.25&gt;
 <Leading></Leading>
 <Bold>True</Bold>
 </Font>
-<Text>SCIENCEPhysical Science, Life Science, Earth Science&lt;tabc 6.25&gt;Q1&lt;tabc 6.75&gt;Q2&lt;tabc 7.25&gt;Q3&lt;tabc 7.75&gt;Q4</Text>
+<Text>SCIENCE
+Physical Science, Life Science, Earth Science&lt;tabc 6.25&gt;Q1&lt;tabc 6.75&gt;Q2&lt;tabc 7.25&gt;Q3&lt;tabc 7.75&gt;Q4
+</Text>
 </Body>
 </Object>
 <Object no="89">
@@ -2103,7 +2142,8 @@ Quarter 4 - Spontaneously create an original tune using more than two tones. Mai
 <Leading></Leading>
 <Bold>True</Bold>
 </Font>
-<Text>SOCIAL STUDIES&lt;tabc 6.25&gt;Q1&lt;tabc 6.75&gt;Q2&lt;tabc 7.25&gt;Q3&lt;tabc 7.75&gt;Q4</Text>
+<Text>SOCIAL STUDIES&lt;tabc 6.25&gt;Q1&lt;tabc 6.75&gt;Q2&lt;tabc 7.25&gt;Q3&lt;tabc 7.75&gt;Q4
+</Text>
 </Body>
 </Object>
 <Object no="98">
@@ -2124,7 +2164,8 @@ Quarter 4 - Spontaneously create an original tune using more than two tones. Mai
 <Leading></Leading>
 <Bold>True</Bold>
 </Font>
-<Text>PHYSICAL EDUCATION&lt;tabc 6.25&gt;Q1&lt;tabc 6.75&gt;Q2&lt;tabc 7.25&gt;Q3&lt;tabc 7.75&gt;Q4</Text>
+<Text>PHYSICAL EDUCATION&lt;tabc 6.25&gt;Q1&lt;tabc 6.75&gt;Q2&lt;tabc 7.25&gt;Q3&lt;tabc 7.75&gt;Q4
+</Text>
 </Body>
 </Object>
 <Object no="99">
@@ -2376,7 +2417,14 @@ Outdoor Education</Text>
 <Size>8</Size>
 <Leading></Leading>
 </Font>
-<Text>&lt;b&gt;&lt;u&gt;Quarter 1:&lt;/b&gt;&lt;/u&gt;^(*std.stored.comment;SPEC-WH;Q1)Physical Education: ^(*std.stored.comment;SPEC-PE;Q1)Music: ^(*std.stored.comment;SPEC-MUS.1;Q1)&lt;b&gt;&lt;u&gt;Quarter 2:&lt;/b&gt;&lt;/u&gt;^(*std.stored.comment;SPEC-WH;Q2)Physical Education: ^(*std.stored.comment;SPEC-PE;Q2)Music: ^(*std.stored.comment;SPEC-MUS.2;Q2)</Text>
+<Text>&lt;b&gt;&lt;u&gt;Quarter 1:&lt;/b&gt;&lt;/u&gt;
+^(*std.stored.comment;SPEC-WH;Q1)
+Physical Education: ^(*std.stored.comment;SPEC-PE;Q1)
+Music: ^(*std.stored.comment;SPEC-MUS.1;Q1)
+&lt;b&gt;&lt;u&gt;Quarter 2:&lt;/b&gt;&lt;/u&gt;
+^(*std.stored.comment;SPEC-WH;Q2)
+Physical Education: ^(*std.stored.comment;SPEC-PE;Q2)
+Music: ^(*std.stored.comment;SPEC-MUS.2;Q2)</Text>
 </Body>
 </Object>
 <Object no="111">
@@ -2451,7 +2499,7 @@ Outdoor Education</Text>
 <Size>9</Size>
 <Leading>12</Leading>
 </Font>
-<Text>Grade: ^(decode;~(grade_level);0;Kindergarten;~(grade_level))&lt;tabr 8.0&gt;~(yearname)</Text>
+<Text>Grade: Kindergarten&lt;tabr 8.0&gt;~(yearname)</Text>
 </Body>
 </Object>
 <Object no="115">
@@ -2570,7 +2618,14 @@ Outdoor Education</Text>
 <Size>8</Size>
 <Leading></Leading>
 </Font>
-<Text>&lt;b&gt;&lt;u&gt;Quarter 3:&lt;/b&gt;&lt;/u&gt;^(*std.stored.comment;SPEC-WH;Q3)Physical Education: ^(*std.stored.comment;SPEC-PE;Q3)Music: ^(*std.stored.comment;SPEC-MUS.3;Q3)&lt;b&gt;&lt;u&gt;Quarter 4:&lt;/b&gt;&lt;/u&gt;^(*std.stored.comment;SPEC-WH;Q4)Physical Education: ^(*std.stored.comment;SPEC-PE;Q4)Music: ^(*std.stored.comment;SPEC-MUS.4;Q4)</Text>
+<Text>&lt;b&gt;&lt;u&gt;Quarter 3:&lt;/b&gt;&lt;/u&gt;
+^(*std.stored.comment;SPEC-WH;Q3)
+Physical Education: ^(*std.stored.comment;SPEC-PE;Q3)
+Music: ^(*std.stored.comment;SPEC-MUS.3;Q3)
+&lt;b&gt;&lt;u&gt;Quarter 4:&lt;/b&gt;&lt;/u&gt;
+^(*std.stored.comment;SPEC-WH;Q4)
+Physical Education: ^(*std.stored.comment;SPEC-PE;Q4)
+Music: ^(*std.stored.comment;SPEC-MUS.4;Q4)</Text>
 </Body>
 </Object>
 <Object no="121">
@@ -2666,7 +2721,7 @@ Outdoor Education</Text>
 <Size>9</Size>
 <Leading>12</Leading>
 </Font>
-<Text>Grade: ^(decode;~(grade_level);0;Kindergarten;~(grade_level))&lt;tabr 8.0&gt;~(yearname)</Text>
+<Text>Grade: Kindergarten&lt;tabr 8.0&gt;~(yearname)</Text>
 </Body>
 </Object>
 <Object no="126">

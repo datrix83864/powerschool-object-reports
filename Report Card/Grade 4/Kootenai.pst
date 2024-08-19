@@ -152,7 +152,7 @@
 <Leading>12</Leading>
 <Italic>True</Italic>
 </Font>
-<Text>Grade ~(grade_level)&lt;tabr 8.0&gt;~(yearname)</Text>
+<Text>Grade: 4&lt;tabr 8.0&gt;~(yearname)</Text>
 </Body>
 </Object>
 <Object no="7">
@@ -1243,7 +1243,7 @@ Days Absent&lt;tabd 2.75&gt;^(daily.att.count;current;A,C,D,E,G,J,K,P,U,X,Y;Q1)&
 <Size>9</Size>
 <Leading>12</Leading>
 </Font>
-<Text>Grade ^(grade_level)&lt;tabr 8.0&gt;~(yearname)</Text>
+<Text>Grade: 4&lt;tabr 8.0&gt;~(yearname)</Text>
 </Body>
 </Object>
 <Object no="58">
@@ -2343,7 +2343,7 @@ Music: ^(*std.stored.comment;SPEC-MUS;Q2)</Text>
 <Size>9</Size>
 <Leading>12</Leading>
 </Font>
-<Text>Grade ^(grade_level)&lt;tabr 8.0&gt;~(yearname)</Text>
+<Text>Grade: 4&lt;tabr 8.0&gt;~(yearname)</Text>
 </Body>
 </Object>
 <Object no="108">
@@ -2544,7 +2544,7 @@ Music: ^(*std.stored.comment;SPEC-MUS;Q4)</Text>
 <Size>9</Size>
 <Leading>12</Leading>
 </Font>
-<Text>Grade ^(grade_level)&lt;tabr 8.0&gt;~(yearname)</Text>
+<Text>Grade: 4&lt;tabr 8.0&gt;~(yearname)</Text>
 </Body>
 </Object>
 <Object no="118">
