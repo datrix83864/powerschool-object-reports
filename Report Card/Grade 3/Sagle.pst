@@ -1892,8 +1892,7 @@ Days Absent&lt;tabd 2.75&gt;^(daily.att.count;current;A,C,D,E,G,J,K,P,U,X,Y;Q1)&
 <Leading>10</Leading>
 </Font>
 <Text>&lt;b&gt;Operations and Algebraic Thinking&lt;/b&gt;
-3.OA.A.a: Represent and solve problems involving multiplication
-3.OA.A.b: Represent and solve problems involving division
+3.OA.A: Represent and solve problems involving multiplicaton and division
 3.OA.C.7b: Demonstrate fluency for multiplication within 100. Know from memory all products of two single-digit numbers and related division facts
 &lt;b&gt;Number and Operations in Base Ten
 &lt;/b&gt;3.NBT.A.2: Fluently add and subtract whole numbers within 1,000 using place value and properties of operations
@@ -1925,8 +1924,7 @@ Days Absent&lt;tabd 2.75&gt;^(daily.att.count;current;A,C,D,E,G,J,K,P,U,X,Y;Q1)&
 <Leading>10</Leading>
 </Font>
 <Text>
-&lt;tabc 6.25&gt;~(*std.stored.transavg;3.OA.A.A;Q1)&lt;tabc 6.75&gt;~(*std.stored.transavg;3.OA.A.A;Q2)&lt;tabc 7.25&gt;~(*std.stored.transavg;3.OA.A.A;Q3)&lt;tabc 7.75&gt;~(*std.stored.transavg;3.OA.A.A;Q4)
-&lt;tabc 6.25&gt;~(*std.stored.transavg;3.OA.A.B;Q1)&lt;tabc 6.75&gt;~(*std.stored.transavg;3.OA.A.B;Q2)&lt;tabc 7.25&gt;~(*std.stored.transavg;3.OA.A.B;Q3)&lt;tabc 7.75&gt;~(*std.stored.transavg;3.OA.A.B;Q4)
+&lt;tabc 6.25&gt;~(*std.stored.transavg;3.OA.A;Q1)&lt;tabc 6.75&gt;~(*std.stored.transavg;3.OA.A;Q2)&lt;tabc 7.25&gt;~(*std.stored.transavg;3.OA.A;Q3)&lt;tabc 7.75&gt;~(*std.stored.transavg;3.OA.A;Q4)
 &lt;tabc 6.25&gt;~(*std.stored.transavg;3.OA.C.7b;Q1)&lt;tabc 6.75&gt;~(*std.stored.transavg;3.OA.C.7b;Q2)&lt;tabc 7.25&gt;~(*std.stored.transavg;3.OA.C.7b;Q3)&lt;tabc 7.75&gt;~(*std.stored.transavg;3.OA.C.7b;Q4)
 
 
@@ -1938,7 +1936,8 @@ Days Absent&lt;tabd 2.75&gt;^(daily.att.count;current;A,C,D,E,G,J,K,P,U,X,Y;Q1)&
 &lt;tabc 6.25&gt;~(*std.stored.transavg;3.MD.A.1-2;Q1)&lt;tabc 6.75&gt;~(*std.stored.transavg;3.MD.A.1-2;Q2)&lt;tabc 7.25&gt;~(*std.stored.transavg;3.MD.A.1-2;Q3)&lt;tabc 7.75&gt;~(*std.stored.transavg;3.MD.A.1-2;Q4)
 
 &lt;tabc 6.25&gt;~(*std.stored.transavg;3.MD.B.3-4;Q1)&lt;tabc 6.75&gt;~(*std.stored.transavg;3.MD.B.3-4;Q2)&lt;tabc 7.25&gt;~(*std.stored.transavg;3.MD.B.3-4;Q3)&lt;tabc 7.75&gt;~(*std.stored.transavg;3.MD.B.3-4;Q4)
-&lt;tabc 6.25&gt;~(*std.stored.transavg;3.MD.C-D;Q1)&lt;tabc 6.75&gt;~(*std.stored.transavg;3.MD.C-D;Q2)&lt;tabc 7.25&gt;~(*std.stored.transavg;3.MD.C-D;Q3)&lt;tabc 7.75&gt;~(*std.stored.transavg;3.MD.C-D;Q4)
+&lt;tabc 6.25&gt;~(*std.stored.transavg;3.MD.C;Q1)&lt;tabc 6.75&gt;~(*std.stored.transavg;3.MD.C;Q2)&lt;tabc 7.25&gt;~(*std.stored.transavg;3.MD.C;Q3)&lt;tabc 7.75&gt;~(*std.stored.transavg;3.MD.C;Q4)
+&lt;tabc 6.25&gt;~(*std.stored.transavg;3.MD.D;Q1)&lt;tabc 6.75&gt;~(*std.stored.transavg;3.MD.D;Q2)&lt;tabc 7.25&gt;~(*std.stored.transavg;3.MD.D;Q3)&lt;tabc 7.75&gt;~(*std.stored.transavg;3.MD.D;Q4)
 
 &lt;tabc 6.25&gt;~(*std.stored.transavg;3.G.A.1-2;Q1)&lt;tabc 6.75&gt;~(*std.stored.transavg;3.G.A.1-2;Q2)&lt;tabc 7.25&gt;~(*std.stored.transavg;3.G.A.1-2;Q3)&lt;tabc 7.75&gt;~(*std.stored.transavg;3.G.A.1-2;Q4)</Text>
 </Body>
