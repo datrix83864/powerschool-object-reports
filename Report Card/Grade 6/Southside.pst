@@ -1656,11 +1656,10 @@ Days Absent&lt;tabd 2.75&gt;^(daily.att.count;current;A,C,D,E,G,J,K,P,U,X,Y;Q1)&
 &lt;b&gt;The Number System&lt;/b&gt;
 6.NS.A: Extend previous understandings of multiplication and division to divide fractions by fractions
 6.NS.B.2: Fluently divide multi-digit numbers using the standard algorithm
-6.NS.B.3a: Fluently add and subtract multi-digit decimals using the standard algorithm for each operation
-6.NS.B.3b: Fluently multiply and divide multi-digit decimals using the standard algorithm for each operation
-6.NS.B.4: Find the greatest common factor of two whole numbers less than or equal to 100. Find the least common multiple of two whole numbers less than or equal to 12.
-6.NS.C.6: Understand number coordinates on a number line (including negative numbers)
-6.NS.C.7: Understand ordering and absolute value of rational numbers
+6.NS.B.3a: Fluently add and subtract multi-digit decimals using the standard algorithm
+6.NS.B.3b: Fluently multiply and divide multi-digit decimals using the standard algorithm
+6.NS.B.4: Find the greatest common factor and the least common multiple of two whole numbers
+6.NS.C.6-7: Understand ordering and placement of absolute values and positive and negative numbers on a number line or coordinate grid
 &lt;b&gt;Expressions and Equations&lt;/b&gt;
 6.EE.A.1-2: Read, write, and evaluate expressions involving whole numbers or letters to stand for numbers
 6.EE.A.3-4: Use operations to create equivalent expressions and identify when the expressions are equivalent
@@ -1669,7 +1668,7 @@ Days Absent&lt;tabd 2.75&gt;^(daily.att.count;current;A,C,D,E,G,J,K,P,U,X,Y;Q1)&
 &lt;b&gt;Geometry&lt;/b&gt;
 6.G.A.1: Find the area of triangles, quadrilaterals, and polygons
 6.G.A.2: Find the volume of a right rectangular prism
-6.G.A.3-4: Draw polygons with coordinates and represent 3-dimensional figures using nets
+6.G.A.3-4: Draw polygons with coordinates and represent 3-dimensional figures using nets to find surface area
 &lt;b&gt;Statistics and Probability&lt;/b&gt;
 6.SP.A: Develop understanding of statistical variability
 6.SP.B: Summarize and describe distributions</Text>
@@ -1703,8 +1702,7 @@ Days Absent&lt;tabd 2.75&gt;^(daily.att.count;current;A,C,D,E,G,J,K,P,U,X,Y;Q1)&
 
 &lt;tabc 6.25&gt;~(*std.stored.transavg;6.NS.B.4;Q1)&lt;tabc 6.75&gt;~(*std.stored.transavg;6.NS.B.4;Q2)&lt;tabc 7.25&gt;~(*std.stored.transavg;6.NS.B.4;Q3)&lt;tabc 7.75&gt;~(*std.stored.transavg;6.NS.B.4;Q4)
 
-&lt;tabc 6.25&gt;~(*std.stored.transavg;6.NS.C.6;Q1)&lt;tabc 6.75&gt;~(*std.stored.transavg;6.NS.C.6;Q2)&lt;tabc 7.25&gt;~(*std.stored.transavg;6.NS.C.6;Q3)&lt;tabc 7.75&gt;~(*std.stored.transavg;6.NS.C.6;Q4)
-&lt;tabc 6.25&gt;~(*std.stored.transavg;6.NS.C.7;Q1)&lt;tabc 6.75&gt;~(*std.stored.transavg;6.NS.C.7;Q2)&lt;tabc 7.25&gt;~(*std.stored.transavg;6.NS.C.7;Q3)&lt;tabc 7.75&gt;~(*std.stored.transavg;6.NS.C.7;Q4)
+&lt;tabc 6.25&gt;~(*std.stored.transavg;6.NS.C.6-7;Q1)&lt;tabc 6.75&gt;~(*std.stored.transavg;6.NS.C.6-7;Q2)&lt;tabc 7.25&gt;~(*std.stored.transavg;6.NS.C.6-7;Q3)&lt;tabc 7.75&gt;~(*std.stored.transavg;6.NS.C.6-7;Q4)
 
 &lt;tabc 6.25&gt;~(*std.stored.transavg;6.EE.A.1-2;Q1)&lt;tabc 6.75&gt;~(*std.stored.transavg;6.EE.A.1-2;Q2)&lt;tabc 7.25&gt;~(*std.stored.transavg;6.EE.A.1-2;Q3)&lt;tabc 7.75&gt;~(*std.stored.transavg;6.EE.A.1-2;Q4)
 

@@ -1470,14 +1470,14 @@ K.W-HWK.2: Write letters legibly with correct formation, height, and space</Text
 </Object>
 <Object no="67">
 <Type>Box</Type>
-<Label>.1U.E1.Art Box</Label>
+<Label>.1U.NSC Box</Label>
 <Page>2</Page>
 <Layer>4</Layer>
 <Coordinates>
 <Left>1</Left>
 <Top>3.137</Top>
 <Right>8</Right>
-<Bottom>4.95</Bottom>
+<Bottom>5.09</Bottom>
 </Coordinates>
 <Line>
 <Width>0.25</Width>
@@ -1525,7 +1525,7 @@ K.W-HWK.2: Write letters legibly with correct formation, height, and space</Text
 <Left>6</Left>
 <Top>3.137</Top>
 <Right>6</Right>
-<Bottom>4.95</Bottom>
+<Bottom>5.09</Bottom>
 </Coordinates>
 <Line>
 <Width>0.25</Width>
@@ -1539,7 +1539,7 @@ K.W-HWK.2: Write letters legibly with correct formation, height, and space</Text
 <Page>2</Page>
 <Layer>4</Layer>
 <Repeat>
-<Multiple>4</Multiple>
+<Multiple>5</Multiple>
 <Offset>
 <Horizontal>0</Horizontal>
 <Vertical>0.14</Vertical>
@@ -1606,20 +1606,7 @@ K.NBT.A.1: Show how numbers 11 to 19 are made of tens and ones</Text>
 <Size>8</Size>
 <Leading>10</Leading>
 </Font>
-<Text>&lt;tabc 6.25&gt;~(*std.stored.transavg;K.CC.A.1a;Q1)&lt;tabc 6.75&gt;~(*std.stored.transavg;K.CC.A.1a;Q2)&lt;tabc 7.25&gt;~(*std.stored.transavg;K.CC.A.1a;Q3)&lt;tabc 7.75&gt;~(*std.stored.transavg;K.CC.A.1a;Q4)
-&lt;tabc 6.25&gt;~(*std.stored.transavg;K.CC.A.1b;Q1)&lt;tabc 6.75&gt;~(*std.stored.transavg;K.CC.A.1b;Q2)&lt;tabc 7.25&gt;~(*std.stored.transavg;K.CC.A.1b;Q3)&lt;tabc 7.75&gt;~(*std.stored.transavg;K.CC.A.1b;Q4)
-&lt;tabc 6.25&gt;~(*std.stored.transavg;K.CC.A.4;Q1)&lt;tabc 6.75&gt;~(*std.stored.transavg;K.CC.A.4;Q2)&lt;tabc 7.25&gt;~(*std.stored.transavg;K.CC.A.4;Q3)&lt;tabc 7.75&gt;~(*std.stored.transavg;K.CC.A.4;Q4)
-&lt;tabc 6.25&gt;~(*std.stored.transavg;K.CC.A.2;Q1)&lt;tabc 6.75&gt;~(*std.stored.transavg;K.CC.A.2;Q2)&lt;tabc 7.25&gt;~(*std.stored.transavg;K.CC.A.2;Q3)&lt;tabc 7.75&gt;~(*std.stored.transavg;K.CC.A.2;Q4)
-&lt;tabc 6.25&gt;~(*std.stored.transavg;K.CC.A.3;Q1)&lt;tabc 6.75&gt;~(*std.stored.transavg;K.CC.A.3;Q2)&lt;tabc 7.25&gt;~(*std.stored.transavg;K.CC.A.3;Q3)&lt;tabc 7.75&gt;~(*std.stored.transavg;K.CC.A.3;Q4)
-&lt;tabc 6.25&gt;~(*std.stored.transavg;K.CC.B.4-5;Q1)&lt;tabc 6.75&gt;~(*std.stored.transavg;K.CC.B.4-5;Q2)&lt;tabc 7.25&gt;~(*std.stored.transavg;K.CC.B.4-5;Q3)&lt;tabc 7.75&gt;~(*std.stored.transavg;K.CC.B.4-5;Q4)
-&lt;tabc 6.25&gt;~(*std.stored.transavg;K.CC.C.6-7;Q1)&lt;tabc 6.75&gt;~(*std.stored.transavg;K.CC.C.6-7;Q2)&lt;tabc 7.25&gt;~(*std.stored.transavg;K.CC.C.6-7;Q3)&lt;tabc 7.75&gt;~(*std.stored.transavg;K.CC.C.6-7;Q4)
-
-&lt;tabc 6.25&gt;~(*std.stored.transavg;K.OA.A.1;Q1)&lt;tabc 6.75&gt;~(*std.stored.transavg;K.OA.A.1;Q2)&lt;tabc 7.25&gt;~(*std.stored.transavg;K.OA.A.1;Q3)&lt;tabc 7.75&gt;~(*std.stored.transavg;K.OA.A.1;Q4)
-&lt;tabc 6.25&gt;~(*std.stored.transavg;K.OA.A.2;Q1)&lt;tabc 6.75&gt;~(*std.stored.transavg;K.OA.A.2;Q2)&lt;tabc 7.25&gt;~(*std.stored.transavg;K.OA.A.2;Q3)&lt;tabc 7.75&gt;~(*std.stored.transavg;K.OA.A.2;Q4)
-&lt;tabc 6.25&gt;~(*std.stored.transavg;K.OA.A.4;Q1)&lt;tabc 6.75&gt;~(*std.stored.transavg;K.OA.A.4;Q2)&lt;tabc 7.25&gt;~(*std.stored.transavg;K.OA.A.4;Q3)&lt;tabc 7.75&gt;~(*std.stored.transavg;K.OA.A.4;Q4)
-&lt;tabc 6.25&gt;~(*std.stored.transavg;K.OA.A.5a;Q1)&lt;tabc 6.75&gt;~(*std.stored.transavg;K.OA.A.5a;Q2)&lt;tabc 7.25&gt;~(*std.stored.transavg;K.OA.A.5a;Q3)&lt;tabc 7.75&gt;~(*std.stored.transavg;K.OA.A.5a;Q4)
-&lt;tabc 6.25&gt;~(*std.stored.transavg;K.OA.A.5b;Q1)&lt;tabc 6.75&gt;~(*std.stored.transavg;K.OA.A.5b;Q2)&lt;tabc 7.25&gt;~(*std.stored.transavg;K.OA.A.5b;Q3)&lt;tabc 7.75&gt;~(*std.stored.transavg;K.OA.A.5b;Q4)
-&lt;tabc 6.25&gt;~(*std.stored.transavg;K.NBT.A.1;Q1)&lt;tabc 6.75&gt;~(*std.stored.transavg;K.NBT.A.1;Q2)&lt;tabc 7.25&gt;~(*std.stored.transavg;K.NBT.A.1;Q3)&lt;tabc 7.75&gt;~(*std.stored.transavg;K.NBT.A.1;Q4)</Text>
+<Text>&lt;tabc 6.25&gt;~(*std.stored.transavg;K.CC.A.1a;Q1)&lt;tabc 6.75&gt;~(*std.stored.transavg;K.CC.A.1a;Q2)&lt;tabc 7.25&gt;~(*std.stored.transavg;K.CC.A.1a;Q3)&lt;tabc 7.75&gt;~(*std.stored.transavg;K.CC.A.1a;Q4)&lt;tabc 6.25&gt;~(*std.stored.transavg;K.CC.A.1b;Q1)&lt;tabc 6.75&gt;~(*std.stored.transavg;K.CC.A.1b;Q2)&lt;tabc 7.25&gt;~(*std.stored.transavg;K.CC.A.1b;Q3)&lt;tabc 7.75&gt;~(*std.stored.transavg;K.CC.A.1b;Q4)&lt;tabc 6.25&gt;~(*std.stored.transavg;K.CC.A.4;Q1)&lt;tabc 6.75&gt;~(*std.stored.transavg;K.CC.A.4;Q2)&lt;tabc 7.25&gt;~(*std.stored.transavg;K.CC.A.4;Q3)&lt;tabc 7.75&gt;~(*std.stored.transavg;K.CC.A.4;Q4)&lt;tabc 6.25&gt;~(*std.stored.transavg;K.CC.A.2;Q1)&lt;tabc 6.75&gt;~(*std.stored.transavg;K.CC.A.2;Q2)&lt;tabc 7.25&gt;~(*std.stored.transavg;K.CC.A.2;Q3)&lt;tabc 7.75&gt;~(*std.stored.transavg;K.CC.A.2;Q4)&lt;tabc 6.25&gt;~(*std.stored.transavg;K.CC.A.3;Q1)&lt;tabc 6.75&gt;~(*std.stored.transavg;K.CC.A.3;Q2)&lt;tabc 7.25&gt;~(*std.stored.transavg;K.CC.A.3;Q3)&lt;tabc 7.75&gt;~(*std.stored.transavg;K.CC.A.3;Q4)&lt;tabc 6.25&gt;~(*std.stored.transavg;K.CC.B.4-5;Q1)&lt;tabc 6.75&gt;~(*std.stored.transavg;K.CC.B.4-5;Q2)&lt;tabc 7.25&gt;~(*std.stored.transavg;K.CC.B.4-5;Q3)&lt;tabc 7.75&gt;~(*std.stored.transavg;K.CC.B.4-5;Q4)&lt;tabc 6.25&gt;~(*std.stored.transavg;K.CC.C.6-7;Q1)&lt;tabc 6.75&gt;~(*std.stored.transavg;K.CC.C.6-7;Q2)&lt;tabc 7.25&gt;~(*std.stored.transavg;K.CC.C.6-7;Q3)&lt;tabc 7.75&gt;~(*std.stored.transavg;K.CC.C.6-7;Q4)&lt;tabc 6.25&gt;~(*std.stored.transavg;K.OA.A.1;Q1)&lt;tabc 6.75&gt;~(*std.stored.transavg;K.OA.A.1;Q2)&lt;tabc 7.25&gt;~(*std.stored.transavg;K.OA.A.1;Q3)&lt;tabc 7.75&gt;~(*std.stored.transavg;K.OA.A.1;Q4)&lt;tabc 6.25&gt;~(*std.stored.transavg;K.OA.A.2;Q1)&lt;tabc 6.75&gt;~(*std.stored.transavg;K.OA.A.2;Q2)&lt;tabc 7.25&gt;~(*std.stored.transavg;K.OA.A.2;Q3)&lt;tabc 7.75&gt;~(*std.stored.transavg;K.OA.A.2;Q4)&lt;tabc 6.25&gt;~(*std.stored.transavg;K.OA.A.4;Q1)&lt;tabc 6.75&gt;~(*std.stored.transavg;K.OA.A.4;Q2)&lt;tabc 7.25&gt;~(*std.stored.transavg;K.OA.A.4;Q3)&lt;tabc 7.75&gt;~(*std.stored.transavg;K.OA.A.4;Q4)&lt;tabc 6.25&gt;~(*std.stored.transavg;K.OA.A.5a;Q1)&lt;tabc 6.75&gt;~(*std.stored.transavg;K.OA.A.5a;Q2)&lt;tabc 7.25&gt;~(*std.stored.transavg;K.OA.A.5a;Q3)&lt;tabc 7.75&gt;~(*std.stored.transavg;K.OA.A.5a;Q4)&lt;tabc 6.25&gt;~(*std.stored.transavg;K.OA.A.5b;Q1)&lt;tabc 6.75&gt;~(*std.stored.transavg;K.OA.A.5b;Q2)&lt;tabc 7.25&gt;~(*std.stored.transavg;K.OA.A.5b;Q3)&lt;tabc 7.75&gt;~(*std.stored.transavg;K.OA.A.5b;Q4)&lt;tabc 6.25&gt;~(*std.stored.transavg;K.NBT.A.1;Q1)&lt;tabc 6.75&gt;~(*std.stored.transavg;K.NBT.A.1;Q2)&lt;tabc 7.25&gt;~(*std.stored.transavg;K.NBT.A.1;Q3)&lt;tabc 7.75&gt;~(*std.stored.transavg;K.NBT.A.1;Q4)</Text>
 </Body>
 </Object>
 <Object no="73">
@@ -1652,9 +1639,9 @@ Number Sense and Counting&lt;tabc 6.25&gt;Q1&lt;tabc 6.75&gt;Q2&lt;tabc 7.25&gt;
 <Layer>5</Layer>
 <Coordinates>
 <Left>1</Left>
-<Top>5.271</Top>
+<Top>5.383</Top>
 <Right>8</Right>
-<Bottom>5.694</Bottom>
+<Bottom>5.806</Bottom>
 </Coordinates>
 <Line>
 <Width>0.25</Width>
@@ -1669,9 +1656,9 @@ Number Sense and Counting&lt;tabc 6.25&gt;Q1&lt;tabc 6.75&gt;Q2&lt;tabc 7.25&gt;
 <Layer>5</Layer>
 <Coordinates>
 <Left>1</Left>
-<Top>5.555</Top>
+<Top>5.667</Top>
 <Right>8</Right>
-<Bottom>5.555</Bottom>
+<Bottom>5.667</Bottom>
 </Coordinates>
 <Line>
 <Width>0.25</Width>
@@ -1693,9 +1680,9 @@ Number Sense and Counting&lt;tabc 6.25&gt;Q1&lt;tabc 6.75&gt;Q2&lt;tabc 7.25&gt;
 </Repeat>
 <Coordinates>
 <Left>6</Left>
-<Top>5.271</Top>
+<Top>5.383</Top>
 <Right>6</Right>
-<Bottom>5.694</Bottom>
+<Bottom>5.806</Bottom>
 </Coordinates>
 <Line>
 <Width>0.25</Width>
@@ -1710,7 +1697,7 @@ Number Sense and Counting&lt;tabc 6.25&gt;Q1&lt;tabc 6.75&gt;Q2&lt;tabc 7.25&gt;
 <Layer>5</Layer>
 <Coordinates>
 <Left>1</Left>
-<Top>5.221</Top>
+<Top>5.333</Top>
 </Coordinates>
 <MaxWidth>0</MaxWidth>
 <MaxHeight>0</MaxHeight>
@@ -1730,7 +1717,7 @@ Number Sense and Counting&lt;tabc 6.25&gt;Q1&lt;tabc 6.75&gt;Q2&lt;tabc 7.25&gt;
 <Layer>5</Layer>
 <Coordinates>
 <Left>1.05</Left>
-<Top>5.395</Top>
+<Top>5.507</Top>
 </Coordinates>
 <MaxWidth>4.8</MaxWidth>
 <MaxHeight>0</MaxHeight>
@@ -1751,7 +1738,7 @@ K.G.A.3: Identify and describe shapes (including two and three dimensional shape
 <Layer>5</Layer>
 <Coordinates>
 <Left>6</Left>
-<Top>5.395</Top>
+<Top>5.507</Top>
 </Coordinates>
 <MaxWidth>0</MaxWidth>
 <MaxHeight>0</MaxHeight>
@@ -1773,9 +1760,9 @@ K.G.A.3: Identify and describe shapes (including two and three dimensional shape
 <Layer>6</Layer>
 <Coordinates>
 <Left>1</Left>
-<Top>6.336</Top>
+<Top>6.448</Top>
 <Right>8</Right>
-<Bottom>6.476</Bottom>
+<Bottom>6.588</Bottom>
 </Coordinates>
 <Line>
 <Width>0.25</Width>
@@ -1790,9 +1777,9 @@ K.G.A.3: Identify and describe shapes (including two and three dimensional shape
 <Layer>6</Layer>
 <Coordinates>
 <Left>1</Left>
-<Top>6.826</Top>
+<Top>6.938</Top>
 <Right>7.986</Right>
-<Bottom>6.966</Bottom>
+<Bottom>7.078</Bottom>
 </Coordinates>
 <Line>
 <Width>0.25</Width>
@@ -1807,9 +1794,9 @@ K.G.A.3: Identify and describe shapes (including two and three dimensional shape
 <Layer>6</Layer>
 <Coordinates>
 <Left>1</Left>
-<Top>7.358</Top>
+<Top>7.47</Top>
 <Right>8</Right>
-<Bottom>7.854</Bottom>
+<Bottom>7.966</Bottom>
 </Coordinates>
 <Line>
 <Width>0.25</Width>
@@ -1824,9 +1811,9 @@ K.G.A.3: Identify and describe shapes (including two and three dimensional shape
 <Layer>6</Layer>
 <Coordinates>
 <Left>1</Left>
-<Top>8.184</Top>
+<Top>8.296</Top>
 <Right>8</Right>
-<Bottom>9.304</Bottom>
+<Bottom>9.416</Bottom>
 </Coordinates>
 <Line>
 <Width>0.25</Width>
@@ -1848,9 +1835,9 @@ K.G.A.3: Identify and describe shapes (including two and three dimensional shape
 </Repeat>
 <Coordinates>
 <Left>6</Left>
-<Top>6.336</Top>
+<Top>6.448</Top>
 <Right>6</Right>
-<Bottom>6.471</Bottom>
+<Bottom>6.583</Bottom>
 </Coordinates>
 <Line>
 <Width>0.25</Width>
@@ -1872,9 +1859,9 @@ K.G.A.3: Identify and describe shapes (including two and three dimensional shape
 </Repeat>
 <Coordinates>
 <Left>5.986</Left>
-<Top>6.826</Top>
+<Top>6.938</Top>
 <Right>5.986</Right>
-<Bottom>6.961</Bottom>
+<Bottom>7.073</Bottom>
 </Coordinates>
 <Line>
 <Width>0.25</Width>
@@ -1896,9 +1883,9 @@ K.G.A.3: Identify and describe shapes (including two and three dimensional shape
 </Repeat>
 <Coordinates>
 <Left>6</Left>
-<Top>7.358</Top>
+<Top>7.47</Top>
 <Right>6</Right>
-<Bottom>7.854</Bottom>
+<Bottom>7.966</Bottom>
 </Coordinates>
 <Line>
 <Width>0.25</Width>
@@ -1920,9 +1907,9 @@ K.G.A.3: Identify and describe shapes (including two and three dimensional shape
 </Repeat>
 <Coordinates>
 <Left>6</Left>
-<Top>8.184</Top>
+<Top>8.296</Top>
 <Right>6</Right>
-<Bottom>9.304</Bottom>
+<Bottom>9.416</Bottom>
 </Coordinates>
 <Line>
 <Width>0.25</Width>
@@ -1937,7 +1924,7 @@ K.G.A.3: Identify and describe shapes (including two and three dimensional shape
 <Layer>6</Layer>
 <Coordinates>
 <Left>1</Left>
-<Top>6.09</Top>
+<Top>6.202</Top>
 </Coordinates>
 <MaxWidth>0</MaxWidth>
 <MaxHeight>0</MaxHeight>
@@ -1960,7 +1947,7 @@ Physical Science, Life Science, Earth Science&lt;tabc 6.25&gt;Q1&lt;tabc 6.75&gt
 <Layer>6</Layer>
 <Coordinates>
 <Left>1.05</Left>
-<Top>6.45</Top>
+<Top>6.562</Top>
 </Coordinates>
 <MaxWidth>0</MaxWidth>
 <MaxHeight>0</MaxHeight>
@@ -1980,7 +1967,7 @@ Physical Science, Life Science, Earth Science&lt;tabc 6.25&gt;Q1&lt;tabc 6.75&gt
 <Layer>6</Layer>
 <Coordinates>
 <Left>6</Left>
-<Top>6.45</Top>
+<Top>6.562</Top>
 </Coordinates>
 <MaxWidth>0</MaxWidth>
 <MaxHeight>0</MaxHeight>
@@ -2000,7 +1987,7 @@ Physical Science, Life Science, Earth Science&lt;tabc 6.25&gt;Q1&lt;tabc 6.75&gt
 <Layer>6</Layer>
 <Coordinates>
 <Left>1.05</Left>
-<Top>6.94</Top>
+<Top>7.052</Top>
 </Coordinates>
 <MaxWidth>0</MaxWidth>
 <MaxHeight>0</MaxHeight>
@@ -2021,7 +2008,7 @@ Physical Science, Life Science, Earth Science&lt;tabc 6.25&gt;Q1&lt;tabc 6.75&gt
 <Layer>6</Layer>
 <Coordinates>
 <Left>6</Left>
-<Top>6.94</Top>
+<Top>7.052</Top>
 </Coordinates>
 <MaxWidth>0</MaxWidth>
 <MaxHeight>0</MaxHeight>
@@ -2042,7 +2029,7 @@ Physical Science, Life Science, Earth Science&lt;tabc 6.25&gt;Q1&lt;tabc 6.75&gt
 <Layer>6</Layer>
 <Coordinates>
 <Left>1.05</Left>
-<Top>7.472</Top>
+<Top>7.584</Top>
 </Coordinates>
 <MaxWidth>4.97</MaxWidth>
 <MaxHeight>0</MaxHeight>
@@ -2063,7 +2050,7 @@ Physical Science, Life Science, Earth Science&lt;tabc 6.25&gt;Q1&lt;tabc 6.75&gt
 <Layer>6</Layer>
 <Coordinates>
 <Left>6</Left>
-<Top>7.472</Top>
+<Top>7.584</Top>
 </Coordinates>
 <MaxWidth>0</MaxWidth>
 <MaxHeight>0</MaxHeight>
@@ -2084,7 +2071,7 @@ Physical Science, Life Science, Earth Science&lt;tabc 6.25&gt;Q1&lt;tabc 6.75&gt
 <Layer>6</Layer>
 <Coordinates>
 <Left>1.05</Left>
-<Top>8.298</Top>
+<Top>8.41</Top>
 </Coordinates>
 <MaxWidth>4.8</MaxWidth>
 <MaxHeight>0</MaxHeight>
@@ -2107,7 +2094,7 @@ Quarter 4 - Spontaneously create an original tune using more than two tones. Mai
 <Layer>6</Layer>
 <Coordinates>
 <Left>6</Left>
-<Top>8.298</Top>
+<Top>8.41</Top>
 </Coordinates>
 <MaxWidth>0</MaxWidth>
 <MaxHeight>0</MaxHeight>
@@ -2133,7 +2120,7 @@ Quarter 4 - Spontaneously create an original tune using more than two tones. Mai
 <Layer>7</Layer>
 <Coordinates>
 <Left>1</Left>
-<Top>6.758</Top>
+<Top>6.87</Top>
 </Coordinates>
 <MaxWidth>0</MaxWidth>
 <MaxHeight>0</MaxHeight>
@@ -2155,7 +2142,7 @@ Quarter 4 - Spontaneously create an original tune using more than two tones. Mai
 <Layer>7</Layer>
 <Coordinates>
 <Left>1</Left>
-<Top>7.262</Top>
+<Top>7.374</Top>
 </Coordinates>
 <MaxWidth>0</MaxWidth>
 <MaxHeight>0</MaxHeight>
@@ -2177,7 +2164,7 @@ Quarter 4 - Spontaneously create an original tune using more than two tones. Mai
 <Layer>7</Layer>
 <Coordinates>
 <Left>1</Left>
-<Top>8.13</Top>
+<Top>8.242</Top>
 </Coordinates>
 <MaxWidth>0</MaxWidth>
 <MaxHeight>0</MaxHeight>
@@ -2205,9 +2192,9 @@ Quarter 4 - Spontaneously create an original tune using more than two tones. Mai
 </Repeat>
 <Coordinates>
 <Left>1</Left>
-<Top>8.464</Top>
+<Top>8.576</Top>
 <Right>8</Right>
-<Bottom>8.464</Bottom>
+<Bottom>8.576</Bottom>
 </Coordinates>
 <Line>
 <Width>0.25</Width>
@@ -2222,9 +2209,9 @@ Quarter 4 - Spontaneously create an original tune using more than two tones. Mai
 <Layer>9</Layer>
 <Coordinates>
 <Left>1</Left>
-<Top>9.574</Top>
+<Top>9.686</Top>
 <Right>8</Right>
-<Bottom>9.979</Bottom>
+<Bottom>10.091</Bottom>
 </Coordinates>
 <Line>
 <Width>0.25</Width>
@@ -2246,9 +2233,9 @@ Quarter 4 - Spontaneously create an original tune using more than two tones. Mai
 </Repeat>
 <Coordinates>
 <Left>1</Left>
-<Top>9.699</Top>
+<Top>9.811</Top>
 <Right>8</Right>
-<Bottom>9.699</Bottom>
+<Bottom>9.811</Bottom>
 </Coordinates>
 <Line>
 <Width>0.258</Width>
@@ -2270,9 +2257,9 @@ Quarter 4 - Spontaneously create an original tune using more than two tones. Mai
 </Repeat>
 <Coordinates>
 <Left>6</Left>
-<Top>9.574</Top>
+<Top>9.686</Top>
 <Right>6</Right>
-<Bottom>9.979</Bottom>
+<Bottom>10.091</Bottom>
 </Coordinates>
 <Line>
 <Width>0.25</Width>
@@ -2287,7 +2274,7 @@ Quarter 4 - Spontaneously create an original tune using more than two tones. Mai
 <Layer>9</Layer>
 <Coordinates>
 <Left>1</Left>
-<Top>9.524</Top>
+<Top>9.636</Top>
 </Coordinates>
 <MaxWidth>0</MaxWidth>
 <MaxHeight>0</MaxHeight>
@@ -2307,7 +2294,7 @@ Quarter 4 - Spontaneously create an original tune using more than two tones. Mai
 <Layer>9</Layer>
 <Coordinates>
 <Left>1.05</Left>
-<Top>9.688</Top>
+<Top>9.8</Top>
 </Coordinates>
 <MaxWidth>0</MaxWidth>
 <MaxHeight>0</MaxHeight>
@@ -2329,7 +2316,7 @@ Outdoor Education</Text>
 <Layer>9</Layer>
 <Coordinates>
 <Left>6</Left>
-<Top>9.688</Top>
+<Top>9.8</Top>
 </Coordinates>
 <MaxWidth>0</MaxWidth>
 <MaxHeight>0</MaxHeight>

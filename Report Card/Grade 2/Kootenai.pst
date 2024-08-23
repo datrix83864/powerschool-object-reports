@@ -1722,7 +1722,7 @@ Days Absent&lt;tabd 2.75&gt;^(daily.att.count;current;A,C,D,E,G,J,K,P,U,X,Y;Q1)&
 <Leading>10</Leading>
 </Font>
 <Text>&lt;b&gt;Operations and Algebraic Thinking&lt;/b&gt;
-2.OA.A.1a: Use addition and/or subtraction within 100 to solve one and two step word problems
+2.OA.A.1: Use addition and/or subtraction within 100 to solve one and two step word problems
 2.OA.B.2a: By the end of grade two, recall basic facts to add within 20 with automaticity
 2.OA.B.2b: By the end of grade two, recall basic facts to subtract within 20 with automaticity
 &lt;b&gt;Number and Operations in Base Ten&lt;/b&gt;
@@ -1757,8 +1757,7 @@ Days Absent&lt;tabd 2.75&gt;^(daily.att.count;current;A,C,D,E,G,J,K,P,U,X,Y;Q1)&
 <Leading>10</Leading>
 </Font>
 <Text>
-&lt;tabc 6.25&gt;~(*std.stored.transavg;2.OA.A.1a;Q1)&lt;tabc 6.75&gt;~(*std.stored.transavg;2.OA.A.1a;Q2)&lt;tabc 7.25&gt;~(*std.stored.transavg;2.OA.A.1a;Q3)&lt;tabc 7.75&gt;~(*std.stored.transavg;2.OA.A.1a;Q4)
-&lt;tabc 6.25&gt;~(*std.stored.transavg;2.OA.A.1b;Q1)&lt;tabc 6.75&gt;~(*std.stored.transavg;2.OA.A.1b;Q2)&lt;tabc 7.25&gt;~(*std.stored.transavg;2.OA.A.1b;Q3)&lt;tabc 7.75&gt;~(*std.stored.transavg;2.OA.A.1b;Q4)
+&lt;tabc 6.25&gt;~(*std.stored.transavg;2.OA.A.1;Q1)&lt;tabc 6.75&gt;~(*std.stored.transavg;2.OA.A.1;Q2)&lt;tabc 7.25&gt;~(*std.stored.transavg;2.OA.A.1;Q3)&lt;tabc 7.75&gt;~(*std.stored.transavg;2.OA.A.1;Q4)
 &lt;tabc 6.25&gt;~(*std.stored.transavg;2.OA.B.2a;Q1)&lt;tabc 6.75&gt;~(*std.stored.transavg;2.OA.B.2a;Q2)&lt;tabc 7.25&gt;~(*std.stored.transavg;2.OA.B.2a;Q3)&lt;tabc 7.75&gt;~(*std.stored.transavg;2.OA.B.2a;Q4)
 &lt;tabc 6.25&gt;~(*std.stored.transavg;2.OA.B.2b;Q1)&lt;tabc 6.75&gt;~(*std.stored.transavg;2.OA.B.2b;Q2)&lt;tabc 7.25&gt;~(*std.stored.transavg;2.OA.B.2b;Q3)&lt;tabc 7.75&gt;~(*std.stored.transavg;2.OA.B.2b;Q4)
 
