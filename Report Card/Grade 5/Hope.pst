@@ -1669,7 +1669,6 @@ Days Absent&lt;tabd 2.75&gt;^(daily.att.count;current;A,C,D,E,G,J,K,P,U,X,Y;Q1)&
 </Font>
 <Text>&lt;b&gt;Operations and Algebraic Thinking&lt;/b&gt;
 5.OA.A: Write and interpret numerical expressions
-5.OA.B: Analyze patterns and relationships
 &lt;b&gt;Number and Operations in Base Ten
 &lt;/b&gt;5.NBT.A: Understand the place value system
 5.NBT.B.5: Demonstrate fluency for multiplication of multi-digit whole numbers using the standard algorithm. Include two-digit x four-digit numbers and three-digit x three-digit numbers
@@ -1705,7 +1704,6 @@ Days Absent&lt;tabd 2.75&gt;^(daily.att.count;current;A,C,D,E,G,J,K,P,U,X,Y;Q1)&
 </Font>
 <Text>
 &lt;tabc 6.25&gt;~(*std.stored.transavg;5.OA.A;Q1)&lt;tabc 6.75&gt;~(*std.stored.transavg;5.OA.A;Q2)&lt;tabc 7.25&gt;~(*std.stored.transavg;5.OA.A;Q3)&lt;tabc 7.75&gt;~(*std.stored.transavg;5.OA.A;Q4)
-&lt;tabc 6.25&gt;~(*std.stored.transavg;5.OA.B;Q1)&lt;tabc 6.75&gt;~(*std.stored.transavg;5.OA.B;Q2)&lt;tabc 7.25&gt;~(*std.stored.transavg;5.OA.B;Q3)&lt;tabc 7.75&gt;~(*std.stored.transavg;5.OA.B;Q4)
 
 &lt;tabc 6.25&gt;~(*std.stored.transavg;5.NBT.A;Q1)&lt;tabc 6.75&gt;~(*std.stored.transavg;5.NBT.A;Q2)&lt;tabc 7.25&gt;~(*std.stored.transavg;5.NBT.A;Q3)&lt;tabc 7.75&gt;~(*std.stored.transavg;5.NBT.A;Q4)
 &lt;tabc 6.25&gt;~(*std.stored.transavg;5.NBT.B.5;Q1)&lt;tabc 6.75&gt;~(*std.stored.transavg;5.NBT.B.5;Q2)&lt;tabc 7.25&gt;~(*std.stored.transavg;5.NBT.B.5;Q3)&lt;tabc 7.75&gt;~(*std.stored.transavg;5.NBT.B.5;Q4)
