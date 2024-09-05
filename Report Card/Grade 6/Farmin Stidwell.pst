@@ -1458,7 +1458,7 @@ Days Absent&lt;tabd 2.75&gt;^(daily.att.count;current;A,C,D,E,G,J,K,P,U,X,Y;Q1)&
 <Left>1</Left>
 <Top>3.389</Top>
 <Right>8</Right>
-<Bottom>7.302</Bottom>
+<Bottom>7.04</Bottom>
 </Coordinates>
 <Line>
 <Width>0.25</Width>
@@ -1472,7 +1472,7 @@ Days Absent&lt;tabd 2.75&gt;^(daily.att.count;current;A,C,D,E,G,J,K,P,U,X,Y;Q1)&
 <Page>2</Page>
 <Layer>4</Layer>
 <Repeat>
-<Multiple>4</Multiple>
+<Multiple>7</Multiple>
 <Offset>
 <Horizontal>0</Horizontal>
 <Vertical>0.14</Vertical>
@@ -1530,7 +1530,7 @@ Days Absent&lt;tabd 2.75&gt;^(daily.att.count;current;A,C,D,E,G,J,K,P,U,X,Y;Q1)&
 <Left>6</Left>
 <Top>3.809</Top>
 <Right>6</Right>
-<Bottom>5.209</Bottom>
+<Bottom>4.79</Bottom>
 </Coordinates>
 <Line>
 <Width>0.25</Width>
@@ -1540,7 +1540,31 @@ Days Absent&lt;tabd 2.75&gt;^(daily.att.count;current;A,C,D,E,G,J,K,P,U,X,Y;Q1)&
 </Object>
 <Object no="72">
 <Type>Line</Type>
-<Label>.1Z.Math Vert Line3</Label>
+<Label>.1Z.Math Horiz Line3</Label>
+<Page>2</Page>
+<Layer>4</Layer>
+<Repeat>
+<Multiple>1</Multiple>
+<Offset>
+<Horizontal>0</Horizontal>
+<Vertical>0.14</Vertical>
+</Offset>
+</Repeat>
+<Coordinates>
+<Left>1</Left>
+<Top>4.8</Top>
+<Right>8</Right>
+<Bottom>4.8</Bottom>
+</Coordinates>
+<Line>
+<Width>0.25</Width>
+<Style>1</Style>
+<Color>Black</Color>
+</Line>
+</Object>
+<Object no="73">
+<Type>Line</Type>
+<Label>.20.Math Vert Line3</Label>
 <Page>2</Page>
 <Layer>4</Layer>
 <Repeat>
@@ -1552,9 +1576,9 @@ Days Absent&lt;tabd 2.75&gt;^(daily.att.count;current;A,C,D,E,G,J,K,P,U,X,Y;Q1)&
 </Repeat>
 <Coordinates>
 <Left>6</Left>
-<Top>5.349</Top>
+<Top>4.94</Top>
 <Right>6</Right>
-<Bottom>6.329</Bottom>
+<Bottom>5.92</Bottom>
 </Coordinates>
 <Line>
 <Width>0.25</Width>
@@ -1562,11 +1586,301 @@ Days Absent&lt;tabd 2.75&gt;^(daily.att.count;current;A,C,D,E,G,J,K,P,U,X,Y;Q1)&
 <Color>Black</Color>
 </Line>
 </Object>
-<Object no="73">
+<Object no="74">
 <Type>Line</Type>
-<Label>.20.Sci Vert Line</Label>
+<Label>.21.Math Horiz Line4</Label>
 <Page>2</Page>
 <Layer>4</Layer>
+<Repeat>
+<Multiple>1</Multiple>
+<Offset>
+<Horizontal>0</Horizontal>
+<Vertical>0.28</Vertical>
+</Offset>
+</Repeat>
+<Coordinates>
+<Left>1</Left>
+<Top>5.21</Top>
+<Right>8</Right>
+<Bottom>5.21</Bottom>
+</Coordinates>
+<Line>
+<Width>0.25</Width>
+<Style>1</Style>
+<Color>Black</Color>
+</Line>
+</Object>
+<Object no="75">
+<Type>Line</Type>
+<Label>.22.Math Horiz Line5</Label>
+<Page>2</Page>
+<Layer>4</Layer>
+<Repeat>
+<Multiple>1</Multiple>
+<Offset>
+<Horizontal>0</Horizontal>
+<Vertical>0.28</Vertical>
+</Offset>
+</Repeat>
+<Coordinates>
+<Left>1</Left>
+<Top>5.63</Top>
+<Right>8</Right>
+<Bottom>5.63</Bottom>
+</Coordinates>
+<Line>
+<Width>0.25</Width>
+<Style>1</Style>
+<Color>Black</Color>
+</Line>
+</Object>
+<Object no="76">
+<Type>Line</Type>
+<Label>.23.Math Horiz Line6</Label>
+<Page>2</Page>
+<Layer>4</Layer>
+<Coordinates>
+<Left>1</Left>
+<Top>5.901</Top>
+<Right>8</Right>
+<Bottom>5.901</Bottom>
+</Coordinates>
+<Line>
+<Width>0.25</Width>
+<Style>1</Style>
+<Color>Black</Color>
+</Line>
+</Object>
+<Object no="77">
+<Type>Line</Type>
+<Label>.24.Math Horiz Line7</Label>
+<Page>2</Page>
+<Layer>4</Layer>
+<Repeat>
+<Multiple>2</Multiple>
+<Offset>
+<Horizontal>0</Horizontal>
+<Vertical>0.14</Vertical>
+</Offset>
+</Repeat>
+<Coordinates>
+<Left>1</Left>
+<Top>6.06</Top>
+<Right>8</Right>
+<Bottom>6.06</Bottom>
+</Coordinates>
+<Line>
+<Width>0.25</Width>
+<Style>1</Style>
+<Color>Black</Color>
+</Line>
+</Object>
+<Object no="78">
+<Type>Line</Type>
+<Label>.25.Math Vert Line5</Label>
+<Page>2</Page>
+<Layer>4</Layer>
+<Repeat>
+<Multiple>3</Multiple>
+<Offset>
+<Horizontal>0.5</Horizontal>
+<Vertical>0</Vertical>
+</Offset>
+</Repeat>
+<Coordinates>
+<Left>6</Left>
+<Top>6.06</Top>
+<Right>6</Right>
+<Bottom>6.62</Bottom>
+</Coordinates>
+<Line>
+<Width>0.25</Width>
+<Style>1</Style>
+<Color>Black</Color>
+</Line>
+</Object>
+<Object no="79">
+<Type>Line</Type>
+<Label>.26.Math Horiz Line8</Label>
+<Page>2</Page>
+<Layer>4</Layer>
+<Repeat>
+<Multiple>2</Multiple>
+<Offset>
+<Horizontal>0</Horizontal>
+<Vertical>0.14</Vertical>
+</Offset>
+</Repeat>
+<Coordinates>
+<Left>1</Left>
+<Top>6.62</Top>
+<Right>8</Right>
+<Bottom>6.62</Bottom>
+</Coordinates>
+<Line>
+<Width>0.25</Width>
+<Style>1</Style>
+<Color>Black</Color>
+</Line>
+</Object>
+<Object no="80">
+<Type>Line</Type>
+<Label>.27.Math Vert Line5</Label>
+<Page>2</Page>
+<Layer>4</Layer>
+<Repeat>
+<Multiple>3</Multiple>
+<Offset>
+<Horizontal>0.5</Horizontal>
+<Vertical>0</Vertical>
+</Offset>
+</Repeat>
+<Coordinates>
+<Left>6</Left>
+<Top>6.75</Top>
+<Right>6</Right>
+<Bottom>7.03</Bottom>
+</Coordinates>
+<Line>
+<Width>0.25</Width>
+<Style>1</Style>
+<Color>Black</Color>
+</Line>
+</Object>
+<Object no="81">
+<Type>Text</Type>
+<Label>.28.Math Title</Label>
+<Page>2</Page>
+<Layer>5</Layer>
+<Coordinates>
+<Left>1</Left>
+<Top>3.325</Top>
+</Coordinates>
+<MaxWidth>0</MaxWidth>
+<MaxHeight>0</MaxHeight>
+<Body>
+<Font>
+<Face>Helvetica</Face>
+<Size>9</Size>
+<Leading></Leading>
+<Bold>True</Bold>
+</Font>
+<Text>MATHEMATICS&lt;tabc 6.25&gt;Q1&lt;tabc 6.75&gt;Q2&lt;tabc 7.25&gt;Q3&lt;tabc 7.75&gt;Q4</Text>
+</Body>
+</Object>
+<Object no="82">
+<Type>Text</Type>
+<Label>.29.Math Standards</Label>
+<Page>2</Page>
+<Layer>5</Layer>
+<Coordinates>
+<Left>1.05</Left>
+<Top>3.504</Top>
+</Coordinates>
+<MaxWidth>5</MaxWidth>
+<MaxHeight>0</MaxHeight>
+<Body>
+<Font>
+<Face>Helvetica</Face>
+<Size>8</Size>
+<Leading>10</Leading>
+</Font>
+<Text>&lt;b&gt;Ratios and Proportional Relationships&lt;/b&gt;6.RP.A.1-3: Use ratio and rate reasoning to solve real world and mathematical problems&lt;b&gt;The Number System&lt;/b&gt;6.NS.A: Extend previous understandings of multiplication and division to divide fractions by fractions6.NS.B.2: Fluently divide multi-digit numbers using the standard algorithm6.NS.B.3a: Fluently add and subtract multi-digit decimals using the standard algorithm6.NS.B.3b: Fluently multiply and divide multi-digit decimals using the standard algorithm6.NS.B.4: Find the greatest common factor and the least common multiple of two whole numbers6.NS.C.6-7: Understand ordering and placement of absolute values and positive and negative numbers on a number line or coordinate grid&lt;b&gt;Expressions and Equations&lt;/b&gt;6.EE.A.1-2: Read, write, and evaluate expressions involving whole numbers or letters to stand for numbers6.EE.A.3-4: Use operations to create equivalent expressions and identify when the expressions are equivalent6.EE.B: Reason about and solve one-variable equations and inequalities6.EE.C.9: Represent and analyze quantitative relationships between dependent and independent variables&lt;b&gt;Geometry&lt;/b&gt;6.G.A.1: Find the area of triangles, quadrilaterals, and polygons6.G.A.2: Find the volume of a right rectangular prism6.G.A.3-4: Draw polygons with coordinates and represent 3-dimensional figures using nets to find surface area&lt;b&gt;Statistics and Probability&lt;/b&gt;6.SP.A: Develop understanding of statistical variability6.SP.B: Summarize and describe distributions</Text>
+</Body>
+</Object>
+<Object no="83">
+<Type>Text</Type>
+<Label>.2A.Math Grades</Label>
+<Page>2</Page>
+<Layer>5</Layer>
+<Coordinates>
+<Left>6</Left>
+<Top>3.504</Top>
+</Coordinates>
+<MaxWidth>0</MaxWidth>
+<MaxHeight>0</MaxHeight>
+<Body>
+<Font>
+<Face>Helvetica</Face>
+<Size>8</Size>
+<Leading>10</Leading>
+</Font>
+<Text>&lt;tabc 6.25&gt;~(*std.stored.transavg;6.RP.A.1-3;Q1)&lt;tabc 6.75&gt;~(*std.stored.transavg;6.RP.A.1-3;Q2)&lt;tabc 7.25&gt;~(*std.stored.transavg;6.RP.A.1-3;Q3)&lt;tabc 7.75&gt;~(*std.stored.transavg;6.RP.A.1-3;Q4)&lt;tabc 6.25&gt;~(*std.stored.transavg;6.NS.A;Q1)&lt;tabc 6.75&gt;~(*std.stored.transavg;6.NS.A;Q2)&lt;tabc 7.25&gt;~(*std.stored.transavg;6.NS.A;Q3)&lt;tabc 7.75&gt;~(*std.stored.transavg;6.NS.A;Q4)&lt;tabc 6.25&gt;~(*std.stored.transavg;6.NS.B.2;Q1)&lt;tabc 6.75&gt;~(*std.stored.transavg;6.NS.B.2;Q2)&lt;tabc 7.25&gt;~(*std.stored.transavg;6.NS.B.2;Q3)&lt;tabc 7.75&gt;~(*std.stored.transavg;6.NS.B.2;Q4)&lt;tabc 6.25&gt;~(*std.stored.transavg;6.NS.B.3a;Q1)&lt;tabc 6.75&gt;~(*std.stored.transavg;6.NS.B.3a;Q2)&lt;tabc 7.25&gt;~(*std.stored.transavg;6.NS.B.3a;Q3)&lt;tabc 7.75&gt;~(*std.stored.transavg;6.NS.B.3a;Q4)&lt;tabc 6.25&gt;~(*std.stored.transavg;6.NS.B.3b;Q1)&lt;tabc 6.75&gt;~(*std.stored.transavg;6.NS.B.3b;Q2)&lt;tabc 7.25&gt;~(*std.stored.transavg;6.NS.B.3b;Q3)&lt;tabc 7.75&gt;~(*std.stored.transavg;6.NS.B.3b;Q4)&lt;tabc 6.25&gt;~(*std.stored.transavg;6.NS.B.4;Q1)&lt;tabc 6.75&gt;~(*std.stored.transavg;6.NS.B.4;Q2)&lt;tabc 7.25&gt;~(*std.stored.transavg;6.NS.B.4;Q3)&lt;tabc 7.75&gt;~(*std.stored.transavg;6.NS.B.4;Q4)&lt;tabc 6.25&gt;~(*std.stored.transavg;6.NS.C.6-7;Q1)&lt;tabc 6.75&gt;~(*std.stored.transavg;6.NS.C.6-7;Q2)&lt;tabc 7.25&gt;~(*std.stored.transavg;6.NS.C.6-7;Q3)&lt;tabc 7.75&gt;~(*std.stored.transavg;6.NS.C.6-7;Q4)&lt;tabc 6.25&gt;~(*std.stored.transavg;6.EE.A.1-2;Q1)&lt;tabc 6.75&gt;~(*std.stored.transavg;6.EE.A.1-2;Q2)&lt;tabc 7.25&gt;~(*std.stored.transavg;6.EE.A.1-2;Q3)&lt;tabc 7.75&gt;~(*std.stored.transavg;6.EE.A.1-2;Q4)&lt;tabc 6.25&gt;~(*std.stored.transavg;6.EE.A.3-4;Q1)&lt;tabc 6.75&gt;~(*std.stored.transavg;6.EE.A.3-4;Q2)&lt;tabc 7.25&gt;~(*std.stored.transavg;6.EE.A.3-4;Q3)&lt;tabc 7.75&gt;~(*std.stored.transavg;6.EE.A.3-4;Q4)&lt;tabc 6.25&gt;~(*std.stored.transavg;6.EE.B;Q1)&lt;tabc 6.75&gt;~(*std.stored.transavg;6.EE.B;Q2)&lt;tabc 7.25&gt;~(*std.stored.transavg;6.EE.B;Q3)&lt;tabc 7.75&gt;~(*std.stored.transavg;6.EE.B;Q4)&lt;tabc 6.25&gt;~(*std.stored.transavg;6.EE.C.9;Q1)&lt;tabc 6.75&gt;~(*std.stored.transavg;6.EE.C.9;Q2)&lt;tabc 7.25&gt;~(*std.stored.transavg;6.EE.C.9;Q3)&lt;tabc 7.75&gt;~(*std.stored.transavg;6.EE.C.9;Q4)&lt;tabc 6.25&gt;~(*std.stored.transavg;6.G.A.1;Q1)&lt;tabc 6.75&gt;~(*std.stored.transavg;6.G.A.1;Q2)&lt;tabc 7.25&gt;~(*std.stored.transavg;6.G.A.1;Q3)&lt;tabc 7.75&gt;~(*std.stored.transavg;6.G.A.1;Q4)&lt;tabc 6.25&gt;~(*std.stored.transavg;6.G.A.2;Q1)&lt;tabc 6.75&gt;~(*std.stored.transavg;6.G.A.2;Q2)&lt;tabc 7.25&gt;~(*std.stored.transavg;6.G.A.2;Q3)&lt;tabc 7.75&gt;~(*std.stored.transavg;6.G.A.2;Q4)&lt;tabc 6.25&gt;~(*std.stored.transavg;6.G.A.3-4;Q1)&lt;tabc 6.75&gt;~(*std.stored.transavg;6.G.A.3-4;Q2)&lt;tabc 7.25&gt;~(*std.stored.transavg;6.G.A.3-4;Q3)&lt;tabc 7.75&gt;~(*std.stored.transavg;6.G.A.3-4;Q4)&lt;tabc 6.25&gt;~(*std.stored.transavg;6.SP.A;Q1)&lt;tabc 6.75&gt;~(*std.stored.transavg;6.SP.A;Q2)&lt;tabc 7.25&gt;~(*std.stored.transavg;6.SP.A;Q3)&lt;tabc 7.75&gt;~(*std.stored.transavg;6.SP.A;Q4)&lt;tabc 6.25&gt;~(*std.stored.transavg;6.SP.B;Q1)&lt;tabc 6.75&gt;~(*std.stored.transavg;6.SP.B;Q2)&lt;tabc 7.25&gt;~(*std.stored.transavg;6.SP.B;Q3)&lt;tabc 7.75&gt;~(*std.stored.transavg;6.SP.B;Q4)</Text>
+</Body>
+</Object>
+<Object no="84">
+<Type>Box</Type>
+<Label>.2B.F1.Music Box</Label>
+<Page>2</Page>
+<Layer>6</Layer>
+<Coordinates>
+<Left>1</Left>
+<Top>7.708</Top>
+<Right>8</Right>
+<Bottom>7.855</Bottom>
+</Coordinates>
+<Line>
+<Width>0.25</Width>
+<Style>1</Style>
+<Color>Black</Color>
+</Line>
+</Object>
+<Object no="85">
+<Type>Box</Type>
+<Label>.2C.F1.Music Box</Label>
+<Page>2</Page>
+<Layer>6</Layer>
+<Coordinates>
+<Left>1</Left>
+<Top>8.184</Top>
+<Right>8</Right>
+<Bottom>8.319</Bottom>
+</Coordinates>
+<Line>
+<Width>0.25</Width>
+<Style>1</Style>
+<Color>Black</Color>
+</Line>
+</Object>
+<Object no="86">
+<Type>Box</Type>
+<Label>.2D.F1.Music Box</Label>
+<Page>2</Page>
+<Layer>6</Layer>
+<Coordinates>
+<Left>1</Left>
+<Top>8.674</Top>
+<Right>8</Right>
+<Bottom>9.122</Bottom>
+</Coordinates>
+<Line>
+<Width>0.25</Width>
+<Style>1</Style>
+<Color>Black</Color>
+</Line>
+</Object>
+<Object no="87">
+<Type>Box</Type>
+<Label>.2E.F1.Music Box</Label>
+<Page>2</Page>
+<Layer>6</Layer>
+<Coordinates>
+<Left>1</Left>
+<Top>9.43</Top>
+<Right>8</Right>
+<Bottom>9.565</Bottom>
+</Coordinates>
+<Line>
+<Width>0.25</Width>
+<Style>1</Style>
+<Color>Black</Color>
+</Line>
+</Object>
+<Object no="88">
+<Type>Line</Type>
+<Label>.2F.Sci Vert Line</Label>
+<Page>2</Page>
+<Layer>6</Layer>
 <Repeat>
 <Multiple>3</Multiple>
 <Offset>
@@ -1586,370 +1900,23 @@ Days Absent&lt;tabd 2.75&gt;^(daily.att.count;current;A,C,D,E,G,J,K,P,U,X,Y;Q1)&
 <Color>Black</Color>
 </Line>
 </Object>
-<Object no="74">
-<Type>Line</Type>
-<Label>.21.Math Vert Line5</Label>
-<Page>2</Page>
-<Layer>4</Layer>
-<Repeat>
-<Multiple>3</Multiple>
-<Offset>
-<Horizontal>0.5</Horizontal>
-<Vertical>0</Vertical>
-</Offset>
-</Repeat>
-<Coordinates>
-<Left>6</Left>
-<Top>6.469</Top>
-<Right>6</Right>
-<Bottom>6.889</Bottom>
-</Coordinates>
-<Line>
-<Width>0.25</Width>
-<Style>1</Style>
-<Color>Black</Color>
-</Line>
-</Object>
-<Object no="75">
-<Type>Line</Type>
-<Label>.22.Math Vert Line6</Label>
-<Page>2</Page>
-<Layer>4</Layer>
-<Repeat>
-<Multiple>3</Multiple>
-<Offset>
-<Horizontal>0.5</Horizontal>
-<Vertical>0</Vertical>
-</Offset>
-</Repeat>
-<Coordinates>
-<Left>6</Left>
-<Top>7.029</Top>
-<Right>6</Right>
-<Bottom>7.309</Bottom>
-</Coordinates>
-<Line>
-<Width>0.25</Width>
-<Style>1</Style>
-<Color>Black</Color>
-</Line>
-</Object>
-<Object no="76">
-<Type>Text</Type>
-<Label>.23.Math Standards</Label>
-<Page>2</Page>
-<Layer>4</Layer>
-<Coordinates>
-<Left>1.05</Left>
-<Top>3.504</Top>
-</Coordinates>
-<MaxWidth>5</MaxWidth>
-<MaxHeight>0</MaxHeight>
-<Body>
-<Font>
-<Face>Helvetica</Face>
-<Size>8</Size>
-<Leading>10</Leading>
-</Font>
-<Text>&lt;b&gt;Ratios and Proportional Relationships&lt;/b&gt;
-6.RP.A.1-3: Use ratio and rate reasoning to solve real world and mathematical problems
-&lt;b&gt;The Number System&lt;/b&gt;
-6.NS.A: Extend previous understandings of multiplication and division to divide fractions by fractions
-6.NS.B.2: Fluently divide multi-digit numbers using the standard algorithm
-6.NS.B.3a: Fluently add and subtract multi-digit decimals using the standard algorithm
-6.NS.B.3b: Fluently multiply and divide multi-digit decimals using the standard algorithm
-6.NS.B.4: Find the greatest common factor and the least common multiple of two whole numbers
-6.NS.C.6-7: Understand ordering and placement of absolute values and positive and negative numbers on a number line or coordinate grid
-&lt;b&gt;Expressions and Equations&lt;/b&gt;
-6.EE.A.1-2: Read, write, and evaluate expressions involving whole numbers or letters to stand for numbers
-6.EE.A.3-4: Use operations to create equivalent expressions and identify when the expressions are equivalent
-6.EE.B: Reason about and solve one-variable equations and inequalities
-6.EE.C.9: Represent and analyze quantitative relationships between dependent and independent variables
-&lt;b&gt;Geometry&lt;/b&gt;
-6.G.A.1: Find the area of triangles, quadrilaterals, and polygons
-6.G.A.2: Find the volume of a right rectangular prism
-6.G.A.3-4: Draw polygons with coordinates and represent 3-dimensional figures using nets to find surface area
-&lt;b&gt;Statistics and Probability&lt;/b&gt;
-6.SP.A: Develop understanding of statistical variability
-6.SP.B: Summarize and describe distributions</Text>
-</Body>
-</Object>
-<Object no="77">
-<Type>Text</Type>
-<Label>.24.Math Grades</Label>
-<Page>2</Page>
-<Layer>4</Layer>
-<Coordinates>
-<Left>6</Left>
-<Top>3.504</Top>
-</Coordinates>
-<MaxWidth>0</MaxWidth>
-<MaxHeight>0</MaxHeight>
-<Body>
-<Font>
-<Face>Helvetica</Face>
-<Size>8</Size>
-<Leading>10</Leading>
-</Font>
-<Text>
-&lt;tabc 6.25&gt;~(*std.stored.transavg;6.RP.A.1-3;Q1)&lt;tabc 6.75&gt;~(*std.stored.transavg;6.RP.A.1-3;Q2)&lt;tabc 7.25&gt;~(*std.stored.transavg;6.RP.A.1-3;Q3)&lt;tabc 7.75&gt;~(*std.stored.transavg;6.RP.A.1-3;Q4)
-
-&lt;tabc 6.25&gt;~(*std.stored.transavg;6.NS.A;Q1)&lt;tabc 6.75&gt;~(*std.stored.transavg;6.NS.A;Q2)&lt;tabc 7.25&gt;~(*std.stored.transavg;6.NS.A;Q3)&lt;tabc 7.75&gt;~(*std.stored.transavg;6.NS.A;Q4)
-&lt;tabc 6.25&gt;~(*std.stored.transavg;6.NS.B.2;Q1)&lt;tabc 6.75&gt;~(*std.stored.transavg;6.NS.B.2;Q2)&lt;tabc 7.25&gt;~(*std.stored.transavg;6.NS.B.2;Q3)&lt;tabc 7.75&gt;~(*std.stored.transavg;6.NS.B.2;Q4)
-&lt;tabc 6.25&gt;~(*std.stored.transavg;6.NS.B.3a;Q1)&lt;tabc 6.75&gt;~(*std.stored.transavg;6.NS.B.3a;Q2)&lt;tabc 7.25&gt;~(*std.stored.transavg;6.NS.B.3a;Q3)&lt;tabc 7.75&gt;~(*std.stored.transavg;6.NS.B.3a;Q4)
-
-&lt;tabc 6.25&gt;~(*std.stored.transavg;6.NS.B.3b;Q1)&lt;tabc 6.75&gt;~(*std.stored.transavg;6.NS.B.3b;Q2)&lt;tabc 7.25&gt;~(*std.stored.transavg;6.NS.B.3b;Q3)&lt;tabc 7.75&gt;~(*std.stored.transavg;6.NS.B.3b;Q4)
-
-&lt;tabc 6.25&gt;~(*std.stored.transavg;6.NS.B.4;Q1)&lt;tabc 6.75&gt;~(*std.stored.transavg;6.NS.B.4;Q2)&lt;tabc 7.25&gt;~(*std.stored.transavg;6.NS.B.4;Q3)&lt;tabc 7.75&gt;~(*std.stored.transavg;6.NS.B.4;Q4)
-
-&lt;tabc 6.25&gt;~(*std.stored.transavg;6.NS.C.6-7;Q1)&lt;tabc 6.75&gt;~(*std.stored.transavg;6.NS.C.6-7;Q2)&lt;tabc 7.25&gt;~(*std.stored.transavg;6.NS.C.6-7;Q3)&lt;tabc 7.75&gt;~(*std.stored.transavg;6.NS.C.6-7;Q4)
-
-&lt;tabc 6.25&gt;~(*std.stored.transavg;6.EE.A.1-2;Q1)&lt;tabc 6.75&gt;~(*std.stored.transavg;6.EE.A.1-2;Q2)&lt;tabc 7.25&gt;~(*std.stored.transavg;6.EE.A.1-2;Q3)&lt;tabc 7.75&gt;~(*std.stored.transavg;6.EE.A.1-2;Q4)
-
-&lt;tabc 6.25&gt;~(*std.stored.transavg;6.EE.A.3-4;Q1)&lt;tabc 6.75&gt;~(*std.stored.transavg;6.EE.A.3-4;Q2)&lt;tabc 7.25&gt;~(*std.stored.transavg;6.EE.A.3-4;Q3)&lt;tabc 7.75&gt;~(*std.stored.transavg;6.EE.A.3-4;Q4)
-
-&lt;tabc 6.25&gt;~(*std.stored.transavg;6.EE.B;Q1)&lt;tabc 6.75&gt;~(*std.stored.transavg;6.EE.B;Q2)&lt;tabc 7.25&gt;~(*std.stored.transavg;6.EE.B;Q3)&lt;tabc 7.75&gt;~(*std.stored.transavg;6.EE.B;Q4)
-&lt;tabc 6.25&gt;~(*std.stored.transavg;6.EE.C.9;Q1)&lt;tabc 6.75&gt;~(*std.stored.transavg;6.EE.C.9;Q2)&lt;tabc 7.25&gt;~(*std.stored.transavg;6.EE.C.9;Q3)&lt;tabc 7.75&gt;~(*std.stored.transavg;6.EE.C.9;Q4)
-
-
-&lt;tabc 6.25&gt;~(*std.stored.transavg;6.G.A.1;Q1)&lt;tabc 6.75&gt;~(*std.stored.transavg;6.G.A.1;Q2)&lt;tabc 7.25&gt;~(*std.stored.transavg;6.G.A.1;Q3)&lt;tabc 7.75&gt;~(*std.stored.transavg;6.G.A.1;Q4)
-&lt;tabc 6.25&gt;~(*std.stored.transavg;6.G.A.2;Q1)&lt;tabc 6.75&gt;~(*std.stored.transavg;6.G.A.2;Q2)&lt;tabc 7.25&gt;~(*std.stored.transavg;6.G.A.2;Q3)&lt;tabc 7.75&gt;~(*std.stored.transavg;6.G.A.2;Q4)
-&lt;tabc 6.25&gt;~(*std.stored.transavg;6.G.A.3-4;Q1)&lt;tabc 6.75&gt;~(*std.stored.transavg;6.G.A.3-4;Q2)&lt;tabc 7.25&gt;~(*std.stored.transavg;6.G.A.3-4;Q3)&lt;tabc 7.75&gt;~(*std.stored.transavg;6.G.A.3-4;Q4)
-
-&lt;tabc 6.25&gt;~(*std.stored.transavg;6.SP.A;Q1)&lt;tabc 6.75&gt;~(*std.stored.transavg;6.SP.A;Q2)&lt;tabc 7.25&gt;~(*std.stored.transavg;6.SP.A;Q3)&lt;tabc 7.75&gt;~(*std.stored.transavg;6.SP.A;Q4)
-&lt;tabc 6.25&gt;~(*std.stored.transavg;6.SP.B;Q1)&lt;tabc 6.75&gt;~(*std.stored.transavg;6.SP.B;Q2)&lt;tabc 7.25&gt;~(*std.stored.transavg;6.SP.B;Q3)&lt;tabc 7.75&gt;~(*std.stored.transavg;6.SP.B;Q4)</Text>
-</Body>
-</Object>
-<Object no="78">
-<Type>Text</Type>
-<Label>.25.Math Title</Label>
-<Page>2</Page>
-<Layer>4</Layer>
-<Coordinates>
-<Left>1</Left>
-<Top>3.325</Top>
-</Coordinates>
-<MaxWidth>0</MaxWidth>
-<MaxHeight>0</MaxHeight>
-<Body>
-<Font>
-<Face>Helvetica</Face>
-<Size>9</Size>
-<Leading></Leading>
-<Bold>True</Bold>
-</Font>
-<Text>MATHEMATICS&lt;tabc 6.25&gt;Q1&lt;tabc 6.75&gt;Q2&lt;tabc 7.25&gt;Q3&lt;tabc 7.75&gt;Q4
-</Text>
-</Body>
-</Object>
-<Object no="79">
-<Type>Box</Type>
-<Label>.26.F1.Music Box</Label>
-<Page>2</Page>
-<Layer>6</Layer>
-<Coordinates>
-<Left>1</Left>
-<Top>7.708</Top>
-<Right>8</Right>
-<Bottom>7.855</Bottom>
-</Coordinates>
-<Line>
-<Width>0.25</Width>
-<Style>1</Style>
-<Color>Black</Color>
-</Line>
-</Object>
-<Object no="80">
-<Type>Box</Type>
-<Label>.27.F1.Music Box</Label>
-<Page>2</Page>
-<Layer>6</Layer>
-<Coordinates>
-<Left>1</Left>
-<Top>8.184</Top>
-<Right>8</Right>
-<Bottom>8.319</Bottom>
-</Coordinates>
-<Line>
-<Width>0.25</Width>
-<Style>1</Style>
-<Color>Black</Color>
-</Line>
-</Object>
-<Object no="81">
-<Type>Box</Type>
-<Label>.28.F1.Music Box</Label>
-<Page>2</Page>
-<Layer>6</Layer>
-<Coordinates>
-<Left>1</Left>
-<Top>8.674</Top>
-<Right>8</Right>
-<Bottom>9.122</Bottom>
-</Coordinates>
-<Line>
-<Width>0.25</Width>
-<Style>1</Style>
-<Color>Black</Color>
-</Line>
-</Object>
-<Object no="82">
-<Type>Box</Type>
-<Label>.29.F1.Music Box</Label>
-<Page>2</Page>
-<Layer>6</Layer>
-<Coordinates>
-<Left>1</Left>
-<Top>9.43</Top>
-<Right>8</Right>
-<Bottom>9.565</Bottom>
-</Coordinates>
-<Line>
-<Width>0.25</Width>
-<Style>1</Style>
-<Color>Black</Color>
-</Line>
-</Object>
-<Object no="83">
-<Type>Line</Type>
-<Label>.2A.F1.Music Vert Lines</Label>
-<Page>2</Page>
-<Layer>6</Layer>
-<Repeat>
-<Multiple>3</Multiple>
-<Offset>
-<Horizontal>0.5</Horizontal>
-<Vertical>0</Vertical>
-</Offset>
-</Repeat>
-<Coordinates>
-<Left>6</Left>
-<Top>8.184</Top>
-<Right>6</Right>
-<Bottom>8.319</Bottom>
-</Coordinates>
-<Line>
-<Width>0.25</Width>
-<Style>1</Style>
-<Color>Black</Color>
-</Line>
-</Object>
-<Object no="84">
-<Type>Line</Type>
-<Label>.2B.F1.Music Vert Lines</Label>
-<Page>2</Page>
-<Layer>6</Layer>
-<Repeat>
-<Multiple>3</Multiple>
-<Offset>
-<Horizontal>0.5</Horizontal>
-<Vertical>0</Vertical>
-</Offset>
-</Repeat>
-<Coordinates>
-<Left>6</Left>
-<Top>8.674</Top>
-<Right>6</Right>
-<Bottom>9.122</Bottom>
-</Coordinates>
-<Line>
-<Width>0.25</Width>
-<Style>1</Style>
-<Color>Black</Color>
-</Line>
-</Object>
-<Object no="85">
-<Type>Line</Type>
-<Label>.2C.F1.Music Vert Lines</Label>
-<Page>2</Page>
-<Layer>6</Layer>
-<Repeat>
-<Multiple>3</Multiple>
-<Offset>
-<Horizontal>0.5</Horizontal>
-<Vertical>0</Vertical>
-</Offset>
-</Repeat>
-<Coordinates>
-<Left>6</Left>
-<Top>9.43</Top>
-<Right>6</Right>
-<Bottom>9.565</Bottom>
-</Coordinates>
-<Line>
-<Width>0.25</Width>
-<Style>1</Style>
-<Color>Black</Color>
-</Line>
-</Object>
-<Object no="86">
-<Type>Line</Type>
-<Label>.2D.Math Horiz Line2</Label>
-<Page>2</Page>
-<Layer>6</Layer>
-<Coordinates>
-<Left>1</Left>
-<Top>4.375</Top>
-<Right>8</Right>
-<Bottom>4.375</Bottom>
-</Coordinates>
-<Line>
-<Width>0.25</Width>
-<Style>1</Style>
-<Color>Black</Color>
-</Line>
-</Object>
-<Object no="87">
-<Type>Line</Type>
-<Label>.2E.Math Horiz Line3</Label>
-<Page>2</Page>
-<Layer>6</Layer>
-<Repeat>
-<Multiple>2</Multiple>
-<Offset>
-<Horizontal>0</Horizontal>
-<Vertical>0.14</Vertical>
-</Offset>
-</Repeat>
-<Coordinates>
-<Left>1</Left>
-<Top>4.935</Top>
-<Right>8</Right>
-<Bottom>4.935</Bottom>
-</Coordinates>
-<Line>
-<Width>0.25</Width>
-<Style>1</Style>
-<Color>Black</Color>
-</Line>
-</Object>
-<Object no="88">
-<Type>Line</Type>
-<Label>.2F.Math Horiz Line5</Label>
-<Page>2</Page>
-<Layer>6</Layer>
-<Coordinates>
-<Left>1</Left>
-<Top>5.621</Top>
-<Right>8</Right>
-<Bottom>5.621</Bottom>
-</Coordinates>
-<Line>
-<Width>0.25</Width>
-<Style>1</Style>
-<Color>Black</Color>
-</Line>
-</Object>
 <Object no="89">
 <Type>Line</Type>
-<Label>.2G.Math Horiz Line5</Label>
+<Label>.2G.F1.Music Vert Lines</Label>
 <Page>2</Page>
 <Layer>6</Layer>
+<Repeat>
+<Multiple>3</Multiple>
+<Offset>
+<Horizontal>0.5</Horizontal>
+<Vertical>0</Vertical>
+</Offset>
+</Repeat>
 <Coordinates>
-<Left>1</Left>
-<Top>5.349</Top>
-<Right>8</Right>
-<Bottom>5.349</Bottom>
+<Left>6</Left>
+<Top>8.184</Top>
+<Right>6</Right>
+<Bottom>8.319</Bottom>
 </Coordinates>
 <Line>
 <Width>0.25</Width>
@@ -1959,21 +1926,21 @@ Days Absent&lt;tabd 2.75&gt;^(daily.att.count;current;A,C,D,E,G,J,K,P,U,X,Y;Q1)&
 </Object>
 <Object no="90">
 <Type>Line</Type>
-<Label>.2H.Math Horiz Line5</Label>
+<Label>.2H.F1.Music Vert Lines</Label>
 <Page>2</Page>
 <Layer>6</Layer>
 <Repeat>
-<Multiple>6</Multiple>
+<Multiple>3</Multiple>
 <Offset>
-<Horizontal>0</Horizontal>
-<Vertical>0.14</Vertical>
+<Horizontal>0.5</Horizontal>
+<Vertical>0</Vertical>
 </Offset>
 </Repeat>
 <Coordinates>
-<Left>1</Left>
-<Top>6.329</Top>
-<Right>8</Right>
-<Bottom>6.329</Bottom>
+<Left>6</Left>
+<Top>8.674</Top>
+<Right>6</Right>
+<Bottom>9.122</Bottom>
 </Coordinates>
 <Line>
 <Width>0.25</Width>
@@ -1983,14 +1950,21 @@ Days Absent&lt;tabd 2.75&gt;^(daily.att.count;current;A,C,D,E,G,J,K,P,U,X,Y;Q1)&
 </Object>
 <Object no="91">
 <Type>Line</Type>
-<Label>.2I.Math Horiz Line2</Label>
+<Label>.2I.F1.Music Vert Lines</Label>
 <Page>2</Page>
 <Layer>6</Layer>
+<Repeat>
+<Multiple>3</Multiple>
+<Offset>
+<Horizontal>0.5</Horizontal>
+<Vertical>0</Vertical>
+</Offset>
+</Repeat>
 <Coordinates>
-<Left>1</Left>
-<Top>4.655</Top>
-<Right>8</Right>
-<Bottom>4.655</Bottom>
+<Left>6</Left>
+<Top>9.43</Top>
+<Right>6</Right>
+<Bottom>9.565</Bottom>
 </Coordinates>
 <Line>
 <Width>0.25</Width>
@@ -1999,32 +1973,8 @@ Days Absent&lt;tabd 2.75&gt;^(daily.att.count;current;A,C,D,E,G,J,K,P,U,X,Y;Q1)&
 </Line>
 </Object>
 <Object no="92">
-<Type>Line</Type>
-<Label>.2J.Math Horiz Line8</Label>
-<Page>2</Page>
-<Layer>6</Layer>
-<Repeat>
-<Multiple>1</Multiple>
-<Offset>
-<Horizontal>0</Horizontal>
-<Vertical>0.14</Vertical>
-</Offset>
-</Repeat>
-<Coordinates>
-<Left>1</Left>
-<Top>5.901</Top>
-<Right>8</Right>
-<Bottom>5.901</Bottom>
-</Coordinates>
-<Line>
-<Width>0.25</Width>
-<Style>1</Style>
-<Color>Black</Color>
-</Line>
-</Object>
-<Object no="93">
 <Type>Text</Type>
-<Label>.2K.Soc Stud Title</Label>
+<Label>.2J.Soc Stud Title</Label>
 <Page>2</Page>
 <Layer>6</Layer>
 <Coordinates>
@@ -2044,9 +1994,9 @@ Days Absent&lt;tabd 2.75&gt;^(daily.att.count;current;A,C,D,E,G,J,K,P,U,X,Y;Q1)&
 </Text>
 </Body>
 </Object>
-<Object no="94">
+<Object no="93">
 <Type>Text</Type>
-<Label>.2L..Social Study STANDARDS</Label>
+<Label>.2K..Social Study STANDARDS</Label>
 <Page>2</Page>
 <Layer>6</Layer>
 <Coordinates>
@@ -2064,9 +2014,9 @@ Days Absent&lt;tabd 2.75&gt;^(daily.att.count;current;A,C,D,E,G,J,K,P,U,X,Y;Q1)&
 <Text>Demonstrate understanding of grade-level content and concepts</Text>
 </Body>
 </Object>
-<Object no="95">
+<Object no="94">
 <Type>Text</Type>
-<Label>.2M..Social Study Grade</Label>
+<Label>.2L..Social Study Grade</Label>
 <Page>2</Page>
 <Layer>6</Layer>
 <Coordinates>
@@ -2084,9 +2034,9 @@ Days Absent&lt;tabd 2.75&gt;^(daily.att.count;current;A,C,D,E,G,J,K,P,U,X,Y;Q1)&
 <Text>&lt;tabc 6.25&gt;~(*std.stored.transavg;SPEC-SS;Q1)&lt;tabc 6.75&gt;~(*std.stored.transavg;SPEC-SS;Q2)&lt;tabc 7.25&gt;~(*std.stored.transavg;SPEC-SS;Q3)&lt;tabc 7.75&gt;~(*std.stored.transavg;SPEC-SS;Q4)</Text>
 </Body>
 </Object>
-<Object no="96">
+<Object no="95">
 <Type>Text</Type>
-<Label>.2N.Science Standards</Label>
+<Label>.2M.Science Standards</Label>
 <Page>2</Page>
 <Layer>6</Layer>
 <Coordinates>
@@ -2105,9 +2055,9 @@ Days Absent&lt;tabd 2.75&gt;^(daily.att.count;current;A,C,D,E,G,J,K,P,U,X,Y;Q1)&
 </Text>
 </Body>
 </Object>
-<Object no="97">
+<Object no="96">
 <Type>Text</Type>
-<Label>.2O.Science Grade</Label>
+<Label>.2N.Science Grade</Label>
 <Page>2</Page>
 <Layer>6</Layer>
 <Coordinates>
@@ -2125,9 +2075,9 @@ Days Absent&lt;tabd 2.75&gt;^(daily.att.count;current;A,C,D,E,G,J,K,P,U,X,Y;Q1)&
 <Text>&lt;tabc 6.25&gt;~(*std.stored.transavg;6-SCI;Q1)&lt;tabc 6.75&gt;~(*std.stored.transavg;6-SCI;Q2)&lt;tabc 7.25&gt;~(*std.stored.transavg;6-SCI;Q3)&lt;tabc 7.75&gt;~(*std.stored.transavg;6-SCI;Q4)</Text>
 </Body>
 </Object>
-<Object no="98">
+<Object no="97">
 <Type>Text</Type>
-<Label>.2P.Phys Ed Standards</Label>
+<Label>.2O.Phys Ed Standards</Label>
 <Page>2</Page>
 <Layer>6</Layer>
 <Coordinates>
@@ -2145,9 +2095,9 @@ Days Absent&lt;tabd 2.75&gt;^(daily.att.count;current;A,C,D,E,G,J,K,P,U,X,Y;Q1)&
 <Text>Recognize the value of physical activity for health, enjoyment, challenge and self-expression. Exhibit responsible personal and social behavior that respects self and others in physical activity settings</Text>
 </Body>
 </Object>
-<Object no="99">
+<Object no="98">
 <Type>Text</Type>
-<Label>.2Q.Phys Ed Standards</Label>
+<Label>.2P.Phys Ed Standards</Label>
 <Page>2</Page>
 <Layer>6</Layer>
 <Coordinates>
@@ -2165,9 +2115,9 @@ Days Absent&lt;tabd 2.75&gt;^(daily.att.count;current;A,C,D,E,G,J,K,P,U,X,Y;Q1)&
 <Text>&lt;tabc 6.25&gt;~(*std.stored.transavg;SPEC-PE;Q1)&lt;tabc 6.75&gt;~(*std.stored.transavg;SPEC-PE;Q2)&lt;tabc 7.25&gt;~(*std.stored.transavg;SPEC-PE;Q3)&lt;tabc 7.75&gt;~(*std.stored.transavg;SPEC-PE;Q4)</Text>
 </Body>
 </Object>
-<Object no="100">
+<Object no="99">
 <Type>Text</Type>
-<Label>.2R.MUSIC STANDARDS</Label>
+<Label>.2Q.MUSIC STANDARDS</Label>
 <Page>2</Page>
 <Layer>6</Layer>
 <Coordinates>
@@ -2185,9 +2135,9 @@ Days Absent&lt;tabd 2.75&gt;^(daily.att.count;current;A,C,D,E,G,J,K,P,U,X,Y;Q1)&
 <Text>Demonstrate grade-appropriate ability in understanding musical skills and concepts</Text>
 </Body>
 </Object>
-<Object no="101">
+<Object no="100">
 <Type>Text</Type>
-<Label>.2S.MUSIC Grade</Label>
+<Label>.2R.MUSIC Grade</Label>
 <Page>2</Page>
 <Layer>6</Layer>
 <Coordinates>
@@ -2205,9 +2155,9 @@ Days Absent&lt;tabd 2.75&gt;^(daily.att.count;current;A,C,D,E,G,J,K,P,U,X,Y;Q1)&
 <Text>&lt;tabc 6.25&gt;^(decode;~(*std.stored.transavg;SPEC-MUS;Q1);;~(*std.stored.transavg;SPEC-BAND;Q1);~(*std.stored.transavg;SPEC-MUS;Q1))&lt;tabc 6.75&gt;^(decode;~(*std.stored.transavg;SPEC-MUS;Q2);;~(*std.stored.transavg;SPEC-BAND;Q2);~(*std.stored.transavg;SPEC-MUS;Q2))&lt;tabc 7.25&gt;^(decode;~(*std.stored.transavg;SPEC-MUS;Q3);;~(*std.stored.transavg;SPEC-BAND;Q3);~(*std.stored.transavg;SPEC-MUS;Q3))&lt;tabc 7.75&gt;^(decode;~(*std.stored.transavg;SPEC-MUS;Q4);;~(*std.stored.transavg;SPEC-BAND;Q4);~(*std.stored.transavg;SPEC-MUS;Q4))</Text>
 </Body>
 </Object>
-<Object no="102">
+<Object no="101">
 <Type>Text</Type>
-<Label>.2T.Science Title</Label>
+<Label>.2S.Science Title</Label>
 <Page>2</Page>
 <Layer>7</Layer>
 <Coordinates>
@@ -2227,9 +2177,9 @@ Days Absent&lt;tabd 2.75&gt;^(daily.att.count;current;A,C,D,E,G,J,K,P,U,X,Y;Q1)&
 </Text>
 </Body>
 </Object>
-<Object no="103">
+<Object no="102">
 <Type>Text</Type>
-<Label>.2U.Phys Ed</Label>
+<Label>.2T.Phys Ed</Label>
 <Page>2</Page>
 <Layer>7</Layer>
 <Coordinates>
@@ -2249,9 +2199,9 @@ Days Absent&lt;tabd 2.75&gt;^(daily.att.count;current;A,C,D,E,G,J,K,P,U,X,Y;Q1)&
 </Text>
 </Body>
 </Object>
-<Object no="104">
+<Object no="103">
 <Type>Text</Type>
-<Label>.2V.BAND</Label>
+<Label>.2U.BAND</Label>
 <Page>2</Page>
 <Layer>7</Layer>
 <Coordinates>
@@ -2271,9 +2221,9 @@ Days Absent&lt;tabd 2.75&gt;^(daily.att.count;current;A,C,D,E,G,J,K,P,U,X,Y;Q1)&
 </Text>
 </Body>
 </Object>
-<Object no="105">
+<Object no="104">
 <Type>Box</Type>
-<Label>.2W.I1. Instr Music/Band Box</Label>
+<Label>.2V.I1. Instr Music/Band Box</Label>
 <Page>2</Page>
 <Layer>9</Layer>
 <Coordinates>
@@ -2288,9 +2238,9 @@ Days Absent&lt;tabd 2.75&gt;^(daily.att.count;current;A,C,D,E,G,J,K,P,U,X,Y;Q1)&
 <Color>Black</Color>
 </Line>
 </Object>
-<Object no="106">
+<Object no="105">
 <Type>Line</Type>
-<Label>.2X.I2. Instr Music/Band HLine</Label>
+<Label>.2W.I2. Instr Music/Band HLine</Label>
 <Page>2</Page>
 <Layer>9</Layer>
 <Repeat>
@@ -2312,9 +2262,9 @@ Days Absent&lt;tabd 2.75&gt;^(daily.att.count;current;A,C,D,E,G,J,K,P,U,X,Y;Q1)&
 <Color>Black</Color>
 </Line>
 </Object>
-<Object no="107">
+<Object no="106">
 <Type>Line</Type>
-<Label>.2Y.I3. Instr Music/Band VLine</Label>
+<Label>.2X.I3. Instr Music/Band VLine</Label>
 <Page>2</Page>
 <Layer>9</Layer>
 <Repeat>
@@ -2336,9 +2286,9 @@ Days Absent&lt;tabd 2.75&gt;^(daily.att.count;current;A,C,D,E,G,J,K,P,U,X,Y;Q1)&
 <Color>Black</Color>
 </Line>
 </Object>
-<Object no="108">
+<Object no="107">
 <Type>Text</Type>
-<Label>.2Z.I4. Instr Music/Band</Label>
+<Label>.2Y.I4. Instr Music/Band</Label>
 <Page>2</Page>
 <Layer>9</Layer>
 <Coordinates>
@@ -2356,9 +2306,9 @@ Days Absent&lt;tabd 2.75&gt;^(daily.att.count;current;A,C,D,E,G,J,K,P,U,X,Y;Q1)&
 <Text>&lt;b&gt;Specials&lt;tabc 6.25&gt;Q1&lt;tabc 6.75&gt;Q2&lt;tabc 7.25&gt;Q3&lt;tabc 7.75&gt;Q4&lt;/b&gt;</Text>
 </Body>
 </Object>
-<Object no="109">
+<Object no="108">
 <Type>Text</Type>
-<Label>.30.Specials</Label>
+<Label>.2Z.Specials</Label>
 <Page>2</Page>
 <Layer>9</Layer>
 <Coordinates>
@@ -2378,9 +2328,9 @@ Library
 Outdoor Education</Text>
 </Body>
 </Object>
-<Object no="110">
+<Object no="109">
 <Type>Text</Type>
-<Label>.31.Specials Grade</Label>
+<Label>.30.Specials Grade</Label>
 <Page>2</Page>
 <Layer>9</Layer>
 <Coordinates>
@@ -2400,9 +2350,9 @@ Outdoor Education</Text>
 &lt;tabc 6.25&gt;~(*std.stored.transavg;SPEC-OE;Q1)&lt;tabc 6.75&gt;~(*std.stored.transavg;SPEC-OE;Q2)&lt;tabc 7.25&gt;~(*std.stored.transavg;SPEC-OE;Q3)&lt;tabc 7.75&gt;~(*std.stored.transavg;SPEC-OE;Q4)</Text>
 </Body>
 </Object>
-<Object no="111">
+<Object no="110">
 <Type>Text</Type>
-<Label>.32.K1.Mumbo Jumbo Pg 2</Label>
+<Label>.31.K1.Mumbo Jumbo Pg 2</Label>
 <Page>2</Page>
 <Layer>11</Layer>
 <Coordinates>
@@ -2421,9 +2371,9 @@ Outdoor Education</Text>
 <Text>~[pagenumber]. - ~[reportname]. - ~[date;dateformat=mm-dd-yyyy] - ps~[version]</Text>
 </Body>
 </Object>
-<Object no="112">
+<Object no="111">
 <Type>Box</Type>
-<Label>.33.Box</Label>
+<Label>.32.Box</Label>
 <Page>3</Page>
 <Layer>0</Layer>
 <Coordinates>
@@ -2438,9 +2388,9 @@ Outdoor Education</Text>
 <Color>Black</Color>
 </Line>
 </Object>
-<Object no="113">
+<Object no="112">
 <Type>Text</Type>
-<Label>.34.Comments</Label>
+<Label>.33.Comments</Label>
 <Page>3</Page>
 <Layer>0</Layer>
 <Coordinates>
@@ -2458,9 +2408,9 @@ Outdoor Education</Text>
 <Text>&lt;b&gt;Comments&lt;/b&gt;</Text>
 </Body>
 </Object>
-<Object no="114">
+<Object no="113">
 <Type>Text</Type>
-<Label>.35.Q1-Q2 Comments</Label>
+<Label>.34.Q1-Q2 Comments</Label>
 <Page>3</Page>
 <Layer>0</Layer>
 <Coordinates>
@@ -2485,9 +2435,9 @@ Physical Education: ^(*std.stored.comment;SPEC-PE;Q2)
 Band: ^(*std.stored.comment;SPEC-MUS;Q2) ^(*std.stored.comment;SPEC-BAND;Q2)</Text>
 </Body>
 </Object>
-<Object no="115">
+<Object no="114">
 <Type>Picture</Type>
-<Label>.36.A0.Photo</Label>
+<Label>.35.A0.Photo</Label>
 <Page>3</Page>
 <Layer>1</Layer>
 <ScalingOption>fillcenter</ScalingOption>
@@ -2499,9 +2449,9 @@ Band: ^(*std.stored.comment;SPEC-MUS;Q2) ^(*std.stored.comment;SPEC-BAND;Q2)</Te
 </Coordinates>
 <Picture>fs-logo3.jpg</Picture>
 </Object>
-<Object no="116">
+<Object no="115">
 <Type>Text</Type>
-<Label>.37.A2.District Name Pg 2</Label>
+<Label>.36.A2.District Name Pg 2</Label>
 <Page>3</Page>
 <Layer>1</Layer>
 <Coordinates>
@@ -2519,9 +2469,9 @@ Band: ^(*std.stored.comment;SPEC-MUS;Q2) ^(*std.stored.comment;SPEC-BAND;Q2)</Te
 <Text>&lt;center&gt;~(schoolordistrictname)&lt;/center&gt;</Text>
 </Body>
 </Object>
-<Object no="117">
+<Object no="116">
 <Type>Text</Type>
-<Label>.38.A1.Main Title Pg 3</Label>
+<Label>.37.A1.Main Title Pg 3</Label>
 <Page>3</Page>
 <Layer>1</Layer>
 <Coordinates>
@@ -2540,9 +2490,9 @@ Band: ^(*std.stored.comment;SPEC-MUS;Q2) ^(*std.stored.comment;SPEC-BAND;Q2)</Te
 <Text>&lt;center&gt;6th Grade Report Card&lt;/center&gt;</Text>
 </Body>
 </Object>
-<Object no="118">
+<Object no="117">
 <Type>Text</Type>
-<Label>.39.A5.Home Room Teacher</Label>
+<Label>.38.A5.Home Room Teacher</Label>
 <Page>3</Page>
 <Layer>1</Layer>
 <Coordinates>
@@ -2561,9 +2511,9 @@ Band: ^(*std.stored.comment;SPEC-MUS;Q2) ^(*std.stored.comment;SPEC-BAND;Q2)</Te
 <Text>&lt;tabto 2.75&gt;Homeroom Teacher: &lt;tabto 2.75&gt;Homeroom Teacher: ^(*period_info;P2(R);teacher_i_first_name) ^(*period_info;P2(R);teacher_i_last_name) ^(*period_info;P2(A);teacher_i_first_name) ^(*period_info;P2(A);teacher_i_last_name)</Text>
 </Body>
 </Object>
-<Object no="119">
+<Object no="118">
 <Type>Text</Type>
-<Label>.3A.A4. Student Data</Label>
+<Label>.39.A4. Student Data</Label>
 <Page>3</Page>
 <Layer>1</Layer>
 <Coordinates>
@@ -2581,9 +2531,9 @@ Band: ^(*std.stored.comment;SPEC-MUS;Q2) ^(*std.stored.comment;SPEC-BAND;Q2)</Te
 <Text>Grade: 6&lt;tabr 8.0&gt;~(yearname)</Text>
 </Body>
 </Object>
-<Object no="120">
+<Object no="119">
 <Type>Text</Type>
-<Label>.3B.A3.StudentName/School Name</Label>
+<Label>.3A.A3.StudentName/School Name</Label>
 <Page>3</Page>
 <Layer>1</Layer>
 <Coordinates>
@@ -2601,9 +2551,9 @@ Band: ^(*std.stored.comment;SPEC-MUS;Q2) ^(*std.stored.comment;SPEC-BAND;Q2)</Te
 <Text>&lt;b&gt;~(last_name), ~(first_name)&lt;/b&gt;&lt;tabr 8.0&gt;~(schoolname)</Text>
 </Body>
 </Object>
-<Object no="121">
+<Object no="120">
 <Type>Text</Type>
-<Label>.3C.K1.Mumbo Jumbo Pg 3</Label>
+<Label>.3B.K1.Mumbo Jumbo Pg 3</Label>
 <Page>3</Page>
 <Layer>11</Layer>
 <Coordinates>
@@ -2622,9 +2572,9 @@ Band: ^(*std.stored.comment;SPEC-MUS;Q2) ^(*std.stored.comment;SPEC-BAND;Q2)</Te
 <Text>~[pagenumber]. - ~[reportname]. - ~[date;dateformat=mm-dd-yyyy] - ps~[version]</Text>
 </Body>
 </Object>
-<Object no="122">
+<Object no="121">
 <Type>Box</Type>
-<Label>.3D.Box</Label>
+<Label>.3C.Box</Label>
 <Page>4</Page>
 <Layer>0</Layer>
 <Coordinates>
@@ -2639,9 +2589,9 @@ Band: ^(*std.stored.comment;SPEC-MUS;Q2) ^(*std.stored.comment;SPEC-BAND;Q2)</Te
 <Color>Black</Color>
 </Line>
 </Object>
-<Object no="123">
+<Object no="122">
 <Type>Text</Type>
-<Label>.3E.Comments</Label>
+<Label>.3D.Comments</Label>
 <Page>4</Page>
 <Layer>0</Layer>
 <Coordinates>
@@ -2659,9 +2609,9 @@ Band: ^(*std.stored.comment;SPEC-MUS;Q2) ^(*std.stored.comment;SPEC-BAND;Q2)</Te
 <Text>&lt;b&gt;Comments&lt;/b&gt;</Text>
 </Body>
 </Object>
-<Object no="124">
+<Object no="123">
 <Type>Text</Type>
-<Label>.3F.Q3-Q4 Comments</Label>
+<Label>.3E.Q3-Q4 Comments</Label>
 <Page>4</Page>
 <Layer>0</Layer>
 <Coordinates>
@@ -2686,9 +2636,9 @@ Physical Education: ^(*std.stored.comment;SPEC-PE;Q4)
 Band: ^(*std.stored.comment;SPEC-MUS;Q4) ^(*std.stored.comment;SPEC-BAND;Q4)</Text>
 </Body>
 </Object>
-<Object no="125">
+<Object no="124">
 <Type>Picture</Type>
-<Label>.3G.A0.Photo</Label>
+<Label>.3F.A0.Photo</Label>
 <Page>4</Page>
 <Layer>1</Layer>
 <ScalingOption>fillcenter</ScalingOption>
@@ -2700,9 +2650,9 @@ Band: ^(*std.stored.comment;SPEC-MUS;Q4) ^(*std.stored.comment;SPEC-BAND;Q4)</Te
 </Coordinates>
 <Picture>fs-logo3.jpg</Picture>
 </Object>
-<Object no="126">
+<Object no="125">
 <Type>Text</Type>
-<Label>.3H.A2.District Name Pg 2</Label>
+<Label>.3G.A2.District Name Pg 2</Label>
 <Page>4</Page>
 <Layer>1</Layer>
 <Coordinates>
@@ -2720,9 +2670,9 @@ Band: ^(*std.stored.comment;SPEC-MUS;Q4) ^(*std.stored.comment;SPEC-BAND;Q4)</Te
 <Text>&lt;center&gt;~(schoolordistrictname)&lt;/center&gt;</Text>
 </Body>
 </Object>
-<Object no="127">
+<Object no="126">
 <Type>Text</Type>
-<Label>.3I.A1.Main Title Pg 3</Label>
+<Label>.3H.A1.Main Title Pg 3</Label>
 <Page>4</Page>
 <Layer>1</Layer>
 <Coordinates>
@@ -2741,9 +2691,9 @@ Band: ^(*std.stored.comment;SPEC-MUS;Q4) ^(*std.stored.comment;SPEC-BAND;Q4)</Te
 <Text>&lt;center&gt;6th Grade Report Card&lt;/center&gt;</Text>
 </Body>
 </Object>
-<Object no="128">
+<Object no="127">
 <Type>Text</Type>
-<Label>.3J.A5.Home Room Teacher</Label>
+<Label>.3I.A5.Home Room Teacher</Label>
 <Page>4</Page>
 <Layer>1</Layer>
 <Coordinates>
@@ -2762,9 +2712,9 @@ Band: ^(*std.stored.comment;SPEC-MUS;Q4) ^(*std.stored.comment;SPEC-BAND;Q4)</Te
 <Text>&lt;tabto 2.75&gt;Homeroom Teacher: &lt;tabto 2.75&gt;Homeroom Teacher: ^(*period_info;P2(R);teacher_i_first_name) ^(*period_info;P2(R);teacher_i_last_name) ^(*period_info;P2(A);teacher_i_first_name) ^(*period_info;P2(A);teacher_i_last_name)</Text>
 </Body>
 </Object>
-<Object no="129">
+<Object no="128">
 <Type>Text</Type>
-<Label>.3K.A4. Student Data</Label>
+<Label>.3J.A4. Student Data</Label>
 <Page>4</Page>
 <Layer>1</Layer>
 <Coordinates>
@@ -2782,9 +2732,9 @@ Band: ^(*std.stored.comment;SPEC-MUS;Q4) ^(*std.stored.comment;SPEC-BAND;Q4)</Te
 <Text>Grade: 6&lt;tabr 8.0&gt;~(yearname)</Text>
 </Body>
 </Object>
-<Object no="130">
+<Object no="129">
 <Type>Text</Type>
-<Label>.3L.A3.StudentName/School Name</Label>
+<Label>.3K.A3.StudentName/School Name</Label>
 <Page>4</Page>
 <Layer>1</Layer>
 <Coordinates>
@@ -2802,9 +2752,9 @@ Band: ^(*std.stored.comment;SPEC-MUS;Q4) ^(*std.stored.comment;SPEC-BAND;Q4)</Te
 <Text>&lt;b&gt;~(last_name), ~(first_name)&lt;/b&gt;&lt;tabr 8.0&gt;~(schoolname)</Text>
 </Body>
 </Object>
-<Object no="131">
+<Object no="130">
 <Type>Text</Type>
-<Label>.3M.K1.Mumbo Jumbo Pg 3</Label>
+<Label>.3L.K1.Mumbo Jumbo Pg 3</Label>
 <Page>4</Page>
 <Layer>11</Layer>
 <Coordinates>
