@@ -1584,7 +1584,8 @@ K.CC.C.6-7: Compare a group of objects and written numerals to decide which is g
 K.OA.A.1: Break apart and put together numbers into pairs in many different ways
 K.OA.A.2: Use objects and symbols to add and/or subtract including solving story problems
 K.OA.A.4: Find the number that makes 10 for any number from 1 to 9
-K.OA.A.5: Fluently add and subtract within 5
+K.OA.A.5a: Fluently add within 5
+K.OA.A.5b: Fluently subtract within 5
 K.NBT.A.1: Show how numbers 11 to 19 are made of tens and ones</Text>
 </Body>
 </Object>
@@ -1616,7 +1617,8 @@ K.NBT.A.1: Show how numbers 11 to 19 are made of tens and ones</Text>
 &lt;tabc 6.25&gt;~(*std.stored.transavg;K.OA.A.1;Q1)&lt;tabc 6.75&gt;~(*std.stored.transavg;K.OA.A.1;Q2)&lt;tabc 7.25&gt;~(*std.stored.transavg;K.OA.A.1;Q3)&lt;tabc 7.75&gt;~(*std.stored.transavg;K.OA.A.1;Q4)
 &lt;tabc 6.25&gt;~(*std.stored.transavg;K.OA.A.2;Q1)&lt;tabc 6.75&gt;~(*std.stored.transavg;K.OA.A.2;Q2)&lt;tabc 7.25&gt;~(*std.stored.transavg;K.OA.A.2;Q3)&lt;tabc 7.75&gt;~(*std.stored.transavg;K.OA.A.2;Q4)
 &lt;tabc 6.25&gt;~(*std.stored.transavg;K.OA.A.4;Q1)&lt;tabc 6.75&gt;~(*std.stored.transavg;K.OA.A.4;Q2)&lt;tabc 7.25&gt;~(*std.stored.transavg;K.OA.A.4;Q3)&lt;tabc 7.75&gt;~(*std.stored.transavg;K.OA.A.4;Q4)
-&lt;tabc 6.25&gt;~(*std.stored.transavg;K.OA.A.5;Q1)&lt;tabc 6.75&gt;~(*std.stored.transavg;K.OA.A.5;Q2)&lt;tabc 7.25&gt;~(*std.stored.transavg;K.OA.A.5;Q3)&lt;tabc 7.75&gt;~(*std.stored.transavg;K.OA.A.5;Q4)
+&lt;tabc 6.25&gt;~(*std.stored.transavg;K.OA.A.5a;Q1)&lt;tabc 6.75&gt;~(*std.stored.transavg;K.OA.A.5a;Q2)&lt;tabc 7.25&gt;~(*std.stored.transavg;K.OA.A.5a;Q3)&lt;tabc 7.75&gt;~(*std.stored.transavg;K.OA.A.5a;Q4)
+&lt;tabc 6.25&gt;~(*std.stored.transavg;K.OA.A.5b;Q1)&lt;tabc 6.75&gt;~(*std.stored.transavg;K.OA.A.5b;Q2)&lt;tabc 7.25&gt;~(*std.stored.transavg;K.OA.A.5b;Q3)&lt;tabc 7.75&gt;~(*std.stored.transavg;K.OA.A.5b;Q4)
 &lt;tabc 6.25&gt;~(*std.stored.transavg;K.NBT.A.1;Q1)&lt;tabc 6.75&gt;~(*std.stored.transavg;K.NBT.A.1;Q2)&lt;tabc 7.25&gt;~(*std.stored.transavg;K.NBT.A.1;Q3)&lt;tabc 7.75&gt;~(*std.stored.transavg;K.NBT.A.1;Q4)</Text>
 </Body>
 </Object>
