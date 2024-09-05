@@ -1520,7 +1520,9 @@
 				&lt;b&gt;Number and Operations in Base Ten
 				&lt;/b&gt;5.NBT.A: Understand the place value system&lt;tabc 6.25&gt;~(*std.stored.transavg;5.NBT.A;Q1)&lt;tabc 6.75&gt;~(*std.stored.transavg;5.NBT.A;Q2)&lt;tabc 7.25&gt;~(*std.stored.transavg;5.NBT.A;Q3)&lt;tabc 7.75&gt;~(*std.stored.transavg;5.NBT.A;Q4)
 				5.NBT.B.5: Demonstrate fluency for multiplication of multi-digit whole numbers using the standard algorithm. Include two-digit x four-digit numbers and three-digit x three-digit numbers&lt;tabc 6.25&gt;~(*std.stored.transavg;5.NBT.B.5;Q1)&lt;tabc 6.75&gt;~(*std.stored.transavg;5.NBT.B.5;Q2)&lt;tabc 7.25&gt;~(*std.stored.transavg;5.NBT.B.5;Q3)&lt;tabc 7.75&gt;~(*std.stored.transavg;5.NBT.B.5;Q4)
-				5.NBT.B: Performs operations with multi-digit numbers and decimals to the hundredths&lt;tabc 6.25&gt;~(*std.stored.transavg;5.NBT.B;Q1)&lt;tabc 6.75&gt;~(*std.stored.transavg;5.NBT.B;Q2)&lt;tabc 7.25&gt;~(*std.stored.transavg;5.NBT.B;Q3)&lt;tabc 7.75&gt;~(*std.stored.transavg;5.NBT.B;Q4)
+				5.NBT.B.6: Divide whole numbers up to 4 digit dividends and 2 digit divisors
+5.NBT.B.7: Add, subtract, multiply, and divide decimals to hundredths&lt;tabc 6.25&gt;~(*std.stored.transavg;5.NBT.B.6;Q1)&lt;tabc 6.75&gt;~(*std.stored.transavg;5.NBT.B.6;Q2)&lt;tabc 7.25&gt;~(*std.stored.transavg;5.NBT.B.6;Q3)&lt;tabc 7.75&gt;~(*std.stored.transavg;5.NBT.B.6;Q4)
+&lt;tabc 6.25&gt;~(*std.stored.transavg;5.NBT.B.7;Q1)&lt;tabc 6.75&gt;~(*std.stored.transavg;5.NBT.B.7;Q2)&lt;tabc 7.25&gt;~(*std.stored.transavg;5.NBT.B.7;Q3)&lt;tabc 7.75&gt;~(*std.stored.transavg;5.NBT.B.7;Q4)
 				&lt;b&gt;Number and Operations - Fractions&lt;/b&gt;
 				5.NF.A.1-2: Add and subtract fractions&lt;tabc 6.25&gt;~(*std.stored.transavg;5.NF.A.1-2;Q1)&lt;tabc 6.75&gt;~(*std.stored.transavg;5.NF.A.1-2;Q2)&lt;tabc 7.25&gt;~(*std.stored.transavg;5.NF.A.1-2;Q3)&lt;tabc 7.75&gt;~(*std.stored.transavg;5.NF.A.1-2;Q4)
 				5.NF.B.3-7: Multiply and divide fractions&lt;tabc 6.25&gt;~(*std.stored.transavg;5.NF.B.3-7;Q1)&lt;tabc 6.75&gt;~(*std.stored.transavg;5.NF.B.3-7;Q2)&lt;tabc 7.25&gt;~(*std.stored.transavg;5.NF.B.3-7;Q3)&lt;tabc 7.75&gt;~(*std.stored.transavg;5.NF.B.3-7;Q4)
