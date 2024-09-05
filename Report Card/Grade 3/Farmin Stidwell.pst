@@ -1129,8 +1129,7 @@ Seeks positive solutions to problems</Text>
 <Leading></Leading>
 <Bold>True</Bold>
 </Font>
-<Text>VOCABULARY DEVELOPMENT&lt;tabc 6.25&gt;Q1&lt;tabc 6.75&gt;Q2&lt;tabc 7.25&gt;Q3&lt;tabc 7.75&gt;Q4
-</Text>
+<Text>VOCABULARY DEVELOPMENT&lt;tabc 6.25&gt;Q1&lt;tabc 6.75&gt;Q2&lt;tabc 7.25&gt;Q3&lt;tabc 7.75&gt;Q4</Text>
 </Body>
 </Object>
 <Object no="52">
@@ -1664,7 +1663,7 @@ Days Absent&lt;tabd 2.75&gt;^(daily.att.count;current;A,C,D,E,G,J,K,P,U,X,Y;Q1)&
 <Page>2</Page>
 <Layer>4</Layer>
 <Repeat>
-<Multiple>2</Multiple>
+<Multiple>1</Multiple>
 <Offset>
 <Horizontal>0</Horizontal>
 <Vertical>0.14</Vertical>
@@ -1698,7 +1697,7 @@ Days Absent&lt;tabd 2.75&gt;^(daily.att.count;current;A,C,D,E,G,J,K,P,U,X,Y;Q1)&
 <Left>6</Left>
 <Top>4.075</Top>
 <Right>6</Right>
-<Bottom>4.635</Bottom>
+<Bottom>4.49</Bottom>
 </Coordinates>
 <Line>
 <Width>0.25</Width>
@@ -1720,9 +1719,9 @@ Days Absent&lt;tabd 2.75&gt;^(daily.att.count;current;A,C,D,E,G,J,K,P,U,X,Y;Q1)&
 </Repeat>
 <Coordinates>
 <Left>1</Left>
-<Top>4.63</Top>
+<Top>4.49</Top>
 <Right>8</Right>
-<Bottom>4.63</Bottom>
+<Bottom>4.49</Bottom>
 </Coordinates>
 <Line>
 <Width>0.25</Width>
@@ -1732,21 +1731,21 @@ Days Absent&lt;tabd 2.75&gt;^(daily.att.count;current;A,C,D,E,G,J,K,P,U,X,Y;Q1)&
 </Object>
 <Object no="80">
 <Type>Line</Type>
-<Label>.27.Math Horiz Line3</Label>
+<Label>.27.Math Vert Line2</Label>
 <Page>2</Page>
 <Layer>4</Layer>
 <Repeat>
 <Multiple>3</Multiple>
 <Offset>
-<Horizontal>0</Horizontal>
-<Vertical>0.14</Vertical>
+<Horizontal>0.5</Horizontal>
+<Vertical>0</Vertical>
 </Offset>
 </Repeat>
 <Coordinates>
-<Left>1</Left>
-<Top>5.05</Top>
-<Right>8</Right>
-<Bottom>5.05</Bottom>
+<Left>6</Left>
+<Top>4.64</Top>
+<Right>6</Right>
+<Bottom>4.92</Bottom>
 </Coordinates>
 <Line>
 <Width>0.25</Width>
@@ -1756,7 +1755,7 @@ Days Absent&lt;tabd 2.75&gt;^(daily.att.count;current;A,C,D,E,G,J,K,P,U,X,Y;Q1)&
 </Object>
 <Object no="81">
 <Type>Line</Type>
-<Label>.28.Math Horiz Line5</Label>
+<Label>.28.Math Horiz Line3</Label>
 <Page>2</Page>
 <Layer>4</Layer>
 <Repeat>
@@ -1768,9 +1767,9 @@ Days Absent&lt;tabd 2.75&gt;^(daily.att.count;current;A,C,D,E,G,J,K,P,U,X,Y;Q1)&
 </Repeat>
 <Coordinates>
 <Left>1</Left>
-<Top>5.748</Top>
+<Top>4.92</Top>
 <Right>8</Right>
-<Bottom>5.748</Bottom>
+<Bottom>4.92</Bottom>
 </Coordinates>
 <Line>
 <Width>0.25</Width>
@@ -1780,7 +1779,7 @@ Days Absent&lt;tabd 2.75&gt;^(daily.att.count;current;A,C,D,E,G,J,K,P,U,X,Y;Q1)&
 </Object>
 <Object no="82">
 <Type>Line</Type>
-<Label>.29.Math Vert Line2</Label>
+<Label>.29.Math Vert Line3</Label>
 <Page>2</Page>
 <Layer>4</Layer>
 <Repeat>
@@ -1792,9 +1791,9 @@ Days Absent&lt;tabd 2.75&gt;^(daily.att.count;current;A,C,D,E,G,J,K,P,U,X,Y;Q1)&
 </Repeat>
 <Coordinates>
 <Left>6</Left>
-<Top>4.775</Top>
+<Top>5.06</Top>
 <Right>6</Right>
-<Bottom>5.055</Bottom>
+<Bottom>5.2</Bottom>
 </Coordinates>
 <Line>
 <Width>0.25</Width>
@@ -1804,21 +1803,21 @@ Days Absent&lt;tabd 2.75&gt;^(daily.att.count;current;A,C,D,E,G,J,K,P,U,X,Y;Q1)&
 </Object>
 <Object no="83">
 <Type>Line</Type>
-<Label>.2A.Math Vert Line3</Label>
+<Label>.2A.Math Horiz Line5</Label>
 <Page>2</Page>
 <Layer>4</Layer>
 <Repeat>
-<Multiple>3</Multiple>
+<Multiple>4</Multiple>
 <Offset>
-<Horizontal>0.5</Horizontal>
-<Vertical>0</Vertical>
+<Horizontal>0</Horizontal>
+<Vertical>0.14</Vertical>
 </Offset>
 </Repeat>
 <Coordinates>
-<Left>6</Left>
-<Top>5.195</Top>
-<Right>6</Right>
-<Bottom>5.335</Bottom>
+<Left>1</Left>
+<Top>5.61</Top>
+<Right>8</Right>
+<Bottom>5.61</Bottom>
 </Coordinates>
 <Line>
 <Width>0.25</Width>
@@ -1840,7 +1839,7 @@ Days Absent&lt;tabd 2.75&gt;^(daily.att.count;current;A,C,D,E,G,J,K,P,U,X,Y;Q1)&
 </Repeat>
 <Coordinates>
 <Left>6</Left>
-<Top>5.475</Top>
+<Top>5.34</Top>
 <Right>6</Right>
 <Bottom>6.035</Bottom>
 </Coordinates>
@@ -1876,78 +1875,9 @@ Days Absent&lt;tabd 2.75&gt;^(daily.att.count;current;A,C,D,E,G,J,K,P,U,X,Y;Q1)&
 </Object>
 <Object no="86">
 <Type>Text</Type>
-<Label>.2D.Math Standards</Label>
+<Label>.2D.Math Title</Label>
 <Page>2</Page>
-<Layer>4</Layer>
-<Coordinates>
-<Left>1.05</Left>
-<Top>4.05</Top>
-</Coordinates>
-<MaxWidth>4.9</MaxWidth>
-<MaxHeight>0</MaxHeight>
-<Body>
-<Font>
-<Face>Helvetica</Face>
-<Size>8</Size>
-<Leading>10</Leading>
-</Font>
-<Text>&lt;b&gt;Operations and Algebraic Thinking&lt;/b&gt;
-3.OA.A: Represent and solve problems involving multiplicaton and division
-3.OA.C.7b: Demonstrate fluency for multiplication within 100. Know from memory all products of two single-digit numbers and related division facts
-&lt;b&gt;Number and Operations in Base Ten
-&lt;/b&gt;3.NBT.A.2: Fluently add and subtract whole numbers within 1,000 using place value and properties of operations
-&lt;b&gt;Number and Operations - Fractions&lt;/b&gt;
-3.NF.A.1-3: Develop understanding of fractions as numbers
-&lt;b&gt;Measurement and Data&lt;/b&gt;
-3.MD.A.1-2: Solve problems involving measurement and estimation of intervals of time, liquid volumes, and masses of objects
-3.MD.B.3-4: Represent and interpret data
-3.MD.C: Solve problems involving area
-3.MD.D:  Solve problems involving perimeter
-&lt;b&gt;Geometry&lt;/b&gt;
-3.G.A.1-2: Reason with shapes and their attributes</Text>
-</Body>
-</Object>
-<Object no="87">
-<Type>Text</Type>
-<Label>.2E.Math Grades</Label>
-<Page>2</Page>
-<Layer>4</Layer>
-<Coordinates>
-<Left>6</Left>
-<Top>4.05</Top>
-</Coordinates>
-<MaxWidth>0</MaxWidth>
-<MaxHeight>0</MaxHeight>
-<Body>
-<Font>
-<Face>Helvetica</Face>
-<Size>8</Size>
-<Leading>10</Leading>
-</Font>
-<Text>
-&lt;tabc 6.25&gt;~(*std.stored.transavg;3.OA.A;Q1)&lt;tabc 6.75&gt;~(*std.stored.transavg;3.OA.A;Q2)&lt;tabc 7.25&gt;~(*std.stored.transavg;3.OA.A;Q3)&lt;tabc 7.75&gt;~(*std.stored.transavg;3.OA.A;Q4)
-&lt;tabc 6.25&gt;~(*std.stored.transavg;3.OA.C.7b;Q1)&lt;tabc 6.75&gt;~(*std.stored.transavg;3.OA.C.7b;Q2)&lt;tabc 7.25&gt;~(*std.stored.transavg;3.OA.C.7b;Q3)&lt;tabc 7.75&gt;~(*std.stored.transavg;3.OA.C.7b;Q4)
-
-
-&lt;tabc 6.25&gt;~(*std.stored.transavg;3.NBT.A.2;Q1)&lt;tabc 6.75&gt;~(*std.stored.transavg;3.NBT.A.2;Q2)&lt;tabc 7.25&gt;~(*std.stored.transavg;3.NBT.A.2;Q3)&lt;tabc 7.75&gt;~(*std.stored.transavg;3.NBT.A.2;Q4)
-
-
-&lt;tabc 6.25&gt;~(*std.stored.transavg;3.NF.A.1-3;Q1)&lt;tabc 6.75&gt;~(*std.stored.transavg;3.NF.A.1-3;Q2)&lt;tabc 7.25&gt;~(*std.stored.transavg;3.NF.A.1-3;Q3)&lt;tabc 7.75&gt;~(*std.stored.transavg;3.NF.A.1-3;Q4)
-
-&lt;tabc 6.25&gt;~(*std.stored.transavg;3.MD.A.1-2;Q1)&lt;tabc 6.75&gt;~(*std.stored.transavg;3.MD.A.1-2;Q2)&lt;tabc 7.25&gt;~(*std.stored.transavg;3.MD.A.1-2;Q3)&lt;tabc 7.75&gt;~(*std.stored.transavg;3.MD.A.1-2;Q4)
-
-&lt;tabc 6.25&gt;~(*std.stored.transavg;3.MD.B.3-4;Q1)&lt;tabc 6.75&gt;~(*std.stored.transavg;3.MD.B.3-4;Q2)&lt;tabc 7.25&gt;~(*std.stored.transavg;3.MD.B.3-4;Q3)&lt;tabc 7.75&gt;~(*std.stored.transavg;3.MD.B.3-4;Q4)
-&lt;tabc 6.25&gt;~(*std.stored.transavg;3.MD.C;Q1)&lt;tabc 6.75&gt;~(*std.stored.transavg;3.MD.C;Q2)&lt;tabc 7.25&gt;~(*std.stored.transavg;3.MD.C;Q3)&lt;tabc 7.75&gt;~(*std.stored.transavg;3.MD.C;Q4)
-&lt;tabc 6.25&gt;~(*std.stored.transavg;3.MD.D;Q1)&lt;tabc 6.75&gt;~(*std.stored.transavg;3.MD.D;Q2)&lt;tabc 7.25&gt;~(*std.stored.transavg;3.MD.D;Q3)&lt;tabc 7.75&gt;~(*std.stored.transavg;3.MD.D;Q4)
-
-&lt;tabc 6.25&gt;~(*std.stored.transavg;3.G.A.1-2;Q1)&lt;tabc 6.75&gt;~(*std.stored.transavg;3.G.A.1-2;Q2)&lt;tabc 7.25&gt;~(*std.stored.transavg;3.G.A.1-2;Q3)&lt;tabc 7.75&gt;~(*std.stored.transavg;3.G.A.1-2;Q4)</Text>
-</Body>
-</Object>
-<Object no="88">
-<Type>Text</Type>
-<Label>.2F.Math Title</Label>
-<Page>2</Page>
-<Layer>4</Layer>
+<Layer>5</Layer>
 <Coordinates>
 <Left>1</Left>
 <Top>3.843</Top>
@@ -1961,8 +1891,47 @@ Days Absent&lt;tabd 2.75&gt;^(daily.att.count;current;A,C,D,E,G,J,K,P,U,X,Y;Q1)&
 <Leading></Leading>
 <Bold>True</Bold>
 </Font>
-<Text>MATHEMATICS&lt;tabc 6.25&gt;Q1&lt;tabc 6.75&gt;Q2&lt;tabc 7.25&gt;Q3&lt;tabc 7.75&gt;Q4
-</Text>
+<Text>MATHEMATICS&lt;tabc 6.25&gt;Q1&lt;tabc 6.75&gt;Q2&lt;tabc 7.25&gt;Q3&lt;tabc 7.75&gt;Q4</Text>
+</Body>
+</Object>
+<Object no="87">
+<Type>Text</Type>
+<Label>.2E.Math Standards</Label>
+<Page>2</Page>
+<Layer>5</Layer>
+<Coordinates>
+<Left>1.05</Left>
+<Top>4.05</Top>
+</Coordinates>
+<MaxWidth>4.9</MaxWidth>
+<MaxHeight>0</MaxHeight>
+<Body>
+<Font>
+<Face>Helvetica</Face>
+<Size>8</Size>
+<Leading>10</Leading>
+</Font>
+<Text>&lt;b&gt;Operations and Algebraic Thinking&lt;/b&gt;3.OA.A: Represent and solve problems involving multiplicaton and division3.OA.C.7b: Demonstrate fluency for multiplication within 100. Know from memory all products of two single-digit numbers and related division facts&lt;b&gt;Number and Operations in Base Ten&lt;/b&gt;3.NBT.A.2: Fluently add and subtract whole numbers within 1,000 using place value and properties of operations&lt;b&gt;Number and Operations - Fractions&lt;/b&gt;3.NF.A.1-3: Develop understanding of fractions as numbers&lt;b&gt;Measurement and Data&lt;/b&gt;3.MD.A.1-2: Solve problems involving measurement and estimation of intervals of time, liquid volumes, and masses of objects3.MD.B.3-4: Represent and interpret data3.MD.C: Solve problems involving area3.MD.D:  Solve problems involving perimeter&lt;b&gt;Geometry&lt;/b&gt;3.G.A.1-2: Reason with shapes and their attributes</Text>
+</Body>
+</Object>
+<Object no="88">
+<Type>Text</Type>
+<Label>.2F.Math Grades</Label>
+<Page>2</Page>
+<Layer>5</Layer>
+<Coordinates>
+<Left>6</Left>
+<Top>4.05</Top>
+</Coordinates>
+<MaxWidth>0</MaxWidth>
+<MaxHeight>0</MaxHeight>
+<Body>
+<Font>
+<Face>Helvetica</Face>
+<Size>8</Size>
+<Leading>10</Leading>
+</Font>
+<Text>&lt;tabc 6.25&gt;~(*std.stored.transavg;3.OA.A;Q1)&lt;tabc 6.75&gt;~(*std.stored.transavg;3.OA.A;Q2)&lt;tabc 7.25&gt;~(*std.stored.transavg;3.OA.A;Q3)&lt;tabc 7.75&gt;~(*std.stored.transavg;3.OA.A;Q4)&lt;tabc 6.25&gt;~(*std.stored.transavg;3.OA.C.7b;Q1)&lt;tabc 6.75&gt;~(*std.stored.transavg;3.OA.C.7b;Q2)&lt;tabc 7.25&gt;~(*std.stored.transavg;3.OA.C.7b;Q3)&lt;tabc 7.75&gt;~(*std.stored.transavg;3.OA.C.7b;Q4)&lt;tabc 6.25&gt;~(*std.stored.transavg;3.NBT.A.2;Q1)&lt;tabc 6.75&gt;~(*std.stored.transavg;3.NBT.A.2;Q2)&lt;tabc 7.25&gt;~(*std.stored.transavg;3.NBT.A.2;Q3)&lt;tabc 7.75&gt;~(*std.stored.transavg;3.NBT.A.2;Q4)&lt;tabc 6.25&gt;~(*std.stored.transavg;3.NF.A.1-3;Q1)&lt;tabc 6.75&gt;~(*std.stored.transavg;3.NF.A.1-3;Q2)&lt;tabc 7.25&gt;~(*std.stored.transavg;3.NF.A.1-3;Q3)&lt;tabc 7.75&gt;~(*std.stored.transavg;3.NF.A.1-3;Q4)&lt;tabc 6.25&gt;~(*std.stored.transavg;3.MD.A.1-2;Q1)&lt;tabc 6.75&gt;~(*std.stored.transavg;3.MD.A.1-2;Q2)&lt;tabc 7.25&gt;~(*std.stored.transavg;3.MD.A.1-2;Q3)&lt;tabc 7.75&gt;~(*std.stored.transavg;3.MD.A.1-2;Q4)&lt;tabc 6.25&gt;~(*std.stored.transavg;3.MD.B.3-4;Q1)&lt;tabc 6.75&gt;~(*std.stored.transavg;3.MD.B.3-4;Q2)&lt;tabc 7.25&gt;~(*std.stored.transavg;3.MD.B.3-4;Q3)&lt;tabc 7.75&gt;~(*std.stored.transavg;3.MD.B.3-4;Q4)&lt;tabc 6.25&gt;~(*std.stored.transavg;3.MD.C;Q1)&lt;tabc 6.75&gt;~(*std.stored.transavg;3.MD.C;Q2)&lt;tabc 7.25&gt;~(*std.stored.transavg;3.MD.C;Q3)&lt;tabc 7.75&gt;~(*std.stored.transavg;3.MD.C;Q4)&lt;tabc 6.25&gt;~(*std.stored.transavg;3.MD.D;Q1)&lt;tabc 6.75&gt;~(*std.stored.transavg;3.MD.D;Q2)&lt;tabc 7.25&gt;~(*std.stored.transavg;3.MD.D;Q3)&lt;tabc 7.75&gt;~(*std.stored.transavg;3.MD.D;Q4)&lt;tabc 6.25&gt;~(*std.stored.transavg;3.G.A.1-2;Q1)&lt;tabc 6.75&gt;~(*std.stored.transavg;3.G.A.1-2;Q2)&lt;tabc 7.25&gt;~(*std.stored.transavg;3.G.A.1-2;Q3)&lt;tabc 7.75&gt;~(*std.stored.transavg;3.G.A.1-2;Q4)</Text>
 </Body>
 </Object>
 <Object no="89">
@@ -2001,7 +1970,7 @@ Days Absent&lt;tabd 2.75&gt;^(daily.att.count;current;A,C,D,E,G,J,K,P,U,X,Y;Q1)&
 </Object>
 <Object no="91">
 <Type>Box</Type>
-<Label>PE Box</Label>
+<Label>.2I.PE Box</Label>
 <Page>2</Page>
 <Layer>6</Layer>
 <Coordinates>
@@ -2059,7 +2028,7 @@ Days Absent&lt;tabd 2.75&gt;^(daily.att.count;current;A,C,D,E,G,J,K,P,U,X,Y;Q1)&
 </Object>
 <Object no="94">
 <Type>Line</Type>
-<Label>PE Vert Lines</Label>
+<Label>.2L.PE Vert Lines</Label>
 <Page>2</Page>
 <Layer>6</Layer>
 <Repeat>
