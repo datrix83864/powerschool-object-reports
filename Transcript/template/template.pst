@@ -324,7 +324,7 @@
 <Size></Size>
 <Leading></Leading>
 </Font>
-<Text>&lt;tabto 3.75&gt;&lt;b&gt;^(Last_Name), ^(First_Name) ^(Middle_Name)&lt;/b&gt;
+<Text>&lt;tabto 3.75&gt;&lt;b&gt;^(Last_Name), ^(StudentCoreFields.PSCORE_LEGAL_FIRST_NAME) ^(Middle_Name)&lt;/b&gt;
 &lt;tabto 3.75&gt;^(Mailing_Street)
 &lt;tabto 3.75&gt;^(Mailing_City), ^(Mailing_State) ^(Mailing_Zip)</Text>
 </Body>
